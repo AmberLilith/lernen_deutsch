@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vocabulário acumulado · Alemão</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a class="brand" href="../index.html">Alemão <small>estudos</small></a>
+            <div class="nav-links">
+                <a href="../index.html#conteudos">Conteúdos</a>
+                <a href="../index.html#exercicios">Exercícios</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="breadcrumb">
+            <a href="../index.html">Início</a> / Vocabulário
+        </div>
+
+        <div class="hero">
+            <div class="eyebrow">Vocabulário</div>
+            <h1>Vocabulário acumulado</h1>
+            <p class="lead">
+                Um lugar para reunir palavras novas e revisar sem precisar procurar em conversas antigas.
+            </p>
+        </div>
+
+        <div class="panel">
+            <div class="search-field">
+                <input type="text" id="busca" placeholder="Buscar por tradução em português..." autocomplete="off">
+                <span id="buscaResultado" class="search-result-count"></span>
+            </div>
+
+            <div class="grid" id="vocabulario"></div>
+
+            <div class="pagination" id="paginacao">
+                <button type="button" id="anterior">← Anterior</button>
+                <span id="paginaAtual"></span>
+                <button type="button" id="proxima">Próxima →</button>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h2>Exercícios relacionados</h2>
+            <div class="exercise-list">
+                <a class="exercise-link" href="../exercicios/vocabulario_substantivos/vocabulario_substantivos.html">
+                    <span>Praticar: Vocabulário acumulado</span>
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="lesson-nav">
+            <a href="adjetivos.html">← Adjetivos</a>
+            <a href="indefinidos-plural.html">Indefinidos no plural →</a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <span>Material de estudo pessoal</span>
+            <a href="../index.html">← Início</a>
+        </div>
+    </footer>
+
+    <script src="../js/vocabulario_substantivos.js"></script>
+    <script src="../js/app.js"></script>
+
+    <script>
+        const cardsPorPagina = 12;
+        let paginaAtual = 1;
+
+        const container = document.getElementById("vocabulario");
+        const botaoAnterior = document.getElementById("anterior");
+        const botaoProxima = document.getElementById("proxima");
+        const indicadorPagina = document.getElementById("paginaAtual");
+        const paginacao = document.getElementById("paginacao");
+        const campoBusca = document.getElementById("busca");
+        const buscaResultado = document.getElementById("buscaResultado");
+
+        const totalPaginas = Math.ceil(lista.length / cardsPorPagina);
+
+        function criarCard(item) {
+            const [substantivo, artigo, plural, traducao] = item;
+
+            const card = document.createElement("div");
+            card.className = "card";
+
+            const titulo = document.createElement("h3");
+            titulo.textContent = `${artigo} ${substantivo}`;
+
+            const descricao = document.createElement("p");
+            descricao.textContent = `${traducao} · ${plural}`;
+
+            card.appendChild(titulo);
+            card.appendChild(descricao);
+
+            return card;
+        }
+
+        function normalizar(texto) {
+            return texto
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "");
+        }
+
+        function exibirPagina(pagina) {
+            container.innerHTML = "";
+
+            const inicio = (pagina - 1) * cardsPorPagina;
+            const fim = inicio + cardsPorPagina;
+
+            const palavrasPagina = lista.slice(inicio, fim);
+
+            palavrasPagina.forEach(item => {
+                container.appendChild(criarCard(item));
+            });
+
+            indicadorPagina.textContent =
+                `Página ${pagina} de ${totalPaginas}`;
+
+            botaoAnterior.disabled = pagina === 1;
+            botaoProxima.disabled = pagina === totalPaginas;
+        }
+
+        function exibirBusca(termo) {
+            const termoNormalizado = normalizar(termo);
+
+            const resultados = lista.filter(item => {
+                const traducao = item[3] || "";
+                return normalizar(traducao).includes(termoNormalizado);
+            });
+
+            container.innerHTML = "";
+
+            if (resultados.length === 0) {
+                const vazio = document.createElement("p");
+                vazio.className = "search-empty";
+                vazio.textContent = "Nenhuma palavra encontrada.";
+                container.appendChild(vazio);
+            } else {
+                resultados.forEach(item => {
+                    container.appendChild(criarCard(item));
+                });
+            }
+
+            buscaResultado.textContent =
+                `${resultados.length} resultado${resultados.length === 1 ? "" : "s"}`;
+        }
+
+        campoBusca.addEventListener("input", () => {
+            const termo = campoBusca.value.trim();
+
+            if (termo === "") {
+                buscaResultado.textContent = "";
+                paginacao.style.display = "";
+                exibirPagina(paginaAtual);
+            } else {
+                paginacao.style.display = "none";
+                exibirBusca(termo);
+            }
+        });
+
+        botaoAnterior.addEventListener("click", () => {
+            if (paginaAtual > 1) {
+                paginaAtual--;
+                exibirPagina(paginaAtual);
+
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            }
+        });
+
+        botaoProxima.addEventListener("click", () => {
+            if (paginaAtual < totalPaginas) {
+                paginaAtual++;
+                exibirPagina(paginaAtual);
+
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            }
+        });
+
+        exibirPagina(paginaAtual);
+    </script>
+</body>
+
+</html>

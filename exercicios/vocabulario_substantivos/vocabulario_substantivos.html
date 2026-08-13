@@ -28,11 +28,11 @@
         <div class="panel" id="panel">
             <div class="progress"><span></span></div>
             <div id="exercicios-scroll">
-            <div id="exercicios"></div> <button type="button" id="maisExercicios"> Exibir mais 10 </button>
-            <div id="fimLista"></div>
-            <div class="controls"> <button class="primary" type="button" id="corrigir"> Corrigir </button> <button
-                    class="secondary" type="button" id="resetar"> Resetar </button> </div>
-            <div id="pontuacao" class="score"></div>
+                <div id="exercicios"></div> <button type="button" id="maisExercicios"> Exibir mais 10 </button>
+                <div id="fimLista"></div>
+                <div class="controls"> <button class="primary" type="button" id="corrigir"> Corrigir </button> <button
+                        class="secondary" type="button" id="resetar"> Resetar </button> </div>
+                <div id="pontuacao" class="score"></div>
             </div>
         </div>
     </main>
@@ -55,6 +55,13 @@
             }
 
             return copia;
+        }
+
+        function criarFeedback() {
+            const feedback = document.createElement("span");
+            feedback.className = "feedback-individual";
+            feedback.setAttribute("aria-live", "polite");
+            return feedback;
         }
 
         function criarQuestao(item, indice) {
@@ -88,11 +95,15 @@
                 select.appendChild(option);
             });
 
+            const feedbackArtigo = criarFeedback();
+
             const inputSubstantivo = document.createElement("input");
             inputSubstantivo.type = "text";
             inputSubstantivo.className = "substantivo";
             inputSubstantivo.autocomplete = "off";
             inputSubstantivo.placeholder = `${traducao} no singular`;
+
+            const feedbackSubstantivo = criarFeedback();
 
             const textoPortugues =
                 document.createTextNode(` (${traducao}). `);
@@ -105,6 +116,8 @@
             inputPlural.className = "plural";
             inputPlural.autocomplete = "off";
             inputPlural.placeholder = `${traducao} no plural`;
+
+            const feedbackPlural = criarFeedback();
 
             const resultado = document.createElement("span");
             resultado.className = "resultado";
@@ -132,9 +145,12 @@
                 numero,
                 textoPortugues,
                 select,
+                feedbackArtigo,
                 inputSubstantivo,
+                feedbackSubstantivo,
                 labelPlural,
                 inputPlural,
+                feedbackPlural,
                 resultado,
                 botaoResposta,
                 resposta
@@ -202,6 +218,12 @@
             return resposta.trim() === correta;
         }
 
+        function marcarResposta(elemento, correta) {
+            elemento.classList.remove("resposta-correta", "resposta-incorreta");
+            elemento.classList.add(correta ? "resposta-correta" : "resposta-incorreta");
+            elemento.textContent = correta ? "✓" : "✗";
+        }
+
         function corrigir() {
             let acertos = 0;
 
@@ -212,60 +234,52 @@
 
                 const [substantivo, artigo, plural] = item;
 
-                const respostaArtigo =
-                    questao.querySelector(".artigo").value;
+                const selectArtigo = questao.querySelector(".artigo");
+                const inputSubstantivo = questao.querySelector(".substantivo");
+                const inputPlural = questao.querySelector(".plural");
 
-                const respostaSubstantivo =
-                    questao.querySelector(".substantivo").value;
+                const respostaArtigo = selectArtigo.value;
+                const respostaSubstantivo = inputSubstantivo.value;
+                const respostaPlural = inputPlural.value;
 
-                const respostaPlural =
-                    questao.querySelector(".plural").value;
+                const feedbackArtigo = questao.querySelectorAll(".feedback-individual")[0];
+                const feedbackSubstantivo = questao.querySelectorAll(".feedback-individual")[1];
+                const feedbackPlural = questao.querySelectorAll(".feedback-individual")[2];
 
-                const resultado =
-                    questao.querySelector(".resultado");
+                const resultado = questao.querySelector(".resultado");
 
-                const artigoOk =
-                    respostaArtigo === artigo;
+                const artigoOk = respostaArtigo === artigo;
+                const substantivoOk = compararResposta(respostaSubstantivo, substantivo);
+                const pluralOk = compararResposta(respostaPlural, plural);
 
-                const substantivoOk =
-                    compararResposta(
-                        respostaSubstantivo,
-                        substantivo
-                    );
+                marcarResposta(feedbackArtigo, artigoOk);
+                marcarResposta(feedbackSubstantivo, substantivoOk);
+                marcarResposta(feedbackPlural, pluralOk);
 
-                const pluralOk =
-                    compararResposta(
-                        respostaPlural,
-                        plural
-                    );
+                selectArtigo.classList.toggle("campo-correto", artigoOk);
+                selectArtigo.classList.toggle("campo-incorreto", !artigoOk);
+                inputSubstantivo.classList.toggle("campo-correto", substantivoOk);
+                inputSubstantivo.classList.toggle("campo-incorreto", !substantivoOk);
+                inputPlural.classList.toggle("campo-correto", pluralOk);
+                inputPlural.classList.toggle("campo-incorreto", !pluralOk);
 
-                const totalOk =
-                    artigoOk &&
-                    substantivoOk &&
-                    pluralOk;
+                const totalOk = artigoOk && substantivoOk && pluralOk;
 
-                questao.classList.remove(
-                    "correta",
-                    "incorreta"
-                );
+                questao.classList.remove("correta", "incorreta");
 
                 if (totalOk) {
                     questao.classList.add("correta");
-
                     resultado.textContent = "✓ Correto";
                     resultado.style.color = "#2e7d32";
-
                     acertos++;
                 } else {
                     questao.classList.add("incorreta");
-
                     resultado.textContent = "✗";
                     resultado.style.color = "#c62828";
                 }
             });
 
-            const total =
-                document.querySelectorAll(".questao").length;
+            const total = document.querySelectorAll(".questao").length;
 
             document.getElementById("pontuacao").textContent =
                 `Resultado: ${acertos} de ${total} questões corretas.`;

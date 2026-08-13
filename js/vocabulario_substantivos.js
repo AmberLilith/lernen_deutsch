@@ -85,5 +85,15 @@ const lista = [
     ["Zug", "der", "Züge", "Trem"],
     ["Flugzeug", "das", "Flugzeuge", "Avião"],
     ["Sonne", "die", "Sonnen", "Sol"],
-    ["Mond", "der", "Monde", "Lua"]
+    ["Mond", "der", "Monde", "Lua"],
+    ["Schrank", "der", "Schränke", "Armário"],
+    ["Bett", "das", "Betten", "Cama"],
+    ["Sofa", "das", "Sofas", "Sofá"],
+    ["Lampe", "die", "Lampen", "Lâmpada"],
+    ["Spiegel", "der", "Spiegel", "Espelho"],
+    ["Teppich", "der", "Teppiche", "Tapete"],
+    ["Decke", "die", "Decken", "Cobertor/teto"],
+    ["Boden", "der", "Böden", "Chão"],
+    ["Wand", "die", "Wände", "Parede"],
+    ["Treppe", "die", "Treppen", "Escada"]
 ];

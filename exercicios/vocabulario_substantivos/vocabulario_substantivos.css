@@ -97,14 +97,11 @@ h1 {
     display: block;
 }
 
-.correta {
-    border-color: #4caf50;
-    background: #eef9ef;
-}
-
+/* A questão inteira permanece neutra. A correção é exibida em cada campo. */
+.correta,
 .incorreta {
-    border-color: #e05252;
-    background: #fff0f0;
+    border-color: #e5e5e5;
+    background: #fafafa;
 }
 
 #panel {

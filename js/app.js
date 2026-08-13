@@ -1,5 +1,3 @@
-import { conteudos } from "./conteudos.js";
-
 function norm(s){
  return s.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
   .replace(/[“”\"']/g,"").replace(/\s+/g," ");
@@ -33,7 +31,7 @@ function clearExercise(){
  const bar=document.querySelector(".progress span"); if(bar) bar.style.width="0";
 }
 
-function renderConteudos(){
+function renderConteudos(conteudos){
  const container = document.querySelector("#conteudos-dinamicos");
  if(!container) return;
 
@@ -63,7 +61,7 @@ function renderConteudos(){
  `).join("");
 }
 
-function renderLessonNav(){
+function renderLessonNav(conteudos){
  const nav = document.querySelector(".lesson-nav");
  if(!nav) return;
 
@@ -80,10 +78,16 @@ function renderLessonNav(){
  `;
 }
 
-document.addEventListener("DOMContentLoaded",()=>{
- renderConteudos();
- renderLessonNav();
+function inicializar(conteudos){
+ renderConteudos(conteudos);
+ renderLessonNav(conteudos);
  document.querySelectorAll(".answer-input").forEach(i=>i.addEventListener("keydown",e=>{if(e.key==="Enter")checkExercise();}));
+}
+
+document.addEventListener("DOMContentLoaded",()=>{
+ import("./conteudos.js")
+   .then(mod => inicializar(mod.conteudos))
+   .catch(error => console.error("Não foi possível carregar a configuração de conteúdos:", error));
 });
 
 window.checkExercise = checkExercise;

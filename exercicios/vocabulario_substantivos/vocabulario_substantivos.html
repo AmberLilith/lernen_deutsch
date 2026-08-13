@@ -1,306 +1,186 @@
 <!doctype html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Vocabulário acumulado · Alemão</title>
-
     <link rel="stylesheet" href="../vocabulario_substantivos/vocabulario_substantivos.css">
     <link rel="stylesheet" href="../../css/style.css">
 </head>
-
 <body>
-    <header class="site-header">
-        <nav class="nav">
-            <a class="brand" href="../index.html">Alemão <small>estudos</small></a>
-            <div class="nav-links"><a href="../../index.html#conteudos">Conteúdos</a><a
-                    href="../../index.html#exercicios">Exercícios</a></div>
-        </nav>
-    </header>
-    <main class="container">
-        <div class="breadcrumb"> <a href="../index.html">Início</a> / Exercícios </div>
-        <div class="hero">
-            <div class="eyebrow">Exercício</div>
-            <h1>Artigos e plurais em alemão</h1>
-            <p class="lead"> Selecione o artigo correto, escreva o substantivo em alemão e informe o plural. </p>
+<header class="site-header">
+    <nav class="nav">
+        <a class="brand" href="../../index.html">Alemão <small>estudos</small></a>
+        <div class="nav-links"><a href="../../index.html#conteudos">Conteúdos</a><a href="../../index.html#exercicios">Exercícios</a></div>
+    </nav>
+</header>
+<main class="container">
+    <div class="breadcrumb"><a href="../../index.html">Início</a> / Exercícios</div>
+    <div class="hero">
+        <div class="eyebrow">Exercício</div>
+        <h1>Artigos e plurais em alemão</h1>
+        <p class="lead">Selecione o artigo correto, escreva o substantivo em alemão e informe o plural.</p>
+    </div>
+    <div class="panel" id="panel">
+        <div class="progress"><span></span></div>
+        <div id="exercicios-scroll">
+            <div id="exercicios"></div>
+            <button type="button" id="maisExercicios">Exibir mais 10</button>
+            <div id="fimLista"></div>
+            <div class="controls"><button class="primary" type="button" id="corrigir">Corrigir</button><button class="secondary" type="button" id="resetar">Resetar</button></div>
+            <div id="pontuacao" class="score"></div>
         </div>
-        <div class="panel" id="panel">
-            <div class="progress"><span></span></div>
-            <div id="exercicios-scroll">
-                <div id="exercicios"></div> <button type="button" id="maisExercicios"> Exibir mais 10 </button>
-                <div id="fimLista"></div>
-                <div class="controls"> <button class="primary" type="button" id="corrigir"> Corrigir </button> <button
-                        class="secondary" type="button" id="resetar"> Resetar </button> </div>
-                <div id="pontuacao" class="score"></div>
-            </div>
-        </div>
-    </main>
-    <footer class="site-footer">
-        <div class="footer-inner"><span>Material de estudo pessoal</span><a href="../index.html">← Início</a></div>
-    </footer>
-    <script src="../../js/vocabulario_substantivos.js"></script>
+    </div>
+</main>
+<footer class="site-footer"><div class="footer-inner"><span>Material de estudo pessoal</span><a href="../../index.html">← Início</a></div></footer>
+<script src="../../js/vocabulario_substantivos.js"></script>
+<script>
+let exerciciosAtuais=[];
+let quantidadeExibida=0;
+const quantidadePorPagina=10;
 
-    <script>
-        let exerciciosAtuais = [];
-        let quantidadeExibida = 0;
-        const quantidadePorPagina = 10;
+function embaralhar(array){
+ const copia=[...array];
+ for(let i=copia.length-1;i>0;i--){
+  const j=Math.floor(Math.random()*(i+1));
+  [copia[i],copia[j]]=[copia[j],copia[i]];
+ }
+ return copia;
+}
 
-        function embaralhar(array) {
-            const copia = [...array];
+function criarQuestao(item,indice){
+ const [substantivo,artigoCorreto,pluralCorreto,traducao]=item;
+ const questao=document.createElement("div");
+ questao.className="questao";
+ questao.dataset.indice=indice;
 
-            for (let i = copia.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [copia[i], copia[j]] = [copia[j], copia[i]];
-            }
+ const numero=document.createElement("strong");
+ numero.textContent=`${indice+1} `;
 
-            return copia;
-        }
+ const select=document.createElement("select");
+ select.className="artigo";
+ select.setAttribute("aria-label",`Artigo da questão ${indice+1}`);
+ const opcaoVazia=document.createElement("option");
+ opcaoVazia.value="";
+ opcaoVazia.textContent="Artigo";
+ opcaoVazia.selected=true;
+ select.appendChild(opcaoVazia);
+ ["der","die","das"].forEach(artigo=>{
+  const option=document.createElement("option");
+  option.value=artigo;
+  option.textContent=artigo;
+  select.appendChild(option);
+ });
 
-        function criarFeedback() {
-            const feedback = document.createElement("span");
-            feedback.className = "feedback-individual";
-            feedback.setAttribute("aria-live", "polite");
-            return feedback;
-        }
+ const inputSubstantivo=document.createElement("input");
+ inputSubstantivo.type="text";
+ inputSubstantivo.className="substantivo";
+ inputSubstantivo.autocomplete="off";
+ inputSubstantivo.placeholder=`${traducao} no singular`;
 
-        function criarQuestao(item, indice) {
-            const [substantivo, artigoCorreto, pluralCorreto, traducao] = item;
+ const textoPortugues=document.createTextNode(` (${traducao}). `);
+ const labelPlural=document.createElement("span");
+ labelPlural.textContent="Plural: ";
 
-            const questao = document.createElement("div");
-            questao.className = "questao";
-            questao.dataset.indice = indice;
+ const inputPlural=document.createElement("input");
+ inputPlural.type="text";
+ inputPlural.className="plural";
+ inputPlural.autocomplete="off";
+ inputPlural.placeholder=`${traducao} no plural`;
 
-            const numero = document.createElement("strong");
-            numero.textContent = `${indice + 1} `;
+ const resultado=document.createElement("span");
+ resultado.className="resultado";
 
-            const select = document.createElement("select");
-            select.className = "artigo";
-            select.width = "105px";
-            select.setAttribute(
-                "aria-label",
-                `Artigo da questão ${indice + 1}`
-            );
+ const botaoResposta=document.createElement("button");
+ botaoResposta.type="button";
+ botaoResposta.className="btn-resposta";
+ botaoResposta.textContent="Ver resposta";
 
-            const opcaoVazia = document.createElement("option");
-            opcaoVazia.value = "";
-            opcaoVazia.textContent = "Artigo";
-            opcaoVazia.selected = true;
-            select.appendChild(opcaoVazia);
+ const resposta=document.createElement("div");
+ resposta.className="resposta";
+ resposta.textContent=`Resposta: ${artigoCorreto} ${substantivo} (${traducao}). Plural: ${pluralCorreto}`;
+ botaoResposta.addEventListener("click",()=>{
+  resposta.classList.toggle("visivel");
+  botaoResposta.textContent=resposta.classList.contains("visivel")?"Ocultar resposta":"Ver resposta";
+ });
 
-            ["der", "die", "das"].forEach(artigo => {
-                const option = document.createElement("option");
-                option.value = artigo;
-                option.textContent = artigo;
-                select.appendChild(option);
-            });
+ questao.append(numero,textoPortugues,select,inputSubstantivo,labelPlural,inputPlural,resultado,botaoResposta,resposta);
+ return questao;
+}
 
-            const feedbackArtigo = criarFeedback();
+function exibirMaisExercicios(){
+ const container=document.getElementById("exercicios");
+ const proximaQuantidade=Math.min(quantidadeExibida+quantidadePorPagina,exerciciosAtuais.length);
+ for(let indice=quantidadeExibida;indice<proximaQuantidade;indice++) container.appendChild(criarQuestao(exerciciosAtuais[indice],indice));
+ quantidadeExibida=proximaQuantidade;
+ atualizarBotaoMais();
+}
 
-            const inputSubstantivo = document.createElement("input");
-            inputSubstantivo.type = "text";
-            inputSubstantivo.className = "substantivo";
-            inputSubstantivo.autocomplete = "off";
-            inputSubstantivo.placeholder = `${traducao} no singular`;
+function atualizarBotaoMais(){
+ const botao=document.getElementById("maisExercicios");
+ const mensagemFim=document.getElementById("fimLista");
+ if(quantidadeExibida>=exerciciosAtuais.length){
+  botao.disabled=true;
+  mensagemFim.style.color="#940606";
+  mensagemFim.textContent="A lista de palavras chegou ao fim.";
+ }else{
+  botao.disabled=false;
+  mensagemFim.textContent="";
+ }
+}
 
-            const feedbackSubstantivo = criarFeedback();
+function criarExercicios(){
+ document.getElementById("exercicios").innerHTML="";
+ document.getElementById("pontuacao").textContent="";
+ quantidadeExibida=0;
+ exerciciosAtuais=embaralhar(lista);
+ exibirMaisExercicios();
+}
 
-            const textoPortugues =
-                document.createTextNode(` (${traducao}). `);
+function compararResposta(resposta,correta){
+ return resposta.trim()===correta;
+}
 
-            const labelPlural = document.createElement("span");
-            labelPlural.textContent = "Plural: ";
+function marcarCampo(elemento,correta){
+ elemento.classList.remove("campo-correto","campo-incorreto");
+ elemento.classList.add(correta?"campo-correto":"campo-incorreto");
+}
 
-            const inputPlural = document.createElement("input");
-            inputPlural.type = "text";
-            inputPlural.className = "plural";
-            inputPlural.autocomplete = "off";
-            inputPlural.placeholder = `${traducao} no plural`;
+function corrigir(){
+ let acertos=0;
+ document.querySelectorAll(".questao").forEach(questao=>{
+  const indice=Number(questao.dataset.indice);
+  const [substantivo,artigo,plural]=exerciciosAtuais[indice];
+  const selectArtigo=questao.querySelector(".artigo");
+  const inputSubstantivo=questao.querySelector(".substantivo");
+  const inputPlural=questao.querySelector(".plural");
 
-            const feedbackPlural = criarFeedback();
+  const artigoOk=selectArtigo.value===artigo;
+  const substantivoOk=compararResposta(inputSubstantivo.value,substantivo);
+  const pluralOk=compararResposta(inputPlural.value,plural);
+  const totalOk=artigoOk&&substantivoOk&&pluralOk;
 
-            const resultado = document.createElement("span");
-            resultado.className = "resultado";
+  marcarCampo(selectArtigo,artigoOk);
+  marcarCampo(inputSubstantivo,substantivoOk);
+  marcarCampo(inputPlural,pluralOk);
 
-            const botaoResposta = document.createElement("button");
-            botaoResposta.type = "button";
-            botaoResposta.className = "btn-resposta";
-            botaoResposta.textContent = "Ver resposta";
+  questao.classList.remove("correta","incorreta");
+  questao.classList.add(totalOk?"correta":"incorreta");
 
-            const resposta = document.createElement("div");
-            resposta.className = "resposta";
-            resposta.textContent =
-                `Resposta: ${artigoCorreto} ${substantivo} (${traducao}). Plural: ${pluralCorreto}`;
+  const resultado=questao.querySelector(".resultado");
+  resultado.textContent="";
+  resultado.style.color="";
+  if(totalOk) acertos++;
+ });
 
-            botaoResposta.addEventListener("click", () => {
-                resposta.classList.toggle("visivel");
+ const total=document.querySelectorAll(".questao").length;
+ document.getElementById("pontuacao").textContent=`Resultado: ${acertos} de ${total} questões corretas.`;
+}
 
-                botaoResposta.textContent =
-                    resposta.classList.contains("visivel")
-                        ? "Ocultar resposta"
-                        : "Ver resposta";
-            });
-
-            questao.append(
-                numero,
-                textoPortugues,
-                select,
-                feedbackArtigo,
-                inputSubstantivo,
-                feedbackSubstantivo,
-                labelPlural,
-                inputPlural,
-                feedbackPlural,
-                resultado,
-                botaoResposta,
-                resposta
-            );
-
-            return questao;
-        }
-
-        function exibirMaisExercicios() {
-            const container = document.getElementById("exercicios");
-
-            const proximaQuantidade = Math.min(
-                quantidadeExibida + quantidadePorPagina,
-                exerciciosAtuais.length
-            );
-
-            for (let indice = quantidadeExibida; indice < proximaQuantidade; indice++) {
-                const questao = criarQuestao(
-                    exerciciosAtuais[indice],
-                    indice
-                );
-
-                container.appendChild(questao);
-            }
-
-            quantidadeExibida = proximaQuantidade;
-
-            atualizarBotaoMais();
-        }
-
-        function atualizarBotaoMais() {
-            const botao = document.getElementById("maisExercicios");
-            const mensagemFim = document.getElementById("fimLista");
-
-            if (quantidadeExibida >= exerciciosAtuais.length) {
-                botao.disabled = true;
-                botao.textContent = "Exibir mais 10";
-                mensagemFim.style.color = "#940606";
-                mensagemFim.textContent =
-                    "A lista de palavras chegou ao fim.";
-            } else {
-                botao.disabled = false;
-                botao.textContent = "Exibir mais 10";
-                mensagemFim.textContent = "";
-            }
-        }
-
-        function criarExercicios() {
-            const container = document.getElementById("exercicios");
-
-            container.innerHTML = "";
-
-            document.getElementById("pontuacao").textContent = "";
-
-            quantidadeExibida = 0;
-
-            exerciciosAtuais = embaralhar(lista);
-
-            exibirMaisExercicios();
-        }
-
-        function compararResposta(resposta, correta) {
-            // A capitalização dos substantivos importa.
-            // A ausência/presença de acentos também importa.
-            return resposta.trim() === correta;
-        }
-
-        function marcarResposta(elemento, correta) {
-            elemento.classList.remove("resposta-correta", "resposta-incorreta");
-            elemento.classList.add(correta ? "resposta-correta" : "resposta-incorreta");
-            elemento.textContent = correta ? "✓" : "✗";
-        }
-
-        function corrigir() {
-            let acertos = 0;
-
-            document.querySelectorAll(".questao").forEach((questao) => {
-                const indice = Number(questao.dataset.indice);
-
-                const item = exerciciosAtuais[indice];
-
-                const [substantivo, artigo, plural] = item;
-
-                const selectArtigo = questao.querySelector(".artigo");
-                const inputSubstantivo = questao.querySelector(".substantivo");
-                const inputPlural = questao.querySelector(".plural");
-
-                const respostaArtigo = selectArtigo.value;
-                const respostaSubstantivo = inputSubstantivo.value;
-                const respostaPlural = inputPlural.value;
-
-                const feedbackArtigo = questao.querySelectorAll(".feedback-individual")[0];
-                const feedbackSubstantivo = questao.querySelectorAll(".feedback-individual")[1];
-                const feedbackPlural = questao.querySelectorAll(".feedback-individual")[2];
-
-                const resultado = questao.querySelector(".resultado");
-
-                const artigoOk = respostaArtigo === artigo;
-                const substantivoOk = compararResposta(respostaSubstantivo, substantivo);
-                const pluralOk = compararResposta(respostaPlural, plural);
-
-                marcarResposta(feedbackArtigo, artigoOk);
-                marcarResposta(feedbackSubstantivo, substantivoOk);
-                marcarResposta(feedbackPlural, pluralOk);
-
-                selectArtigo.classList.toggle("campo-correto", artigoOk);
-                selectArtigo.classList.toggle("campo-incorreto", !artigoOk);
-                inputSubstantivo.classList.toggle("campo-correto", substantivoOk);
-                inputSubstantivo.classList.toggle("campo-incorreto", !substantivoOk);
-                inputPlural.classList.toggle("campo-correto", pluralOk);
-                inputPlural.classList.toggle("campo-incorreto", !pluralOk);
-
-                const totalOk = artigoOk && substantivoOk && pluralOk;
-
-                questao.classList.remove("correta", "incorreta");
-
-                if (totalOk) {
-                    questao.classList.add("correta");
-                    resultado.textContent = "✓ Correto";
-                    resultado.style.color = "#2e7d32";
-                    acertos++;
-                } else {
-                    questao.classList.add("incorreta");
-                    resultado.textContent = "✗";
-                    resultado.style.color = "#c62828";
-                }
-            });
-
-            const total = document.querySelectorAll(".questao").length;
-
-            document.getElementById("pontuacao").textContent =
-                `Resultado: ${acertos} de ${total} questões corretas.`;
-        }
-
-        document
-            .getElementById("corrigir")
-            .addEventListener("click", corrigir);
-
-        document
-            .getElementById("maisExercicios")
-            .addEventListener("click", exibirMaisExercicios);
-
-        document
-            .getElementById("resetar")
-            .addEventListener("click", () => {
-                criarExercicios();
-            });
-
-        criarExercicios();
-    </script>
+document.getElementById("corrigir").addEventListener("click",corrigir);
+document.getElementById("maisExercicios").addEventListener("click",exibirMaisExercicios);
+document.getElementById("resetar").addEventListener("click",criarExercicios);
+criarExercicios();
+</script>
 </body>
-
 </html>

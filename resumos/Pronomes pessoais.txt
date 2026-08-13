@@ -1,0 +1,48 @@
+Beleza! Vamos abrir um tema novo: pronomes pessoais no acusativo e dativo — muito útil pra substituir substantivos (tipo dizer "eu vejo ele" em vez de "eu vejo o cachorro").
+
+Pronomes pessoais nos 3 casos
+Nominativ	Akkusativ	Dativ	Português
+ich	mich	mir	eu / me / mim
+du	dich	dir	tu / te / ti
+er	ihn	ihm	ele
+sie	sie	ihr	ela
+es	es	ihm	isso
+wir	uns	uns	nós
+ihr	euch	euch	vocês
+sie/Sie	sie/Sie	ihnen/Ihnen	eles / vocês (formal)
+
+Repara que wir → uns e ihr → euch ficam iguais no acusativo e dativo — só o singular (ich/du/er/sie/es) muda entre os dois casos.
+
+Os pronomes pessoais não possuem forma no Genitivo no alemão moderno.
+
+Para indicar posse relacionada a um pronome pessoal, usam-se os pronomes/determinantes possessivos (mein, dein, sein, ihr, unser, euer, ihr/Ihr), que são declinados de acordo com o substantivo que os acompanha.
+
+1. Referência por gênero gramatical (e não biológico)
+Em alemão, o pronome substitui o gênero da palavra, não o sexo do objeto/pessoa.
+    • Das Mädchen (a menina) é neutro --> Pronome: es (Das Mädchen kommt. Es ist klein.)
+    • Der Tisch (a mesa) é masculino --> Pronome: er (Wo ist der Tisch? Er ist hier.)
+    • Die Sonne (o sol) é feminino --> Pronome: sie (Die Sonne scheint. Sie ist heiß.)
+
+2. Posição dos pronomes na frase (Regra Wackernagel)
+Quando há dois objetos na mesma oração:
+    • Se os dois forem substantivos: o Dativo vem antes do Acusativo.
+    • Se um for pronome e o outro substantivo: o Pronome sempre vem primeiro.
+    • Se ambos forem pronomes: o Acusativo obrigatoriamente vem antes do Dativo.
+        ◦ Exemplo: Ich gebe es (Acusativo) ihm (Dativo). (Eu dou isso a ele).
+
+3. "Es" impessoal
+O pronome es é usado obrigatoriamente para fenômenos meteorológicos, tempo e sensações sem sujeito real:
+    • Es regnet. (Está chovendo.)
+    • Es ist kalt. (Está frio.)
+    • Es gibt... (Há / Existe...)
+
+4. A pegadinha do "Sie/sie/sie"
+A mesma palavra sie tem três funções distintas dependendo da maiúscula e da conjugação do verbo:
+    • sie (com verbo no singular): ela (sie lernt)
+    • sie (com verbo no plural): eles/elas (sie lernen)
+    • Sie (sempre com S maiúsculo e verbo no plural): o senhor / a senhora / os senhores (tratamento formal)
+
+5. Genitivo arcaico (exceções pontuais)
+Embora não exista pronome pessoal no genitivo para indicar posse, a forma arcaica ainda aparece apenas com raríssimos verbos/expressões de regência fixa no genitivo:
+    • Gedenke meiner. (Lembra-te de mim.)
+    • Ich bin seiner überdrüssig. (Estou farto dele.)

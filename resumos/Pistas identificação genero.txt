@@ -1,0 +1,46 @@
+Passo 1: Regra das Pistas de Gênero (Sufixos do Feminino)
+Antes de declinar, é preciso saber o gênero. Em vez de memorizar palavra por palavra, memorizamos as terminações.
+
+Toda palavra em alemão que termina com estes sufixos é obrigatoriamente feminina (die):
+
+-ung (ex: die Wohnung - o apartamento)
+
+-heit (ex: die Gesundheit - a saúde)
+
+-keit (ex: die Möglichkeit - a possibilidade)
+
+-schaft (ex: die Freundschaft - a amizade)
+
+-ung, -tät, -ion (ex: die Universität, die Station)
+
+Se a palavra termina com um desses sufixos, o artigo é sempre die.
+
+
+Passo 2: Regra das Pistas de Gênero (Sufixos do Neutro)
+Palavras com as seguintes terminações são obrigatoriamente neutras (das):
+
+-chen (diminutivo, ex: das Mädchen - a menina)
+
+-lein (diminutivo, ex: das Fräulein - a senhorita)
+
+-ment (ex: das Instrument - o instrumento)
+
+-um (ex: das Zentrum - o centro)
+
+-tum (ex: das Eigentum - a propriedade)
+
+Se a palavra termina com um desses sufixos, o artigo é sempre das. Inclusive todo diminutivo é obrigatoriamente neutro mesmo que a palavra normal seja masculina ou feminina. Exemplo: Die Frau => Das Fräulein.
+
+
+Passo 3: Regra das Pistas de Gênero (Sufixos do Masculino)
+Palavras com as seguintes terminações são obrigatoriamente masculinas (der):
+
+-ling (ex: der Lehrling - o aprendiz)
+
+-ismus (ex: der Optimismus - o otimismo)
+
+-or (ex: der Motor - o motor)
+
+-er (para pessoas ou profissões masculinas, ex: der Lehrer - o professor)
+
+Se a palavra termina com um desses sufixos, o artigo é sempre der.

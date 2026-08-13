@@ -47,6 +47,32 @@ h1 {
     width: 145px;
 }
 
+.feedback-individual {
+    display: inline-block;
+    min-width: 16px;
+    margin: 0 3px 0 0;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.resposta-correta {
+    color: #2e7d32;
+}
+
+.resposta-incorreta {
+    color: #c62828;
+}
+
+.campo-correto {
+    border-color: #4caf50 !important;
+    background: #eef9ef;
+}
+
+.campo-incorreto {
+    border-color: #e05252 !important;
+    background: #fff0f0;
+}
+
 .resultado {
     margin-left: 8px;
     font-weight: bold;

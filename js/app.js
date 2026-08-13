@@ -1,3 +1,14 @@
+function ensureFavicon(){
+ const link = document.createElement("link");
+ link.rel = "icon";
+ link.type = "image/svg+xml";
+ const inSubdirectory = /\/(paginas|exercicios)\//.test(window.location.pathname);
+ link.href = inSubdirectory ? "../assets/favicon.svg" : "assets/favicon.svg";
+ document.head.appendChild(link);
+}
+
+ensureFavicon();
+
 function norm(s){
  return s.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
   .replace(/[“”\"']/g,"").replace(/\s+/g," ");

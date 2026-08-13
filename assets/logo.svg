@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 190" role="img" aria-labelledby="title desc">
+  <title id="title">Lernen Deutsch</title>
+  <desc id="desc">Black cat studying on German-colored books with the words Lernen Deutsch.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e8a900"/><stop offset="1" stop-color="#ffd34f"/></linearGradient>
+  </defs>
+  <g transform="translate(8 8)">
+    <path d="M25 118h245l-14 28H39z" fill="#182d48"/>
+    <rect x="38" y="96" width="224" height="24" rx="4" fill="#f1c232" stroke="#182d48" stroke-width="4"/>
+    <rect x="31" y="70" width="231" height="25" rx="4" fill="#c62828" stroke="#182d48" stroke-width="4"/>
+    <rect x="43" y="45" width="219" height="25" rx="4" fill="#202020" stroke="#182d48" stroke-width="4"/>
+    <text x="152" y="63" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-weight="700" fill="#fff">Grammatik</text>
+    <text x="146" y="88" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-weight="700" fill="#fff">Wortschatz</text>
+    <text x="147" y="114" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-weight="700" fill="#182d48">Übungen</text>
+    <path d="M82 55L70 18l30 22 25-25 14 35" fill="#171717" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M82 55L70 18l20 25" fill="#ef796f"/>
+    <path d="M135 50l14-35 18 30" fill="#171717" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M143 46l8-21 10 20" fill="#ef796f"/>
+    <circle cx="111" cy="58" r="38" fill="#171717" stroke="#111" stroke-width="4"/>
+    <ellipse cx="97" cy="55" rx="7" ry="10" fill="#f4c52b"/><ellipse cx="126" cy="55" rx="7" ry="10" fill="#f4c52b"/>
+    <ellipse cx="97" cy="57" rx="2.5" ry="6" fill="#111"/><ellipse cx="126" cy="57" rx="2.5" ry="6" fill="#111"/>
+    <path d="M108 65q3 4 6 0" fill="none" stroke="#f3f0e7" stroke-width="2" stroke-linecap="round"/>
+    <path d="M145 67q35 8 31 38q-4 28-36 12" fill="none" stroke="#171717" stroke-width="13" stroke-linecap="round"/>
+    <rect x="286" y="35" width="6" height="115" rx="3" fill="#182d48"/>
+    <rect x="292" y="35" width="55" height="115" rx="4" fill="none" stroke="#d8d0c0" stroke-width="2"/>
+    <path d="M310 48h27v9h-27zM310 63h27v9h-27zM310 78h27v9h-27z" fill="#182d48" opacity=".12"/>
+    <g transform="translate(362 45)">
+      <circle cx="40" cy="38" r="35" fill="#f3f0e7" stroke="#b27b17" stroke-width="4"/>
+      <path d="M9 27h62v10H9z" fill="#1b1b1b"/><path d="M9 37h62v10H9z" fill="#c62828"/><path d="M9 47h62v10H9z" fill="url(#gold)"/>
+    </g>
+    <text x="350" y="104" font-family="Georgia,serif" font-size="45" font-weight="700" fill="#182d48">Lernen Deutsch</text>
+    <text x="353" y="132" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="5" fill="#b27b17">ESTUDE • PRATIQUE • EVOLUA</text>
+    <path d="M358 150h120" stroke="#1b1b1b" stroke-width="6" stroke-linecap="round"/><path d="M390 158h90" stroke="#c62828" stroke-width="6" stroke-linecap="round"/><path d="M422 166h60" stroke="#e8a900" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

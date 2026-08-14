@@ -11,6 +11,7 @@ export const conteudos = [
   { arquivo: "presente-irregulares.html", titulo: "Presente: verbos irregulares", descricao: "mudanças no radical em verbos frequentes", categoria: "Verbos", tag: "Verbos" },
   { arquivo: "modais.html", titulo: "Verbos modais", descricao: "können e outros modais estudados", categoria: "Verbos", tag: "Verbos" },
   { arquivo: "separaveis.html", titulo: "Verbos separáveis", descricao: "prefixos separáveis, posição na frase, modais, subordinadas e Partizip II", categoria: "Verbos", tag: "Verbos" },
+  { arquivo: "reflexivos.html", titulo: "Verbos reflexivos", descricao: "pronomes reflexivos, Akkusativ/Dativ, posição na frase, Perfekt e preposições fixas", categoria: "Verbos", tag: "Verbos" },
   { arquivo: "perfekt.html", titulo: "Perfekt", descricao: "haben/sein + Partizip II", categoria: "Verbos", tag: "Verbos" },
   { arquivo: "futur-1.html", titulo: "Futur I", descricao: "werden + infinitivo para previsões, suposições e ênfase no futuro", categoria: "Verbos", tag: "Verbos" },
   { arquivo: "prateritum.html", titulo: "Präteritum", descricao: "passado usado sobretudo na escrita e com sein, haben e verbos modais", categoria: "Verbos", tag: "Verbos" },

@@ -14,7 +14,9 @@ const P = {
   trinken:["trinke","trinkst","trinkt","trinken","trinkt","trinken"], helfen:["helfe","hilfst","hilft","helfen","helft","helfen"],
   denken:["denke","denkst","denkt","denken","denkt","denken"], wissen:["weiß","weißt","weiß","wissen","wisst","wissen"],
   bleiben:["bleibe","bleibst","bleibt","bleiben","bleibt","bleiben"], schwimmen:["schwimme","schwimmst","schwimmt","schwimmen","schwimmt","schwimmen"],
-  waschen:["wasche","wäschst","wäscht","waschen","wascht","waschen"]
+  waschen:["wasche","wäschst","wäscht","waschen","wascht","waschen"],
+  stehen:["stehe","stehst","steht","stehen","steht","stehen"], rufen:["rufe","rufst","ruft","rufen","ruft","rufen"],
+  ziehen:["ziehe","ziehst","zieht","ziehen","zieht","ziehen"], regnen:["regne","regnest","regnet","regnen","regnet","regnen"]
 };
 const T = {
   sein:["war","warst","war","waren","wart","waren"], haben:["hatte","hattest","hatte","hatten","hattet","hatten"],
@@ -26,7 +28,9 @@ const T = {
   trinken:["trank","trankst","trank","tranken","trankt","tranken"], helfen:["half","halfst","half","halfen","halft","halfen"],
   denken:["dachte","dachtest","dachte","dachten","dachtet","dachten"], wissen:["wusste","wusstest","wusste","wussten","wusstet","wussten"],
   bleiben:["blieb","bliebst","blieb","blieben","bliebt","blieben"], schwimmen:["schwamm","schwammst","schwamm","schwammen","schwammt","schwammen"],
-  waschen:["wusch","wuschst","wusch","wuschen","wuscht","wuschen"]
+  waschen:["wusch","wuschst","wusch","wuschen","wuscht","wuschen"], stehen:["stand","standest","stand","standen","standet","standen"],
+  rufen:["rief","riefst","rief","riefen","rieft","riefen"], ziehen:["zog","zogst","zog","zogen","zogt","zogen"],
+  regnen:["regnete","regnetest","regnete","regneten","regnetet","regneten"]
 };
 const M = {
   dürfen:[["darf","darfst","darf","dürfen","dürft","dürfen"],["durfte","durftest","durfte","durften","durftet","durften"]],

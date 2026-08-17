@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vocabulário de verbos · Alemão</title>
+    <link rel="stylesheet" href="vocabulario_verbos.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <nav class="nav">
+        <a class="brand" href="../../index.html">Alemão <small>estudos</small></a>
+        <div class="nav-links"><a href="../../index.html#conteudos">Conteúdos</a><a href="../../index.html#exercicios">Exercícios</a></div>
+    </nav>
+</header>
+<main class="container">
+    <div class="breadcrumb"><a href="../../index.html">Início</a> / Vocabulário / Verbos</div>
+    <div class="hero">
+        <div class="eyebrow">Vocabulário</div>
+        <h1>Vocabulário de verbos</h1>
+        <p class="lead">Pesquise pelo significado em português ou clique em um verbo para consultar sua conjugação.</p>
+    </div>
+    <div class="panel" id="verbos-panel">
+        <input id="pesquisa-verbo" type="search" placeholder="Pesquisar verbo em português..." autocomplete="off">
+        <p id="resultado-pesquisa"></p>
+        <div id="lista-verbos"></div>
+        <div class="paginacao-verbos">
+            <button type="button" id="pagina-anterior">← Anterior</button>
+            <span id="pagina-atual"></span>
+            <button type="button" id="pagina-proxima">Próxima →</button>
+        </div>
+    </div>
+    <div class="lesson-nav">
+        <a href="../vocabulario_substantivos/vocabulario_substantivos.html">← Vocabulário de substantivos</a>
+        <a href="../../index.html">Início →</a>
+    </div>
+</main>
+<footer class="site-footer"><div class="footer-inner"><span>Material de estudo pessoal</span><a href="../../index.html">← Início</a></div></footer>
+<div id="modal-verbo" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+    <div class="modal-conteudo">
+        <div class="modal-topo">
+            <div><h2 id="modal-titulo"></h2><p id="modal-traducao"></p></div>
+            <button type="button" id="fechar-modal" aria-label="Fechar">×</button>
+        </div>
+        <div id="modal-info"></div>
+        <div id="modal-conjugacao"></div>
+    </div>
+</div>
+<script src="../../js/vocabulario_verbos.js"></script>
+<script src="../../js/app.js"></script>
+<script src="../../js/vocabulario_verbos_page.js"></script>
+</body>
+</html>

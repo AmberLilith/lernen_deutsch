@@ -29,6 +29,7 @@ const listaVerbos = [
     ["schwimmen", "nadar", "geschwommen", "sein / haben"],
     ["sehen", "ver", "gesehen", "haben"],
     ["sein", "ser, estar", "gewesen", "sein"],
+    ["sollen", "dever", "gesollt", "haben"],
     ["sprechen", "falar", "gesprochen", "haben"],
     ["trinken", "beber", "getrunken", "haben"],
     ["warten", "esperar", "gewartet", "haben"],

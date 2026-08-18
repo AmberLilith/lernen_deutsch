@@ -90,7 +90,7 @@ const exercicios=[
 [34,'Nós caminhamos através da cidade.','Wir gehen durch die Stadt.'],
 [35,'Isso é para o chefe.','Das ist für den Chef.'],
 [36,'Ele vem do hospital.','Er kommt aus dem Krankenhaus.'],
-[37,'O sapato está debaixo da cama.','Der Schuh ist unter dem Bett.'],
+[37,'O sapato está debaixo da cama.','Der Schuh liegt unter dem Bett.'],
 [38,'Ela coloca o sapato debaixo da cama.','Sie stellt den Schuh unter das Bett.'],
 [39,'Nós vamos para a farmácia com o vizinho.','Wir gehen mit dem Nachbarn zur Apotheke.'],
 [40,'Ele está contra a ideia. (ideia = die Idee)','Er ist gegen die Idee.'],
@@ -113,14 +113,15 @@ function embaralhar(array){
  return copia;
 }
 
-function criarQuestao(item){
- const [numero,frase,resposta]=item;
+function criarQuestao(item,numeroExibicao){
+ const [,frase,resposta]=item;
  const questao=document.createElement('div');
  questao.className='question';
- questao.dataset.numero=numero;
+ // Guarda a posição do item no array embaralhado, não o número original.
+ questao.dataset.indiceEmbaralhado=exerciciosEmbaralhados.indexOf(item);
  const prompt=document.createElement('div');
  prompt.className='prompt';
- prompt.append(document.createTextNode(`${numero}. ${frase}`));
+ prompt.append(document.createTextNode(`${numeroExibicao}. ${frase}`));
  const botao=document.createElement('button');
  botao.type='button';botao.className='answer-btn';botao.textContent='Ver resposta';
  const respostaDiv=document.createElement('div');
@@ -144,7 +145,7 @@ function exibirMais(){
  const container=document.getElementById('exercicios');
  const fim=Math.min(quantidadeExibida+quantidadePorPagina,exerciciosEmbaralhados.length);
  for(let i=quantidadeExibida;i<fim;i++){
-  container.appendChild(criarQuestao(exerciciosEmbaralhados[i]));
+  container.appendChild(criarQuestao(exerciciosEmbaralhados[i],i+1));
  }
  quantidadeExibida=fim;
  atualizarPaginacao();
@@ -161,8 +162,8 @@ function atualizarPaginacao(){
 function corrigir(){
  let acertos=0;
  document.querySelectorAll('.question').forEach(q=>{
-  const numero=Number(q.dataset.numero);
-  const item=exerciciosEmbaralhados.find(x=>x[0]===numero);
+  const indice=Number(q.dataset.indiceEmbaralhado);
+  const item=exerciciosEmbaralhados[indice];
   const input=q.querySelector('.answer-input');
   const feedback=q.querySelector('.feedback');
   const ok=normalizar(input.value)===normalizar(item[2]);

@@ -1,61 +1,20 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Wechselpräpositionen · Alemão</title>
 <link rel="stylesheet" href="../css/style.css">
 <style>
-#panel{position:relative}
-#exercicios-scroll{height:calc(100vh - 180px);overflow-y:auto;padding-bottom:90px}
-#exercicios{display:flex;flex-direction:column;gap:10px}
-.question{padding:14px 16px;border-radius:6px;background:#fafafa;border:1px solid #e5e5e5}
-.prompt{font-weight:600;line-height:1.6;margin-bottom:10px}
-.answer-input{width:min(100%,760px);font-size:16px;padding:9px 10px;border:1px solid #aaa;border-radius:4px}
-.feedback{display:inline-block;margin-left:8px;font-weight:bold}.feedback.correct{color:#2e7d32}.feedback.incorrect{color:#c62828}
-.answer-btn{margin-left:10px;padding:6px 10px;background:#eee;color:#333;border:0;border-radius:5px;cursor:pointer;font-size:13px}
-.correct-answer{display:none;margin-top:8px;padding-left:2px;color:#555;font-style:italic}.correct-answer.visible{display:block}
-.part-title{margin:20px 0 8px;color:#b07100;font-size:13px;font-weight:bold;text-transform:uppercase;letter-spacing:.12em}
-#pontuacao{display:none;margin-top:18px;font-weight:bold;font-size:18px}
-#maisExercicios{display:block;margin:25px auto 10px;padding:10px 18px;background:#333;color:white;border:0;border-radius:5px;cursor:pointer;font-size:15px}
-#maisExercicios:disabled{background:#aaa;cursor:default}
-#fimLista{text-align:center;margin-top:10px;color:#666;font-weight:bold}
-.controls{position:absolute;bottom:0;left:0;width:100%;display:flex;gap:10px;padding:12px 0;background:#f4f1e8;border-top:1px solid #d8d2c4;z-index:10}
-.controls button{flex:1;padding:10px 18px;border:0;border-radius:5px;cursor:pointer;font-size:15px}
-#corrigir{background:#333;color:white}#resetar{background:#ddd;color:#222}
-@media(max-width:600px){#exercicios-scroll{height:calc(100vh - 160px)}.answer-input{width:100%}.answer-btn{margin:8px 0 0 0}}
+#panel{position:relative}#exercicios-scroll{height:calc(100vh - 180px);overflow-y:auto;padding-bottom:90px}#exercicios{display:flex;flex-direction:column;gap:10px}.question{padding:14px 16px;border-radius:6px;background:#fafafa;border:1px solid #e5e5e5}.prompt{font-weight:600;line-height:1.6;margin-bottom:10px}.answer-input{width:min(100%,760px);font-size:16px;padding:9px 10px;border:1px solid #aaa;border-radius:4px}.feedback{display:inline-block;margin-left:8px;font-weight:bold}.feedback.correct{color:#2e7d32}.feedback.incorrect{color:#c62828}.answer-btn{margin-left:10px;padding:6px 10px;background:#eee;color:#333;border:0;border-radius:5px;cursor:pointer;font-size:13px}.correct-answer{display:none;margin-top:8px;padding-left:2px;color:#555;font-style:italic}.correct-answer.visible{display:block}#pontuacao{display:none;margin-top:18px;font-weight:bold;font-size:18px}#maisExercicios{display:block;margin:25px auto 10px;padding:10px 18px;background:#333;color:white;border:0;border-radius:5px;cursor:pointer;font-size:15px}#maisExercicios:disabled{background:#aaa;cursor:default}#fimLista{text-align:center;margin-top:10px;color:#666;font-weight:bold}.controls{position:absolute;bottom:0;left:0;width:100%;display:flex;gap:10px;padding:12px 0;background:#f4f1e8;border-top:1px solid #d8d2c4;z-index:10}.controls button{flex:1;padding:10px 18px;border:0;border-radius:5px;cursor:pointer;font-size:15px}#corrigir{background:#333;color:white}#resetar{background:#ddd;color:#222}@media(max-width:600px){#exercicios-scroll{height:calc(100vh - 160px)}.answer-input{width:100%}.answer-btn{margin:8px 0 0}}
 </style>
 </head>
 <body>
-<header class="site-header"><nav class="nav">
-<a class="brand" href="../index.html">Alemão <small>estudos</small></a>
-<div class="nav-links"><a href="../index.html#conteudos">Conteúdos</a><a href="../index.html#exercicios">Exercícios</a></div>
-</nav></header>
-
-<main class="container">
-<div class="breadcrumb"><a href="../index.html">Início</a> / Exercícios</div>
-<div class="hero"><div class="eyebrow">Exercício</div><h1>Wechselpräpositionen</h1><p class="lead">Pratique localização, movimento e direção com as Wechselpräpositionen. Responda sem consultar o gabarito.</p></div>
-
-<div class="panel" id="panel">
-<div class="progress"><span></span></div>
-<div id="exercicios-scroll">
-<div id="exercicios"></div>
-<div id="pontuacao" class="score"></div>
-<button type="button" id="maisExercicios">Exibir mais 10</button>
-<div id="fimLista"></div>
-</div>
-<div class="controls"><button type="button" id="corrigir">Corrigir</button><button type="button" id="resetar">Resetar</button></div>
-</div>
-</main>
-
+<header class="site-header"><nav class="nav"><a class="brand" href="../index.html">Alemão <small>estudos</small></a><div class="nav-links"><a href="../index.html#conteudos">Conteúdos</a><a href="../index.html#exercicios">Exercícios</a></div></nav></header>
+<main class="container"><div class="breadcrumb"><a href="../index.html">Início</a> / Exercícios</div><div class="hero"><div class="eyebrow">Exercício</div><h1>Wechselpräpositionen</h1><p class="lead">Pratique localização, movimento e direção com as Wechselpräpositionen. Responda sem consultar o gabarito.</p></div>
+<div class="panel" id="panel"><div class="progress"><span></span></div><div id="exercicios-scroll"><div id="exercicios"></div><div id="pontuacao" class="score"></div><button type="button" id="maisExercicios">Exibir mais 10</button><div id="fimLista"></div></div><div class="controls"><button type="button" id="corrigir">Corrigir</button><button type="button" id="resetar">Resetar</button></div></div></main>
 <footer class="site-footer"><div class="footer-inner"><span>Material de estudo pessoal</span><a href="../index.html">← Início</a></div></footer>
-
 <script>
-/*
- * Cada item: [número, enunciado, resposta correta].
- * A lista é embaralhada ao carregar a página e depois exibida de 10 em 10.
- */
-const exercicios = [
+const exercicios=[
 [1,'Localização com uma Wechselpräposition responde a qual pergunta?','Wo?'],
 [2,'Movimento ou direção para um destino responde a qual pergunta?','Wohin?'],
 [3,'Qual caso usamos normalmente depois de uma Wechselpräposition quando respondemos a Wo?','Dativ'],
@@ -100,129 +59,28 @@ const exercicios = [
 [42,'Transforme para indicar ação/direção: Das Buch liegt auf dem Tisch.','Ich lege das Buch auf den Tisch.'],
 [43,'Transforme para indicar localização: Ich stelle die Flasche auf den Tisch.','Die Flasche steht auf dem Tisch.'],
 [44,'Transforme para indicar ação/direção: Die Flasche steht auf dem Tisch.','Ich stelle die Flasche auf den Tisch.'],
-[45,'Complete com a forma correta: Der Mann sitzt ___ Sofa, aber er setzt sich später ___ Sessel.','auf dem / in den'],
-[46,'Complete com a forma correta: Die Lampe hängt ___ Decke, und ich hänge eine zweite Lampe ___ Decke.','an der / an die'],
-[47,'Complete com a forma correta: Das Kind ist ___ Zimmer, dann läuft es ___ Küche.','in dem / in die'],
-[48,'Complete com a forma correta: Der Teppich liegt ___ Tisch, und sie legt ihn ___ Tisch.','unter dem / unter den'],
+[45,'Complete: Der Mann sitzt ___ Sofa, aber er setzt sich später ___ Sessel.','auf dem / in den'],
+[46,'Complete: Die Lampe hängt ___ Decke, und ich hänge eine zweite Lampe ___ Decke.','an der / an die'],
+[47,'Complete: Das Kind ist ___ Zimmer, dann läuft es ___ Küche.','in dem / in die'],
+[48,'Complete: Der Teppich liegt ___ Tisch, und sie legt ihn ___ Tisch.','unter dem / unter den'],
 [49,'Traduza: O quadro está na parede, mas ela o pendura em outra parede.','Das Bild hängt an der Wand, aber sie hängt es an eine andere Wand.'],
 [50,'Traduza: O homem está sentado na cadeira e coloca o livro sobre a mesa.','Der Mann sitzt auf dem Stuhl und legt das Buch auf den Tisch.']
 ];
 
-const quantidadePorPagina = 10;
-let quantidadeExibida = 0;
-let exerciciosEmbaralhados = [];
-
-function embaralhar(array){
-    const copia = [...array];
-    for(let i = copia.length - 1; i > 0; i--){
-        const j = Math.floor(Math.random() * (i + 1));
-        [copia[i], copia[j]] = [copia[j], copia[i]];
-    }
-    return copia;
-}
-
-function normalizar(texto){
-    return texto.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ');
-}
-
-function criarQuestao(item){
-    const [numero, enunciado, resposta] = item;
-    const questao = document.createElement('div');
-    questao.className = 'question';
-    questao.dataset.numero = numero;
-
-    const prompt = document.createElement('div');
-    prompt.className = 'prompt';
-    prompt.appendChild(document.createTextNode(`${numero}. ${enunciado}`));
-
-    const botaoResposta = document.createElement('button');
-    botaoResposta.type = 'button';
-    botaoResposta.className = 'answer-btn';
-    botaoResposta.textContent = 'Ver resposta';
-
-    const resposta = document.createElement('div');
-    resposta.className = 'correct-answer';
-    resposta.textContent = `Resposta: ${resposta}`;
-
-    botaoResposta.addEventListener('click', () => {
-        resposta.classList.toggle('visible');
-        botaoResposta.textContent = resposta.classList.contains('visible') ? 'Ocultar resposta' : 'Ver resposta';
-    });
-
-    prompt.appendChild(botaoResposta);
-
-    const input = document.createElement('input');
-    input.className = 'answer-input';
-    input.type = 'text';
-    input.autocomplete = 'off';
-    input.placeholder = 'Escreva sua resposta...';
-
-    const feedback = document.createElement('div');
-    feedback.className = 'feedback';
-
-    questao.append(prompt, input, feedback, resposta);
-    return questao;
-}
-
-function exibirMais(){
-    const container = document.getElementById('exercicios');
-    const fim = Math.min(quantidadeExibida + quantidadePorPagina, exerciciosEmbaralhados.length);
-
-    for(let i = quantidadeExibida; i < fim; i++){
-        container.appendChild(criarQuestao(exerciciosEmbaralhados[i]));
-    }
-
-    quantidadeExibida = fim;
-    atualizarPaginacao();
-}
-
-function atualizarPaginacao(){
-    const botao = document.getElementById('maisExercicios');
-    const fim = document.getElementById('fimLista');
-    const terminou = quantidadeExibida >= exerciciosEmbaralhados.length;
-
-    botao.disabled = terminou;
-    fim.textContent = terminou ? 'A lista de exercícios chegou ao fim.' : '';
-}
-
-function corrigir(){
-    let acertos = 0;
-    const questoes = document.querySelectorAll('.question');
-
-    questoes.forEach(questao => {
-        const numero = Number(questao.dataset.numero);
-        const item = exerciciosEmbaralhados.find(exercicio => exercicio[0] === numero);
-        const input = questao.querySelector('.answer-input');
-        const feedback = questao.querySelector('.feedback');
-        const correta = normalizar(input.value) === normalizar(item[2]);
-
-        input.style.borderColor = correta ? '#4caf50' : '#e05252';
-        feedback.textContent = correta ? '✓ Correto' : '✗';
-        feedback.className = `feedback ${correta ? 'correct' : 'incorrect'}`;
-
-        if(correta) acertos++;
-    });
-
-    const score = document.getElementById('pontuacao');
-    score.textContent = `Resultado: ${acertos} de ${questoes.length} questões corretas.`;
-    score.style.display = 'block';
-}
-
-function resetar(){
-    document.getElementById('exercicios').innerHTML = '';
-    document.getElementById('pontuacao').textContent = '';
-    document.getElementById('pontuacao').style.display = 'none';
-    document.querySelector('.progress span').style.width = '0';
-    quantidadeExibida = 0;
-    exibirMais();
-}
-
-document.getElementById('corrigir').addEventListener('click', corrigir);
-document.getElementById('resetar').addEventListener('click', resetar);
-document.getElementById('maisExercicios').addEventListener('click', exibirMais);
-
-exerciciosEmbaralhados = embaralhar(exercicios);
-exibirMais();
+const quantidadePorPagina=10;let quantidadeExibida=0;let exerciciosEmbaralhados=[];
+function embaralhar(array){const copia=[...array];for(let i=copia.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copia[i],copia[j]]=[copia[j],copia[i]]}return copia}
+function normalizar(texto){return texto.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ')}
+function criarQuestao(item){const [numero,enunciado,respostaCorreta]=item;const questao=document.createElement('div');questao.className='question';questao.dataset.numero=numero;
+const prompt=document.createElement('div');prompt.className='prompt';prompt.appendChild(document.createTextNode(`${numero}. ${enunciado}`));
+const botaoResposta=document.createElement('button');botaoResposta.type='button';botaoResposta.className='answer-btn';botaoResposta.textContent='Ver resposta';
+const respostaDiv=document.createElement('div');respostaDiv.className='correct-answer';respostaDiv.textContent=`Resposta: ${respostaCorreta}`;
+botaoResposta.addEventListener('click',()=>{respostaDiv.classList.toggle('visible');botaoResposta.textContent=respostaDiv.classList.contains('visible')?'Ocultar resposta':'Ver resposta'});prompt.appendChild(botaoResposta);
+const input=document.createElement('input');input.className='answer-input';input.type='text';input.autocomplete='off';input.placeholder='Escreva sua resposta...';
+const feedback=document.createElement('div');feedback.className='feedback';questao.append(prompt,input,feedback,respostaDiv);return questao}
+function exibirMais(){const container=document.getElementById('exercicios');const fim=Math.min(quantidadeExibida+quantidadePorPagina,exerciciosEmbaralhados.length);for(let i=quantidadeExibida;i<fim;i++)container.appendChild(criarQuestao(exerciciosEmbaralhados[i]));quantidadeExibida=fim;atualizarPaginacao()}
+function atualizarPaginacao(){const botao=document.getElementById('maisExercicios');const fim=document.getElementById('fimLista');const terminou=quantidadeExibida>=exerciciosEmbaralhados.length;botao.disabled=terminou;fim.textContent=terminou?'A lista de exercícios chegou ao fim.':''}
+function corrigir(){let acertos=0;const questoes=document.querySelectorAll('.question');questoes.forEach(questao=>{const numero=Number(questao.dataset.numero);const item=exerciciosEmbaralhados.find(exercicio=>exercicio[0]===numero);const input=questao.querySelector('.answer-input');const feedback=questao.querySelector('.feedback');const correta=normalizar(input.value)===normalizar(item[2]);input.style.borderColor=correta?'#4caf50':'#e05252';feedback.textContent=correta?'✓ Correto':'✗';feedback.className=`feedback ${correta?'correct':'incorrect'}`;if(correta)acertos++});const score=document.getElementById('pontuacao');score.textContent=`Resultado: ${acertos} de ${questoes.length} questões corretas.`;score.style.display='block'}
+function resetar(){document.getElementById('exercicios').innerHTML='';document.getElementById('pontuacao').textContent='';document.getElementById('pontuacao').style.display='none';quantidadeExibida=0;exibirMais()}
+document.getElementById('corrigir').addEventListener('click',corrigir);document.getElementById('resetar').addEventListener('click',resetar);document.getElementById('maisExercicios').addEventListener('click',exibirMais);exerciciosEmbaralhados=embaralhar(exercicios);exibirMais();
 </script>
-</body>
-</html>
+</body></html>

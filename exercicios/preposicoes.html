@@ -51,6 +51,8 @@
 </main>
 <footer class="site-footer"><div class="footer-inner"><span>Material de estudo pessoal</span><a href="../index.html">← Início</a></div></footer>
 <script>
+// Cada exercício fica armazenado junto com sua resposta correta.
+// A lista é embaralhada antes da primeira exibição, sem alterar a lista original.
 const exercicios=[
 [1,'Nós fazemos isso pelo vizinho.','Wir machen das für den Nachbarn.'],
 [2,'Ele caminha através da floresta.','Er geht durch den Wald.'],
@@ -98,8 +100,18 @@ const exercicios=[
 [44,'Nós moramos na cidade desde três anos, perto do hospital.','Wir wohnen seit drei Jahren in der Stadt, in der Nähe des Krankenhauses.']
 ];
 
-let quantidadeExibida=0;
 const quantidadePorPagina=10;
+let quantidadeExibida=0;
+let exerciciosEmbaralhados=[];
+
+function embaralhar(array){
+ const copia=[...array];
+ for(let i=copia.length-1;i>0;i--){
+  const j=Math.floor(Math.random()*(i+1));
+  [copia[i],copia[j]]=[copia[j],copia[i]];
+ }
+ return copia;
+}
 
 function criarQuestao(item){
  const [numero,frase,resposta]=item;
@@ -130,8 +142,10 @@ function normalizar(texto){return texto.trim().toLowerCase().normalize('NFD').re
 
 function exibirMais(){
  const container=document.getElementById('exercicios');
- const fim=Math.min(quantidadeExibida+quantidadePorPagina,exercicios.length);
- for(let i=quantidadeExibida;i<fim;i++) container.appendChild(criarQuestao(exercicios[i]));
+ const fim=Math.min(quantidadeExibida+quantidadePorPagina,exerciciosEmbaralhados.length);
+ for(let i=quantidadeExibida;i<fim;i++){
+  container.appendChild(criarQuestao(exerciciosEmbaralhados[i]));
+ }
  quantidadeExibida=fim;
  atualizarPaginacao();
 }
@@ -139,7 +153,7 @@ function exibirMais(){
 function atualizarPaginacao(){
  const botao=document.getElementById('maisExercicios');
  const fim=document.getElementById('fimLista');
- const terminou=quantidadeExibida>=exercicios.length;
+ const terminou=quantidadeExibida>=exerciciosEmbaralhados.length;
  botao.disabled=terminou;
  fim.textContent=terminou?'A lista de exercícios chegou ao fim.':'';
 }
@@ -148,7 +162,7 @@ function corrigir(){
  let acertos=0;
  document.querySelectorAll('.question').forEach(q=>{
   const numero=Number(q.dataset.numero);
-  const item=exercicios.find(x=>x[0]===numero);
+  const item=exerciciosEmbaralhados.find(x=>x[0]===numero);
   const input=q.querySelector('.answer-input');
   const feedback=q.querySelector('.feedback');
   const ok=normalizar(input.value)===normalizar(item[2]);
@@ -177,6 +191,10 @@ function resetar(){
 document.getElementById('corrigir').addEventListener('click',corrigir);
 document.getElementById('resetar').addEventListener('click',resetar);
 document.getElementById('maisExercicios').addEventListener('click',exibirMais);
+
+// Embaralha uma única vez ao carregar a página.
+// A lista original continua intacta e cada item leva sua própria resposta.
+exerciciosEmbaralhados=embaralhar(exercicios);
 exibirMais();
 </script>
 </body>

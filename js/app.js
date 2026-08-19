@@ -89,16 +89,39 @@ function renderLessonNav(conteudos){
  `;
 }
 
-function inicializar(conteudos){
+function renderExercicios(grupos){
+ const container = document.querySelector("#exercicios-dinamicos");
+ if(!container) return;
+
+ container.innerHTML = grupos.map(grupo => `
+   <details class="exercise-group">
+     <summary>${grupo.tema}</summary>
+     <div class="exercise-list">
+       ${grupo.itens.map(item => `
+         <a class="exercise-link" href="exercicios/${item.arquivo}">
+           <span>${item.titulo} · <span class="note">${item.detalhe}</span></span>
+           <span class="arrow">→</span>
+         </a>
+       `).join("")}
+     </div>
+   </details>
+ `).join("");
+}
+
+function inicializar(conteudos, exercicios){
  renderConteudos(conteudos);
+ renderExercicios(exercicios);
  renderLessonNav(conteudos);
  document.querySelectorAll(".answer-input").forEach(i=>i.addEventListener("keydown",e=>{if(e.key==="Enter")checkExercise();}));
 }
 
 document.addEventListener("DOMContentLoaded",()=>{
- import("./conteudos.js")
-   .then(mod => inicializar(mod.conteudos))
-   .catch(error => console.error("Não foi possível carregar a configuração de conteúdos:", error));
+ Promise.all([
+   import("./conteudos.js"),
+   import("./exercicios.js")
+ ])
+   .then(([conteudosMod, exerciciosMod]) => inicializar(conteudosMod.conteudos, exerciciosMod.exercicios))
+   .catch(error => console.error("Não foi possível carregar a configuração do site:", error));
 });
 
 window.checkExercise = checkExercise;

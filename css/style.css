@@ -59,13 +59,21 @@ tr:last-child td { border-bottom: 0 }
 .exercise-link:hover { border-color: #bcae92 }
 .arrow { color: var(--gold); font-weight: 900 }
 
-.exercise-group { margin: 10px 0; border: 1px solid var(--line); border-radius: 9px; background: var(--paper); box-shadow: var(--shadow); overflow: hidden }
-.exercise-group summary { list-style: none; cursor: pointer; padding: 17px 18px; font-weight: 800; font-size: 1.05rem; display: flex; align-items: center; justify-content: space-between; gap: 15px }
-.exercise-group summary::-webkit-details-marker { display: none }
-.exercise-group summary::after { content: "＋"; color: var(--gold); font-size: 1.2rem; font-weight: 700 }
-.exercise-group[open] summary::after { content: "−" }
-.exercise-group summary:hover { background: #f8f5ed }
+.exercise-group,
+.content-group { margin: 10px 0; border: 1px solid var(--line); border-radius: 9px; background: var(--paper); box-shadow: var(--shadow); overflow: hidden }
+.exercise-group summary,
+.content-group summary { list-style: none; cursor: pointer; padding: 17px 18px; font-weight: 800; font-size: 1.05rem; display: flex; align-items: center; justify-content: space-between; gap: 15px }
+.exercise-group summary::-webkit-details-marker,
+.content-group summary::-webkit-details-marker { display: none }
+.exercise-group summary::after,
+.content-group summary::after { content: "＋"; color: var(--gold); font-size: 1.2rem; font-weight: 700 }
+.exercise-group[open] summary::after,
+.content-group[open] summary::after { content: "−" }
+.exercise-group summary:hover,
+.content-group summary:hover { background: #f8f5ed }
 .exercise-group .exercise-list { padding: 0 12px 12px }
+.content-group .grid { padding: 0 12px 12px }
+.content-group .card { height: 100% }
 
 .lesson-nav { display: flex; justify-content: space-between; gap: 10px; margin-top: 34px; padding-top: 22px; border-top: 1px solid var(--line) }
 .lesson-nav a { font-size: .9rem; text-decoration: none; color: var(--muted) }

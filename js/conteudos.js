@@ -15,6 +15,8 @@ export const conteudos = [
   { arquivo: "perfekt.html", titulo: "Perfekt", descricao: "haben/sein + Partizip II", categoria: "Verbos", tag: "Verbos" },
   { arquivo: "futur-1.html", titulo: "Futur I", descricao: "werden + infinitivo para previsões, suposições e ênfase no futuro", categoria: "Verbos", tag: "Verbos" },
   { arquivo: "prateritum.html", titulo: "Präteritum", descricao: "passado usado sobretudo na escrita e com sein, haben e verbos modais", categoria: "Verbos", tag: "Verbos" },
+  { arquivo: "vocabulario_verbos.html", titulo: "Vocabulário Verbos", descricao: "lista de verbos com significados e conjugações", categoria: "Verbos", tag: "Verbos" },
+  { arquivo: "stehen-stellen-liegen-legen.html", titulo: "Stehen, Stellen, Liegen, Legen", descricao: "Quando usar Stehen, Stellen, Liegen, Legen", categoria: "Verbos", tag: "Verbos" },
   { arquivo: "ordem-frase.html", titulo: "Ordem das palavras", descricao: "posição do verbo e inversão", categoria: "Estrutura das frases", tag: "Estrutura" },
   { arquivo: "subordinadas.html", titulo: "Orações subordinadas", descricao: "weil, dass, wenn, als, ob e outras conjunções subordinativas", categoria: "Estrutura das frases", tag: "Estrutura" },
   { arquivo: "preposicoes.html", titulo: "Preposições", descricao: "mit, bei, von, zu, aus, nach e outras", categoria: "Preposições", tag: "Preposições" },

@@ -57,8 +57,8 @@ function renderConteudos(conteudos){
  });
 
  container.innerHTML = categorias.map(grupo => `
-   <div class="section">
-     <div class="eyebrow">${grupo.nome}</div>
+   <details class="content-group">
+     <summary>${grupo.nome}</summary>
      <div class="grid">
        ${grupo.paginas.map(pagina => `
          <a class="card" href="paginas/${pagina.arquivo}">
@@ -68,7 +68,7 @@ function renderConteudos(conteudos){
          </a>
        `).join("")}
      </div>
-   </div>
+   </details>
  `).join("");
 }
 

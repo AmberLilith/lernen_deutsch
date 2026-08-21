@@ -14,23 +14,121 @@
 <div class="panel" id="panel"><div class="progress"><span></span></div><div id="exercicios-scroll"><div id="exercicios"></div><div id="pontuacao" class="score"></div><button type="button" id="maisExercicios">Exibir mais 10</button><div id="fimLista"></div></div><div class="controls"><button type="button" id="corrigir">Corrigir</button><button type="button" id="resetar">Resetar</button></div></div></main>
 <footer class="site-footer"><div class="footer-inner"><span>Material de estudo pessoal</span><a href="../index.html">← Início</a></div></footer>
 <script>
-const exercicios=[
-[1,'Localização com uma Wechselpräposition responde a qual pergunta?','Wo?'],[2,'Movimento ou direção para um destino responde a qual pergunta?','Wohin?'],[3,'Qual caso usamos normalmente depois de uma Wechselpräposition quando respondemos a Wo?','Dativ'],[4,'Qual caso usamos normalmente depois de uma Wechselpräposition quando respondemos a Wohin?','Akkusativ'],[5,'Complete: Das Buch liegt ___ Tisch. (sobre a mesa)','auf dem'],[6,'Complete: Ich lege das Buch ___ Tisch. (sobre a mesa, colocando-o)','auf den'],[7,'Complete: Der Mann sitzt ___ Stuhl. (sobre a cadeira)','auf dem'],[8,'Complete: Der Mann setzt sich ___ Stuhl. (sobre a cadeira, sentando-se)','auf den'],[9,'Complete: Das Auto steht ___ Garage. (dentro da garagem)','in der'],[10,'Complete: Ich stelle das Auto ___ Garage. (para dentro da garagem)','in die'],[11,'Complete: Die Lampe hängt ___ Wand. (na parede)','an der'],[12,'Complete: Sie hängt die Lampe ___ Wand. (na parede, colocando-a)','an die'],[13,'Complete: Der Hund liegt ___ Sofa. (sobre o sofá)','auf dem'],[14,'Complete: Der Hund springt ___ Sofa. (para cima do sofá)','auf das'],[15,'Complete: Die Schuhe stehen ___ Bett. (debaixo da cama)','unter dem'],[16,'Complete: Ich stelle die Schuhe ___ Bett. (debaixo da cama, colocando-os)','unter das'],[17,'Complete: Der Schrank steht ___ Fenster. (ao lado da janela)','neben dem'],[18,'Complete: Ich stelle den Schrank ___ Fenster. (ao lado da janela, colocando-o)','neben das'],[19,'Complete: Die Katze schläft ___ Tisch. (debaixo da mesa)','unter dem'],[20,'Complete: Die Katze läuft ___ Tisch. (para debaixo da mesa)','unter den'],[21,'Qual preposição completa a frase? Das Bild hängt ___ Wand. (na parede)','an der'],[22,'Qual preposição completa a frase? Er hängt das Bild ___ Wand. (na parede, colocando-o)','an die'],[23,'Qual preposição completa a frase? Der Schlüssel liegt ___ Tasche. (dentro da bolsa)','in der'],[24,'Qual preposição completa a frase? Ich lege den Schlüssel ___ Tasche. (dentro da bolsa, colocando-o)','in die'],[25,'Qual preposição completa a frase? Die Kinder spielen ___ Garten. (dentro do jardim)','in dem'],[26,'Qual preposição completa a frase? Die Kinder gehen ___ Garten. (para dentro do jardim)','in den'],[27,'Qual caso aparece em: Die Tasche liegt auf dem Stuhl?','Dativ'],[28,'Qual caso aparece em: Ich lege die Tasche auf den Stuhl?','Akkusativ'],[29,'Qual caso aparece em: Der Vogel sitzt auf dem Baum?','Dativ'],[30,'Qual caso aparece em: Der Vogel fliegt auf den Baum?','Akkusativ'],[31,'Traduza: O livro está sobre a mesa.','Das Buch liegt auf dem Tisch.'],[32,'Traduza: Eu coloco o livro sobre a mesa.','Ich lege das Buch auf den Tisch.'],[33,'Traduza: A cadeira está ao lado da cama.','Der Stuhl steht neben dem Bett.'],[34,'Traduza: Eu coloco a cadeira ao lado da cama.','Ich stelle den Stuhl neben das Bett.'],[35,'Traduza: O carro está na frente da casa.','Das Auto steht vor dem Haus.'],[36,'Traduza: Ele coloca o carro na frente da casa.','Er stellt das Auto vor das Haus.'],[37,'Traduza: O gato está atrás do sofá.','Die Katze ist hinter dem Sofa.'],[38,'Traduza: O gato vai para trás do sofá.','Die Katze geht hinter das Sofa.'],[39,'Traduza: A bicicleta está entre a casa e a garagem.','Das Fahrrad steht zwischen dem Haus und der Garage.'],[40,'Traduza: Ele coloca a bicicleta entre a casa e a garagem.','Er stellt das Fahrrad zwischen das Haus und die Garage.'],[41,'Transforme para indicar localização: Ich lege das Buch auf den Tisch. Use "das Buch" como sujeito.','Das Buch liegt auf dem Tisch.'],[42,'Transforme para indicar ação/direção: Das Buch liegt auf dem Tisch. Use "ich" como sujeito.','Ich lege das Buch auf den Tisch.'],[43,'Transforme para indicar localização: Ich stelle die Flasche auf den Tisch. Use "die Flasche" como sujeito.','Die Flasche steht auf dem Tisch.'],[44,'Transforme para indicar ação/direção: Die Flasche steht auf dem Tisch. Use "ich" como sujeito.','Ich stelle die Flasche auf den Tisch.'],[45,'Complete: Der Mann sitzt ___ Sofa, aber er setzt sich später ___ Sessel. (sobre o sofá / para dentro da poltrona)','auf dem / in den'],[46,'Complete: Die Lampe hängt ___ Decke, und ich hänge eine zweite Lampe ___ Decke. (na parede / na parede, colocando-a)','an der / an die'],[47,'Complete: Das Kind ist ___ Zimmer, dann läuft es ___ Küche. (dentro do quarto / para dentro da cozinha)','in dem / in die'],[48,'Complete: Der Teppich liegt ___ Tisch, und sie legt ihn ___ Tisch. (debaixo da mesa / para debaixo da mesa)','unter dem / unter den'],[49,'Traduza: O quadro está na parede, mas ela o pendura em outra parede.','Das Bild hängt an der Wand, aber sie hängt es an eine andere Wand.'],[50,'Traduza: O homem está sentado na cadeira e coloca o livro sobre a mesa.','Der Mann sitzt auf dem Stuhl und legt das Buch auf den Tisch.']
+const exerciciosBase = [
+    [1, "Localização com uma Wechselpräposition responde a qual pergunta?", "Wo?"],
+    [2, "Movimento ou direção para um destino responde a qual pergunta?", "Wohin?"],
+    [3, "Qual caso usamos normalmente depois de uma Wechselpräposition quando respondemos a Wo?", "Dativ"],
+    [4, "Qual caso usamos normalmente depois de uma Wechselpräposition quando respondemos a Wohin?", "Akkusativ"],
+    [5, "Complete: Das Buch liegt ___ Tisch. (sobre a mesa)", "auf dem"],
+    [6, "Complete: Ich lege das Buch ___ Tisch. (sobre a mesa, colocando-o)", "auf den"],
+    [7, "Complete: Der Mann sitzt ___ Stuhl. (sobre a cadeira)", "auf dem"],
+    [8, "Complete: Der Mann setzt sich ___ Stuhl. (sobre a cadeira, sentando-se)", "auf den"],
+    [9, "Complete: Das Auto steht ___ Garage. (dentro da garagem)", "in der"],
+    [10, "Complete: Ich stelle das Auto ___ Garage. (para dentro da garagem)", "in die"],
+    [11, "Complete: Die Lampe hängt ___ Wand. (na parede)", "an der"],
+    [12, "Complete: Sie hängt die Lampe ___ Wand. (na parede, colocando-a)", "an die"],
+    [13, "Complete: Der Hund liegt ___ Sofa. (sobre o sofá)", "auf dem"],
+    [14, "Complete: Der Hund springt ___ Sofa. (para cima do sofá)", "auf das"],
+    [15, "Complete: Die Schuhe stehen ___ Bett. (debaixo da cama)", "unter dem"],
+    [16, "Complete: Ich stelle die Schuhe ___ Bett. (debaixo da cama, colocando-os)", "unter das"],
+    [17, "Complete: Der Schrank steht ___ Fenster. (ao lado da janela)", "neben dem"],
+    [18, "Complete: Ich stelle den Schrank ___ Fenster. (ao lado da janela, colocando-o)", "neben das"],
+    [19, "Complete: Die Katze schläft ___ Tisch. (debaixo da mesa)", "unter dem"],
+    [20, "Complete: Die Katze läuft ___ Tisch. (para debaixo da mesa)", "unter den"],
+    [21, "Qual preposição completa a frase? Das Bild hängt ___ Wand. (na parede)", "an der"],
+    [22, "Qual preposição completa a frase? Er hängt das Bild ___ Wand. (na parede, colocando-o)", "an die"],
+    [23, "Qual preposição completa a frase? Der Schlüssel liegt ___ Tasche. (dentro da bolsa)", "in der"],
+    [24, "Qual preposição completa a frase? Ich lege den Schlüssel ___ Tasche. (dentro da bolsa, colocando-o)", "in die"],
+    [25, "Qual preposição completa a frase? Die Kinder spielen ___ Garten. (dentro do jardim)", "in dem"],
+    [26, "Qual preposição completa a frase? Die Kinder gehen ___ Garten. (para dentro do jardim)", "in den"],
+    [27, "Qual caso aparece em: Die Tasche liegt auf dem Stuhl?", "Dativ"],
+    [28, "Qual caso aparece em: Ich lege die Tasche auf den Stuhl?", "Akkusativ"],
+    [29, "Qual caso aparece em: Der Vogel sitzt auf dem Baum?", "Dativ"],
+    [30, "Qual caso aparece em: Der Vogel fliegt auf den Baum?", "Akkusativ"],
+    [31, "Traduza: O livro está sobre a mesa.", "Das Buch liegt auf dem Tisch."],
+    [32, "Traduza: Eu coloco o livro sobre a mesa.", "Ich lege das Buch auf den Tisch."],
+    [33, "Traduza: A cadeira está ao lado da cama.", "Der Stuhl steht neben dem Bett."],
+    [34, "Traduza: Eu coloco a cadeira ao lado da cama.", "Ich stelle den Stuhl neben das Bett."],
+    [35, "Traduza: O carro está na frente da casa.", "Das Auto steht vor dem Haus."],
+    [36, "Traduza: Ele coloca o carro na frente da casa.", "Er stellt das Auto vor das Haus."],
+    [37, "Traduza: O gato está atrás do sofá.", "Die Katze ist hinter dem Sofa."],
+    [38, "Traduza: O gato vai para trás do sofá.", "Die Katze geht hinter das Sofa."],
+    [39, "Traduza: A bicicleta está entre a casa e a garagem.", "Das Fahrrad steht zwischen dem Haus und der Garage."],
+    [40, "Traduza: Ele coloca a bicicleta entre a casa e a garagem.", "Er stellt das Fahrrad zwischen das Haus und die Garage."],
+    [41, "Transforme para indicar localização: Ich lege das Buch auf den Tisch. Use \"das Buch\" como sujeito.", "Das Buch liegt auf dem Tisch."],
+    [42, "Transforme para indicar ação/direção: Das Buch liegt auf dem Tisch. Use \"ich\" como sujeito.", "Ich lege das Buch auf den Tisch."],
+    [43, "Transforme para indicar localização: Ich stelle die Flasche auf den Tisch. Use \"die Flasche\" como sujeito.", "Die Flasche steht auf dem Tisch."],
+    [44, "Transforme para indicar ação/direção: Die Flasche steht auf dem Tisch. Use \"ich\" como sujeito.", "Ich stelle die Flasche auf den Tisch."],
+    [45, "Complete: Der Mann sitzt ___ Sofa, aber er setzt sich später ___ Sessel. (sobre o sofá / para dentro da poltrona)", "auf dem / in den"],
+    [46, "Complete: Die Lampe hängt ___ Decke, und ich hänge eine zweite Lampe ___ Decke. (no teto / no teto, colocando-a)", "an der / an die"],
+    [47, "Complete: Das Kind ist ___ Zimmer, dann läuft es ___ Küche. (dentro do quarto / para dentro da cozinha)", "in dem / in die"],
+    [48, "Complete: Der Teppich liegt ___ Tisch, und sie legt ihn ___ Tisch. (debaixo da mesa / para debaixo da mesa)", "unter dem / unter den"],
+    [49, "Traduza: O quadro está na parede, mas ela o pendura em outra parede.", "Das Bild hängt an der Wand, aber sie hängt es an eine andere Wand."],
+    [50, "Traduza: O homem está sentado na cadeira e coloca o livro sobre a mesa.", "Der Mann sitzt auf dem Stuhl und legt das Buch auf den Tisch."]
 ];
+
+const novosVocabulos = [
+    ["der Schrank", "armário", "neben dem Schrank", "neben den Schrank", "ao lado do armário", "para o lado do armário"],
+    ["die Kommode", "cômoda", "vor der Kommode", "vor die Kommode", "em frente à cômoda", "para a frente da cômoda"],
+    ["das Regal", "estante", "über dem Regal", "über das Regal", "sobre a estante", "para cima da estante"],
+    ["der Boden", "chão", "auf dem Boden", "auf den Boden", "no chão", "para o chão"],
+    ["die Decke", "teto", "an der Decke", "an die Decke", "no teto", "para o teto"],
+    ["der Balkon", "varanda", "auf dem Balkon", "auf den Balkon", "na varanda", "para a varanda"],
+    ["die Terrasse", "terraço", "auf der Terrasse", "auf die Terrasse", "no terraço", "para o terraço"],
+    ["der Keller", "porão", "im Keller", "in den Keller", "no porão", "para o porão"],
+    ["der Dachboden", "sótão", "auf dem Dachboden", "auf den Dachboden", "no sótão", "para o sótão"],
+    ["der Flur", "corredor", "im Flur", "in den Flur", "no corredor", "para o corredor"],
+    ["das Schlafzimmer", "quarto de dormir", "im Schlafzimmer", "ins Schlafzimmer", "no quarto de dormir", "para o quarto de dormir"],
+    ["das Wohnzimmer", "sala de estar", "im Wohnzimmer", "ins Wohnzimmer", "na sala de estar", "para a sala de estar"],
+    ["das Badezimmer", "banheiro", "im Badezimmer", "ins Badezimmer", "no banheiro", "para o banheiro"],
+    ["das Büro", "escritório", "im Büro", "ins Büro", "no escritório", "para o escritório"],
+    ["die Bibliothek", "biblioteca", "in der Bibliothek", "in die Bibliothek", "na biblioteca", "para a biblioteca"],
+    ["das Museum", "museu", "im Museum", "ins Museum", "no museu", "para o museu"],
+    ["das Theater", "teatro", "im Theater", "ins Theater", "no teatro", "para o teatro"],
+    ["die Universität", "universidade", "an der Universität", "an die Universität", "na universidade", "para a universidade"],
+    ["das Klassenzimmer", "sala de aula", "im Klassenzimmer", "ins Klassenzimmer", "na sala de aula", "para a sala de aula"],
+    ["das Hotelzimmer", "quarto de hotel", "im Hotelzimmer", "ins Hotelzimmer", "no quarto de hotel", "para o quarto de hotel"],
+    ["die Rezeption", "recepção", "an der Rezeption", "an die Rezeption", "na recepção", "para a recepção"],
+    ["der Eingang", "entrada", "am Eingang", "an den Eingang", "na entrada", "para a entrada"],
+    ["der Ausgang", "saída", "am Ausgang", "an den Ausgang", "na saída", "para a saída"],
+    ["der Tunnel", "túnel", "im Tunnel", "in den Tunnel", "no túnel", "para o túnel"],
+    ["der Parkplatz", "estacionamento", "auf dem Parkplatz", "auf den Parkplatz", "no estacionamento", "para o estacionamento"],
+    ["der Hof", "pátio", "im Hof", "in den Hof", "no pátio", "para o pátio"],
+    ["das Dach", "telhado", "auf dem Dach", "auf das Dach", "no telhado", "para o telhado"],
+    ["die Werkstatt", "oficina", "in der Werkstatt", "in die Werkstatt", "na oficina", "para a oficina"],
+    ["das Fensterbrett", "peitoril da janela", "auf dem Fensterbrett", "auf das Fensterbrett", "no peitoril da janela", "para o peitoril da janela"],
+    ["der Schreibtisch", "escrivaninha", "auf dem Schreibtisch", "auf den Schreibtisch", "sobre a escrivaninha", "para cima da escrivaninha"],
+    ["die Schublade", "gaveta", "in der Schublade", "in die Schublade", "na gaveta", "para a gaveta"],
+    ["der Korb", "cesto", "im Korb", "in den Korb", "no cesto", "para o cesto"],
+    ["die Kiste", "caixa", "in der Kiste", "in die Kiste", "na caixa", "para a caixa"],
+    ["der Eimer", "balde", "neben dem Eimer", "neben den Eimer", "ao lado do balde", "para o lado do balde"],
+    ["die Pflanze", "planta", "vor der Pflanze", "vor die Pflanze", "em frente à planta", "para a frente da planta"],
+    ["der Vorhang", "cortina", "hinter dem Vorhang", "hinter den Vorhang", "atrás da cortina", "para trás da cortina"],
+    ["das Kissen", "almofada", "auf dem Kissen", "auf das Kissen", "sobre a almofada", "para cima da almofada"],
+    ["die Matratze", "colchão", "auf der Matratze", "auf die Matratze", "sobre o colchão", "para cima do colchão"],
+    ["der Sessel", "poltrona", "neben dem Sessel", "neben den Sessel", "ao lado da poltrona", "para o lado da poltrona"],
+    ["die Vase", "vaso", "auf dem Fensterbrett", "auf das Fensterbrett", "sobre o peitoril da janela", "para cima do peitoril da janela"]
+];
+
+const exercicios = [...exerciciosBase];
+let proximoId = 51;
+novosVocabulos.forEach(([substantivo, significado, localizacao, direcao, localizacaoPt, direcaoPt]) => {
+    exercicios.push(
+        [proximoId++, `Complete a frase: Der Gegenstand befindet sich ___ . (${localizacaoPt}; significado de ${substantivo}: ${significado})`, localizacao],
+        [proximoId++, `Complete a frase de ação/direção: Ich bringe den Gegenstand ___ . (${direcaoPt}; significado de ${substantivo}: ${significado})`, direcao],
+        [proximoId++, `Traduza para o alemão: O objeto está ${localizacaoPt}. (palavra-alvo: ${substantivo})`, `Der Gegenstand befindet sich ${localizacao}.`],
+        [proximoId++, `Transforme para indicar ação/direção: Der Gegenstand befindet sich ${localizacao}. Use "ich" como sujeito. (destino: ${direcaoPt}; palavra-alvo: ${substantivo})`, `Ich bringe den Gegenstand ${direcao}.`],
+        [proximoId++, `Traduza para o português: Der Gegenstand befindet sich ${localizacao}. (palavra-alvo: ${substantivo})`, `O objeto está ${localizacaoPt}.`]
+    );
+});
 
 const quantidadePorPagina=10;let quantidadeExibida=0;let exerciciosEmbaralhados=[];
 function embaralhar(array){const copia=[...array];for(let i=copia.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copia[i],copia[j]]=[copia[j],copia[i]]}return copia}
 function normalizar(texto){return texto.trim().toLocaleLowerCase('de-DE').replace(/\s+/g,' ')}
-function criarQuestao(item, numeroExibicao){const [,enunciado,respostaCorreta]=item;const questao=document.createElement('div');questao.className='question';questao.dataset.indiceArray=exerciciosEmbaralhados.indexOf(item);
-const prompt=document.createElement('div');prompt.className='prompt';prompt.appendChild(document.createTextNode(`${numeroExibicao}. ${enunciado}`));
-const botaoResposta=document.createElement('button');botaoResposta.type='button';botaoResposta.className='answer-btn';botaoResposta.textContent='Ver resposta';
-const respostaDiv=document.createElement('div');respostaDiv.className='correct-answer';respostaDiv.textContent=`Resposta: ${respostaCorreta}`;
-botaoResposta.addEventListener('click',()=>{respostaDiv.classList.toggle('visible');botaoResposta.textContent=respostaDiv.classList.contains('visible')?'Ocultar resposta':'Ver resposta'});prompt.appendChild(botaoResposta);
-const input=document.createElement('input');input.className='answer-input';input.type='text';input.autocomplete='off';input.placeholder='Escreva sua resposta...';
-const feedback=document.createElement('div');feedback.className='feedback';questao.append(prompt,input,feedback,respostaDiv);return questao}
+function criarQuestao(item,numeroExibicao){const [,enunciado,respostaCorreta]=item;const questao=document.createElement('div');questao.className='question';questao.dataset.id=item[0];const prompt=document.createElement('div');prompt.className='prompt';prompt.appendChild(document.createTextNode(`${numeroExibicao}. ${enunciado}`));const botaoResposta=document.createElement('button');botaoResposta.type='button';botaoResposta.className='answer-btn';botaoResposta.textContent='Ver resposta';const respostaDiv=document.createElement('div');respostaDiv.className='correct-answer';respostaDiv.textContent=`Resposta: ${respostaCorreta}`;botaoResposta.addEventListener('click',()=>{respostaDiv.classList.toggle('visible');botaoResposta.textContent=respostaDiv.classList.contains('visible')?'Ocultar resposta':'Ver resposta'});prompt.appendChild(botaoResposta);const input=document.createElement('input');input.className='answer-input';input.type='text';input.autocomplete='off';input.placeholder='Escreva sua resposta...';const feedback=document.createElement('div');feedback.className='feedback';questao.append(prompt,input,feedback,respostaDiv);return questao}
 function exibirMais(){const container=document.getElementById('exercicios');const fim=Math.min(quantidadeExibida+quantidadePorPagina,exerciciosEmbaralhados.length);for(let i=quantidadeExibida;i<fim;i++)container.appendChild(criarQuestao(exerciciosEmbaralhados[i],i+1));quantidadeExibida=fim;atualizarPaginacao()}
 function atualizarPaginacao(){const botao=document.getElementById('maisExercicios');const fim=document.getElementById('fimLista');const terminou=quantidadeExibida>=exerciciosEmbaralhados.length;botao.disabled=terminou;fim.textContent=terminou?'A lista de exercícios chegou ao fim.':''}
-function corrigir(){let acertos=0;const questoes=document.querySelectorAll('.question');questoes.forEach(questao=>{const indice=Number(questao.dataset.indiceArray);const item=exerciciosEmbaralhados[indice];const input=questao.querySelector('.answer-input');const feedback=questao.querySelector('.feedback');const correta=normalizar(input.value)===normalizar(item[2]);input.style.borderColor=correta?'#4caf50':'#e05252';feedback.textContent=correta?'✓ Correto':'✗';feedback.className=`feedback ${correta?'correct':'incorrect'}`;if(correta)acertos++});const score=document.getElementById('pontuacao');score.textContent=`Resultado: ${acertos} de ${questoes.length} questões corretas.`;score.style.display='block'}
+function corrigir(){let acertos=0;const questoes=document.querySelectorAll('.question');questoes.forEach(questao=>{const id=Number(questao.dataset.id);const item=exerciciosEmbaralhados.find(exercicio=>exercicio[0]===id);const input=questao.querySelector('.answer-input');const feedback=questao.querySelector('.feedback');const correta=normalizar(input.value)===normalizar(item[2]);input.style.borderColor=correta?'#4caf50':'#e05252';feedback.textContent=correta?'✓ Correto':'✗';feedback.className=`feedback ${correta?'correct':'incorrect'}`;if(correta)acertos++});const score=document.getElementById('pontuacao');score.textContent=`Resultado: ${acertos} de ${questoes.length} questões corretas.`;score.style.display='block'}
 function resetar(){document.getElementById('exercicios').innerHTML='';document.getElementById('pontuacao').textContent='';document.getElementById('pontuacao').style.display='none';quantidadeExibida=0;exibirMais()}
 document.getElementById('corrigir').addEventListener('click',corrigir);document.getElementById('resetar').addEventListener('click',resetar);document.getElementById('maisExercicios').addEventListener('click',exibirMais);exerciciosEmbaralhados=embaralhar(exercicios);exibirMais();
 </script>

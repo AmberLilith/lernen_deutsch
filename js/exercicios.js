@@ -34,8 +34,8 @@ export const exercicios = [
   {
     tema: "Preposições",
     itens: [
-      { arquivo: "preposicoes.html", titulo: "Preposições", detalhe: "44 exercícios" },
-      { arquivo: "wechsel.html", titulo: "Wechselpräpositionen", detalhe: "50 exercícios" }
+      { arquivo: "preposicoes.html", titulo: "Preposições", detalhe: "", contagemDinamica: true },
+      { arquivo: "wechsel.html", titulo: "Wechselpräpositionen", detalhe: "", contagemDinamica: true }
     ]
   },
   {

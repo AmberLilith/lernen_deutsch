@@ -89,11 +89,34 @@ function renderLessonNav(conteudos){
  `;
 }
 
-function renderExercicios(grupos){
+async function contarExercicios(item){
+ if(!item.contagemDinamica) return item.detalhe;
+
+ try{
+   const resposta = await fetch(`exercicios/${item.arquivo}`);
+   if(!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
+   const html = await resposta.text();
+   const quantidade = (html.match(/data-answer\s*=/g) || []).length;
+   return `${quantidade} exercícios`;
+ }catch(error){
+   console.error(`Não foi possível contar os exercícios de ${item.arquivo}:`, error);
+   return "Exercícios";
+ }
+}
+
+async function renderExercicios(grupos){
  const container = document.querySelector("#exercicios-dinamicos");
  if(!container) return;
 
- container.innerHTML = grupos.map(grupo => `
+ const gruposRenderizados = await Promise.all(grupos.map(async grupo => ({
+   ...grupo,
+   itens: await Promise.all(grupo.itens.map(async item => ({
+     ...item,
+     detalhe: await contarExercicios(item)
+   })))
+ })));
+
+ container.innerHTML = gruposRenderizados.map(grupo => `
    <details class="exercise-group">
      <summary>${grupo.tema}</summary>
      <div class="exercise-list">
@@ -108,9 +131,9 @@ function renderExercicios(grupos){
  `).join("");
 }
 
-function inicializar(conteudos, exercicios){
+async function inicializar(conteudos, exercicios){
  renderConteudos(conteudos);
- renderExercicios(exercicios);
+ await renderExercicios(exercicios);
  renderLessonNav(conteudos);
  document.querySelectorAll(".answer-input").forEach(i=>i.addEventListener("keydown",e=>{if(e.key==="Enter")checkExercise();}));
 }

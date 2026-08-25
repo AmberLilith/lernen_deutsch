@@ -43,5 +43,10 @@ const listaVerbos = [
     ["sich fühlen", "sentir-se", "gefühlt", "haben"],
     ["sich setzen", "sentar-se", "gesetzt", "haben"],
     ["sich beeilen", "apressar-se", "beeilt", "haben"],
-    ["sich erinnern", "lembrar-se", "erinnert", "haben"]
+    ["sich erinnern", "lembrar-se", "erinnert", "haben"],
+    ["liegen", "estar deitado", "lag", "hat gelegen", "haben"],
+    ["stehen", "estar em pé", "stand", "hat gestanden", "haben"],
+    ["legen", "colocar deitado", "legte", "hat gelegt", "haben"],
+    ["stellen", "colocar em pé", "stellte", "hat gestellt", "haben"],
+    ["hängen", "pendurar / estar pendurado", "hing / hängte", "hat gehangen / hat gehängt", "haben"]
 ];

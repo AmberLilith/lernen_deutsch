@@ -21,6 +21,7 @@ export const conteudos = [
   { arquivo: "subordinadas.html", titulo: "Orações subordinadas", descricao: "weil, dass, wenn, als, ob e outras conjunções subordinativas", categoria: "Estrutura das frases", tag: "Estrutura" },
   { arquivo: "preposicoes.html", titulo: "Preposições", descricao: "mit, bei, von, zu, aus, nach e outras", categoria: "Preposições", tag: "Preposições" },
   { arquivo: "wechsel.html", titulo: "Wechselpräpositionen", descricao: "movimento/direção x localização", categoria: "Preposições", tag: "Preposições" },
+  { arquivo: "verbos-preposicionais.html", titulo: "Verbos preposicionais", descricao: "verbos com preposição fixa, casos, wo(r)-/da(r)-, tempos verbais e subordinadas", categoria: "Preposições", tag: "Gramática" },
   { arquivo: "adjetivos.html", titulo: "Adjetivos", descricao: "declinação com artigos definidos, indefinidos e sem artigo", categoria: "Adjetivos e vocabulário", tag: "Gramática" },
   { arquivo: "vocabulario_substantivos.html", titulo: "Vocabulário de substantivos acumulado", descricao: "palavras e expressões trabalhadas durante o percurso", categoria: "Adjetivos e vocabulário", tag: "Vocabulário" },
   { arquivo: "indefinidos-plural.html", titulo: "Indefinidos no plural", descricao: "einige, manche e ausência de artigo", categoria: "Adjetivos e vocabulário", tag: "Gramática" }

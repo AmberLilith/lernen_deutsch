@@ -35,6 +35,7 @@ export const exercicios = [
     tema: "Preposições",
     itens: [
       { arquivo: "preposicoes.html", titulo: "Preposições", detalhe: "", contagemDinamica: true },
+      { arquivo: "sich-freuen-auf-ueber.html", titulo: "sich freuen auf × über", detalhe: "10 itens", contagemDinamica: true },
       { arquivo: "wechsel.html", titulo: "Wechselpräpositionen", detalhe: "", contagemDinamica: true }
     ]
   },

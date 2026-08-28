@@ -4,7 +4,10 @@
 
 #lista-verbos {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(230px, 1fr)
+    );
     gap: 14px;
 }
 
@@ -14,13 +17,20 @@
     background: #fafafa;
     padding: 16px;
     cursor: pointer;
-    transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+
+    transition:
+        transform .12s ease,
+        box-shadow .12s ease,
+        border-color .12s ease;
 }
 
 .verbo-card:hover {
     transform: translateY(-2px);
+
     border-color: #bbb;
-    box-shadow: 0 3px 10px rgba(0,0,0,.08);
+
+    box-shadow:
+        0 3px 10px rgba(0, 0, 0, .08);
 }
 
 .verbo-card h3 {
@@ -33,6 +43,11 @@
     color: #555;
 }
 
+.verbo-card .preterito-card {
+    margin-top: 9px;
+    color: #333;
+}
+
 .verbo-card .partizip {
     font-size: 14px;
     color: #777;
@@ -40,18 +55,24 @@
 
 #pesquisa-verbo {
     width: 100%;
+
     padding: 11px 13px;
     margin-bottom: 20px;
+
     border: 1px solid #bbb;
     border-radius: 6px;
+
     font-size: 16px;
 }
 
 .paginacao-verbos {
     display: flex;
+
     align-items: center;
     justify-content: center;
+
     gap: 18px;
+
     margin-top: 24px;
 }
 
@@ -66,16 +87,28 @@
 
 #resultado-pesquisa {
     margin: 0 0 14px;
+
     color: #666;
+
     font-size: 14px;
 }
 
+/* =========================
+   MODAL
+   ========================= */
+
 #modal-verbo {
     position: fixed;
+
     inset: 0;
+
     display: none;
-    background: rgba(0, 0, 0, .58);
+
+    background:
+        rgba(0, 0, 0, .58);
+
     z-index: 2000;
+
     overflow-y: auto;
 }
 
@@ -85,44 +118,69 @@
 
 .modal-conteudo {
     min-height: 100vh;
+
     background: #fff;
-    padding: 28px max(20px, calc((100vw - 1100px) / 2));
+
+    padding:
+        28px
+        max(
+            20px,
+            calc(
+                (100vw - 1100px) / 2
+            )
+        );
 }
 
 .modal-topo {
     display: flex;
+
     align-items: flex-start;
     justify-content: space-between;
+
     gap: 20px;
+
     margin-bottom: 22px;
 }
 
 .modal-topo h2 {
     margin: 0;
+
     font-size: 30px;
 }
 
 .modal-topo p {
     margin: 7px 0 0;
+
     color: #666;
 }
 
 #fechar-modal {
     flex: 0 0 auto;
+
     font-size: 24px;
     line-height: 1;
+
     padding: 8px 12px;
+
     background: #eee;
 }
 
 .info-verbo {
     display: flex;
+
     flex-wrap: wrap;
+
     gap: 10px 24px;
+
     padding: 14px 16px;
+
     margin-bottom: 24px;
+
     background: #f7f7f7;
-    border: 1px solid #e5e5e5;
+
+    border:
+        1px solid #e5e5e5;
+
     border-radius: 7px;
 }
 
@@ -130,17 +188,35 @@
     color: #333;
 }
 
+/* =========================
+   TABELAS DE CONJUGAÇÃO
+   ========================= */
+
+.conjugacao-secao {
+    margin-bottom: 30px;
+}
+
+.conjugacao-secao h3 {
+    margin-bottom: 12px;
+}
+
 .tabela-conjugacao {
     width: 100%;
+
     border-collapse: collapse;
-    margin-bottom: 28px;
+
+    margin-bottom: 0;
 }
 
 .tabela-conjugacao th,
 .tabela-conjugacao td {
-    border: 1px solid #ddd;
+    border:
+        1px solid #ddd;
+
     padding: 10px 12px;
+
     text-align: left;
+
     vertical-align: top;
 }
 
@@ -153,10 +229,18 @@
     width: 120px;
 }
 
+/* =========================
+   FUTURO
+   ========================= */
+
 .futuro-presente {
     padding: 16px;
+
     background: #f7f7f7;
-    border-left: 4px solid #888;
+
+    border-left:
+        4px solid #888;
+
     border-radius: 5px;
 }
 
@@ -166,17 +250,25 @@
 
 .sem-resultados {
     text-align: center;
+
     color: #666;
+
     padding: 30px 10px;
 }
 
+/* =========================
+   RESPONSIVO
+   ========================= */
+
 @media (max-width: 700px) {
+
     #lista-verbos {
         grid-template-columns: 1fr;
     }
 
     .modal-conteudo {
-        padding: 20px 14px;
+        padding:
+            20px 14px;
     }
 
     .modal-topo h2 {

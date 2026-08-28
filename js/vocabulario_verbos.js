@@ -48,5 +48,6 @@ const listaVerbos = [
     ["stehen", "estar em pé", "stand", "hat gestanden", "haben"],
     ["legen", "colocar deitado", "legte", "hat gelegt", "haben"],
     ["stellen", "colocar em pé", "stellte", "hat gestellt", "haben"],
-    ["hängen", "pendurar / estar pendurado", "hing / hängte", "hat gehangen / hat gehängt", "haben"]
+    ["hängen", "pendurar / estar pendurado", "hing / hängte", "hat gehangen / hat gehängt", "haben"],
+    ["schreiben", "escrever", "geschrieben", "haben"]
 ];

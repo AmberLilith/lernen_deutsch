@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>sich freuen auf × über · Alemão</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        #panel{position:relative}
+        #exercicios{display:flex;flex-direction:column;gap:10px}
+        .question{padding:14px 16px;border-radius:6px;background:#fafafa;border:1px solid #e5e5e5}
+        .prompt{font-weight:600;line-height:1.6;margin-bottom:10px}
+        .answer-input{width:min(100%,760px);font-size:16px;padding:9px 10px;border:1px solid #aaa;border-radius:4px}
+        .feedback{display:inline-block;margin-left:8px;font-weight:bold}
+        .feedback.correct{color:var(--green)}
+        .feedback.incorrect{color:var(--red)}
+        .correct-answer{display:none;margin-top:8px;color:#555;font-style:italic}
+        .correct-answer.visible{display:block}
+        #pontuacao{display:none;margin-top:18px;font-weight:bold;font-size:18px}
+        .controls{position:sticky;bottom:0;display:flex;gap:10px;padding:12px 0;background:#f4f1e8;border-top:1px solid #d8d2c4;z-index:10}
+        .controls button{flex:1;padding:10px 18px;border:0;border-radius:5px;cursor:pointer;font-size:15px}
+        #corrigir{background:#333;color:#fff}
+        #resetar{background:#ddd;color:#222}
+        .nota{padding:12px 14px;margin-bottom:16px;background:#f7f7f7;border-left:4px solid #888;border-radius:4px}
+        @media(max-width:600px){.answer-input{width:100%}}
+    </style>
+</head>
+<body>
+<header class="site-header">
+    <nav class="nav">
+        <a class="brand" href="../index.html">Alemão <small>estudos</small></a>
+        <div class="nav-links"><a href="../index.html#conteudos">Conteúdos</a><a href="../index.html#exercicios">Exercícios</a></div>
+    </nav>
+</header>
+
+<main class="container">
+    <div class="breadcrumb"><a href="../index.html">Início</a> / Exercícios / Preposições</div>
+
+    <div class="hero">
+        <div class="eyebrow">Exercício</div>
+        <h1>sich freuen auf × über</h1>
+        <p class="lead">Pratique a diferença entre expectativa e satisfação.</p>
+    </div>
+
+    <div class="panel" id="panel">
+        <div class="nota">
+            <strong>Regra:</strong><br>
+            <b>sich freuen auf</b> → expectativa por algo que ainda vai acontecer ou ser recebido.<br>
+            <b>sich freuen über</b> → alegria por algo que já aconteceu, foi recebido ou já está presente.<br><br>
+            A diferença não é se a coisa existe fisicamente. Um presente pode já existir, mas, se você ainda espera recebê-lo, usa <b>auf</b>.
+        </div>
+
+        <div id="exercicios">
+            <div class="question" data-answer="auf">
+                <div class="prompt">1. Die Reise ist nächste Woche. Ich freue mich ___ die Reise.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
+                <span class="feedback"></span>
+                <div class="correct-answer">Resposta: auf</div>
+            </div>
+
+            <div class="question" data-answer="über">
+                <div class="prompt">2. Ich habe das Geschenk schon bekommen. Ich freue mich ___ das Geschenk.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
+                <span class="feedback"></span>
+                <div class="correct-answer">Resposta: über</div>
+            </div>
+
+            <div class="question" data-answer="auf">
+                <div class="prompt">3. Meine Schwester kommt morgen zu Besuch. Ich freue mich ___ ihren Besuch.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
+                <span class="feedback"></span>
+                <div class="correct-answer">Resposta: auf</div>
+            </div>
+
+            <div class="question" data-answer="über">
+                <div class="prompt">4. Meine Schwester ist gerade angekommen. Ich freue mich ___ ihren Besuch.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
+                <span class="feedback"></span>
+                <div class="correct-answer">Resposta: über</div>
+            </div>
+
+            <div class="question" data-answer="auf">
+                <div class="prompt">5. Das Konzert findet morgen statt. Wir freuen uns ___ das Konzert.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
+                <span class="feedback"></span>
+                <div class="correct-answer">Resposta: auf</div>
+            </div>
+
+            <div class="question" data-answer="über">
+                <div class="prompt">6. Das Konzert war gestern. Wir freuen uns noch immer ___ das Konzert.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
+                <span class="feedback"></span>
+                <div class="correct-answer">Resposta: über</div>
+            </div>
+
+            <div class="question" data-answer="auf">
+                <div class="prompt">7. Das Paket ist schon im Geschäft, aber ich bekomme es morgen. Ich freue mich ___ das Paket.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
+                <span class="feedback"></span>
+                <div class="correct-answer">Resposta: auf</div>
+            </div>
+
+            <div class="question" data-answer="über">
+                <div class="prompt">8. Das Paket ist angekommen und liegt auf dem Tisch. Ich freue mich ___ das Paket.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
+                <span class="feedback"></span>
+                <div class="correct-answer">Resposta: über</div>
+            </div>
+
+            <div class="question" data-answer="auf">
+                <div class="prompt">9. Der Urlaub beginnt nächsten Monat. Ich freue mich ___ den Urlaub.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
+                <span class="feedback"></span>
+                <div class="correct-answer">Resposta: auf</div>
+            </div>
+
+            <div class="question" data-answer="über">
+                <div class="prompt">10. Ich habe eine gute Nachricht bekommen. Ich freue mich ___ die Nachricht.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
+                <span class="feedback"></span>
+                <div class="correct-answer">Resposta: über</div>
+            </div>
+        </div>
+
+        <div id="pontuacao" class="score"></div>
+
+        <div class="controls">
+            <button type="button" id="corrigir">Corrigir</button>
+            <button type="button" id="resetar">Resetar</button>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner"><span>Material de estudo pessoal</span><a href="../index.html">← Início</a></div>
+</footer>
+
+<script src="../js/app.js"></script>
+<script>
+    function corrigirPagina(){
+        document.querySelectorAll('.question').forEach(item=>{
+            const input=item.querySelector('.answer-input');
+            const feedback=item.querySelector('.feedback');
+            const resposta=item.dataset.answer;
+            const valor=input.value.trim().toLowerCase();
+            const correto=valor===resposta;
+
+            feedback.textContent=correto?'✓':'❌';
+            feedback.className='feedback '+(correto?'correct':'incorrect');
+            input.style.borderColor=correto?'var(--green)':'var(--red)';
+
+            if(!correto) item.querySelector('.correct-answer').classList.add('visible');
+            else item.querySelector('.correct-answer').classList.remove('visible');
+        });
+    }
+
+    function resetarPagina(){
+        document.querySelectorAll('.answer-input').forEach(input=>{
+            input.value='';
+            input.style.borderColor='';
+        });
+        document.querySelectorAll('.feedback').forEach(feedback=>{
+            feedback.textContent='';
+            feedback.className='feedback';
+        });
+        document.querySelectorAll('.correct-answer').forEach(answer=>answer.classList.remove('visible'));
+    }
+
+    document.getElementById('corrigir').addEventListener('click',corrigirPagina);
+    document.getElementById('resetar').addEventListener('click',resetarPagina);
+</script>
+</body>
+</html>

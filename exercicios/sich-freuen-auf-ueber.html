@@ -1,173 +1,344 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>sich freuen auf × über · Alemão</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <style>
-        #panel{position:relative}
-        #exercicios{display:flex;flex-direction:column;gap:10px}
-        .question{padding:14px 16px;border-radius:6px;background:#fafafa;border:1px solid #e5e5e5}
-        .prompt{font-weight:600;line-height:1.6;margin-bottom:10px}
-        .answer-input{width:min(100%,760px);font-size:16px;padding:9px 10px;border:1px solid #aaa;border-radius:4px}
-        .feedback{display:inline-block;margin-left:8px;font-weight:bold}
-        .feedback.correct{color:var(--green)}
-        .feedback.incorrect{color:var(--red)}
-        .correct-answer{display:none;margin-top:8px;color:#555;font-style:italic}
-        .correct-answer.visible{display:block}
-        #pontuacao{display:none;margin-top:18px;font-weight:bold;font-size:18px}
-        .controls{position:sticky;bottom:0;display:flex;gap:10px;padding:12px 0;background:#f4f1e8;border-top:1px solid #d8d2c4;z-index:10}
-        .controls button{flex:1;padding:10px 18px;border:0;border-radius:5px;cursor:pointer;font-size:15px}
-        #corrigir{background:#333;color:#fff}
-        #resetar{background:#ddd;color:#222}
-        .nota{padding:12px 14px;margin-bottom:16px;background:#f7f7f7;border-left:4px solid #888;border-radius:4px}
-        @media(max-width:600px){.answer-input{width:100%}}
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Präpositionalverben + da(r)- / wo(r)- · Alemão</title>
+<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-<header class="site-header">
-    <nav class="nav">
-        <a class="brand" href="../index.html">Alemão <small>estudos</small></a>
-        <div class="nav-links"><a href="../index.html#conteudos">Conteúdos</a><a href="../index.html#exercicios">Exercícios</a></div>
-    </nav>
-</header>
+<header class="site-header"><nav class="nav">
+<a class="brand" href="../index.html">Alemão <small>estudos</small></a>
+<div class="nav-links"><a href="../index.html#conteudos">Conteúdos</a><a href="../index.html#exercicios">Exercícios</a></div>
+</nav></header>
 
 <main class="container">
-    <div class="breadcrumb"><a href="../index.html">Início</a> / Exercícios / Preposições</div>
+<div class="breadcrumb"><a href="../index.html">Início</a> / Exercícios / Verbos preposicionais</div>
 
-    <div class="hero">
-        <div class="eyebrow">Exercício</div>
-        <h1>sich freuen auf × über</h1>
-        <p class="lead">Pratique a diferença entre expectativa e satisfação.</p>
-    </div>
+<div class="hero">
+<div class="eyebrow">Exercício</div>
+<h1>Präpositionalverben + da(r)- / wo(r)-</h1>
+<p class="lead">Pratique verbos preposicionais, casos, pronomes pessoais, da(r)-, wo(r)-, Perfekt, Futur I e orações subordinadas.</p>
+</div>
 
-    <div class="panel" id="panel">
-        <div class="nota">
-            <strong>Regra:</strong><br>
-            <b>sich freuen auf</b> → expectativa por algo que ainda vai acontecer ou ser recebido.<br>
-            <b>sich freuen über</b> → alegria por algo que já aconteceu, foi recebido ou já está presente.<br><br>
-            A diferença não é se a coisa existe fisicamente. Um presente pode já existir, mas, se você ainda espera recebê-lo, usa <b>auf</b>.
-        </div>
+<div class="panel">
+<div class="nota">
+<strong>Regra importante:</strong><br>
+<b>sich freuen auf</b> → expectativa por algo que ainda vai acontecer ou ser recebido.<br>
+<b>sich freuen über</b> → alegria por algo que aconteceu, foi recebido ou já está presente.<br><br>
+A diferença não depende de a coisa existir fisicamente. Um presente pode já existir, mas, se você ainda espera recebê-lo, usa <b>auf</b>.
+</div>
 
-        <div id="exercicios">
-            <div class="question" data-answer="auf">
-                <div class="prompt">1. Die Reise ist nächste Woche. Ich freue mich ___ die Reise.</div>
-                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
-                <span class="feedback"></span>
-                <div class="correct-answer">Resposta: auf</div>
-            </div>
+<div class="progress"><span></span></div>
 
-            <div class="question" data-answer="über">
-                <div class="prompt">2. Ich habe das Geschenk schon bekommen. Ich freue mich ___ das Geschenk.</div>
-                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
-                <span class="feedback"></span>
-                <div class="correct-answer">Resposta: über</div>
-            </div>
+<section class="exercise-section">
+<h2>Exercício 1 — Escolha a construção correta</h2>
+<p>Escolha <b>A, B ou C</b>.</p>
 
-            <div class="question" data-answer="auf">
-                <div class="prompt">3. Meine Schwester kommt morgen zu Besuch. Ich freue mich ___ ihren Besuch.</div>
-                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
-                <span class="feedback"></span>
-                <div class="correct-answer">Resposta: auf</div>
-            </div>
+<div class="question" data-answer="A"><div class="prompt">1. Ich ___ meine Familie.<br>A) denke an<br>B) denke auf<br>C) denke für</div><select class="answer-input"><option value="">Escolha...</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select><div class="feedback"></div><div class="correct-answer">Resposta: A</div></div>
+<div class="question" data-answer="B"><div class="prompt">2. Wir ___ die Reise.<br>A) freuen uns über<br>B) freuen uns auf<br>C) freuen uns für</div><select class="answer-input"><option value="">Escolha...</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select><div class="feedback"></div><div class="correct-answer">Resposta: B</div></div>
+<div class="question" data-answer="A"><div class="prompt">3. Sie ___ Musik.<br>A) interessiert sich für<br>B) interessiert sich an<br>C) interessiert sich über</div><select class="answer-input"><option value="">Escolha...</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select><div class="feedback"></div><div class="correct-answer">Resposta: A</div></div>
+<div class="question" data-answer="C"><div class="prompt">4. Er ___ seinen Freund.<br>A) wartet mit<br>B) wartet für<br>C) wartet auf</div><select class="answer-input"><option value="">Escolha...</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select><div class="feedback"></div><div class="correct-answer">Resposta: C</div></div>
+<div class="question" data-answer="A"><div class="prompt">5. Das Kind ___ dem Hund.<br>A) hat Angst vor<br>B) hat Angst auf<br>C) hat Angst für</div><select class="answer-input"><option value="">Escolha...</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select><div class="feedback"></div><div class="correct-answer">Resposta: A</div></div>
+<div class="question" data-answer="B"><div class="prompt">6. Ich ___ meiner Schwester.<br>A) spreche auf<br>B) spreche mit<br>C) spreche für</div><select class="answer-input"><option value="">Escolha...</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select><div class="feedback"></div><div class="correct-answer">Resposta: B</div></div>
+<div class="question" data-answer="A"><div class="prompt">7. Der Student ___ die Prüfung.<br>A) denkt an<br>B) denkt mit<br>C) denkt von</div><select class="answer-input"><option value="">Escolha...</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select><div class="feedback"></div><div class="correct-answer">Resposta: A</div></div>
+<div class="question" data-answer="A"><div class="prompt">8. Sie ___ dem Geschenk.<br>A) freut sich über<br>B) freut sich für<br>C) freut sich an</div><select class="answer-input"><option value="">Escolha...</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select><div class="feedback"></div><div class="correct-answer">Resposta: A</div></div>
+</section>
 
-            <div class="question" data-answer="über">
-                <div class="prompt">4. Meine Schwester ist gerade angekommen. Ich freue mich ___ ihren Besuch.</div>
-                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
-                <span class="feedback"></span>
-                <div class="correct-answer">Resposta: über</div>
-            </div>
+<section class="exercise-section">
+<h2>Exercício 2 — Complete com a preposição</h2>
+<p>Aqui você <b>não precisa escrever a frase inteira</b>.</p>
 
-            <div class="question" data-answer="auf">
-                <div class="prompt">5. Das Konzert findet morgen statt. Wir freuen uns ___ das Konzert.</div>
-                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
-                <span class="feedback"></span>
-                <div class="correct-answer">Resposta: auf</div>
-            </div>
+<div class="question" data-answer="auf"><div class="prompt">1. Ich warte ___ den Bus.</div><input class="answer-input" autocomplete="off"><div class="feedback"></div></div>
+<div class="question" data-answer="an"><div class="prompt">2. Wir denken ___ die Reise.</div><input class="answer-input" autocomplete="off"><div class="feedback"></div></div>
+<div class="question" data-answer="für"><div class="prompt">3. Sie interessiert sich ___ Kunst.</div><input class="answer-input" autocomplete="off"><div class="feedback"></div></div>
+<div class="question" data-answer="mit"><div class="prompt">4. Er spricht ___ seinen Bruder.</div><input class="answer-input" autocomplete="off"><div class="feedback"></div></div>
+<div class="question" data-answer="auf"><div class="prompt">5. Ich freue mich ___ das Wochenende.</div><input class="answer-input" autocomplete="off"><div class="feedback"></div></div>
+<div class="question" data-answer="vor"><div class="prompt">6. Die Kinder haben Angst ___ dem Hund.</div><input class="answer-input" autocomplete="off"><div class="feedback"></div></div>
+<div class="question" data-answer="über"><div class="prompt">7. Ich freue mich ___ das Geschenk.</div><input class="answer-input" autocomplete="off"><div class="feedback"></div></div>
+<div class="question" data-answer="an"><div class="prompt">8. Wir denken ___ unsere Zukunft.</div><input class="answer-input" autocomplete="off"><div class="feedback"></div></div>
+</section>
 
-            <div class="question" data-answer="über">
-                <div class="prompt">6. Das Konzert war gestern. Wir freuen uns noch immer ___ das Konzert.</div>
-                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
-                <span class="feedback"></span>
-                <div class="correct-answer">Resposta: über</div>
-            </div>
+<section class="exercise-section">
+<h2>Exercício 3 — A preposição está fixa ou é Wechselpräposition?</h2>
+<p>Classifique cada <code>auf / an / vor</code> como <b>P</b> = faz parte de um Präpositionalverb ou <b>W</b> = Wechselpräposition usada espacialmente.</p>
 
-            <div class="question" data-answer="auf">
-                <div class="prompt">7. Das Paket ist schon im Geschäft, aber ich bekomme es morgen. Ich freue mich ___ das Paket.</div>
-                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
-                <span class="feedback"></span>
-                <div class="correct-answer">Resposta: auf</div>
-            </div>
+<div class="question" data-answer="P"><div class="prompt">1. Ich warte auf den Bus.</div><select class="answer-input"><option value="">Escolha...</option><option>P</option><option>W</option></select><div class="feedback"></div></div>
+<div class="question" data-answer="W"><div class="prompt">2. Das Buch liegt auf dem Tisch.</div><select class="answer-input"><option value="">Escolha...</option><option>P</option><option>W</option></select><div class="feedback"></div></div>
+<div class="question" data-answer="P"><div class="prompt">3. Ich denke an meine Mutter.</div><select class="answer-input"><option value="">Escolha...</option><option>P</option><option>W</option></select><div class="feedback"></div></div>
+<div class="question" data-answer="W"><div class="prompt">4. Die Tasche hängt an der Wand.</div><select class="answer-input"><option value="">Escolha...</option><option>P</option><option>W</option></select><div class="feedback"></div></div>
+<div class="question" data-answer="P"><div class="prompt">5. Sie hat Angst vor dem Hund.</div><select class="answer-input"><option value="">Escolha...</option><option>P</option><option>W</option></select><div class="feedback"></div></div>
+<div class="question" data-answer="W"><div class="prompt">6. Der Hund steht vor dem Haus.</div><select class="answer-input"><option value="">Escolha...</option><option>P</option><option>W</option></select><div class="feedback"></div></div>
+<div class="question" data-answer="P"><div class="prompt">7. Wir freuen uns auf die Reise.</div><select class="answer-input"><option value="">Escolha...</option><option>P</option><option>W</option></select><div class="feedback"></div></div>
+<div class="question" data-answer="W"><div class="prompt">8. Ich stelle das Buch auf den Tisch.</div><select class="answer-input"><option value="">Escolha...</option><option>P</option><option>W</option></select><div class="feedback"></div></div>
+</section>
 
-            <div class="question" data-answer="über">
-                <div class="prompt">8. Das Paket ist angekommen und liegt auf dem Tisch. Ich freue mich ___ das Paket.</div>
-                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
-                <span class="feedback"></span>
-                <div class="correct-answer">Resposta: über</div>
-            </div>
+<section class="exercise-section">
+<h2>Exercício 4 — Akkusativ ou Dativ?</h2>
+<p>Escreva apenas <b>A</b> ou <b>D</b>.</p>
 
-            <div class="question" data-answer="auf">
-                <div class="prompt">9. Der Urlaub beginnt nächsten Monat. Ich freue mich ___ den Urlaub.</div>
-                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
-                <span class="feedback"></span>
-                <div class="correct-answer">Resposta: auf</div>
-            </div>
+<div class="question" data-answer="A"><div class="prompt">1. warten auf → ___</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="A"><div class="prompt">2. denken an → ___</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="D"><div class="prompt">3. sprechen mit → ___</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="A"><div class="prompt">4. sich interessieren für → ___</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="D"><div class="prompt">5. Angst haben vor → ___</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="A"><div class="prompt">6. sich freuen über → ___</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="A"><div class="prompt">7. sich freuen auf → ___</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="D"><div class="prompt">8. träumen von → ___</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="A"><div class="prompt">9. sprechen über → ___</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="D"><div class="prompt">10. fragen nach → ___</div><input class="answer-input"><div class="feedback"></div></div>
+</section>
 
-            <div class="question" data-answer="über">
-                <div class="prompt">10. Ich habe eine gute Nachricht bekommen. Ich freue mich ___ die Nachricht.</div>
-                <input class="answer-input" type="text" autocomplete="off" placeholder="auf / über">
-                <span class="feedback"></span>
-                <div class="correct-answer">Resposta: über</div>
-            </div>
-        </div>
+<section class="exercise-section">
+<h2>Exercício 5 — Pessoa ou coisa?</h2>
+<p>Decida se deve usar <b>pronome pessoal</b> ou <b>da(r)-</b>.</p>
 
-        <div id="pontuacao" class="score"></div>
+<div class="question" data-answer="ihn"><div class="prompt">1. Ich warte auf meinen Bruder.<br>→ Ich warte auf ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="darauf"><div class="prompt">2. Ich warte auf den Bus.<br>→ Ich warte ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="sie"><div class="prompt">3. Ich denke an meine Mutter.<br>→ Ich denke an ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="daran"><div class="prompt">4. Ich denke an die Reise.<br>→ Ich denke ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="ihm"><div class="prompt">5. Ich spreche mit meinem Freund.<br>→ Ich spreche mit ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="damit"><div class="prompt">6. Ich spreche mit dem Computer.<br>→ Ich arbeite ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="dafür"><div class="prompt">7. Sie interessiert sich für Musik.<br>→ Sie interessiert sich ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="ihn"><div class="prompt">8. Sie interessiert sich für ihren Lehrer.<br>→ Sie interessiert sich für ___.</div><input class="answer-input"><div class="feedback"></div></div>
+</section>
 
-        <div class="controls">
-            <button type="button" id="corrigir">Corrigir</button>
-            <button type="button" id="resetar">Resetar</button>
-        </div>
-    </div>
+<section class="exercise-section">
+<h2>Exercício 6 — Transforme em da(r)-</h2>
+<p>Substitua o complemento destacado por <code>da(r)-</code>.</p>
+<div class="example"><b>Exemplo:</b> Ich warte auf den Bus. → Ich warte <b>darauf</b>.</div>
+
+<div class="question" data-answer="daran"><div class="prompt">1. Ich denke an die Reise.<br>→ Ich denke ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="darüber"><div class="prompt">2. Ich freue mich über das Geschenk.<br>→ Ich freue mich ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="dafür"><div class="prompt">3. Wir interessieren uns für deutsche Musik.<br>→ Wir interessieren uns ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="darüber"><div class="prompt">4. Ich spreche über das Problem.<br>→ Ich spreche ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="darauf"><div class="prompt">5. Sie wartet auf den Urlaub.<br>→ Sie wartet ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="davon"><div class="prompt">6. Er träumt von dem Meer.<br>→ Er träumt ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="damit"><div class="prompt">7. Ich arbeite mit dem Computer.<br>→ Ich arbeite ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="darüber"><div class="prompt">8. Wir sprechen über die neue Wohnung.<br>→ Wir sprechen ___.</div><input class="answer-input"><div class="feedback"></div></div>
+</section>
+
+<section class="exercise-section">
+<h2>Exercício 7 — Agora faça o contrário</h2>
+<p>Substitua <code>da(r)-</code> pelo substantivo. Você pode escolher qualquer substantivo adequado do vocabulário do projeto.</p>
+
+<div class="question free-response"><div class="prompt">1. Ich warte darauf.<br>→ Ich warte auf __________.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question free-response"><div class="prompt">2. Ich denke daran.<br>→ Ich denke an __________.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question free-response"><div class="prompt">3. Sie freut sich darüber.<br>→ Sie freut sich über __________.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question free-response"><div class="prompt">4. Wir interessieren uns dafür.<br>→ Wir interessieren uns für __________.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question free-response"><div class="prompt">5. Er träumt davon.<br>→ Er träumt von __________.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question free-response"><div class="prompt">6. Ich arbeite damit.<br>→ Ich arbeite mit __________.</div><input class="answer-input"><div class="feedback"></div></div>
+</section>
+
+<section class="exercise-section">
+<h2>Exercício 8 — wo(r)- ou preposição + quem?</h2>
+<p>Complete a pergunta.</p>
+
+<div class="question" data-answer="worauf"><div class="prompt">1. Ich warte auf den Bus.<br>→ ___ wartest du?</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="auf wen"><div class="prompt">2. Ich warte auf meinen Bruder.<br>→ ___ wartest du?</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="woran"><div class="prompt">3. Ich denke an die Reise.<br>→ ___ denkst du?</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="an wen"><div class="prompt">4. Ich denke an meine Schwester.<br>→ ___ denkst du?</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="mit wem"><div class="prompt">5. Ich spreche mit dem Lehrer.<br>→ ___ sprichst du?</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="mit wem"><div class="prompt">6. Ich spreche mit meiner Mutter.<br>→ ___ sprichst du?</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="wofür"><div class="prompt">7. Sie interessiert sich für Musik.<br>→ ___ interessiert sie sich?</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="für wen"><div class="prompt">8. Sie interessiert sich für ihren Beruf.<br>→ ___ interessiert sie sich?</div><input class="answer-input"><div class="feedback"></div></div>
+</section>
+
+<section class="exercise-section">
+<h2>Exercício 9 — O erro está justamente no da(r)-</h2>
+<p>Cada frase contém um erro. Corrija somente a parte errada.</p>
+
+<div class="question" data-answer="Ich warte darauf."><div class="prompt">1. Ich warte auf das.</div><input class="answer-input"><div class="feedback"></div><div class="correct-answer">Correção: darauf</div></div>
+<div class="question" data-answer="Ich denke daran."><div class="prompt">2. Ich denke an das.</div><input class="answer-input"><div class="feedback"></div><div class="correct-answer">Correção: daran</div></div>
+<div class="question" data-answer="Sie freut sich darüber."><div class="prompt">3. Sie freut sich über das.</div><input class="answer-input"><div class="feedback"></div><div class="correct-answer">Correção: darüber</div></div>
+<div class="question" data-answer="Ich interessiere mich dafür."><div class="prompt">4. Ich interessiere mich für das.</div><input class="answer-input"><div class="feedback"></div><div class="correct-answer">Correção: dafür</div></div>
+<div class="question" data-answer="Ich warte auf meinen Bruder."><div class="prompt">5. Ich warte darauf meinen Bruder.</div><input class="answer-input"><div class="feedback"></div><div class="correct-answer">Correção: auf meinen Bruder</div></div>
+<div class="question" data-answer="Ich denke an meine Schwester."><div class="prompt">6. Ich denke daran meine Schwester.</div><input class="answer-input"><div class="feedback"></div><div class="correct-answer">Correção: an meine Schwester</div></div>
+<div class="question" data-answer="Ich spreche mit meinem Freund."><div class="prompt">7. Ich spreche damit meinem Freund.</div><input class="answer-input"><div class="feedback"></div><div class="correct-answer">Correção: mit meinem Freund</div></div>
+<div class="question" data-answer="Ich warte auf ihn."><div class="prompt">8. Ich warte auf ihn.</div><input class="answer-input"><div class="feedback"></div><div class="correct-answer">A frase já está correta.</div></div>
+<p class="nota">Atenção: algumas frases estão corretas. Não corrija só porque o exercício mandou procurar problema. Humanos adoram fazer isso em prova.</p>
+</section>
+
+<section class="exercise-section">
+<h2>Exercício 10 — Pessoa ou coisa + Perfekt</h2>
+<p>Complete usando a forma adequada.</p>
+
+<div class="question" data-answer="gewartet"><div class="prompt">1. Ich habe auf den Bus ___.<br><i>(warten)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="gewartet"><div class="prompt">2. Ich habe auf meinen Bruder ___.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="gedacht"><div class="prompt">3. Wir haben daran ___.<br><i>(denken)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="gefreut"><div class="prompt">4. Sie hat sich darüber ___.<br><i>(freuen)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="gesprochen"><div class="prompt">5. Ich habe mit meiner Schwester ___.<br><i>(sprechen)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="interessiert"><div class="prompt">6. Er hat sich dafür ___.<br><i>(interessieren)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="geträumt"><div class="prompt">7. Wir haben davon ___.<br><i>(träumen)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="gedacht"><div class="prompt">8. Ich habe an meine Mutter ___.<br><i>(denken)</i></div><input class="answer-input"><div class="feedback"></div></div>
+</section>
+
+<section class="exercise-section">
+<h2>Exercício 11 — Futur I</h2>
+<p>Complete com <b>werden + infinitivo</b>.</p>
+
+<div class="question" data-answer="warten"><div class="prompt">1. Ich werde auf den Bus ___.<br><i>(warten)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="denken"><div class="prompt">2. Ich werde daran ___.<br><i>(denken)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="freuen"><div class="prompt">3. Sie wird sich auf die Reise ___.<br><i>(freuen)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="sprechen"><div class="prompt">4. Wir werden darüber ___.<br><i>(sprechen)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="interessieren"><div class="prompt">5. Er wird sich dafür ___.<br><i>(interessieren)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="sprechen"><div class="prompt">6. Ich werde mit meinem Freund ___.<br><i>(sprechen)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<p class="nota">Não use Partizip II.</p>
+</section>
+
+<section class="exercise-section">
+<h2>Exercício 12 — Präsens, Perfekt ou Futur?</h2>
+<p>Identifique o tempo verbal e complete.</p>
+
+<div class="question" data-answer="warte|Präsens"><div class="prompt">1. Ich ___ auf den Bus.<br><i>(warten)</i><br><b>Tempo:</b> ___</div><input class="answer-input" placeholder="Ex.: warte / Präsens"><div class="feedback"></div></div>
+<div class="question" data-answer="habe|Perfekt"><div class="prompt">2. Ich ___ auf den Bus gewartet.<br><i>(haben)</i><br><b>Tempo:</b> ___</div><input class="answer-input" placeholder="Ex.: habe / Perfekt"><div class="feedback"></div></div>
+<div class="question" data-answer="werde|Futur I"><div class="prompt">3. Ich ___ auf den Bus warten.<br><i>(werden)</i><br><b>Tempo:</b> ___</div><input class="answer-input" placeholder="Ex.: werde / Futur I"><div class="feedback"></div></div>
+<div class="question" data-answer="hat|Perfekt"><div class="prompt">4. Sie ___ sich über das Geschenk gefreut.<br><b>Tempo:</b> ___</div><input class="answer-input" placeholder="Ex.: hat / Perfekt"><div class="feedback"></div></div>
+<div class="question" data-answer="wird|Futur I"><div class="prompt">5. Sie ___ sich über das Geschenk freuen.<br><b>Tempo:</b> ___</div><input class="answer-input" placeholder="Ex.: wird / Futur I"><div class="feedback"></div></div>
+<p class="nota">Digite o verbo auxiliar e o tempo verbal, separados por uma barra, por exemplo: <b>wird / Futur I</b>.</p>
+</section>
+
+<section class="exercise-section">
+<h2>Exercício 13 — Subordinada</h2>
+<p>Complete o verbo no lugar correto.</p>
+
+<div class="question" data-answer="muss"><div class="prompt">1. Ich warte auf den Bus, weil ich nach Hause fahren ___ .<br><i>(müssen)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="arbeiten muss"><div class="prompt">2. Ich denke daran, dass ich morgen früh ___ .<br><i>(arbeiten)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="kommt"><div class="prompt">3. Sie freut sich darauf, dass ihre Schwester morgen ___ .<br><i>(kommen)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="interessiert"><div class="prompt">4. Ich weiß, dass er sich für Musik ___ .<br><i>(interessieren)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="freuen"><div class="prompt">5. Wir bleiben zu Hause, obwohl wir uns auf die Reise ___ .<br><i>(freuen)</i></div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="wartet"><div class="prompt">6. Ich glaube, dass sie auf ihren Freund ___ .<br><i>(warten)</i></div><input class="answer-input"><div class="feedback"></div></div>
+</section>
+
+<section class="exercise-section">
+<h2>Exercício 14 — Tradução curta</h2>
+<p>Traduza para o alemão.</p>
+
+<div class="question" data-answer="Ich warte auf den Bus."><div class="prompt">1. Eu espero pelo ônibus.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich denke an meine Schwester."><div class="prompt">2. Eu penso na minha irmã.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich denke daran."><div class="prompt">3. Eu penso nisso.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich warte auf ihn."><div class="prompt">4. Eu espero por ele.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Sie freut sich auf die Reise."><div class="prompt">5. Ela está ansiosa pela viagem.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Sie freut sich über das Geschenk."><div class="prompt">6. Ela está feliz com o presente.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Wir interessieren uns für Musik."><div class="prompt">7. Nós nos interessamos por música.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Wir interessieren uns dafür."><div class="prompt">8. Nós nos interessamos por isso.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich spreche mit meinem Freund."><div class="prompt">9. Eu falo com meu amigo.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich spreche darüber."><div class="prompt">10. Eu falo sobre isso.</div><input class="answer-input"><div class="feedback"></div></div>
+</section>
+
+<section class="exercise-section">
+<h2>Exercício 15 — Tradução inversa</h2>
+<p>Traduza para português.</p>
+
+<div class="question" data-answer="Eu espero por isso."><div class="prompt">1. Ich warte darauf.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Eu espero por ele."><div class="prompt">2. Ich warte auf ihn.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Em que você pensa?"><div class="prompt">3. Woran denkst du?</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Em quem você pensa?"><div class="prompt">4. An wen denkst du?</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Nós falamos sobre isso."><div class="prompt">5. Wir sprechen darüber.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Nós falamos sobre nossa profissão."><div class="prompt">6. Wir sprechen über unseren Beruf.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ela se interessa por isso."><div class="prompt">7. Sie interessiert sich dafür.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ela se interessa pelo trabalho dela."><div class="prompt">8. Sie interessiert sich für ihren Beruf.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Eu fico ansioso por isso."><div class="prompt">9. Ich freue mich darauf.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Eu fico feliz com isso."><div class="prompt">10. Ich freue mich darüber.</div><input class="answer-input"><div class="feedback"></div></div>
+</section>
+
+<section class="exercise-section">
+<h2>Exercício 16 — O mais importante: escolha você a estrutura</h2>
+<p>Aqui não existe uma lacuna dizendo qual verbo usar. Traduza escolhendo <b>a construção alemã correta</b>.</p>
+
+<div class="question" data-answer="Ich denke an meine Reise."><div class="prompt">1. Eu penso na minha viagem.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich denke daran."><div class="prompt">2. Eu penso nisso.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich denke an meine Schwester."><div class="prompt">3. Eu penso na minha irmã.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich warte darauf."><div class="prompt">4. Eu espero por isso.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich warte auf meinen Freund."><div class="prompt">5. Eu espero pelo meu amigo.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich spreche über den Film."><div class="prompt">6. Eu falo sobre o filme.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich spreche darüber."><div class="prompt">7. Eu falo sobre isso.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich spreche mit meiner Schwester."><div class="prompt">8. Eu falo com minha irmã.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich habe Angst vor dem Hund."><div class="prompt">9. Eu tenho medo do cachorro.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich freue mich auf die Ferien."><div class="prompt">10. Eu estou ansioso pelas férias.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich freue mich über das Geschenk."><div class="prompt">11. Eu estou feliz com o presente.</div><input class="answer-input"><div class="feedback"></div></div>
+<div class="question" data-answer="Ich interessiere mich für die Geschichte."><div class="prompt">12. Eu me interesso por história.</div><input class="answer-input"><div class="feedback"></div></div>
+</section>
+
+<div class="controls">
+<button class="primary" type="button" onclick="corrigirPagina()">Corrigir</button>
+<button class="secondary" type="button" onclick="limparPagina()">Limpar</button>
+</div>
+<div class="score"></div>
+</div>
 </main>
 
-<footer class="site-footer">
-    <div class="footer-inner"><span>Material de estudo pessoal</span><a href="../index.html">← Início</a></div>
-</footer>
-
+<footer class="site-footer"><div class="footer-inner"><span>Material de estudo pessoal</span><a href="../index.html">← Início</a></div></footer>
 <script src="../js/app.js"></script>
 <script>
-    function corrigirPagina(){
-        document.querySelectorAll('.question').forEach(item=>{
-            const input=item.querySelector('.answer-input');
-            const feedback=item.querySelector('.feedback');
-            const resposta=item.dataset.answer;
-            const valor=input.value.trim().toLowerCase();
-            const correto=valor===resposta;
+function normalizar(valor){
+ return valor.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[“”"']/g,'').replace(/[.!?]+$/,'').replace(/\s+/g,' ');
+}
 
-            feedback.textContent=correto?'✓':'❌';
-            feedback.className='feedback '+(correto?'correct':'incorrect');
-            input.style.borderColor=correto?'var(--green)':'var(--red)';
+function corrigirPagina(){
+ let corretas=0;
+ let corrigidas=0;
+ const questoes=[...document.querySelectorAll('.question')];
 
-            if(!correto) item.querySelector('.correct-answer').classList.add('visible');
-            else item.querySelector('.correct-answer').classList.remove('visible');
-        });
-    }
+ questoes.forEach(item=>{
+   const input=item.querySelector('.answer-input');
+   const feedback=item.querySelector('.feedback');
+   const resposta=item.dataset.answer;
 
-    function resetarPagina(){
-        document.querySelectorAll('.answer-input').forEach(input=>{
-            input.value='';
-            input.style.borderColor='';
-        });
-        document.querySelectorAll('.feedback').forEach(feedback=>{
-            feedback.textContent='';
-            feedback.className='feedback';
-        });
-        document.querySelectorAll('.correct-answer').forEach(answer=>answer.classList.remove('visible'));
-    }
+   if(item.classList.contains('free-response')){
+     feedback.textContent=input.value.trim()?'Resposta livre':'Preencha uma resposta';
+     feedback.className='feedback '+(input.value.trim()?'':'incorrect');
+     return;
+   }
 
-    document.getElementById('corrigir').addEventListener('click',corrigirPagina);
-    document.getElementById('resetar').addEventListener('click',resetarPagina);
+   corrigidas++;
+   const aceitas=(resposta||'').split('|').map(normalizar);
+   const valor=normalizar(input.value);
+   const correto=aceitas.includes(valor);
+
+   if(correto){
+     corretas++;
+     feedback.textContent='✓';
+     feedback.className='feedback correct';
+     input.style.borderColor='var(--green)';
+     const answer=item.querySelector('.correct-answer');
+     if(answer) answer.classList.remove('visible');
+   }else{
+     feedback.textContent='❌';
+     feedback.className='feedback incorrect';
+     input.style.borderColor='var(--red)';
+     const answer=item.querySelector('.correct-answer');
+     if(answer) answer.classList.add('visible');
+   }
+ });
+
+ const score=document.querySelector('.score');
+ score.style.display='block';
+ score.textContent=`Resultado: ${corretas} de ${corrigidas} questões corrigíveis. As questões de resposta livre não entram na pontuação.`;
+
+ const bar=document.querySelector('.progress span');
+ if(bar) bar.style.width=(corrigidas ? corretas/corrigidas*100 : 0)+'%';
+}
+
+function limparPagina(){
+ document.querySelectorAll('.answer-input').forEach(input=>{
+   input.value='';
+   input.style.borderColor='';
+ });
+ document.querySelectorAll('.feedback').forEach(feedback=>{
+   feedback.textContent='';
+   feedback.className='feedback';
+ });
+ document.querySelectorAll('.correct-answer').forEach(answer=>answer.classList.remove('visible'));
+ const score=document.querySelector('.score');
+ score.style.display='none';
+ const bar=document.querySelector('.progress span');
+ if(bar) bar.style.width='0';
+}
+
+document.querySelectorAll('.answer-input').forEach(input=>input.addEventListener('keydown',event=>{
+ if(event.key==='Enter') corrigirPagina();
+}));
 </script>
 </body>
 </html>

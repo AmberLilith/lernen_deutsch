@@ -24,5 +24,6 @@ export const conteudos = [
   { arquivo: "verbos-preposicionais.html", titulo: "Verbos preposicionais", descricao: "verbos com preposição fixa, casos, wo(r)-/da(r)-, tempos verbais e subordinadas", categoria: "Preposições", tag: "Gramática" },
   { arquivo: "adjetivos.html", titulo: "Adjetivos", descricao: "declinação com artigos definidos, indefinidos e sem artigo", categoria: "Adjetivos e vocabulário", tag: "Gramática" },
   { arquivo: "vocabulario_substantivos.html", titulo: "Vocabulário de substantivos acumulado", descricao: "palavras e expressões trabalhadas durante o percurso", categoria: "Adjetivos e vocabulário", tag: "Vocabulário" },
-  { arquivo: "indefinidos-plural.html", titulo: "Indefinidos no plural", descricao: "einige, manche e ausência de artigo", categoria: "Adjetivos e vocabulário", tag: "Gramática" }
+  { arquivo: "indefinidos-plural.html", titulo: "Indefinidos no plural", descricao: "einige, manche e ausência de artigo", categoria: "Adjetivos e vocabulário", tag: "Gramática" },
+  { arquivo: "pronomes-relativos.html", titulo: "Pronomes Relativos", descricao: "Pronomes Relativos", categoria: "Pronomes", tag: "Gramática" }
 ];

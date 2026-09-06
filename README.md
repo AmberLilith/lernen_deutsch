@@ -23,3 +23,6 @@ O arquivo da conversa anexado que foi recuperado diretamente nesta sessão não 
 ## GitHub Pages
 
 É um site estático. Não exige Node, framework ou build. Basta subir a pasta para um repositório e ativar GitHub Pages.
+
+## Adicionando nova página  
+Adicionar em `paginas/` e criar atualizar a lista conteudos em js/conteudos.js. A função renderLessonNav(conteudos) em app.js vai tratar essa lista em cada página aberta.

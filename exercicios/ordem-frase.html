@@ -132,98 +132,3333 @@
     <div class="fixed-actions"><button id="corrigir" type="button">Corrigir</button><button id="resetar"
             type="button">Resetar</button></div>
     <script>
-        const exercicios = [];
-        const adicionar = (tema, tipo, enunciado, resposta) => exercicios.push({ tema, tipo, enunciado, resposta, id: exercicios.length });
+        // 550 exercícios distintos: 50 para cada um dos 11 temas.
+        const exercicios = [
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ jeden Morgen um sechs Uhr. (levantar-se)",
+                "resposta": "stehe auf"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Maria ___ gern klassische Musik. (ouvir)",
+                "resposta": "hört"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ heute einen langen Spaziergang. (fazer)",
+                "resposta": "machen"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Koch ___ die Suppe. (provar)",
+                "resposta": "probiert"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du ___ deiner Schwester eine Nachricht. (escrever)",
+                "resposta": "schreibst"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Die Nachbarn ___ im Garten. (fazer churrasco)",
+                "resposta": "grillen"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Paul ___ jeden Abend ein Kapitel. (ler)",
+                "resposta": "liest"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Meine Eltern ___ in einer kleinen Stadt. (morar)",
+                "resposta": "wohnen"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ihr ___ sehr schnell Deutsch. (aprender)",
+                "resposta": "lernt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Hund ___ vor der Tür. (esperar)",
+                "resposta": "wartet"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ meine Schlüssel nie. (esquecer)",
+                "resposta": "vergesse"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Anna ___ ihren Kaffee ohne Zucker. (beber)",
+                "resposta": "trinkt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ am Samstag unsere Freunde. (visitar)",
+                "resposta": "besuchen"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Zug ___ um 8:15 Uhr. (partir)",
+                "resposta": "fährt ab"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie ___ morgen nach Hamburg. (voar)",
+                "resposta": "fliegt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du ___ die Frage sofort. (entender)",
+                "resposta": "verstehst"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Das Kind ___ laut. (rir)",
+                "resposta": "lacht"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ heute das Abendessen. (cozinhar)",
+                "resposta": "koche"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Student ___ die Prüfung. (passar em)",
+                "resposta": "besteht"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ am Wochenende im See. (nadar)",
+                "resposta": "schwimmen"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Lisa ___ ihre Tasche auf den Tisch. (colocar em pé)",
+                "resposta": "stellt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Mann ___ das Buch auf den Tisch. (colocar deitado)",
+                "resposta": "legt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ meinen Bruder vom Bahnhof. (buscar)",
+                "resposta": "abhole"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Die Lehrerin ___ die Aufgabe. (explicar)",
+                "resposta": "erklärt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ihr ___ eure Fahrräder im Keller. (guardar/estacionar)",
+                "resposta": "stellt ab"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Tom ___ jeden Sonntag seine Großmutter an. (telefonar)",
+                "resposta": "ruft"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ die Tür leise. (fechar)",
+                "resposta": "schließen"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie ___ den Bus um sieben Uhr. (pegar)",
+                "resposta": "nimmt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Arzt ___ den Patienten. (examinar)",
+                "resposta": "untersucht"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ meiner Kollegin. (ajudar)",
+                "resposta": "helfe"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Die Kinder ___ einen Schneemann. (construir)",
+                "resposta": "bauen"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Mein Bruder ___ in einem Krankenhaus. (trabalhar)",
+                "resposta": "arbeitet"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ das Fenster wegen der Kälte. (fechar)",
+                "resposta": "schließen"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du ___ heute sehr müde. (parecer)",
+                "resposta": "wirkst"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Die Frau ___ ein neues Kleid. (usar/vestir)",
+                "resposta": "trägt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ meine E-Mail sofort. (responder)",
+                "resposta": "beantworte"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er ___ jeden Morgen Zeitung. (ler)",
+                "resposta": "liest"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ unsere Reise im Juni. (planejar)",
+                "resposta": "planen"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie ___ das Problem schnell. (resolver)",
+                "resposta": "löst"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Junge ___ über den Witz. (rir)",
+                "resposta": "lacht"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ meine Pflanzen jeden Dienstag. (regar)",
+                "resposta": "gieße"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Meine Schwester ___ gern im Chor. (cantar)",
+                "resposta": "singt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Vogel ___ über dem Haus. (voar)",
+                "resposta": "fliegt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ihr ___ die Regeln genau. (seguir)",
+                "resposta": "befolgt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ um 22 Uhr ins Bett. (ir)",
+                "resposta": "gehen"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Mechaniker ___ das Fahrrad. (consertar)",
+                "resposta": "repariert"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ die Rechnung heute. (pagar)",
+                "resposta": "bezahle"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie ___ ihren Urlaub im August. (começar)",
+                "resposta": "beginnt"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Schüler ___ die Antwort. (encontrar)",
+                "resposta": "findet"
+        },
+        {
+                "tema": "O verbo conjugado na oração principal",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ das Museum am Sonntag. (visitar)",
+                "resposta": "besichtigen"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Ich fahre ___ . (nach Köln / mit dem Zug / wegen des Streiks / am Montag)",
+                "resposta": "am Montag;wegen des Streiks;mit dem Zug;nach Köln"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Wir arbeiten ___ . (in der Bibliothek / gemeinsam / wegen der Prüfung / heute)",
+                "resposta": "heute;wegen der Prüfung;gemeinsam;in der Bibliothek"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Sie fliegt ___ . (nach Wien / mit dem Flugzeug / wegen des Wetters / nächste Woche)",
+                "resposta": "nächste Woche;wegen des Wetters;mit dem Flugzeug;nach Wien"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Er fährt ___ . (ins Zentrum / mit dem Auto / wegen seiner Arbeit / jeden Freitag)",
+                "resposta": "jeden Freitag;wegen seiner Arbeit;mit dem Auto;ins Zentrum"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Ich lerne ___ . (zu Hause / mit meiner Freundin / wegen der Prüfung / heute Abend)",
+                "resposta": "heute Abend;wegen der Prüfung;mit meiner Freundin;zu Hause"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Die Familie reist ___ . (nach Italien / mit dem Wohnmobil / wegen der Ferien / im Juli)",
+                "resposta": "im Juli;wegen der Ferien;mit dem Wohnmobil;nach Italien"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Wir essen ___ . (im Garten / gemeinsam / wegen des Besuchs / am Samstag)",
+                "resposta": "am Samstag;wegen des Besuchs;gemeinsam;im Garten"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Anna geht ___ . (zur Universität / mit dem Bus / wegen des Regens / morgen früh)",
+                "resposta": "morgen früh;wegen des Regens;mit dem Bus;zur Universität"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Der Arzt arbeitet ___ . (im Krankenhaus / sehr konzentriert / wegen eines Notfalls / am Dienstag)",
+                "resposta": "am Dienstag;wegen eines Notfalls;sehr konzentriert;im Krankenhaus"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Ich bleibe ___ . (zu Hause / ruhig / wegen meiner Erkältung / heute)",
+                "resposta": "heute;wegen meiner Erkältung;ruhig;zu Hause"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Paul fährt ___ . (zum Sportplatz / mit dem Fahrrad / wegen seines Trainings / jeden Morgen)",
+                "resposta": "jeden Morgen;wegen seines Trainings;mit dem Fahrrad;zum Sportplatz"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Wir sprechen ___ . (im Büro / lange / wegen des Projekts / am Abend)",
+                "resposta": "am Abend;wegen des Projekts;lange;im Büro"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Sie wandert ___ . (im Wald / zu Fuß / wegen des schönen Wetters / am Wochenende)",
+                "resposta": "am Wochenende;wegen des schönen Wetters;zu Fuß;im Wald"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Der Zug fährt ___ . (nach Frankfurt / besonders langsam / wegen der Baustelle / heute Nacht)",
+                "resposta": "heute Nacht;wegen der Baustelle;besonders langsam;nach Frankfurt"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Ich arbeite ___ . (im Labor / mit meinem Team / wegen der Abgabe / am Freitag)",
+                "resposta": "am Freitag;wegen der Abgabe;mit meinem Team;im Labor"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Die Kinder spielen ___ . (im Park / zusammen / wegen des guten Wetters / jeden Nachmittag)",
+                "resposta": "jeden Nachmittag;wegen des guten Wetters;zusammen;im Park"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Er reist ___ . (nach Prag / allein / wegen einer Konferenz / im September)",
+                "resposta": "im September;wegen einer Konferenz;allein;nach Prag"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Wir fahren ___ . (ans Meer / mit dem Bus / wegen des Feiertags / morgen)",
+                "resposta": "morgen;wegen des Feiertags;mit dem Bus;ans Meer"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Maria lernt ___ . (in ihrem Zimmer / mit Kopfhörern / wegen ihres Kurses / jeden Abend)",
+                "resposta": "jeden Abend;wegen ihres Kurses;mit Kopfhörern;in ihrem Zimmer"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Ich gehe ___ . (ins Museum / mit meiner Mutter / wegen der Ausstellung / am Sonntag)",
+                "resposta": "am Sonntag;wegen der Ausstellung;mit meiner Mutter;ins Museum"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Der Chef spricht ___ . (mit dem Team / sehr ruhig / wegen des Problems / heute Morgen)",
+                "resposta": "heute Morgen;wegen des Problems;sehr ruhig;mit dem Team"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Sie fährt ___ . (zum Flughafen / mit dem Taxi / wegen eines Termins / am Mittwoch)",
+                "resposta": "am Mittwoch;wegen eines Termins;mit dem Taxi;zum Flughafen"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Wir trainieren ___ . (in der Halle / sehr intensiv / wegen des Wettkampfs / dreimal pro Woche)",
+                "resposta": "dreimal pro Woche;wegen des Wettkampfs;sehr intensiv;in der Halle"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Er arbeitet ___ . (im Konferenzraum / mit seinem Kollegen / wegen einer Präsentation / heute Nachmittag)",
+                "resposta": "heute Nachmittag;wegen einer Präsentation;mit seinem Kollegen;im Konferenzraum"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Ich fahre ___ . (nach Spanien / mit meiner Schwester / wegen meines Urlaubs / nächsten Monat)",
+                "resposta": "nächsten Monat;wegen meines Urlaubs;mit meiner Schwester;nach Spanien"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Die Studentinnen lernen ___ . (in der Mensa / gemeinsam / wegen der Klausur / jeden Morgen)",
+                "resposta": "jeden Morgen;wegen der Klausur;gemeinsam;in der Mensa"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Tom läuft ___ . (am Fluss / sehr schnell / wegen seiner Gesundheit / jeden Samstag)",
+                "resposta": "jeden Samstag;wegen seiner Gesundheit;sehr schnell;am Fluss"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Wir feiern ___ . (bei Anna / gemeinsam / wegen ihres Geburtstags / am Freitag)",
+                "resposta": "am Freitag;wegen ihres Geburtstags;gemeinsam;bei Anna"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Sie arbeitet ___ . (im Laden / mit großer Geduld / wegen eines Kunden / heute)",
+                "resposta": "heute;wegen eines Kunden;mit großer Geduld;im Laden"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Ich schlafe ___ . (zu Hause / sehr lange / wegen der Müdigkeit / am Wochenende)",
+                "resposta": "am Wochenende;wegen der Müdigkeit;sehr lange;zu Hause"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Der Musiker spielt ___ . (im Theater / mit seiner Band / wegen des Konzerts / heute Abend)",
+                "resposta": "heute Abend;wegen des Konzerts;mit seiner Band;im Theater"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Wir fahren ___ . (zur Arbeit / mit der U-Bahn / wegen des Verkehrs / am frühen Morgen)",
+                "resposta": "am frühen Morgen;wegen des Verkehrs;mit der U-Bahn;zur Arbeit"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Er kocht ___ . (in der Küche / mit großer Freude / wegen des Besuchs / heute Abend)",
+                "resposta": "heute Abend;wegen des Besuchs;mit großer Freude;in der Küche"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Anna schreibt ___ . (an ihrem Schreibtisch / mit großer Sorgfalt / wegen ihres Studiums / jeden Montag)",
+                "resposta": "jeden Montag;wegen ihres Studiums;mit großer Sorgfalt;an ihrem Schreibtisch"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Die Gäste sitzen ___ . (im Wohnzimmer / gemeinsam / wegen der Feier / am Abend)",
+                "resposta": "am Abend;wegen der Feier;gemeinsam;im Wohnzimmer"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Ich besuche ___ . (den Zahnarzt / mit meinem Vater / wegen eines Termins / nächste Woche)",
+                "resposta": "nächste Woche;wegen eines Termins;mit meinem Vater;den Zahnarzt"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Wir spazieren ___ . (durch den Park / gemütlich / wegen des milden Wetters / jeden Abend)",
+                "resposta": "jeden Abend;wegen des milden Wetters;gemütlich;durch den Park"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Sie fährt ___ . (nach Dresden / mit dem Zug / wegen der Arbeit / im Winter)",
+                "resposta": "im Winter;wegen der Arbeit;mit dem Zug;nach Dresden"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Der Student arbeitet ___ . (in der Bibliothek / allein / wegen der Abgabe / heute Nacht)",
+                "resposta": "heute Nacht;wegen der Abgabe;allein;in der Bibliothek"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Ich trinke Kaffee ___ . (auf dem Balkon / langsam / wegen der Müdigkeit / jeden Morgen)",
+                "resposta": "jeden Morgen;wegen der Müdigkeit;langsam;auf dem Balkon"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Wir fahren ___ . (in die Berge / mit zwei Autos / wegen des Ausflugs / am Samstag)",
+                "resposta": "am Samstag;wegen des Ausflugs;mit zwei Autos;in die Berge"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Er liest ___ . (im Wohnzimmer / sehr aufmerksam / wegen seiner Hausaufgabe / jeden Abend)",
+                "resposta": "jeden Abend;wegen seiner Hausaufgabe;sehr aufmerksam;im Wohnzimmer"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Die Ärztin spricht ___ . (im Wartezimmer / sehr vorsichtig / wegen des Patienten / heute Nachmittag)",
+                "resposta": "heute Nachmittag;wegen des Patienten;sehr vorsichtig;im Wartezimmer"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Ich gehe ___ . (zum Markt / zu Fuß / wegen eines Einkaufs / morgen)",
+                "resposta": "morgen;wegen eines Einkaufs;zu Fuß;zum Markt"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Sie lernt ___ . (zu Hause / mit ihrer Schwester / wegen des Tests / am Sonntag)",
+                "resposta": "am Sonntag;wegen des Tests;mit ihrer Schwester;zu Hause"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Wir essen ___ . (auf der Terrasse / draußen / wegen des Wetters / heute Mittag)",
+                "resposta": "heute Mittag;wegen des Wetters;draußen;auf der Terrasse"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Der Fahrer wartet ___ . (am Bahnhof / geduldig / wegen einer Panne / seit einer Stunde)",
+                "resposta": "seit einer Stunde;wegen einer Panne;geduldig;am Bahnhof"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Ich arbeite ___ . (im Café / mit dem Laptop / wegen meines Projekts / jeden Dienstag)",
+                "resposta": "jeden Dienstag;wegen meines Projekts;mit dem Laptop;im Café"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Coloque os elementos na ordem TeKaMoLo: Die Familie bleibt ___ . (im Hotel / gemeinsam / wegen des Sturms / heute Abend)",
+                "resposta": "heute Abend;wegen des Sturms;gemeinsam;im Hotel"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich besuche meine Tante ___. (no próximo sábado)",
+                "resposta": "am nächsten Samstag"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir beginnen den Kurs ___. (em outubro)",
+                "resposta": "im Oktober"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Er kommt ___. (por volta do meio-dia)",
+                "resposta": "gegen Mittag"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Sie arbeitet ___. (até as seis horas)",
+                "resposta": "bis sechs Uhr"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich lerne Deutsch ___. (toda quarta-feira à noite)",
+                "resposta": "jeden Mittwochabend"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Der Zug fährt ___. (às 7h40)",
+                "resposta": "um 7:40 Uhr"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir waren dort ___. (ontem à tarde)",
+                "resposta": "gestern Nachmittag"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Maria reist ___. (daqui a duas semanas)",
+                "resposta": "in zwei Wochen"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich habe ihn ___. (há três dias)",
+                "resposta": "vor drei Tagen"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Sie bleibt ___. (o dia inteiro)",
+                "resposta": "den ganzen Tag"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir treffen uns ___. (depois da aula)",
+                "resposta": "nach dem Unterricht"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Er schläft ___. (até de manhã)",
+                "resposta": "bis zum Morgen"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich arbeite ___. (de segunda a quinta)",
+                "resposta": "von Montag bis Donnerstag"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Die Kinder spielen ___. (todas as noites)",
+                "resposta": "jeden Abend"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Sie kommt ___. (mais tarde à tarde)",
+                "resposta": "später am Nachmittag"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir fahren ___. (no próximo verão)",
+                "resposta": "nächsten Sommer"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich esse Frühstück ___. (cedo de manhã)",
+                "resposta": "früh am Morgen"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Der Film beginnt ___. (em dez minutos)",
+                "resposta": "in zehn Minuten"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Er war in Berlin ___. (no ano passado)",
+                "resposta": "letztes Jahr"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir bleiben hier ___. (até amanhã)",
+                "resposta": "bis morgen"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Sie ruft mich ___. (toda sexta-feira)",
+                "resposta": "jeden Freitag"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich gehe schlafen ___. (à meia-noite)",
+                "resposta": "um Mitternacht"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Der Laden öffnet ___. (às nove horas)",
+                "resposta": "um neun Uhr"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir haben uns ___. (no mês passado)",
+                "resposta": "im vergangenen Monat"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Er trainiert ___. (três vezes por semana)",
+                "resposta": "dreimal pro Woche"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich fahre zur Arbeit ___. (todas as manhãs)",
+                "resposta": "jeden Morgen"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Sie besucht uns ___. (no próximo fim de semana)",
+                "resposta": "am kommenden Wochenende"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Der Unterricht endet ___. (às quatro horas)",
+                "resposta": "um vier Uhr"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir reisen ___. (na primavera)",
+                "resposta": "im Frühling"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich habe Zeit ___. (hoje à noite)",
+                "resposta": "heute Abend"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Er arbeitet ___. (há um ano)",
+                "resposta": "seit einem Jahr"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Maria war krank ___. (por dois dias)",
+                "resposta": "zwei Tage lang"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir essen zu Mittag ___. (por volta de uma hora)",
+                "resposta": "gegen ein Uhr"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich sehe sie ___. (amanhã cedo)",
+                "resposta": "morgen früh"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Der Bus kommt ___. (a cada vinte minutos)",
+                "resposta": "alle zwanzig Minuten"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Sie lernt ___. (desde janeiro)",
+                "resposta": "seit Januar"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir feiern ___. (na véspera de Natal)",
+                "resposta": "am Heiligabend"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Er kommt ___. (em uma hora)",
+                "resposta": "in einer Stunde"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich lese ___. (antes de dormir)",
+                "resposta": "vor dem Schlafengehen"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Der Kurs findet statt ___. (duas vezes por mês)",
+                "resposta": "zweimal im Monat"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir waren dort ___. (no domingo passado)",
+                "resposta": "am vergangenen Sonntag"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Sie arbeitet ___. (à noite)",
+                "resposta": "nachts"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich fahre nach Hause ___. (depois do trabalho)",
+                "resposta": "nach der Arbeit"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Der Termin ist ___. (depois de amanhã)",
+                "resposta": "übermorgen"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir treffen ihn ___. (hoje à tarde)",
+                "resposta": "heute Nachmittag"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Er bleibt ___. (por três semanas)",
+                "resposta": "für drei Wochen"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Ich warte ___. (há meia hora)",
+                "resposta": "seit einer halben Stunde"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Sie beginnt ___. (já/daqui a pouco)",
+                "resposta": "gleich"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Wir besuchen das Museum ___. (no primeiro dia da viagem)",
+                "resposta": "am ersten Tag der Reise"
+        },
+        {
+                "tema": "Tempo",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o elemento temporal: Er kommt ___. (no mínimo às oito)",
+                "resposta": "frühestens um acht Uhr"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Er fährt heute ___. (aos correios)",
+                "resposta": "zur Post"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Wir gehen morgen ___. (ao supermercado)",
+                "resposta": "in den Supermarkt"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Sie wohnt ___. (em Hamburgo)",
+                "resposta": "in Hamburg"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Das Fahrrad steht ___. (atrás da casa)",
+                "resposta": "hinter dem Haus"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Ich arbeite ___. (no térreo)",
+                "resposta": "im Erdgeschoss"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Der Hund schläft ___. (debaixo da mesa)",
+                "resposta": "unter dem Tisch"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Wir fahren ___. (ao aeroporto)",
+                "resposta": "zum Flughafen"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Sie wartet ___. (em frente ao cinema)",
+                "resposta": "vor dem Kino"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Ich gehe ___. (à padaria)",
+                "resposta": "in die Bäckerei"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Das Bild hängt ___. (sobre/acima do sofá)",
+                "resposta": "über dem Sofa"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Der Schlüssel liegt ___. (sobre a estante)",
+                "resposta": "auf dem Regal"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Er stellt die Tasche ___. (ao lado do armário)",
+                "resposta": "neben den Schrank"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Wir sitzen ___. (na sala de espera)",
+                "resposta": "im Wartezimmer"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Maria fährt ___. (para a Áustria)",
+                "resposta": "nach Österreich"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Die Kinder laufen ___. (pelo parque)",
+                "resposta": "durch den Park"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Ich komme ___. (da cozinha)",
+                "resposta": "aus der Küche"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Er geht ___. (ao porão)",
+                "resposta": "in den Keller"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Das Auto steht ___. (ao lado da garagem)",
+                "resposta": "neben der Garage"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Sie legt das Buch ___. (sobre a mesa)",
+                "resposta": "auf den Tisch"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Wir wohnen ___. (na casa dos nossos avós)",
+                "resposta": "bei unseren Großeltern"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Ich gehe ___. (ao médico)",
+                "resposta": "zum Arzt"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Der Bus hält ___. (no ponto de ônibus)",
+                "resposta": "an der Haltestelle"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Das Café liegt ___. (em frente ao banco)",
+                "resposta": "gegenüber der Bank"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Er läuft ___. (ao longo do rio)",
+                "resposta": "entlang des Flusses"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Wir fahren ___. (pelo túnel)",
+                "resposta": "durch den Tunnel"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Sie stellt die Vase ___. (no parapeito da janela)",
+                "resposta": "auf das Fensterbrett"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Der Mantel hängt ___. (no cabideiro)",
+                "resposta": "an der Garderobe"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Ich sitze ___. (entre meus amigos)",
+                "resposta": "zwischen meinen Freunden"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Das Hotel liegt ___. (à beira-mar)",
+                "resposta": "am Meer"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Er geht ___. (para fora do escritório)",
+                "resposta": "aus dem Büro"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Wir kommen ___. (da estação)",
+                "resposta": "vom Bahnhof"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Sie fährt ___. (ao centro da cidade)",
+                "resposta": "ins Stadtzentrum"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Der Vogel fliegt ___. (sobre o lago)",
+                "resposta": "über den See"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Das Kind läuft ___. (para trás da mãe)",
+                "resposta": "hinter seine Mutter"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Ich stelle den Stuhl ___. (em frente à escrivaninha)",
+                "resposta": "vor den Schreibtisch"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Das Handy liegt ___. (na gaveta)",
+                "resposta": "in der Schublade"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Wir gehen ___. (ao mercado)",
+                "resposta": "auf den Markt"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Er wohnt ___. (na periferia da cidade)",
+                "resposta": "am Stadtrand"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Die Gäste kommen ___. (do hotel)",
+                "resposta": "aus dem Hotel"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Ich fahre ___. (para o outro lado da cidade)",
+                "resposta": "ans andere Ende der Stadt"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Das Fahrrad steht ___. (em frente à entrada)",
+                "resposta": "vor dem Eingang"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Sie legt die Decke ___. (sobre a cama)",
+                "resposta": "auf das Bett"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Wir treffen uns ___. (na esquina)",
+                "resposta": "an der Ecke"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Er stellt die Kiste ___. (debaixo da janela)",
+                "resposta": "unter das Fenster"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Das Kind sitzt ___. (no chão)",
+                "resposta": "auf dem Boden"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Ich gehe ___. (à biblioteca)",
+                "resposta": "zur Bibliothek"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Der Brief liegt ___. (na bolsa)",
+                "resposta": "in der Tasche"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Sie hängt das Bild ___. (na parede)",
+                "resposta": "an die Wand"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Wir spazieren ___. (pela cidade velha)",
+                "resposta": "durch die Altstadt"
+        },
+        {
+                "tema": "Lugar e direção",
+                "tipo": "lacuna",
+                "enunciado": "Complete com o complemento de lugar/direção: Er fährt ___. (para fora da cidade)",
+                "resposta": "aus der Stadt"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ kauft heute frisches Brot. (A vizinha)",
+                "resposta": "Die Nachbarin"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich gebe ___ den Schlüssel. (ao meu irmão)",
+                "resposta": "meinem Bruder"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ besucht am Sonntag das Museum. (Minha prima)",
+                "resposta": "Meine Cousine"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir sehen ___. (o novo professor)",
+                "resposta": "den neuen Lehrer"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ hilft dem alten Mann. (O policial)",
+                "resposta": "Der Polizist"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich brauche ___. (um guarda-chuva)",
+                "resposta": "einen Regenschirm"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ liest jeden Abend einen Roman. (Minha colega)",
+                "resposta": "Meine Kollegin"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er ruft ___ an. (sua mãe)",
+                "resposta": "seine Mutter"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ schenkt der Frau Blumen. (O menino)",
+                "resposta": "Der Junge"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir treffen ___. (nossos novos vizinhos)",
+                "resposta": "unsere neuen Nachbarn"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ repariert das Fahrrad. (O mecânico)",
+                "resposta": "Der Mechaniker"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich erzähle ___ die Geschichte. (à minha filha)",
+                "resposta": "meiner Tochter"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ sucht seine Brille. (O avô)",
+                "resposta": "Der Großvater"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie kauft ___. (uma lâmpada nova)",
+                "resposta": "eine neue Lampe"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ trägt einen schweren Koffer. (O viajante)",
+                "resposta": "Der Reisende"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich besuche ___. (meu tio)",
+                "resposta": "meinen Onkel"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ schreibt dem Kunden eine E-Mail. (A funcionária)",
+                "resposta": "Die Mitarbeiterin"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir helfen ___. (à nossa vizinha)",
+                "resposta": "unserer Nachbarin"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ öffnet das Fenster. (O zelador)",
+                "resposta": "Der Hausmeister"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie sieht ___. (um pássaro vermelho)",
+                "resposta": "einen roten Vogel"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ bringt die Kinder zur Schule. (O pai)",
+                "resposta": "Der Vater"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich danke ___. (ao médico)",
+                "resposta": "dem Arzt"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ bestellt einen Tee. (O cliente)",
+                "resposta": "Der Gast"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir verkaufen ___. (o sofá velho)",
+                "resposta": "das alte Sofa"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ erklärt den Studenten die Regel. (A professora)",
+                "resposta": "Die Professorin"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er folgt ___. (ao cachorro)",
+                "resposta": "dem Hund"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ putzt die Küche. (Minha colega de apartamento)",
+                "resposta": "Meine Mitbewohnerin"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich schicke ___ eine Postkarte. (à minha amiga)",
+                "resposta": "meiner Freundin"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ besucht den Patienten. (A médica)",
+                "resposta": "Die Ärztin"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir kaufen ___. (morangos frescos)",
+                "resposta": "frische Erdbeeren"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ findet den verlorenen Schlüssel. (A menina)",
+                "resposta": "Das Mädchen"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie gibt ___ einen Rat. (ao colega dela)",
+                "resposta": "ihrem Kollegen"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ liest die Speisekarte. (O turista)",
+                "resposta": "Der Tourist"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich höre ___. (as notícias)",
+                "resposta": "die Nachrichten"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ bringt dem Kind ein Glas Wasser. (A mãe)",
+                "resposta": "Die Mutter"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir brauchen ___. (mais tempo)",
+                "resposta": "mehr Zeit"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ fragt den Lehrer. (O aluno)",
+                "resposta": "Der Schüler"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich sehe ___. (minha melhor amiga)",
+                "resposta": "meine beste Freundin"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ zeigt dem Besucher den Weg. (O funcionário)",
+                "resposta": "Der Mitarbeiter"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie kauft ___. (uma passagem)",
+                "resposta": "eine Fahrkarte"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ verliert seinen Schlüssel. (Meu vizinho)",
+                "resposta": "Mein Nachbar"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir besuchen ___. (nossos parentes)",
+                "resposta": "unsere Verwandten"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ gibt dem Hund Wasser. (A menina)",
+                "resposta": "Das Mädchen"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich kenne ___. (este ator)",
+                "resposta": "diesen Schauspieler"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ schreibt einen Brief. (O aposentado)",
+                "resposta": "Der Rentner"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir helfen ___. (às crianças)",
+                "resposta": "den Kindern"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ trägt die Kiste. (O trabalhador)",
+                "resposta": "Der Arbeiter"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie öffnet ___. (a gaveta)",
+                "resposta": "die Schublade"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ zeigt der Touristin das Hotel. (O recepcionista)",
+                "resposta": "Der Rezeptionist"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ gehe ich direkt zur Arbeit. (hoje)",
+                "resposta": "Heute"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ fährt meine Schwester nach Berlin. (amanhã)",
+                "resposta": "Morgen"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ arbeitet der Arzt im Krankenhaus. (na segunda-feira)",
+                "resposta": "Am Montag"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ treffen wir unsere Freunde. (à noite)",
+                "resposta": "Am Abend"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ lernt Paul für die Prüfung. (todas as tardes)",
+                "resposta": "Jeden Nachmittag"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ fährt der Bus zum Bahnhof. (às sete)",
+                "resposta": "Um sieben Uhr"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ kaufe ich Gemüse. (depois do trabalho)",
+                "resposta": "Nach der Arbeit"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ bleibt die Familie zu Hause. (por causa da chuva)",
+                "resposta": "Wegen des Regens"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ besuchen wir das Schloss. (no fim de semana)",
+                "resposta": "Am Wochenende"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ beginnt der Film. (às 20h)",
+                "resposta": "Um 20 Uhr"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ wohnt mein Bruder. (em Munique)",
+                "resposta": "In München"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ arbeitet sie sehr konzentriert. (no escritório)",
+                "resposta": "Im Büro"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ gehe ich zum Zahnarzt. (na próxima semana)",
+                "resposta": "Nächste Woche"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ kommt der Zug an. (por volta do meio-dia)",
+                "resposta": "Gegen Mittag"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ essen wir zusammen. (no domingo)",
+                "resposta": "Am Sonntag"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ liest Maria die Zeitung. (todas as manhãs)",
+                "resposta": "Jeden Morgen"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ fährt er mit dem Fahrrad. (com bom tempo)",
+                "resposta": "Bei gutem Wetter"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ treffe ich meinen Chef. (hoje à tarde)",
+                "resposta": "Heute Nachmittag"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ schlafen die Kinder. (depois do jantar)",
+                "resposta": "Nach dem Abendessen"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ lernt sie Deutsch. (desde janeiro)",
+                "resposta": "Seit Januar"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ wartet der Patient. (na sala de espera)",
+                "resposta": "Im Wartezimmer"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ fahren wir in den Urlaub. (em agosto)",
+                "resposta": "Im August"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ besucht er seine Großmutter. (no sábado)",
+                "resposta": "Am Samstag"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ arbeitet mein Vater. (de casa)",
+                "resposta": "Von zu Hause"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ steht das Auto. (em frente à garagem)",
+                "resposta": "Vor der Garage"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ gehe ich einkaufen. (antes do jantar)",
+                "resposta": "Vor dem Abendessen"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ kommt meine Freundin zu Besuch. (sexta à noite)",
+                "resposta": "Am Freitagabend"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ spielt das Kind im Garten. (depois da escola)",
+                "resposta": "Nach der Schule"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ beginnt der Unterricht. (às nove)",
+                "resposta": "Um neun Uhr"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ fährt sie nach Hause. (depois do curso)",
+                "resposta": "Nach dem Kurs"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ wohnt die Familie. (no campo)",
+                "resposta": "Auf dem Land"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ besichtigen wir die Altstadt. (no primeiro dia da viagem)",
+                "resposta": "Am ersten Reisetag"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ trinke ich keinen Kaffee. (à noite)",
+                "resposta": "Abends"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ arbeitet der Student in der Bibliothek. (toda terça-feira)",
+                "resposta": "Jeden Dienstag"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ gehen wir ins Kino. (amanhã à noite)",
+                "resposta": "Morgen Abend"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ wartet der Fahrer auf uns. (em frente ao hotel)",
+                "resposta": "Vor dem Hotel"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ schreibt er seiner Mutter. (depois da refeição)",
+                "resposta": "Nach dem Essen"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ bleibt Anna im Bett. (por causa do resfriado dela)",
+                "resposta": "Wegen ihrer Erkältung"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ fahren die Kinder zur Schule. (com o ônibus escolar)",
+                "resposta": "Mit dem Schulbus"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ besuche ich den Markt. (de manhã cedo)",
+                "resposta": "Am frühen Morgen"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ ist das Museum geschlossen. (às segundas)",
+                "resposta": "Montags"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ sehen wir einen Film. (esta noite)",
+                "resposta": "Heute Nacht"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ geht er zum Sport. (três vezes por semana)",
+                "resposta": "Dreimal pro Woche"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ kommt der Brief. (de Berlim)",
+                "resposta": "Aus Berlin"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ sitzt die Katze. (debaixo da mesa)",
+                "resposta": "Unter dem Tisch"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ fahre ich zum Flughafen. (em uma hora)",
+                "resposta": "In einer Stunde"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ lernen wir gemeinsam. (depois da aula)",
+                "resposta": "Nach dem Unterricht"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ öffnet der Laden. (às nove e meia)",
+                "resposta": "Um halb zehn"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ besucht sie ihre Eltern. (a cada dois meses)",
+                "resposta": "Alle zwei Monate"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ jeden Morgen um sechs Uhr ___. (levantar-se)",
+                "resposta": "stehe;auf"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Heute ___ wir unsere neue Nachbarin ___. (conhecer)",
+                "resposta": "lernen;kennen"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er ___ seine Jacke ___. (vestir)",
+                "resposta": "zieht;an"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ den Fernseher um zehn Uhr ___. (desligar)",
+                "resposta": "schalten;aus"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie ___ ihre Mutter jeden Abend ___. (telefonar)",
+                "resposta": "ruft;an"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Zug ___ um 6:30 Uhr ___. (partir)",
+                "resposta": "fährt;ab"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ die Tür vorsichtig ___. (abrir)",
+                "resposta": "mache;auf"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du ___ morgen früh ___. (levantar-se)",
+                "resposta": "stehst;auf"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ am Wochenende in die Berge ___. (ir embora)",
+                "resposta": "fahren;weg"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er ___ den neuen Computer ___. (ligar)",
+                "resposta": "schaltet;ein"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Die Gäste ___ ihre Mäntel ___. (tirar)",
+                "resposta": "ziehen;aus"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ das Licht ___. (apagar)",
+                "resposta": "mache;aus"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie ___ den Tisch für das Essen ___. (arrumar)",
+                "resposta": "räumt;auf"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Lehrer ___ die Bücher ___. (distribuir)",
+                "resposta": "teilt;aus"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ um acht Uhr ___. (começar)",
+                "resposta": "fangen;an"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Maria ___ ihren Bruder vom Bahnhof ___. (buscar)",
+                "resposta": "holt;ab"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ meine Schuhe ___. (tirar)",
+                "resposta": "ziehe;aus"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er ___ das Fenster ___. (fechar)",
+                "resposta": "macht;zu"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Die Kinder ___ im Garten ___. (continuar brincando)",
+                "resposta": "spielen;weiter"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie ___ den Termin ___. (anotar)",
+                "resposta": "schreibt;auf"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ das Problem morgen ___. (abordar)",
+                "resposta": "sprechen;an"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ das Paket morgen ___. (enviar)",
+                "resposta": "schicke;ab"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Bus ___ an der nächsten Haltestelle ___. (descer)",
+                "resposta": "steigt;aus"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du ___ das Formular ___. (preencher)",
+                "resposta": "füllst;aus"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er ___ seinen alten Freund ___. (retornar a ligação)",
+                "resposta": "ruft;zurück"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ die Gäste am Bahnhof ___. (buscar)",
+                "resposta": "holen;ab"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie ___ das Angebot ___. (aceitar)",
+                "resposta": "nimmt;an"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ den Computer ___. (ligar)",
+                "resposta": "schalte;ein"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Film ___ um 21 Uhr ___. (começar)",
+                "resposta": "fängt;an"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ die Reise am Montag ___. (iniciar)",
+                "resposta": "treten;an"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er ___ das Geschenk sofort ___. (desembrulhar)",
+                "resposta": "packt;aus"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Die Schüler ___ ihre Antworten ___. (anotar)",
+                "resposta": "schreiben;auf"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ jeden Abend das Geschirr ___. (guardar)",
+                "resposta": "räume;weg"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie ___ das Fenster wegen der Kälte ___. (fechar)",
+                "resposta": "macht;zu"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ den Ausflug morgen ___. (recuperar/compensar)",
+                "resposta": "holen;nach"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Der Fahrer ___ den Wagen vor dem Hotel ___. (avançar com o carro)",
+                "resposta": "fährt;vor"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ meinen Schlüssel ___. (guardar/empacotar)",
+                "resposta": "packe;ein"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ den Termin in den Kalender ___. (registrar/anotar)",
+                "resposta": "tragen;ein"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ die Heizung ___. (ligar)",
+                "resposta": "schalten;an"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er ___ das Formular ___. (entregar)",
+                "resposta": "gibt;ab"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Die Mitarbeiterin ___ die Rechnung ___. (emitir)",
+                "resposta": "stellt;aus"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ die Datei ___. (baixar)",
+                "resposta": "lade;herunter"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du ___ deine Schuhe vor der Tür ___. (tirar/colocar de lado)",
+                "resposta": "stellst;ab"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie ___ ihre Freundin vom Flughafen ___. (buscar)",
+                "resposta": "holt;ab"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ den Termin auf Montag ___. (fixar/agendar)",
+                "resposta": "legen;fest"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er ___ die Aufgabe morgen ___. (entregar)",
+                "resposta": "gibt;ab"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich ___ den Wecker um sieben Uhr ___. (programar)",
+                "resposta": "stelle;ein"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Die Band ___ um neun Uhr ___. (se apresentar)",
+                "resposta": "tritt;auf"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir ___ die Gäste herzlich ___. (receber)",
+                "resposta": "nehmen;auf"
+        },
+        {
+                "tema": "Verbos separáveis",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie ___ den Brief heute ___. (enviar)",
+                "resposta": "schickt;ab"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich muss ___ . (trabalhar mais tempo hoje)",
+                "resposta": "heute länger arbeiten"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du sollst ___ . (tomar mais água)",
+                "resposta": "mehr Wasser trinken"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir können ___ . (poder cozinhar juntos amanhã)",
+                "resposta": "morgen gemeinsam kochen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er will ___ . (querer comprar uma bicicleta)",
+                "resposta": "ein Fahrrad kaufen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie darf ___ . (poder esperar aqui)",
+                "resposta": "hier warten"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ihr müsst ___ . (ter que partir agora)",
+                "resposta": "jetzt losgehen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich möchte ___ . (querer dormir até mais tarde no fim de semana)",
+                "resposta": "am Wochenende ausschlafen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du kannst ___ . (poder viajar de trem)",
+                "resposta": "mit dem Zug fahren"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er soll ___ . (dever telefonar para o médico)",
+                "resposta": "den Arzt anrufen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir wollen ___ . (querer acampar no verão)",
+                "resposta": "im Sommer campen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie muss ___ . (ter que pagar a conta)",
+                "resposta": "die Rechnung bezahlen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich kann ___ . (poder resolver esta tarefa)",
+                "resposta": "diese Aufgabe lösen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du darfst ___ . (poder abrir a janela)",
+                "resposta": "das Fenster öffnen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir sollen ___ . (dever falar mais baixo)",
+                "resposta": "leiser sprechen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er möchte ___ . (querer estudar alemão)",
+                "resposta": "Deutsch studieren"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ihr könnt ___ . (poder brincar no jardim)",
+                "resposta": "im Garten spielen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie will ___ . (querer ir para casa)",
+                "resposta": "nach Hause gehen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich muss ___ . (ter que responder meus e-mails)",
+                "resposta": "meine E-Mails beantworten"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du sollst ___ . (dever dormir mais cedo)",
+                "resposta": "früher schlafen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir können ___ . (poder pegar o ônibus)",
+                "resposta": "den Bus nehmen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er darf ___ . (poder usar o carro)",
+                "resposta": "das Auto benutzen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie muss ___ . (ter que levantar cedo amanhã)",
+                "resposta": "morgen früh aufstehen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich will ___ . (querer aprender uma nova língua)",
+                "resposta": "eine neue Sprache lernen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ihr sollt ___ . (dever fechar a porta)",
+                "resposta": "die Tür schließen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du kannst ___ . (poder ajudar sua irmã)",
+                "resposta": "deiner Schwester helfen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir möchten ___ . (querer passar a noite em Berlim)",
+                "resposta": "in Berlin übernachten"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er muss ___ . (ter que escrever o relatório)",
+                "resposta": "den Bericht schreiben"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie kann ___ . (poder nadar muito bem)",
+                "resposta": "sehr gut schwimmen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich darf ___ . (poder sair mais cedo hoje)",
+                "resposta": "heute früher gehen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du willst ___ . (querer ler um livro)",
+                "resposta": "ein Buch lesen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir sollen ___ . (dever regar as plantas)",
+                "resposta": "die Pflanzen gießen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ihr müsst ___ . (ter que arrumar os quartos)",
+                "resposta": "eure Zimmer aufräumen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er möchte ___ . (querer visitar os amigos)",
+                "resposta": "seine Freunde besuchen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie können ___ . (poder comer conosco)",
+                "resposta": "mit uns essen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich will ___ . (querer morar à beira-mar)",
+                "resposta": "am Meer wohnen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du musst ___ . (ter que encontrar a chave)",
+                "resposta": "den Schlüssel finden"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir dürfen ___ . (não poder estacionar aqui)",
+                "resposta": "hier nicht parken"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er soll ___ . (dever escrever para a mãe)",
+                "resposta": "seiner Mutter schreiben"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ihr könnt ___ . (poder visitar a exposição)",
+                "resposta": "die Ausstellung besichtigen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie möchte ___ . (querer trabalhar no exterior)",
+                "resposta": "im Ausland arbeiten"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich muss ___ . (ter que fazer compras cedo amanhã)",
+                "resposta": "morgen früh einkaufen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du darfst ___ . (poder trazer seu cachorro)",
+                "resposta": "deinen Hund mitbringen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir wollen ___ . (querer planejar uma viagem)",
+                "resposta": "eine Reise planen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er kann ___ . (poder explicar o problema)",
+                "resposta": "das Problem erklären"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie soll ___ . (dever enviar a carta)",
+                "resposta": "den Brief abschicken"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich möchte ___ . (querer ficar em casa hoje)",
+                "resposta": "heute zu Hause bleiben"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ihr müsst ___ . (ter que reservar os ingressos)",
+                "resposta": "die Tickets buchen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Du kannst ___ . (poder fechar a janela)",
+                "resposta": "das Fenster zumachen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir müssen ___ . (ter que chegar pontualmente)",
+                "resposta": "pünktlich ankommen"
+        },
+        {
+                "tema": "Verbos modais",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er will ___ . (querer tirar a carteira de motorista)",
+                "resposta": "seinen Führerschein machen"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ich ___ gestern lange gearbeitet. (Perfekt)",
+                "resposta": "habe"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Wir ___ am Montag nach Berlin gefahren. (Perfekt)",
+                "resposta": "sind"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Sie ___ den Film schon gesehen. (Perfekt)",
+                "resposta": "hat"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Er ___ um sechs Uhr aufgestanden. (Perfekt)",
+                "resposta": "ist"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ihr ___ die Aufgabe gut gemacht. (Perfekt)",
+                "resposta": "habt"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ich ___ meine Schlüssel verloren. (Perfekt)",
+                "resposta": "habe"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Maria ___ früh nach Hause gegangen. (Perfekt)",
+                "resposta": "ist"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Wir ___ viel gelernt. (Perfekt)",
+                "resposta": "haben"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Der Zug ___ pünktlich angekommen. (Perfekt)",
+                "resposta": "ist"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Du ___ den Brief geschrieben. (Perfekt)",
+                "resposta": "hast"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ich ___ vorher schon gegessen. (Plusquamperfekt)",
+                "resposta": "hatte"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Wir ___ das Hotel bereits gebucht. (Plusquamperfekt)",
+                "resposta": "hatten"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Sie ___ schon nach Hause gegangen. (Plusquamperfekt)",
+                "resposta": "war"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Er ___ den Schlüssel verloren. (Plusquamperfekt)",
+                "resposta": "hatte"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ihr ___ die Nachricht gelesen. (Plusquamperfekt)",
+                "resposta": "hattet"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ich ___ noch nie dort gewesen. (Plusquamperfekt)",
+                "resposta": "war"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Maria ___ die Arbeit beendet. (Plusquamperfekt)",
+                "resposta": "hatte"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Wir ___ früh aufgestanden. (Plusquamperfekt)",
+                "resposta": "waren"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Du ___ das Buch schon gekauft. (Plusquamperfekt)",
+                "resposta": "hattest"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Die Kinder ___ eingeschlafen. (Plusquamperfekt)",
+                "resposta": "waren"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ich ___ morgen arbeiten. (Futur I)",
+                "resposta": "werde"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Wir ___ nächste Woche reisen. (Futur I)",
+                "resposta": "werden"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Sie ___ bald ankommen. (Futur I)",
+                "resposta": "wird"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Er ___ später anrufen. (Futur I)",
+                "resposta": "wird"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ihr ___ am Samstag lernen. (Futur I)",
+                "resposta": "werdet"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Du ___ morgen früher aufstehen. (Futur I)",
+                "resposta": "wirst"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ich ___ das Problem lösen. (Futur I)",
+                "resposta": "werde"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Wir ___ im Sommer umziehen. (Futur I)",
+                "resposta": "werden"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Maria ___ nächstes Jahr studieren. (Futur I)",
+                "resposta": "wird"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Die Kinder ___ draußen spielen. (Futur I)",
+                "resposta": "werden"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ich ___ den Bericht bis Freitag geschrieben haben. (Futur II)",
+                "resposta": "werde"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Wir ___ bis morgen angekommen sein. (Futur II)",
+                "resposta": "werden"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Sie ___ bis dahin alles vorbereitet haben. (Futur II)",
+                "resposta": "wird"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Er ___ den Kurs bis Juni beendet haben. (Futur II)",
+                "resposta": "wird"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ihr ___ bis acht Uhr gegessen haben. (Futur II)",
+                "resposta": "werdet"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Du ___ bis morgen die Aufgabe gemacht haben. (Futur II)",
+                "resposta": "wirst"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ich ___ bis dahin zehn Seiten gelesen haben. (Futur II)",
+                "resposta": "werde"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Wir ___ bis Sonntag das Haus gestrichen haben. (Futur II)",
+                "resposta": "werden"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Sie ___ bis Abend nach Hause gegangen sein. (Futur II)",
+                "resposta": "wird"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Er ___ bis morgen früh ausgeschlafen haben. (Futur II)",
+                "resposta": "wird"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ich ___ gerade gegessen, als du angerufen hast. (Plusquamperfekt)",
+                "resposta": "hatte"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Wir ___ schon losgefahren, bevor es regnete. (Plusquamperfekt)",
+                "resposta": "waren"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Sie ___ den Termin vergessen. (Plusquamperfekt)",
+                "resposta": "hatte"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Er ___ die E-Mail bereits beantwortet. (Plusquamperfekt)",
+                "resposta": "hatte"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Du ___ lange gewartet. (Perfekt)",
+                "resposta": "hast"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ich ___ gestern im Museum gewesen. (Perfekt)",
+                "resposta": "bin"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Wir ___ die Rechnung bezahlt. (Perfekt)",
+                "resposta": "haben"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Sie ___ um Mitternacht eingeschlafen. (Perfekt)",
+                "resposta": "ist"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Ihr ___ den Bus verpasst. (Perfekt)",
+                "resposta": "habt"
+        },
+        {
+                "tema": "Perfekt e outros tempos compostos",
+                "tipo": "lacuna",
+                "enunciado": "Complete corretamente o tempo verbal: Der Besucher ___ das Gebäude verlassen. (Perfekt)",
+                "resposta": "hat"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich bleibe zu Hause, weil ich krank ___. (estou doente)",
+                "resposta": "bin"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich weiß, dass er heute ___. (trabalha hoje)",
+                "resposta": "arbeitet"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wenn du Zeit hast, ___ du mich. (você me visita)",
+                "resposta": "besuchst"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie bleibt hier, weil sie auf den Bus warten ___. (precisa esperar)",
+                "resposta": "muss"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich glaube, dass Maria morgen ___. (vem amanhã)",
+                "resposta": "kommt"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir gehen spazieren, wenn der Regen ___. (para)",
+                "resposta": "aufhört"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er weiß, dass ich Deutsch ___. (estudo alemão)",
+                "resposta": "lerne"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie bleibt im Bett, weil sie müde ___. (está cansada)",
+                "resposta": "ist"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wenn ich frei habe, ___ ich meine Eltern. (visito)",
+                "resposta": "besuche"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich hoffe, dass du bald ___. (vem em breve)",
+                "resposta": "kommst"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wir essen, nachdem die Gäste ___. (chegaram)",
+                "resposta": "angekommen sind"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Bevor ich schlafen gehe, ___ ich das Fenster. (fecho)",
+                "resposta": "schließe"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Obwohl es regnet, ___ wir spazieren. (vamos)",
+                "resposta": "gehen"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich weiß nicht, ob er heute ___. (trabalha hoje)",
+                "resposta": "arbeitet"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wenn der Bus kommt, ___ wir ein. (entramos)",
+                "resposta": "steigen"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sie sagt, dass sie morgen ___. (trabalha)",
+                "resposta": "arbeitet"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Weil ich keine Zeit habe, ___ ich zu Hause. (fico)",
+                "resposta": "bleibe"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Nachdem er gegessen hat, ___ er einen Kaffee. (bebe)",
+                "resposta": "trinkt"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Bevor du gehst, ___ du die Tür. (fecha)",
+                "resposta": "schließt"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wenn es warm ist, ___ wir im Garten. (comemos)",
+                "resposta": "essen"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Obwohl er müde ist, ___ er weiter. (trabalha)",
+                "resposta": "arbeitet"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich frage mich, ob Maria morgen ___. (vem)",
+                "resposta": "kommt"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Da der Zug spät ist, ___ wir länger. (esperamos)",
+                "resposta": "warten"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Während ich koche, ___ mein Bruder den Tisch. (põe a mesa)",
+                "resposta": "deckt"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sobald der Unterricht beginnt, ___ alle ruhig. (ficam)",
+                "resposta": "sind"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Falls du Hilfe brauchst, ___ du mich an. (liga para)",
+                "resposta": "rufst"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich gehe früh ins Bett, damit ich morgen fit ___. (esteja em forma)",
+                "resposta": "bin"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er lernt viel, weil er die Prüfung ___. (quer passar)",
+                "resposta": "bestehen will"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Nachdem wir angekommen sind, ___ wir unsere Koffer aus. (desfazemos)",
+                "resposta": "packen"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Bevor sie zur Arbeit geht, ___ sie Kaffee. (bebe)",
+                "resposta": "trinkt"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wenn ich nach Hause komme, ___ ich zuerst meine Schuhe aus. (tiro)",
+                "resposta": "ziehe"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Obwohl das Wetter schlecht ist, ___ die Kinder draußen. (brincam)",
+                "resposta": "spielen"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich weiß, dass du die Antwort ___. (conheces)",
+                "resposta": "kennst"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Weil der Laden geschlossen ist, ___ wir morgen wieder. (voltamos)",
+                "resposta": "kommen"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wenn du das Buch gelesen hast, ___ du mir deine Meinung. (diz)",
+                "resposta": "sagst"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Nachdem sie den Brief geschrieben hatte, ___ sie ihn zur Post. (levou)",
+                "resposta": "brachte"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Bevor der Film anfängt, ___ wir Popcorn. (compramos)",
+                "resposta": "kaufen"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich bleibe, solange du hier ___. (estás)",
+                "resposta": "bist"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Sobald er ankommt, ___ er mich an. (liga para mim)",
+                "resposta": "ruft"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Obwohl sie wenig Zeit hat, ___ sie uns. (ajuda)",
+                "resposta": "hilft"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Falls es schneit, ___ wir zu Hause. (ficamos)",
+                "resposta": "bleiben"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich lerne Deutsch, weil ich in Deutschland arbeiten ___. (quero)",
+                "resposta": "möchte"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Er sagt, dass er das Problem ___. (entende)",
+                "resposta": "versteht"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wenn ihr fertig seid, ___ ihr nach Hause gehen. (podem)",
+                "resposta": "könnt"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Da ich müde bin, ___ ich heute früh. (durmo)",
+                "resposta": "schlafe"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Während die Kinder spielen, ___ die Mutter das Essen. (cozinha)",
+                "resposta": "kocht"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Nachdem wir gegessen haben, ___ wir einen Spaziergang. (fazemos)",
+                "resposta": "machen"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Bevor ich die Wohnung verlasse, ___ ich das Licht aus. (apago)",
+                "resposta": "mache"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Ich frage, wann der nächste Zug ___. (parte)",
+                "resposta": "fährt"
+        },
+        {
+                "tema": "Orações subordinadas",
+                "tipo": "lacuna",
+                "enunciado": "Complete: Wenn du regelmäßig übst, ___ du schneller. (aprendes)",
+                "resposta": "lernst"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ du morgen zur Arbeit? (Você vem ao trabalho amanhã?)",
+                "resposta": "Kommst"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ wohnst du jetzt? (Onde você mora agora?)",
+                "resposta": "Wo"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ beginnt der Kurs? (Quando começa o curso?)",
+                "resposta": "Wann"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ lernst du Deutsch? (Por que você estuda alemão?)",
+                "resposta": "Warum"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ arbeitet deine Schwester? (Onde sua irmã trabalha?)",
+                "resposta": "Wo"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ fährt der Zug ab? (Quando o trem parte?)",
+                "resposta": "Wann"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ machst du am Wochenende? (O que você faz no fim de semana?)",
+                "resposta": "Was"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ heißt deine neue Kollegin? (Como se chama sua nova colega?)",
+                "resposta": "Wie"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ kostet die Fahrkarte? (Quanto custa a passagem?)",
+                "resposta": "Wie viel"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ kommt der Bus heute? (Quando o ônibus chega hoje?)",
+                "resposta": "Wann"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ gehst du zur Universität? (Como você vai à universidade?)",
+                "resposta": "Wie"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ Buch liest du gerade? (Qual livro você está lendo?)",
+                "resposta": "Welches"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ spricht mit dem Arzt? (Quem fala com o médico?)",
+                "resposta": "Wer"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ brauchst du für die Reise? (O que você precisa para a viagem?)",
+                "resposta": "Was"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ lange bleibst du in Berlin? (Quanto tempo você fica em Berlim?)",
+                "resposta": "Wie lange"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ beginnt die Prüfung? (Quando começa a prova?)",
+                "resposta": "Wann"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ ist dein Lieblingsrestaurant? (Qual é seu restaurante favorito?)",
+                "resposta": "Welches"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ hilfst du heute? (A quem você ajuda hoje?)",
+                "resposta": "Wem"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ suchst du deine Schlüssel? (Por que você procura suas chaves?)",
+                "resposta": "Warum"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ Tasche gehört dir? (Qual bolsa pertence a você?)",
+                "resposta": "Welche"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ kommt ihr nach Hause? (Quando vocês voltam para casa?)",
+                "resposta": "Wann"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ wohnt neben dir? (Quem mora ao seu lado?)",
+                "resposta": "Wer"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ fährt Maria nach Hamburg? (Como Maria vai para Hamburgo?)",
+                "resposta": "Wie"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ möchtest du trinken? (O que você gostaria de beber?)",
+                "resposta": "Was"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ ist der Bahnhof von hier entfernt? (Quão longe fica a estação daqui?)",
+                "resposta": "Wie weit"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ Auto gehört deinem Vater? (Qual carro pertence ao seu pai?)",
+                "resposta": "Welches"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ wartet vor der Tür? (Quem espera diante da porta?)",
+                "resposta": "Wer"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ gehst du nicht mit uns? (Por que você não vai conosco?)",
+                "resposta": "Warum"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ treffen wir uns? (Onde nos encontramos?)",
+                "resposta": "Wo"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ Uhr stehst du auf? (A que horas você se levanta?)",
+                "resposta": "Um wie viel"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ lernst du für die Prüfung? (Como você estuda para a prova?)",
+                "resposta": "Wie"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ möchtest du am Samstag besuchen? (Quem você quer visitar no sábado?)",
+                "resposta": "Wen"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ dauert die Reise? (Quanto dura a viagem?)",
+                "resposta": "Wie lange"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ Film sehen wir heute? (Qual filme veremos hoje?)",
+                "resposta": "Welchen"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ hat dir geholfen? (Quem ajudou você?)",
+                "resposta": "Wer"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ brauchst du einen Regenschirm? (Por que você precisa de um guarda-chuva?)",
+                "resposta": "Warum"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ fährt der Bus zum Flughafen? (Quando o ônibus vai ao aeroporto?)",
+                "resposta": "Wann"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ möchtest du sitzen? (Onde você gostaria de sentar?)",
+                "resposta": "Wo"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ Kindern gibst du das Geschenk? (A quais crianças você dá o presente?)",
+                "resposta": "Welchen"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ kommst du gerade? (De onde você vem agora?)",
+                "resposta": "Woher"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ fährst du morgen? (Para onde você vai amanhã?)",
+                "resposta": "Wohin"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ lange arbeitest du heute? (Quanto tempo você trabalha hoje?)",
+                "resposta": "Wie lange"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ gehört dieser Schlüssel? (A quem pertence esta chave?)",
+                "resposta": "Wem"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ lernst du neue Wörter? (Como você aprende palavras novas?)",
+                "resposta": "Wie"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ Tag passt dir besser? (Qual dia é melhor para você?)",
+                "resposta": "Welcher"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ wartet der Mann auf den Bus? (Por que o homem espera o ônibus?)",
+                "resposta": "Warum"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ kommt deine Freundin zu Besuch? (Quando sua amiga vem visitar você?)",
+                "resposta": "Wann"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ möchtest du bestellen? (O que você gostaria de pedir?)",
+                "resposta": "Was"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ fährt mit dir nach München? (Quem vai com você para Munique?)",
+                "resposta": "Wer"
+        },
+        {
+                "tema": "Perguntas",
+                "tipo": "lacuna",
+                "enunciado": "Complete a pergunta: ___ ist dein Termin? (Quando é seu compromisso?)",
+                "resposta": "Wann"
+        },
+        {
+                "tema": "A regra TeKaMoLo",
+                "tipo": "lacuna",
+                "enunciado": "Organize na ordem TeKaMoLo: Wir fahren ___ . (nach Leipzig / mit dem Fahrrad / wegen des Wetters / am Samstag)",
+                "resposta": "am Samstag;wegen des Wetters;mit dem Fahrrad;nach Leipzig"
+        },
+        {
+                "tema": "Sujeito e objeto",
+                "tipo": "lacuna",
+                "enunciado": "Complete: ___ zeigt dem Kunden den Vertrag. (A advogada)",
+                "resposta": "Die Anwältin"
+        },
+        {
+                "tema": "Elemento na primeira posição",
+                "tipo": "lacuna",
+                "enunciado": "Coloque o elemento na primeira posição: ___ besucht mein Onkel das Krankenhaus. (Na próxima terça-feira)",
+                "resposta": "Nächsten Dienstag"
+        }
+];
 
-        const verbos = [['Ich ___ jeden Tag Deutsch.', 'lerne', 'lernen'], ['Heute ___ Maria im Büro.', 'arbeitet', 'arbeiten'], ['Morgen ___ wir nach Berlin.', 'fahren', 'fahren'], ['Der Mann ___ ein Buch.', 'liest', 'lesen'], ['Die Kinder ___ im Park.', 'spielen', 'spielen'], ['Am Abend ___ ich zu Hause.', 'bleibe', 'bleiben'], ['Peter ___ einen Kaffee.', 'trinkt', 'trinken'], ['Wir ___ heute früh.', 'beginnen', 'beginnen'], ['Sie ___ ihre Mutter.', 'besucht', 'besuchen'], ['Du ___ sehr schnell.', 'läufst', 'laufen'], ['Ich ___ morgen zum Arzt.', 'gehe', 'gehen'], ['Er ___ jeden Morgen.', 'arbeitet', 'arbeiten'], ['Heute ___ die Frau einen Kuchen.', 'backt', 'backen'], ['Wir ___ am Samstag Freunde.', 'treffen', 'treffen'], ['Das Kind ___ im Bett.', 'schläft', 'schlafen'], ['Ich ___ die Tür.', 'öffne', 'öffnen'], ['Sie ___ das Fenster.', 'schließt', 'schließen'], ['Der Student ___ viel.', 'lernt', 'lernen'], ['Ihr ___ sehr laut.', 'sprecht', 'sprechen'], ['Wir ___ zusammen.', 'wohnen', 'wohnen']];
-        verbos.forEach((x, i) => adicionar('O verbo conjugado na oração principal', 'lacuna', `Complete: ${x[0]} (${x[2]})`, x[1]));
+        let ordem = [];
+        let exibidos = 10;
+        const quantidadePorPagina = 10;
 
-        const tekamolo = [
-            ['Ich fahre ___ mit dem Bus nach Berlin.', 'heute wegen des Regens', 'hoje por causa da chuva'], ['Wir arbeiten ___ mit dem Computer im Büro.', 'heute wegen des Projekts', 'hoje por causa do projeto'], ['Sie fährt ___ mit dem Zug nach München.', 'morgen wegen des Wetters', 'amanhã por causa do tempo'], ['Er bleibt ___ ruhig zu Hause.', 'heute wegen der Krankheit', 'hoje por causa da doença'], ['Ich lerne ___ mit meiner Freundin in der Bibliothek.', 'am Abend wegen der Prüfung', 'à noite por causa da prova'], ['Wir gehen ___ zu Fuß zur Schule.', 'jeden Morgen wegen des Verkehrs', 'todas as manhãs por causa do trânsito'], ['Sie arbeitet ___ mit großer Freude im Garten.', 'am Samstag wegen des schönen Wetters', 'no sábado por causa do bom tempo'], ['Er fährt ___ mit dem Fahrrad zur Arbeit.', 'jeden Tag wegen der Gesundheit', 'todos os dias por causa da saúde'], ['Ich bleibe ___ mit meiner Familie zu Hause.', 'am Sonntag wegen des Regens', 'no domingo por causa da chuva'], ['Wir fahren ___ mit dem Auto zum Bahnhof.', 'morgen wegen des frühen Zuges', 'amanhã por causa do trem cedo']];
-        tekamolo.forEach(x => adicionar('A regra TeKaMoLo', 'lacuna', `Complete na ordem TeKaMoLo: Ich/Wir/Sie/Er... (${x[2]})`, x[1]));
+        function embaralhar(array) {
+            const copia = [...array];
+            for (let i = copia.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [copia[i], copia[j]] = [copia[j], copia[i]];
+            }
+            return copia;
+        }
 
-        const tempos = [['Ich ___ heute Deutsch.', 'heute', 'hoje'], ['Wir ___ morgen nach Hause.', 'morgen', 'amanhã'], ['Sie arbeitet ___.', 'am Montag', 'na segunda-feira'], ['Er kommt ___.', 'am Abend', 'à noite'], ['Ich besuche meine Mutter ___.', 'am Wochenende', 'no fim de semana'], ['Wir lernen ___.', 'jeden Morgen', 'todas as manhãs'], ['Sie fährt ___.', 'nächste Woche', 'na próxima semana'], ['Er arbeitet ___.', 'seit einem Jahr', 'há um ano'], ['Ich war ___.', 'gestern', 'ontem'], ['Wir treffen uns ___.', 'um acht Uhr', 'às oito horas']];
-        tempos.forEach(x => adicionar('Tempo', 'lacuna', `Complete com o elemento temporal: ${x[0]} (${x[2]})`, x[1]));
-
-        const lugares = [['Er fährt heute ___.', 'zur Arbeit', 'ao trabalho'], ['Wir gehen morgen ___.', 'in die Schule', 'para a escola'], ['Sie wohnt ___.', 'in Berlin', 'em Berlim'], ['Das Kind spielt ___.', 'im Garten', 'no jardim'], ['Ich arbeite ___.', 'im Büro', 'no escritório'], ['Er fährt ___.', 'zum Bahnhof', 'à estação'], ['Wir essen ___.', 'im Restaurant', 'no restaurante'], ['Sie wartet ___.', 'vor dem Haus', 'em frente à casa'], ['Das Auto steht ___.', 'hinter dem Haus', 'atrás da casa'], ['Ich gehe ___.', 'in die Apotheke', 'à farmácia']];
-        lugares.forEach(x => adicionar('Lugar e direção', 'lacuna', `Coloque o complemento de lugar no final: ${x[0]} (${x[2]})`, x[1]));
-
-        const sujeitoObjeto = [['___ kauft einen Computer.', 'Der Mann', 'O homem'], ['Ich gebe ___ das Buch.', 'dem Kind', 'à criança'], ['___ liest heute die Zeitung.', 'Meine Schwester', 'Minha irmã'], ['Wir besuchen ___.', 'unsere Großeltern', 'nossos avós'], ['___ sieht den Hund.', 'Der Junge', 'O menino'], ['Ich helfe ___.', 'meinem Bruder', 'meu irmão'], ['___ kauft die Mutter.', 'das Brot', 'o pão'], ['Sie gibt ___ einen Kaffee.', 'dem Chef', 'ao chefe'], ['___ besucht den Lehrer.', 'der Student', 'o estudante'], ['Ich sehe ___.', 'den Vogel', 'o pássaro']];
-        sujeitoObjeto.forEach(x => adicionar('Sujeito e objeto', 'lacuna', `Complete: ${x[0]} (${x[2]})`, x[1]));
-
-        const primeira = [['___ gehe ich zur Arbeit.', 'Heute', 'hoje'], ['___ fährt er nach Berlin.', 'Morgen', 'amanhã'], ['___ wohnt meine Schwester.', 'In München', 'em Munique'], ['___ lese ich am Abend.', 'Das Buch', 'o livro'], ['___ besucht sie ihre Mutter.', 'Am Sonntag', 'no domingo'], ['___ arbeitet mein Bruder.', 'Im Büro', 'no escritório'], ['___ kaufe ich ein.', 'Nach der Arbeit', 'depois do trabalho'], ['___ gehen wir nach Hause.', 'Um acht Uhr', 'às oito horas'], ['___ steht das Auto.', 'Vor dem Haus', 'em frente à casa'], ['___ lernt der Student Deutsch.', 'Jeden Abend', 'todas as noites']];
-        primeira.forEach(x => adicionar('Elemento na primeira posição', 'lacuna', `Coloque o elemento na primeira posição: ${x[0]} (${x[2]})`, x[1]));
-
-        const separaveis = [['Ich ___ jeden Morgen um sieben Uhr ___.', 'stehe;auf', 'levanto-me'], ['Heute ___ sie im Supermarkt ___.', 'kauft;ein', 'faz compras'], ['Er ___ das Fenster ___.', 'macht;auf', 'abre'], ['Wir ___ am Abend ___.', 'sehen;fern', 'assistimos à televisão'], ['Du ___ morgen früh ___.', 'stehst;auf', 'levanta-se'], ['Ich ___ meine Freunde ___.', 'rufe;an', 'telefono para'], ['Sie ___ ihre Jacke ___.', 'zieht;an', 'veste'], ['Der Zug ___ um acht Uhr ___.', 'fährt;ab', 'parte'], ['Wir ___ das Licht ___.', 'machen;aus', 'apagamos'], ['Er ___ die Tür ___.', 'schließt;ab', 'fecha']];
-        separaveis.forEach(x => adicionar('Verbos separáveis', 'lacuna', `Complete: ${x[0]} (${x[2]})`, x[1]));
-
-        const modais = [['Ich muss ___ .', 'heute arbeiten', 'trabalhar hoje'], ['Du sollst ___ .', 'mehr Wasser trinken', 'tomar mais água'], ['Wir können ___ .', 'morgen kommen', 'poder vir amanhã'], ['Er will ___ .', 'ein neues Auto kaufen', 'comprar um carro novo'], ['Sie darf ___ .', 'hier bleiben', 'poder ficar aqui'], ['Ich möchte ___ .', 'Deutsch lernen', 'querer aprender alemão'], ['Ihr müsst ___ .', 'jetzt gehen', 'ter que ir agora'], ['Du kannst ___ .', 'mit uns kommen', 'poder vir conosco'], ['Er soll ___ .', 'den Arzt anrufen', 'dever telefonar para o médico'], ['Wir wollen ___ .', 'am Wochenende reisen', 'querer viajar no fim de semana']];
-        modais.forEach(x => adicionar('Verbos modais', 'lacuna', `Complete: ${x[0]} (${x[2]})`, x[1]));
-
-        const temposCompostos = [['Wir ___ am Wochenende gearbeitet.', 'haben', 'Perfekt'], ['Ich ___ gestern nach Hause gegangen.', 'bin', 'Perfekt'], ['Sie ___ heute Deutsch gelernt.', 'hat', 'Perfekt'], ['Er ___ früh aufgestanden.', 'ist', 'Perfekt'], ['Wir ___ morgen arbeiten.', 'werden', 'Futur I'], ['Ich ___ nächste Woche reisen.', 'werde', 'Futur I'], ['Sie ___ bald kommen.', 'wird', 'Futur I'], ['Ihr ___ später lernen.', 'werdet', 'Futur I'], ['Er ___ gestern Fußball gespielt.', 'hat', 'Perfekt'], ['Wir ___ am Montag angekommen.', 'sind', 'Perfekt']];
-        temposCompostos.forEach(x => adicionar('Perfekt e outros tempos compostos', 'lacuna', `Complete corretamente o tempo verbal: ${x[0]} (${x[2]})`, x[1]));
-
-        const subordinadas = [['Ich bleibe zu Hause, weil ich krank ___.', 'bin', 'estou doente'], ['Ich weiß, dass er heute ___.', 'arbeitet', 'trabalha hoje'], ['Wenn du Zeit hast, ___.', 'kommst du', 'você vem'], ['Sie bleibt hier, weil sie warten ___.', 'muss', 'precisa esperar'], ['Ich glaube, dass er morgen ___.', 'kommt', 'vem amanhã'], ['Wir gehen, wenn der Regen ___.', 'aufhört', 'para'], ['Er weiß, dass ich Deutsch ___.', 'lerne', 'estudo alemão'], ['Sie bleibt zu Hause, weil sie krank ___.', 'ist', 'está doente'], ['Wenn ich Zeit habe, ___ ich dich.', 'besuche', 'visito'], ['Ich hoffe, dass du morgen ___.', 'kommst', 'vem amanhã']];
-        subordinadas.forEach(x => adicionar('Orações subordinadas', 'lacuna', `Complete: ${x[0]} (${x[2]})`, x[1]));
-
-        const perguntas = [['___ du morgen?', 'Kommst', 'Você vem amanhã?'], ['___ wohnst du?', 'Wo', 'Onde você mora?'], ['___ kommst du?', 'Wann', 'Quando você vem?'], ['___ lernst du Deutsch?', 'Warum', 'Por que você estuda alemão?'], ['___ arbeitet er?', 'Wo', 'Onde ele trabalha?'], ['___ fährt sie nach Berlin?', 'Wann', 'Quando ela vai para Berlim?'], ['___ machst du heute?', 'Was', 'O que você faz hoje?'], ['___ heißt du?', 'Wie', 'Como você se chama?'], ['___ kommt der Zug?', 'Wann', 'Quando o trem chega?'], ['___ gehst du zur Schule?', 'Wie', 'Como você vai à escola?']];
-        perguntas.forEach(x => adicionar('Perguntas', 'lacuna', `Complete a pergunta: ${x[0]} (${x[2]})`, x[1]));
-
-        // Completa cada tema até 50 exercícios, usando variações seguras dos mesmos padrões.
-        const temas = [...new Set(exercicios.map(e => e.tema))];
-        const modelos = {
-            'O verbo conjugado na oração principal': ['Heute ___ ich Deutsch.', 'Morgen ___ wir nach Hause.', 'Am Abend ___ er im Büro.', 'Jeden Tag ___ sie Deutsch.', 'Nach der Arbeit ___ ich nach Hause.'],
-            'A regra TeKaMoLo': ['Ich fahre ___ nach Berlin.', 'Wir arbeiten ___ im Büro.', 'Sie lernt ___ in der Bibliothek.', 'Er fährt ___ zur Arbeit.', 'Ich bleibe ___ zu Hause.'],
-            'Tempo': ['Ich arbeite ___.', 'Wir lernen ___.', 'Sie kommt ___.', 'Er fährt ___.', 'Ich besuche meine Mutter ___.'],
-            'Lugar e direção': ['Er fährt heute ___.', 'Wir gehen morgen ___.', 'Sie arbeitet ___.', 'Das Kind spielt ___.', 'Ich gehe ___.'],
-            'Sujeito e objeto': ['___ kauft das Buch.', 'Ich gebe ___ das Buch.', '___ liest die Zeitung.', 'Wir besuchen ___.', 'Ich helfe ___.'],
-            'Elemento na primeira posição': ['___ gehe ich zur Arbeit.', '___ fährt er nach Berlin.', '___ wohnt meine Schwester.', '___ lese ich heute.', '___ arbeitet mein Bruder.'],
-            'Verbos separáveis': ['Ich ___ um sieben Uhr ___.', 'Heute ___ sie ___.', 'Er ___ das Fenster ___.', 'Wir ___ am Abend ___.', 'Du ___ morgen ___.'],
-            'Verbos modais': ['Ich muss ___ .', 'Du sollst ___ .', 'Wir können ___ .', 'Er will ___ .', 'Sie darf ___ .'],
-            'Perfekt e outros tempos compostos': ['Wir ___ gestern gearbeitet.', 'Ich ___ nach Hause gegangen.', 'Sie ___ Deutsch gelernt.', 'Er ___ früh aufgestanden.', 'Wir ___ morgen arbeiten.'],
-            'Orações subordinadas': ['Ich bleibe zu Hause, weil ich krank ___.', 'Ich weiß, dass er heute ___.', 'Wenn du Zeit hast, ___.', 'Sie bleibt hier, weil sie warten ___.', 'Ich glaube, dass er morgen ___.'],
-            'Perguntas': ['___ du morgen?', '___ wohnst du?', '___ kommst du?', '___ lernst du Deutsch?', '___ arbeitet er?']
-        };
-        const respostas = {
-            'O verbo conjugado na oração principal': ['lerne', 'fahren', 'arbeitet', 'lernt', 'gehe'],
-            'A regra TeKaMoLo': ['heute wegen des Regens mit dem Bus', 'heute wegen des Projekts mit dem Computer', 'am Abend mit meiner Freundin in der Bibliothek', 'morgen mit dem Fahrrad zur Arbeit', 'heute wegen des Regens zu Hause'],
-            'Tempo': ['heute', 'morgen', 'am Montag', 'am Abend', 'am Wochenende'],
-            'Lugar e direção': ['zur Arbeit', 'in die Schule', 'im Büro', 'im Garten', 'in die Apotheke'],
-            'Sujeito e objeto': ['Der Mann', 'dem Kind', 'Meine Schwester', 'unsere Großeltern', 'meinem Bruder'],
-            'Elemento na primeira posição': ['Heute', 'Morgen', 'In München', 'Das Buch', 'Im Büro'],
-            'Verbos separáveis': ['stehe;auf', 'kauft;ein', 'macht;auf', 'sehen;fern', 'stehst;auf'],
-            'Verbos modais': ['heute arbeiten', 'mehr Wasser trinken', 'morgen kommen', 'ein neues Auto kaufen', 'hier bleiben'],
-            'Perfekt e outros tempos compostos': ['haben', 'bin', 'hat', 'ist', 'werden'],
-            'Orações subordinadas': ['bin', 'arbeitet', 'kommst du', 'muss', 'kommt'],
-            'Perguntas': ['Kommst', 'Wo', 'Wann', 'Warum', 'Wo']
-        };
-        const significados = {
-            'O verbo conjugado na oração principal': ['aprendo alemão', 'ir para casa', 'trabalha no escritório', 'aprende alemão', 'vou para casa'],
-            'A regra TeKaMoLo': ['hoje por causa da chuva de ônibus', 'hoje por causa do projeto com o computador', 'à noite com minha amiga na biblioteca', 'amanhã de bicicleta para o trabalho', 'hoje por causa da chuva em casa'],
-            'Tempo': ['hoje', 'amanhã', 'na segunda-feira', 'à noite', 'no fim de semana'],
-            'Lugar e direção': ['ao trabalho', 'para a escola', 'no escritório', 'no jardim', 'à farmácia'],
-            'Sujeito e objeto': ['o homem', 'à criança', 'minha irmã', 'nossos avós', 'meu irmão'],
-            'Elemento na primeira posição': ['hoje', 'amanhã', 'em Munique', 'o livro', 'no escritório'],
-            'Verbos separáveis': ['levanto-me', 'faz compras', 'abre', 'assistimos à televisão', 'levanta-se'],
-            'Verbos modais': ['trabalhar hoje', 'tomar mais água', 'poder vir amanhã', 'comprar um carro novo', 'poder ficar aqui'],
-            'Perfekt e outros tempos compostos': ['ter', 'ter ido', 'ter aprendido', 'ter se levantado', 'Futur I'],
-            'Orações subordinadas': ['estou doente', 'trabalha hoje', 'você vem', 'precisa esperar', 'vem amanhã'],
-            'Perguntas': ['Você vem?', 'Onde você mora?', 'Quando você vem?', 'Por que você estuda alemão?', 'Onde ele trabalha?']
-        };
-        for (const tema of temas) { let n = exercicios.filter(e => e.tema === tema).length; let i = 0; while (n < 50) { const m = modelos[tema][i % modelos[tema].length]; const r = respostas[tema][i % respostas[tema].length]; const s = significados[tema][i % significados[tema].length]; adicionar(tema, 'lacuna', `Complete: ${m} (${s})`, r); n++; i++; } }
-
-        let ordem = [], exibidos = 10;
-        function embaralhar(a) { return [...a].sort(() => Math.random() - .5) }
-        function render() {
+        function render(limpar = false) {
             const c = document.getElementById('exercicios');
+
+            // Ao clicar em "Exibir mais 10", apenas acrescenta novas questões.
+            // Assim, as respostas já digitadas nunca são apagadas.
+            if (limpar) c.innerHTML = '';
 
             for (let i = 0; i < exibidos; i++) {
                 const e = ordem[i];
-
-                // Se o exercício já está na tela, não recria.
-                if (c.querySelector(`[data-id="${e.id}"]`)) {
-                    continue;
-                }
+                if (c.querySelector(`[data-id="${e.id}"]`)) continue;
 
                 const d = document.createElement('div');
                 d.className = 'exercise';
@@ -246,29 +3481,27 @@
                 a.className = 'answer';
                 a.textContent = `Resposta: ${e.resposta}`;
 
-                b.onclick = () => {
+                b.addEventListener('click', () => {
                     a.classList.toggle('visible');
-
                     b.textContent = a.classList.contains('visible')
                         ? 'Ocultar resposta'
                         : 'Ver resposta';
-                };
+                });
 
                 d.append(q, input, b, a);
                 c.appendChild(d);
             }
 
+            const chegouAoFim = exibidos >= ordem.length;
             const mais = document.getElementById('mais');
             const fim = document.getElementById('fim');
 
-            const chegouAoFim = exibidos >= ordem.length;
-
             mais.disabled = chegouAoFim;
-
             fim.textContent = chegouAoFim
                 ? 'A lista de exercícios chegou ao fim.'
                 : '';
         }
+
         function normalizar(s) {
             return s
                 .trim()
@@ -276,8 +3509,47 @@
                 .replace(/\s*;\s*/g, ';')
                 .replace(/\s+/g, ' ');
         }
-        function corrigir() { let acertos = 0; document.querySelectorAll('.exercise').forEach(d => { const e = ordem.find(x => x.id == d.dataset.id), input = d.querySelector('input'), ok = normalizar(input.value) === normalizar(e.resposta); d.classList.toggle('correct', ok); d.classList.toggle('wrong', !ok); if (ok) acertos++ }); document.getElementById('pontuacao').textContent = `Resultado: ${acertos} de ${document.querySelectorAll('.exercise').length} questões corretas.` }
-        document.getElementById('mais').onclick = () => { exibidos = Math.min(exibidos + 10, ordem.length); render() }; document.getElementById('corrigir').onclick = corrigir; document.getElementById('resetar').onclick = () => { ordem = embaralhar(exercicios); exibidos = 10; document.getElementById('pontuacao').textContent = ''; render() }; ordem = embaralhar(exercicios); render();
+
+        function corrigir() {
+            let acertos = 0;
+            const questoes = document.querySelectorAll('.exercise');
+
+            questoes.forEach(d => {
+                const id = Number(d.dataset.id);
+                const e = exercicios.find(item => item.id === id);
+                const input = d.querySelector('.resposta-input');
+                const correta = normalizar(e.resposta);
+                const resposta = normalizar(input.value);
+                const ok = resposta === correta;
+
+                d.classList.toggle('correct', ok);
+                d.classList.toggle('wrong', !ok);
+                if (ok) acertos++;
+            });
+
+            document.getElementById('pontuacao').textContent =
+                `Resultado: ${acertos} de ${questoes.length} questões corretas.`;
+        }
+
+        document.getElementById('mais').addEventListener('click', () => {
+            exibidos = Math.min(exibidos + quantidadePorPagina, ordem.length);
+            render(false);
+        });
+
+        document.getElementById('corrigir').addEventListener('click', corrigir);
+
+        document.getElementById('resetar').addEventListener('click', () => {
+            ordem = embaralhar(exercicios);
+            exibidos = quantidadePorPagina;
+            document.getElementById('pontuacao').textContent = '';
+            render(true);
+        });
+
+        // Cada exercício recebe um ID estável. A numeração exibida acompanha
+        // a posição na ordem embaralhada, não a posição original do array.
+        exercicios.forEach((e, i) => e.id = i);
+        ordem = embaralhar(exercicios);
+        render(true);
     </script>
 </body>
 

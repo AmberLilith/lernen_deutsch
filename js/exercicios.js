@@ -8,7 +8,7 @@ export const exercicios = [
       { arquivo: "dativ.html", titulo: "Dativ", detalhe: "Prática de Dativ" },
       { arquivo: "ndeklination.html", titulo: "n-Deklination", detalhe: "Prática de n-Deklination" },
       { arquivo: "negacao.html", titulo: "Negação: nicht e kein", detalhe: "Prática de negação" },
-      { arquivo: "pronomes.html", titulo: "Pronomes pessoais", detalhe: "Prática de pronomes" },
+      { arquivo: "pronomes-pessoais.html", titulo: "Pronomes pessoais", detalhe: "Prática de pronomes" },
       { arquivo: "fundamentos.html", titulo: "Gênero dos substantivos", detalhe: "Prática de fundamentos" }
     ]
   },

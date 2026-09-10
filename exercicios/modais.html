@@ -1,15 +1,623 @@
-<!doctype html><html lang="pt-BR"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Verbos modais · Alemão</title><link rel="stylesheet" href="../css/style.css">
-</head><body>
-<header class="site-header"><nav class="nav">
-<a class="brand" href="../index.html">Alemão <small>estudos</small></a>
-<div class="nav-links"><a href="../index.html#conteudos">Conteúdos</a><a href="../index.html#exercicios">Exercícios</a></div>
-</nav></header>
-<main class="container"><div class="breadcrumb"><a href="../index.html">Início</a> / Exercícios</div>
-<div class="hero"><div class="eyebrow">Exercício</div><h1>Verbos modais</h1><p class="lead">Responda sem consultar o gabarito. A correção aparece somente depois de clicar em Corrigir.</p></div>
-<div class="panel"><div class="progress"><span></span></div><div class="question" data-answer="kann"><div class="prompt">1. ich ___ Deutsch lernen. (können)</div><input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta..."><div class="feedback"></div></div><div class="question" data-answer="kannst"><div class="prompt">2. du ___ Deutsch lernen. (können)</div><input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta..."><div class="feedback"></div></div><div class="question" data-answer="kann"><div class="prompt">3. er ___ Deutsch lernen. (können)</div><input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta..."><div class="feedback"></div></div><div class="question" data-answer="können"><div class="prompt">4. wir ___ Deutsch lernen. (können)</div><input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta..."><div class="feedback"></div></div>
-<div class="controls"><button class="primary" onclick="checkExercise()">Corrigir</button><button class="secondary" onclick="clearExercise()">Limpar</button></div>
-<div class="score"></div></div></main>
-<footer class="site-footer"><div class="footer-inner"><span>Material de estudo pessoal</span><a href="../index.html">← Início</a></div></footer>
-<script src="../js/app.js"></script></body></html>
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Verbos modais · Alemão</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="nav">
+            <a class="brand" href="../index.html">Alemão <small>estudos</small></a>
+            <div class="nav-links">
+                <a href="../index.html#conteudos">Conteúdos</a>
+                <a href="../index.html#exercicios">Exercícios</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <div class="breadcrumb">
+            <a href="../index.html">Início</a> / Exercícios
+        </div>
+
+        <div class="hero">
+            <div class="eyebrow">Exercício</div>
+            <h1>Verbos modais</h1>
+            <p class="lead">
+                Pratique conjugação, escolha do modal, negação e uso dos modais em diferentes tempos verbais.
+            </p>
+        </div>
+
+
+        <!-- EXERCÍCIO 1 -->
+
+        <div class="panel">
+            <h2>Exercício 1 · Complete com o modal</h2>
+
+            <div class="progress"><span></span></div>
+
+            <div class="question" data-answer="kann">
+                <div class="prompt">1. Ich ___ Deutsch sprechen. (können)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <button class="check-button" onclick="showAnswer(this)">Verificar Resposta</button>
+                <div id="answer" class="answer"></div>
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="musst">
+                <div class="prompt">2. Du ___ heute arbeiten. (müssen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <button class="check-button">Verificar Resposta</button>
+                <div id="answer" class="answer"></div>
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="darf">
+                <div class="prompt">3. Er ___ hier bleiben. (dürfen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="sollen">
+                <div class="prompt">4. Wir ___ mehr Wasser trinken. (sollen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="wollt">
+                <div class="prompt">5. Ihr ___ nach Berlin fahren. (wollen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="mag">
+                <div class="prompt">6. Sie ___ Kaffee. (mögen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <!-- EXERCÍCIO 2 -->
+
+        <div class="panel">
+            <h2>Exercício 2 · Escolha o modal correto</h2>
+
+            <div class="question" data-answer="muss">
+                <div class="prompt">1. Ich ___ morgen früh aufstehen. (necessidade)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="muss / darf / will">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="darf">
+                <div class="prompt">2. Du ___ hier nicht rauchen. (proibição)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="darfst / musst / kannst">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="kann">
+                <div class="prompt">3. Sie ___ sehr gut schwimmen. (capacidade)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="kann / soll / muss">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="soll">
+                <div class="prompt">4. Der Arzt sagt, ich ___ mehr schlafen. (recomendação)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="soll / darf / will">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="will">
+                <div class="prompt">5. Ich ___ heute zu Hause bleiben. (vontade)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="will / muss / darf">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="möchte">
+                <div class="prompt">6. Ich ___ einen Kaffee trinken. (desejo educado)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="möchte / muss / soll">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <!-- EXERCÍCIO 3 -->
+
+        <div class="panel">
+            <h2>Exercício 3 · Negação</h2>
+
+            <p>
+                Complete com <b>müssen</b> ou <b>dürfen</b> na forma correta.
+            </p>
+
+            <div class="question" data-answer="musst">
+                <div class="prompt">1. Du ___ heute nicht arbeiten. (você não precisa trabalhar)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="darfst">
+                <div class="prompt">2. Du ___ hier nicht parken. (você não pode estacionar)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="müssen">
+                <div class="prompt">3. Wir ___ morgen nicht arbeiten. (nós não precisamos trabalhar)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="dürfen">
+                <div class="prompt">4. Wir ___ hier nicht rauchen. (nós não temos permissão para fumar)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <!-- EXERCÍCIO 4 -->
+
+        <div class="panel">
+            <h2>Exercício 4 · Präteritum</h2>
+
+            <p>
+                Passe o modal para o <b>Präteritum</b>.
+            </p>
+
+            <div class="question" data-answer="konnte">
+                <div class="prompt">1. Ich ___ gestern nicht kommen. (können)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="mussten">
+                <div class="prompt">2. Wir ___ lange warten. (müssen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="durfte">
+                <div class="prompt">3. Sie ___ nicht bleiben. (dürfen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="sollte">
+                <div class="prompt">4. Er ___ mehr lernen. (sollen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="wollten">
+                <div class="prompt">5. Wir ___ nach Hause gehen. (wollen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="mochte">
+                <div class="prompt">6. Ich ___ diesen Film nicht. (mögen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <!-- EXERCÍCIO 5 -->
+
+        <div class="panel">
+            <h2>Exercício 5 · Tradução Português → Alemão</h2>
+
+            <div class="question" data-answer="Ich kann Deutsch sprechen.">
+                <div class="prompt">1. Eu consigo falar alemão.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva a frase completa...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="Wir müssen heute arbeiten.">
+                <div class="prompt">2. Nós precisamos trabalhar hoje.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva a frase completa...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="Du darfst hier bleiben.">
+                <div class="prompt">3. Você pode ficar aqui. (permissão)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva a frase completa...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="Sie will nach Hause gehen.">
+                <div class="prompt">4. Ela quer ir para casa.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva a frase completa...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="Ich möchte Kaffee trinken.">
+                <div class="prompt">5. Eu gostaria de tomar café.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva a frase completa...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <!-- EXERCÍCIO 6 -->
+
+        <div class="panel">
+            <h2>Exercício 6 · Perfekt com modal</h2>
+
+            <p>
+                Complete usando o <b>Ersatzinfinitiv</b>.
+            </p>
+
+            <div class="question" data-answer="habe">
+                <div class="prompt">1. Ich ___ arbeiten müssen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Auxiliar">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="haben">
+                <div class="prompt">2. Wir ___ nicht kommen können.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Auxiliar">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="hat">
+                <div class="prompt">3. Sie ___ nach Hause gehen wollen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Auxiliar">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="hast">
+                <div class="prompt">4. Du ___ lange warten müssen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Auxiliar">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="haben">
+                <div class="prompt">5. Die Kinder ___ im Park spielen dürfen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Auxiliar">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <!-- EXERCÍCIO 7 -->
+
+        <div class="panel">
+            <h2>Exercício 7 · Futur I</h2>
+
+            <p>
+                Complete com a forma correta de <b>werden</b>.
+            </p>
+
+            <div class="question" data-answer="werde">
+                <div class="prompt">1. Ich ___ morgen arbeiten müssen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="wirst">
+                <div class="prompt">2. Du ___ das schaffen können.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="wird">
+                <div class="prompt">3. Er ___ später kommen können.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="werden">
+                <div class="prompt">4. Wir ___ dort bleiben dürfen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="werdet">
+                <div class="prompt">5. Ihr ___ viel lernen müssen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <!-- EXERCÍCIO 8 -->
+
+        <div class="panel">
+            <h2>Exercício 8 · Oração subordinada</h2>
+
+            <p>
+                Complete o modal no final da oração subordinada.
+            </p>
+
+            <div class="question" data-answer="muss">
+                <div class="prompt">1. Ich bleibe zu Hause, weil ich arbeiten ___.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="kann">
+                <div class="prompt">2. Sie sagt, dass sie morgen nicht kommen ___.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="darf">
+                <div class="prompt">3. Er fragt, ob er hier bleiben ___.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="will">
+                <div class="prompt">4. Ich weiß, dass sie nach Hause gehen ___.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <!-- EXERCÍCIO 9 -->
+
+        <div class="panel">
+            <h2>Exercício 9 · Verbos separáveis + modal</h2>
+
+            <p>
+                Complete o verbo separável no infinitivo. Lembre-se: com modal, ele permanece unido.
+            </p>
+
+            <div class="question" data-answer="aufstehen">
+                <div class="prompt">1. Ich muss morgen früh ___ . (aufstehen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="anrufen">
+                <div class="prompt">2. Ich will meine Schwester ___ . (anrufen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="einkaufen">
+                <div class="prompt">3. Wir müssen heute ___ . (einkaufen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="mitkommen">
+                <div class="prompt">4. Du kannst morgen ___ . (mitkommen)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <!-- EXERCÍCIO 10 -->
+
+        <div class="panel">
+            <h2>Exercício 10 · Reflexivos + modal</h2>
+
+            <div class="question" data-answer="mich">
+                <div class="prompt">1. Ich muss ___ beeilen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Pronome reflexivo">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="dich">
+                <div class="prompt">2. Du musst ___ waschen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Pronome reflexivo">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="sich">
+                <div class="prompt">3. Sie will ___ ausziehen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Pronome reflexivo">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="uns">
+                <div class="prompt">4. Wir können ___ setzen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Pronome reflexivo">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="euch">
+                <div class="prompt">5. Ihr müsst ___ beeilen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Pronome reflexivo">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <!-- EXERCÍCIO 11 -->
+
+        <div class="panel">
+            <h2>Exercício 11 · Modal + verbo preposicional</h2>
+
+            <div class="question" data-answer="muss">
+                <div class="prompt">1. Ich ___ auf den Bus warten.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Modal">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="kann">
+                <div class="prompt">2. Wir ___ über das Problem sprechen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Modal">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="will">
+                <div class="prompt">3. Sie ___ sich auf die Reise freuen.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Modal">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="musst">
+                <div class="prompt">4. Du ___ an deine Zukunft denken.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Modal">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <!-- EXERCÍCIO 12 -->
+
+        <div class="panel">
+            <h2>Exercício 12 · Tradução final</h2>
+
+            <p>
+                Traduza para o alemão. Aqui não há pista do modal. Humanos também precisam aprender a escolher,
+                aparentemente.
+            </p>
+
+            <div class="question" data-answer="Ich musste gestern arbeiten.">
+                <div class="prompt">1. Eu precisei trabalhar ontem.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva a frase completa...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="Wir konnten nicht kommen.">
+                <div class="prompt">2. Nós não pudemos vir.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva a frase completa...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="Du darfst hier nicht bleiben.">
+                <div class="prompt">3. Você não pode ficar aqui. (proibição)</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva a frase completa...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="Sie will Deutsch lernen.">
+                <div class="prompt">4. Ela quer aprender alemão.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva a frase completa...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="Ich habe arbeiten müssen.">
+                <div class="prompt">5. Eu tive que trabalhar.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva a frase completa...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="question" data-answer="Wir werden morgen kommen können.">
+                <div class="prompt">6. Nós poderemos vir amanhã.</div>
+                <input class="answer-input" type="text" autocomplete="off" placeholder="Escreva a frase completa...">
+                <div class="feedback"></div>
+            </div>
+
+            <div class="controls">
+                <button class="primary" onclick="checkExercise()">Corrigir</button>
+                <button class="secondary" onclick="clearExercise()">Limpar</button>
+            </div>
+
+            <div class="score"></div>
+        </div>
+
+
+        <div class="lesson-nav"></div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <span>Material de estudo pessoal</span>
+            <a href="../index.html">← Início</a>
+        </div>
+    </footer>
+
+    <script src="../js/questions.js"></script>
+    <script src="../js/app.js"></script>
+
+</body>
+
+<script>
+    renderQuestions(questions);
+
+
+</script>
+
+</html>

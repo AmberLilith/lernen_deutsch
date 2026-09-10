@@ -1,5 +1,11 @@
 export const exercicios = [
   {
+    tema: "Substantivos",
+    itens: [
+      { arquivo: "generos.html", titulo: "Gênero dos substantivos", detalhe: "Prática de fundamentos" }
+    ]
+  },
+  {
     tema: "Artigos e casos",
     itens: [
       { arquivo: "artigos-definidos.html", titulo: "Artigos definidos", detalhe: "16 itens" },
@@ -8,8 +14,7 @@ export const exercicios = [
       { arquivo: "dativ.html", titulo: "Dativ", detalhe: "Prática de Dativ" },
       { arquivo: "ndeklination.html", titulo: "n-Deklination", detalhe: "Prática de n-Deklination" },
       { arquivo: "negacao.html", titulo: "Negação: nicht e kein", detalhe: "Prática de negação" },
-      { arquivo: "pronomes-pessoais.html", titulo: "Pronomes pessoais", detalhe: "Prática de pronomes" },
-      { arquivo: "fundamentos.html", titulo: "Gênero dos substantivos", detalhe: "Prática de fundamentos" }
+      { arquivo: "pronomes-pessoais.html", titulo: "Pronomes pessoais", detalhe: "Prática de pronomes" }
     ]
   },
   {

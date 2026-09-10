@@ -1,5 +1,5 @@
 export const conteudos = [
-  { arquivo: "fundamentos.html", titulo: "Gênero dos substantivos", descricao: "der, die, das; aprender substantivos com o artigo", categoria: "Fundamentos", tag: "Fundamentos" },
+  { arquivo: "generos.html", titulo: "Gênero dos substantivos", descricao: "der, die, das; aprender substantivos com o artigo", categoria: "Substantivos", tag: "Gramática" },
   { arquivo: "artigos-definidos.html", titulo: "Artigos definidos", descricao: "der/die/das/die e suas formas nos quatro casos", categoria: "Artigos e casos", tag: "Gramática" },
   { arquivo: "artigos-indefinidos.html", titulo: "Artigos indefinidos", descricao: "ein/eine/ein e suas formas nos casos", categoria: "Artigos e casos", tag: "Gramática" },
   { arquivo: "casos.html", titulo: "Os quatro casos", descricao: "Nominativ, Akkusativ, Dativ e Genitiv", categoria: "Artigos e casos", tag: "Gramática" },
@@ -22,8 +22,8 @@ export const conteudos = [
   { arquivo: "preposicoes.html", titulo: "Preposições", descricao: "mit, bei, von, zu, aus, nach e outras", categoria: "Preposições", tag: "Preposições" },
   { arquivo: "wechsel.html", titulo: "Wechselpräpositionen", descricao: "movimento/direção x localização", categoria: "Preposições", tag: "Preposições" },
   { arquivo: "verbos-preposicionais.html", titulo: "Verbos preposicionais", descricao: "verbos com preposição fixa, casos, wo(r)-/da(r)-, tempos verbais e subordinadas", categoria: "Verbos", tag: "Gramática" },
-  { arquivo: "adjetivos.html", titulo: "Adjetivos", descricao: "declinação com artigos definidos, indefinidos e sem artigo", categoria: "Adjetivos e vocabulário", tag: "Gramática" },
-  { arquivo: "vocabulario_substantivos.html", titulo: "Vocabulário de substantivos acumulado", descricao: "palavras e expressões trabalhadas durante o percurso", categoria: "Adjetivos e vocabulário", tag: "Vocabulário" },
-  { arquivo: "indefinidos-plural.html", titulo: "Indefinidos no plural", descricao: "einige, manche e ausência de artigo", categoria: "Adjetivos e vocabulário", tag: "Gramática" },
+  { arquivo: "adjetivos.html", titulo: "Adjetivos", descricao: "declinação com artigos definidos, indefinidos e sem artigo", categoria: "Adjetivos", tag: "Gramática" },
+  { arquivo: "vocabulario_substantivos.html", titulo: "Vocabulário de substantivos acumulado", descricao: "palavras e expressões trabalhadas durante o percurso", categoria: "Substantivos", tag: "Vocabulário" },
+  { arquivo: "indefinidos-plural.html", titulo: "Indefinidos no plural", descricao: "einige, manche e ausência de artigo", categoria: "Adjetivos", tag: "Gramática" },
   { arquivo: "pronomes-relativos.html", titulo: "Pronomes Relativos", descricao: "Pronomes Relativos", categoria: "Pronomes", tag: "Gramática" }
 ];

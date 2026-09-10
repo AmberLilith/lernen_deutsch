@@ -147,5 +147,53 @@ document.addEventListener("DOMContentLoaded",()=>{
    .catch(error => console.error("Não foi possível carregar a configuração do site:", error));
 });
 
+function showAnswer(button) {
+        const question = button.parentElement;
+        const answerElement = question.querySelector(".answer");
+        const resposta = question.dataset.answer;
+
+        answerElement.textContent = `Resposta: ${resposta}`;
+    }
+
+function renderQuestions(container, list) {
+  list.forEach(item => {
+    const questionDiv = document.createElement('div');
+    questionDiv.className = 'question';
+    questionDiv.setAttribute('data-answer', item.answer);
+
+    const promptDiv = document.createElement('div');
+    promptDiv.className = 'prompt';
+    promptDiv.textContent = item.question;
+
+    const input = document.createElement('input');
+    input.className = 'answer-input';
+    input.type = 'text';
+    input.autocomplete = 'off';
+    input.placeholder = 'Escreva sua resposta...';
+
+    const button = document.createElement('button');
+    button.className = 'showAnswer';
+    button.textContent = 'Exibir Resposta';
+    button.addEventListener('click', function() {
+      showAnswer(this);
+    });
+
+    const answerDiv = document.createElement('div');
+    answerDiv.className = 'answer';
+
+    const feedbackDiv = document.createElement('div');
+    feedbackDiv.className = 'feedback';
+
+    questionDiv.appendChild(promptDiv);
+    questionDiv.appendChild(input);
+    questionDiv.appendChild(button);
+    questionDiv.appendChild(answerDiv);
+    questionDiv.appendChild(feedbackDiv);
+
+    container.appendChild(questionDiv);
+  });
+}
+
 window.checkExercise = checkExercise;
 window.clearExercise = clearExercise;
+window.renderQuestions = renderQuestions;

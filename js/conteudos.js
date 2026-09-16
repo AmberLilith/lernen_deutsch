@@ -25,5 +25,7 @@ export const conteudos = [
   { arquivo: "adjetivos.html", titulo: "Adjetivos", descricao: "declinação com artigos definidos, indefinidos e sem artigo", categoria: "Adjetivos", tag: "Gramática" },
   { arquivo: "vocabulario_substantivos.html", titulo: "Vocabulário de substantivos acumulado", descricao: "palavras e expressões trabalhadas durante o percurso", categoria: "Substantivos", tag: "Vocabulário" },
   { arquivo: "indefinidos-plural.html", titulo: "Indefinidos no plural", descricao: "einige, manche e ausência de artigo", categoria: "Adjetivos", tag: "Gramática" },
-  { arquivo: "pronomes-relativos.html", titulo: "Pronomes Relativos", descricao: "Pronomes Relativos", categoria: "Pronomes", tag: "Gramática" }
+  { arquivo: "pronomes-relativos.html", titulo: "Pronomes Relativos", descricao: "Pronomes Relativos", categoria: "Pronomes", tag: "Gramática" },
+  { arquivo: "comparativo-superlativo.html", titulo: "Comparativo e Superlativo", descricao: "Formação e uso do comparativo e superlativo", categoria: "Adjetivos", tag: "Gramática" },
+  { arquivo: "vocabulario-adjetivos.html", titulo: "Vocabulário de Adjetivos", descricao: "lista de adjetivos com significados e declinações", categoria: "Adjetivos", tag: "Gramática" }
 ];

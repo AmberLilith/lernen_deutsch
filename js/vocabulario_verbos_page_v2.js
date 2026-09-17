@@ -1,13 +1,32 @@
 const VERBOS_POR_PAGINA = 10;
+
 let paginaVerbos = 1;
 let verbosFiltrados = [...listaVerbos];
 
-const pessoas = ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"];
-const reflexivos = ["mich", "dich", "sich", "uns", "euch", "sich"];
+const pessoas = [
+  "ich",
+  "du",
+  "er/sie/es",
+  "wir",
+  "ihr",
+  "sie/Sie"
+];
+
+const reflexivos = [
+  "mich",
+  "dich",
+  "sich",
+  "uns",
+  "euch",
+  "sich"
+];
 
 /*
+ * ============================================================
  * Präsens
+ * ============================================================
  */
+
 const P = {
   arbeiten: ["arbeite", "arbeitest", "arbeitet", "arbeiten", "arbeitet", "arbeiten"],
   ankommen: ["komme an", "kommst an", "kommt an", "kommen an", "kommt an", "kommen an"],
@@ -56,9 +75,13 @@ const P = {
   hängen: ["hänge", "hängst", "hängt", "hängen", "hängt", "hängen"]
 };
 
+
 /*
+ * ============================================================
  * Präteritum
+ * ============================================================
  */
+
 const T = {
   arbeiten: ["arbeitete", "arbeitetest", "arbeitete", "arbeiteten", "arbeitetet", "arbeiteten"],
   ankommen: ["kam an", "kamst an", "kam an", "kamen an", "kamt an", "kamen an"],
@@ -107,10 +130,13 @@ const T = {
   hängen: ["hing", "hingst", "hing", "hingen", "hingt", "hingen"]
 };
 
+
 /*
- * Verbos modais.
- * Präsens e Präteritum completos, pessoa por pessoa.
+ * ============================================================
+ * Verbos modais
+ * ============================================================
  */
+
 const M = {
   dürfen: [P.dürfen, T.dürfen],
   können: [P.können, T.können],
@@ -120,60 +146,315 @@ const M = {
   wollen: [P.wollen, T.wollen]
 };
 
-function base(verbo) {
-  return verbo.replace(/^sich\s+/, "");
+
+/*
+ * ============================================================
+ * METADADOS DOS VERBOS
+ *
+ * Esta estrutura define as particularidades gramaticais.
+ * ============================================================
+ */
+
+const METADADOS_VERBOS = {
+
+  /*
+   * Verbos normais
+   */
+  arbeiten: {
+    tipo: "normal"
+  },
+
+  kaufen: {
+    tipo: "normal"
+  },
+
+  lernen: {
+    tipo: "normal"
+  },
+
+  wohnen: {
+    tipo: "normal"
+  },
+
+  machen: {
+    tipo: "normal"
+  },
+
+
+  /*
+   * Verbos separáveis
+   */
+  ankommen: {
+    tipo: "separável",
+    prefixo: "an"
+  },
+
+  anrufen: {
+    tipo: "separável",
+    prefixo: "an"
+  },
+
+  anziehen: {
+    tipo: "separável",
+    prefixo: "an"
+  },
+
+  aufstehen: {
+    tipo: "separável",
+    prefixo: "auf"
+  },
+
+  einkaufen: {
+    tipo: "separável",
+    prefixo: "ein"
+  },
+
+
+  /*
+   * Verbos inseparáveis
+   */
+  besuchen: {
+    tipo: "inseparável",
+    prefixo: "be"
+  },
+
+
+  /*
+   * Verbos preposicionais
+   */
+  warten: {
+    tipo: "preposicional",
+    preposicao: "auf",
+    caso: "Akkusativ"
+  },
+
+  denken: {
+    tipo: "preposicional",
+    preposicao: "an",
+    caso: "Akkusativ"
+  },
+
+
+  /*
+   * Verbos reflexivos
+   */
+  "sich waschen": {
+    tipo: "reflexivo"
+  },
+
+  "sich freuen": {
+    tipo: "reflexivo"
+  },
+
+
+  /*
+   * Verbos reflexivos-preposicionais
+   */
+  "sich freuen auf": {
+    tipo: "reflexivo-preposicional",
+    preposicao: "auf",
+    caso: "Akkusativ"
+  },
+
+  "sich freuen über": {
+    tipo: "reflexivo-preposicional",
+    preposicao: "über",
+    caso: "Akkusativ"
+  },
+
+  "sich erinnern an": {
+    tipo: "reflexivo-preposicional",
+    preposicao: "an",
+    caso: "Akkusativ"
+  },
+
+  "sich interessieren für": {
+    tipo: "reflexivo-preposicional",
+    preposicao: "für",
+    caso: "Akkusativ"
+  },
+
+  "sich kümmern um": {
+    tipo: "reflexivo-preposicional",
+    preposicao: "um",
+    caso: "Akkusativ"
+  },
+
+
+  /*
+   * Verbos modais
+   */
+  dürfen: {
+    tipo: "modal"
+  },
+
+  können: {
+    tipo: "modal"
+  },
+
+  mögen: {
+    tipo: "modal"
+  },
+
+  müssen: {
+    tipo: "modal"
+  },
+
+  sollen: {
+    tipo: "modal"
+  },
+
+  wollen: {
+    tipo: "modal"
+  },
+
+
+  /*
+   * Verbos auxiliares
+   */
+  sein: {
+    tipo: "auxiliar"
+  },
+
+  haben: {
+    tipo: "auxiliar"
+  },
+
+  werden: {
+    tipo: "auxiliar"
+  },
+
+
+  /*
+   * Verbos impessoais
+   */
+  regnen: {
+    tipo: "impessoal"
+  }
+
+};
+
+
+/*
+ * ============================================================
+ * FUNÇÕES DE IDENTIFICAÇÃO
+ * ============================================================
+ */
+
+function obterMetadados(verbo) {
+  return METADADOS_VERBOS[verbo] || {};
 }
+
+
+function obterTipo(verbo) {
+  return obterMetadados(verbo).tipo || "normal";
+}
+
+
+function base(verbo) {
+  const tipo = obterTipo(verbo);
+
+  if (
+    tipo === "reflexivo" ||
+    tipo === "reflexivo-preposicional"
+  ) {
+    return verbo.replace(/^sich\s+/, "");
+  }
+
+  return verbo;
+}
+
 
 function isReflexivo(verbo) {
-  return verbo.startsWith("sich ");
+  const tipo = obterTipo(verbo);
+
+  return (
+    tipo === "reflexivo" ||
+    tipo === "reflexivo-preposicional"
+  );
 }
 
+
+function isSeparavel(verbo) {
+  return obterTipo(verbo) === "separável";
+}
+
+
+function isPreposicional(verbo) {
+  const tipo = obterTipo(verbo);
+
+  return (
+    tipo === "preposicional" ||
+    tipo === "reflexivo-preposicional"
+  );
+}
+
+
+function isModal(verbo) {
+  return obterTipo(verbo) === "modal";
+}
+
+
+function isImpessoal(verbo) {
+  return obterTipo(verbo) === "impessoal";
+}
+
+
+function obterPreposicao(verbo) {
+  return obterMetadados(verbo).preposicao || "";
+}
+
+
+function pronomeReflexivo(indice) {
+  return reflexivos[indice];
+}
+
+
+/*
+ * ============================================================
+ * NORMALIZAÇÃO DOS DADOS
+ * ============================================================
+ *
+ * Compatível com o formato atual:
+ *
+ * [verbo, tradução, Partizip II, auxiliar]
+ *
+ * Também aceita:
+ *
+ * [verbo, tradução, Partizip II, auxiliar, tipo]
+ *
+ * Caso o tipo não seja informado, tenta utilizar os metadados.
+ * ============================================================
+ */
+
 function normalizarItem(item) {
-  /*
-   * Formato normal:
-   * [verbo, tradução, Partizip II, auxiliar]
-   */
+
+  const verbo = item[0];
+
+  const tipoInformado = item[4];
+
+  const tipo =
+    tipoInformado ||
+    obterTipo(verbo);
+
   return {
-    verbo: item[0],
+    verbo,
     traducao: item[1],
     partizip: item[2],
-    auxiliar: item[3]
+    auxiliar: item[3],
+    tipo
   };
 }
 
-function adicionarReflexivo(formas, verbo) {
-  if (!isReflexivo(verbo)) {
-    return [...formas];
-  }
 
-  return formas.map((forma, i) => {
-    return `${forma} ${reflexivos[i]}`;
-  });
-}
-
-function presente(verbo) {
-  const b = base(verbo);
-  const formas = M[b]?.[0] || P[b];
-
-  if (!formas) {
-    return ["-", "-", "-", "-", "-", "-"];
-  }
-
-  return adicionarReflexivo(formas, verbo);
-}
-
-function preterito(verbo) {
-  const b = base(verbo);
-  const formas = M[b]?.[1] || T[b];
-
-  if (!formas) {
-    return ["-", "-", "-", "-", "-", "-"];
-  }
-
-  return adicionarReflexivo(formas, verbo);
-}
+/*
+ * ============================================================
+ * AUXILIAR DO PERFEKT
+ * ============================================================
+ */
 
 function auxiliarPresente(auxiliar) {
+
   if (auxiliar === "sein") {
     return P.sein;
   }
@@ -181,29 +462,251 @@ function auxiliarPresente(auxiliar) {
   return P.haben;
 }
 
+
+/*
+ * ============================================================
+ * PRÄSENS
+ * ============================================================
+ */
+
+function presente(verbo) {
+
+  const b = base(verbo);
+
+  const formas =
+    M[b]?.[0] ||
+    P[b];
+
+  if (!formas) {
+    return ["-", "-", "-", "-", "-", "-"];
+  }
+
+  return formas.map((forma, i) => {
+
+    const partes = [forma];
+
+    /*
+     * Verbos reflexivos:
+     *
+     * Ich wasche mich.
+     * Du wäschst dich.
+     */
+    if (isReflexivo(verbo)) {
+      partes.push(pronomeReflexivo(i));
+    }
+
+    /*
+     * Verbos preposicionais:
+     *
+     * Ich warte auf.
+     *
+     * A preposição aparece acompanhando o verbo.
+     * O objeto será apresentado nos exemplos completos.
+     */
+    if (isPreposicional(verbo)) {
+      partes.push(obterPreposicao(verbo));
+    }
+
+    return partes.join(" ");
+  });
+}
+
+
+/*
+ * ============================================================
+ * PRÄTERITUM
+ * ============================================================
+ */
+
+function preterito(verbo) {
+
+  const b = base(verbo);
+
+  const formas =
+    M[b]?.[1] ||
+    T[b];
+
+  if (!formas) {
+    return ["-", "-", "-", "-", "-", "-"];
+  }
+
+  return formas.map((forma, i) => {
+
+    const partes = [forma];
+
+    if (isReflexivo(verbo)) {
+      partes.push(pronomeReflexivo(i));
+    }
+
+    if (isPreposicional(verbo)) {
+      partes.push(obterPreposicao(verbo));
+    }
+
+    return partes.join(" ");
+  });
+}
+
+
+/*
+ * ============================================================
+ * PERFEKT
+ * ============================================================
+ *
+ * Estrutura:
+ *
+ * Ich habe gearbeitet.
+ * Ich bin gegangen.
+ * Ich habe mich gewaschen.
+ * Ich bin aufgestanden.
+ *
+ * Verbos separáveis já possuem o prefixo no Partizip II.
+ * ============================================================
+ */
+
 function perfekt(verbo, partizip, auxiliar) {
-  const formasAuxiliar = auxiliarPresente(auxiliar);
+
+  const formasAuxiliar =
+    auxiliarPresente(auxiliar);
 
   return formasAuxiliar.map((forma, i) => {
-    const reflexivo = isReflexivo(verbo)
-      ? ` ${reflexivos[i]}`
-      : "";
 
-    return `${forma}${reflexivo} ${partizip}`;
+    const partes = [forma];
+
+    /*
+     * Reflexivo fica entre o auxiliar e o particípio.
+     */
+    if (isReflexivo(verbo)) {
+      partes.push(pronomeReflexivo(i));
+    }
+
+    partes.push(partizip);
+
+    return partes.join(" ");
   });
 }
+
+
+/*
+ * ============================================================
+ * FUTUR I
+ * ============================================================
+ *
+ * Estrutura:
+ *
+ * Ich werde arbeiten.
+ * Ich werde aufstehen.
+ * Ich werde mich waschen.
+ * Ich werde mich auf die Reise freuen.
+ *
+ * O infinitivo permanece inteiro no final.
+ * ============================================================
+ */
 
 function futur(verbo) {
-  return P.werden.map((forma, i) => {
-    const reflexivo = isReflexivo(verbo)
-      ? ` ${reflexivos[i]}`
-      : "";
 
-    return `${forma}${reflexivo} ${verbo}`;
+  const formasWerden = P.werden;
+
+  return formasWerden.map((forma, i) => {
+
+    const partes = [forma];
+
+    if (isReflexivo(verbo)) {
+      partes.push(pronomeReflexivo(i));
+    }
+
+    partes.push(verbo);
+
+    return partes.join(" ");
   });
 }
 
+
+/*
+ * ============================================================
+ * CONJUGAÇÃO DE VERBOS MODAIS COM INFINITIVO
+ * ============================================================
+ *
+ * Exemplo:
+ *
+ * Ich kann Deutsch lernen.
+ * Du musst arbeiten.
+ * Wir wollen nach Hause gehen.
+ * ============================================================
+ */
+
+function modalComInfinitivo(verbo, infinitivo = "lernen") {
+
+  const b = base(verbo);
+
+  const formas =
+    M[b]?.[0];
+
+  if (!formas) {
+    return ["-", "-", "-", "-", "-", "-"];
+  }
+
+  return formas.map(forma => {
+    return `${forma} ${infinitivo}`;
+  });
+}
+
+
+/*
+ * ============================================================
+ * FUTUR I DE MODAIS
+ * ============================================================
+ *
+ * Exemplo:
+ *
+ * Ich werde Deutsch lernen können.
+ * Du wirst arbeiten müssen.
+ * ============================================================
+ */
+
+function futurModal(verbo, infinitivo = "lernen") {
+
+  const formasWerden = P.werden;
+
+  const b = base(verbo);
+
+  return formasWerden.map(forma => {
+    return `${forma} ${infinitivo} ${b}`;
+  });
+}
+
+
+/*
+ * ============================================================
+ * PERFEKT DE MODAIS
+ * ============================================================
+ *
+ * Exemplo:
+ *
+ * Ich habe Deutsch lernen können.
+ * Du hast arbeiten müssen.
+ * ============================================================
+ */
+
+function perfektModal(verbo, infinitivo = "lernen") {
+
+  const formasAuxiliar = P.haben;
+
+  const b = base(verbo);
+
+  return formasAuxiliar.map(forma => {
+    return `${forma} ${infinitivo} ${b}`;
+  });
+}
+
+
+/*
+ * ============================================================
+ * CRIAÇÃO DAS TABELAS
+ * ============================================================
+ */
+
 function criarTabela(titulo, formas) {
+
   const section = document.createElement("section");
 
   section.className = "conjugacao-secao";
@@ -226,6 +729,7 @@ function criarTabela(titulo, formas) {
   const tbody = section.querySelector("tbody");
 
   pessoas.forEach((pessoa, i) => {
+
     const tr = document.createElement("tr");
 
     tr.innerHTML = `
@@ -239,22 +743,97 @@ function criarTabela(titulo, formas) {
   return section;
 }
 
+
+/*
+ * ============================================================
+ * INFORMAÇÕES GRAMATICAIS
+ * ============================================================
+ */
+
+function criarInformacoesGramaticais(verbo) {
+
+  const dados = obterMetadados(verbo);
+
+  const tipo = dados.tipo || "normal";
+
+  let html = `
+    <span>
+      <strong>Tipo:</strong>
+      ${tipo}
+    </span>
+  `;
+
+  if (dados.prefixo) {
+    html += `
+      <span>
+        <strong>Prefixo:</strong>
+        ${dados.prefixo}
+      </span>
+    `;
+  }
+
+  if (dados.preposicao) {
+    html += `
+      <span>
+        <strong>Preposição:</strong>
+        ${dados.preposicao}
+      </span>
+    `;
+  }
+
+  if (dados.caso) {
+    html += `
+      <span>
+        <strong>Caso:</strong>
+        ${dados.caso}
+      </span>
+    `;
+  }
+
+  return html;
+}
+
+
+/*
+ * ============================================================
+ * ABERTURA DO MODAL
+ * ============================================================
+ */
+
 function abrirModal(item) {
+
   const dados = normalizarItem(item);
 
-  const titulo = document.getElementById("modal-titulo");
-  const traducao = document.getElementById("modal-traducao");
-  const info = document.getElementById("modal-info");
-  const conjugacao = document.getElementById("modal-conjugacao");
-  const modal = document.getElementById("modal-verbo");
+  const titulo =
+    document.getElementById("modal-titulo");
+
+  const traducao =
+    document.getElementById("modal-traducao");
+
+  const info =
+    document.getElementById("modal-info");
+
+  const conjugacao =
+    document.getElementById("modal-conjugacao");
+
+  const modal =
+    document.getElementById("modal-verbo");
+
 
   titulo.textContent = dados.verbo;
+
   traducao.textContent = dados.traducao;
 
-  const formasPreterito = preterito(dados.verbo);
+
+  const formasPreterito =
+    preterito(dados.verbo);
+
 
   info.innerHTML = `
     <div class="info-verbo">
+
+      ${criarInformacoesGramaticais(dados.verbo)}
+
       <span>
         <strong>Partizip II:</strong>
         ${dados.partizip}
@@ -269,10 +848,17 @@ function abrirModal(item) {
         <strong>Präteritum:</strong>
         ${formasPreterito[0]}
       </span>
+
     </div>
   `;
 
+
   conjugacao.innerHTML = "";
+
+
+  /*
+   * Präsens
+   */
 
   conjugacao.appendChild(
     criarTabela(
@@ -281,12 +867,28 @@ function abrirModal(item) {
     )
   );
 
+
+  /*
+   * Präteritum
+   */
+
   conjugacao.appendChild(
     criarTabela(
       "Präteritum · Passado simples",
       formasPreterito
     )
   );
+
+
+  /*
+   * Perfekt
+   *
+   * Modais possuem construção especial quando
+   * acompanhados de outro infinitivo.
+   *
+   * Como não temos um infinitivo definido no cadastro,
+   * exibimos a forma normal do verbo.
+   */
 
   conjugacao.appendChild(
     criarTabela(
@@ -299,6 +901,11 @@ function abrirModal(item) {
     )
   );
 
+
+  /*
+   * Futur I
+   */
+
   conjugacao.appendChild(
     criarTabela(
       "Futur I · Futuro",
@@ -306,11 +913,25 @@ function abrirModal(item) {
     )
   );
 
+
+  /*
+   * Abre modal
+   */
+
   modal.classList.add("aberto");
+
   document.body.style.overflow = "hidden";
 }
 
+
+/*
+ * ============================================================
+ * FECHAR MODAL
+ * ============================================================
+ */
+
 function fecharModal() {
+
   document
     .getElementById("modal-verbo")
     .classList.remove("aberto");
@@ -318,10 +939,20 @@ function fecharModal() {
   document.body.style.overflow = "";
 }
 
+
+/*
+ * ============================================================
+ * RENDERIZAÇÃO DOS VERBOS
+ * ============================================================
+ */
+
 function renderizarVerbos() {
-  const container = document.getElementById("lista-verbos");
+
+  const container =
+    document.getElementById("lista-verbos");
 
   container.innerHTML = "";
+
 
   const inicio =
     (paginaVerbos - 1) * VERBOS_POR_PAGINA;
@@ -329,10 +960,13 @@ function renderizarVerbos() {
   const fim =
     inicio + VERBOS_POR_PAGINA;
 
+
   const paginaAtual =
     verbosFiltrados.slice(inicio, fim);
 
+
   paginaAtual.forEach(item => {
+
     const dados = normalizarItem(item);
 
     const card = document.createElement("article");
@@ -340,29 +974,48 @@ function renderizarVerbos() {
     card.className = "verbo-card";
     card.tabIndex = 0;
 
+
     const formasPreterito =
       preterito(dados.verbo);
+
 
     card.innerHTML = `
       <h3>${dados.verbo}</h3>
 
-      <p>${dados.traducao}</p>
+      <p>
+        <strong>Tradução:</strong>
+        ${dados.traducao}
+      </p>
 
-      <p class="preterito-card">
+      <p>
+        <strong>Tipo:</strong>
+        ${dados.tipo}
+      </p>
+
+      <p>
         <strong>Präteritum:</strong>
         ${formasPreterito[0]}
       </p>
 
-      <p class="partizip">
-        ${dados.auxiliar} · ${dados.partizip}
+      <p>
+        <strong>Auxiliar:</strong>
+        ${dados.auxiliar}
+      </p>
+
+      <p>
+        <strong>Partizip II:</strong>
+        ${dados.partizip}
       </p>
     `;
+
 
     card.addEventListener("click", () => {
       abrirModal(item);
     });
 
+
     card.addEventListener("keydown", event => {
+
       if (
         event.key === "Enter" ||
         event.key === " "
@@ -370,18 +1023,25 @@ function renderizarVerbos() {
         event.preventDefault();
         abrirModal(item);
       }
+
     });
 
+
     container.appendChild(card);
+
   });
 
+
   if (paginaAtual.length === 0) {
+
     container.innerHTML = `
       <div class="sem-resultados">
         Nenhum verbo encontrado.
       </div>
     `;
+
   }
+
 
   const totalPaginas = Math.max(
     1,
@@ -391,40 +1051,52 @@ function renderizarVerbos() {
     )
   );
 
+
   document.getElementById(
     "pagina-atual"
   ).textContent =
     `Página ${paginaVerbos} de ${totalPaginas}`;
+
 
   document.getElementById(
     "pagina-anterior"
   ).disabled =
     paginaVerbos === 1;
 
+
   document.getElementById(
     "pagina-proxima"
   ).disabled =
     paginaVerbos >= totalPaginas;
 
+
   document.getElementById(
     "resultado-pesquisa"
   ).textContent =
     `${verbosFiltrados.length} verbo(s)`;
+
 }
 
+
 /*
- * Pesquisa
+ * ============================================================
+ * PESQUISA
+ * ============================================================
  */
+
 document
   .getElementById("pesquisa-verbo")
   .addEventListener("input", event => {
+
     const busca =
       event.target.value
         .trim()
         .toLocaleLowerCase("pt-BR");
 
+
     verbosFiltrados =
       listaVerbos.filter(item => {
+
         const verbo =
           item[0]
             .toLocaleLowerCase("pt-BR");
@@ -433,68 +1105,105 @@ document
           item[1]
             .toLocaleLowerCase("pt-BR");
 
+
         return (
           verbo.includes(busca) ||
           traducao.includes(busca)
         );
+
       });
+
 
     paginaVerbos = 1;
 
     renderizarVerbos();
+
   });
 
+
 /*
- * Paginação
+ * ============================================================
+ * PAGINAÇÃO
+ * ============================================================
  */
+
 document
   .getElementById("pagina-anterior")
   .addEventListener("click", () => {
+
     if (paginaVerbos > 1) {
+
       paginaVerbos--;
+
       renderizarVerbos();
+
     }
+
   });
+
 
 document
   .getElementById("pagina-proxima")
   .addEventListener("click", () => {
+
     const totalPaginas =
       Math.ceil(
         verbosFiltrados.length /
         VERBOS_POR_PAGINA
       );
 
+
     if (paginaVerbos < totalPaginas) {
+
       paginaVerbos++;
+
       renderizarVerbos();
+
     }
+
   });
 
+
 /*
- * Modal
+ * ============================================================
+ * MODAL
+ * ============================================================
  */
+
 document
   .getElementById("fechar-modal")
   .addEventListener("click", fecharModal);
 
+
 document
   .getElementById("modal-verbo")
   .addEventListener("click", event => {
+
     if (
       event.target.id === "modal-verbo"
     ) {
       fecharModal();
     }
+
   });
+
 
 document.addEventListener(
   "keydown",
   event => {
+
     if (event.key === "Escape") {
       fecharModal();
     }
+
   }
 );
+
+
+/*
+ * ============================================================
+ * INICIALIZAÇÃO
+ * ============================================================
+ */
 
 renderizarVerbos();

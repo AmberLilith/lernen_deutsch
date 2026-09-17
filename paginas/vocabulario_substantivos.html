@@ -82,36 +82,48 @@
         const campoBusca = document.getElementById("busca");
         const buscaResultado = document.getElementById("buscaResultado");
 
-        const totalPaginas = Math.ceil(lista.length / cardsPorPagina);
+        // Considera que 'substantivos' vem do arquivo JS importado
+        const totalPaginas = Math.ceil(substantivos.length / cardsPorPagina);
 
         function criarCard(item) {
-            const [substantivo, artigo, plural, traducao, observacao] = item;
-
             const card = document.createElement("div");
             card.className = "card";
+            const generoOposto = item.artigo === "der" ? "Feminino" : "Masculino";
 
             const titulo = document.createElement("h3");
-            titulo.textContent = `${artigo} ${substantivo}`;
+            titulo.textContent = `${item.artigo} ${item.substantivo}`;
 
             const descricao = document.createElement("p");
-            descricao.textContent = `Tradução: ${traducao} · ${plural}`;
+            descricao.innerHTML = `<strong>Tradução:</strong> ${item.traducao}`;
 
             const pluralElement = document.createElement("p");
-            pluralElement.textContent = `Plural: ${plural}`;
+            pluralElement.innerHTML = `<strong>Plural:</strong> ${item.plural}`;
+
+            let generoOpostoElement = document.createElement("p");
+            const pluralGeneroOpostoElement = document.createElement("p");
+            if(generoOposto != "Neutro" && item.generoOposto) { 
+            generoOpostoElement.innerHTML = `<strong>${generoOposto}:</strong> ${item.generoOposto}`;
+            pluralGeneroOpostoElement.innerHTML = `<strong>Plural ${generoOposto}:</strong> ${item.pluralGeneroOposto}`;
+        }
+
+             
+            
 
             const obs = document.createElement("p");
-            obs.textContent = observacao ? `Obs.: ${observacao}` : "Obs.: ___";
+            obs.innerHTML = item.observacao ? `<strong>Obs.:</strong> ${item.observacao}` : "";
 
             card.appendChild(titulo);
             card.appendChild(descricao);
             card.appendChild(pluralElement);
+            card.appendChild(generoOpostoElement);
+            card.appendChild(pluralGeneroOpostoElement);
             card.appendChild(obs);
 
             return card;
         }
 
         function normalizar(texto) {
-            return texto
+            return (texto || "")
                 .toLowerCase()
                 .normalize("NFD")
                 .replace(/[\u0300-\u036f]/g, "");
@@ -123,7 +135,7 @@
             const inicio = (pagina - 1) * cardsPorPagina;
             const fim = inicio + cardsPorPagina;
 
-            const palavrasPagina = lista.slice(inicio, fim);
+            const palavrasPagina = substantivos.slice(inicio, fim);
 
             palavrasPagina.forEach(item => {
                 container.appendChild(criarCard(item));
@@ -137,29 +149,30 @@
         }
 
         function exibirBusca(termo) {
-            const termoNormalizado = normalizar(termo);
+    const termoNormalizado = normalizar(termo);
 
-            const resultados = lista.filter(item => {
-                const traducao = item[3] || "";
-                return normalizar(traducao).includes(termoNormalizado);
-            });
+    const resultados = substantivos.filter(item => {
+        const traducaoOk = normalizar(item.traducao).includes(termoNormalizado);
+        const substantivoOk = normalizar(item.substantivo).includes(termoNormalizado);
+        return traducaoOk || substantivoOk;
+    });
 
-            container.innerHTML = "";
+    container.innerHTML = "";
 
-            if (resultados.length === 0) {
-                const vazio = document.createElement("p");
-                vazio.className = "search-empty";
-                vazio.textContent = "Nenhuma palavra encontrada.";
-                container.appendChild(vazio);
-            } else {
-                resultados.forEach(item => {
-                    container.appendChild(criarCard(item));
-                });
-            }
+    if (resultados.length === 0) {
+        const vazio = document.createElement("p");
+        vazio.className = "search-empty";
+        vazio.textContent = "Nenhuma palavra encontrada.";
+        container.appendChild(vazio);
+    } else {
+        resultados.forEach(item => {
+            container.appendChild(criarCard(item));
+        });
+    }
 
-            buscaResultado.textContent =
-                `${resultados.length} resultado${resultados.length === 1 ? "" : "s"}`;
-        }
+    buscaResultado.textContent =
+        `${resultados.length} resultado${resultados.length === 1 ? "" : "s"}`;
+}
 
         campoBusca.addEventListener("input", () => {
             const termo = campoBusca.value.trim();

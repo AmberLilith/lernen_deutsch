@@ -149,28 +149,30 @@
         }
 
         function exibirBusca(termo) {
-            const termoNormalizado = normalizar(termo);
+    const termoNormalizado = normalizar(termo);
 
-            const resultados = substantivos.filter(item => {
-                return normalizar(item.traducao).includes(termoNormalizado);
-            });
+    const resultados = substantivos.filter(item => {
+        const traducaoOk = normalizar(item.traducao).includes(termoNormalizado);
+        const substantivoOk = normalizar(item.substantivo).includes(termoNormalizado);
+        return traducaoOk || substantivoOk;
+    });
 
-            container.innerHTML = "";
+    container.innerHTML = "";
 
-            if (resultados.length === 0) {
-                const vazio = document.createElement("p");
-                vazio.className = "search-empty";
-                vazio.textContent = "Nenhuma palavra encontrada.";
-                container.appendChild(vazio);
-            } else {
-                resultados.forEach(item => {
-                    container.appendChild(criarCard(item));
-                });
-            }
+    if (resultados.length === 0) {
+        const vazio = document.createElement("p");
+        vazio.className = "search-empty";
+        vazio.textContent = "Nenhuma palavra encontrada.";
+        container.appendChild(vazio);
+    } else {
+        resultados.forEach(item => {
+            container.appendChild(criarCard(item));
+        });
+    }
 
-            buscaResultado.textContent =
-                `${resultados.length} resultado${resultados.length === 1 ? "" : "s"}`;
-        }
+    buscaResultado.textContent =
+        `${resultados.length} resultado${resultados.length === 1 ? "" : "s"}`;
+}
 
         campoBusca.addEventListener("input", () => {
             const termo = campoBusca.value.trim();

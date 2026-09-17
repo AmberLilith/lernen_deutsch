@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Vocabulário acumulado · Alemão</title>
+    <title>Vocabulário: Substantivos</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -85,7 +85,7 @@
         const totalPaginas = Math.ceil(lista.length / cardsPorPagina);
 
         function criarCard(item) {
-            const [substantivo, artigo, plural, traducao] = item;
+            const [substantivo, artigo, plural, traducao, observacao] = item;
 
             const card = document.createElement("div");
             card.className = "card";
@@ -94,10 +94,18 @@
             titulo.textContent = `${artigo} ${substantivo}`;
 
             const descricao = document.createElement("p");
-            descricao.textContent = `${traducao} · ${plural}`;
+            descricao.textContent = `Tradução: ${traducao} · ${plural}`;
+
+            const pluralElement = document.createElement("p");
+            pluralElement.textContent = `Plural: ${plural}`;
+
+            const obs = document.createElement("p");
+            obs.textContent = observacao ? `Obs.: ${observacao}` : "Obs.: ___";
 
             card.appendChild(titulo);
             card.appendChild(descricao);
+            card.appendChild(pluralElement);
+            card.appendChild(obs);
 
             return card;
         }

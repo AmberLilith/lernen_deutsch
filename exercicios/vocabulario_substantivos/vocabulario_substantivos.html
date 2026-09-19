@@ -6,6 +6,25 @@
     <title>Vocabulário acumulado · Alemão</title>
     <link rel="stylesheet" href="../vocabulario_substantivos/vocabulario_substantivos.css">
     <link rel="stylesheet" href="../../css/style.css">
+<style>
+    .carregando-dados {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 32px 16px;
+    }
+    .carregando-dados[hidden] { display: none; }
+    .spinner {
+        width: 22px;
+        height: 22px;
+        border: 3px solid currentColor;
+        border-right-color: transparent;
+        border-radius: 50%;
+        animation: girar .7s linear infinite;
+    }
+    @keyframes girar { to { transform: rotate(360deg); } }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -23,7 +42,8 @@
     </div>
     <div class="panel" id="panel">
         <div class="progress"><span></span></div>
-        <div id="exercicios-scroll">
+        <div id="carregando" class="carregando-dados" role="status" aria-live="polite"><span class="spinner" aria-hidden="true"></span><span>Carregando exercícios...</span></div>
+        <div id="exercicios-scroll" hidden>
             <div id="exercicios"></div>
             <div id="pontuacao" class="score"></div>
             <button type="button" id="maisExercicios">Exibir mais 10</button>
@@ -172,7 +192,11 @@ document.getElementById("maisExercicios").addEventListener("click",exibirMaisExe
 document.getElementById("resetar").addEventListener("click",criarExercicios);
 
 function carregarSubstantivos(){
+ const carregando=document.getElementById("carregando");
+ const areaExercicios=document.getElementById("exercicios-scroll");
  onValue(ref(database,"substantivos"),snapshot=>{
+  carregando.hidden=true;
+  areaExercicios.hidden=false;
   if(!snapshot.exists()){
    lista=[];
    document.getElementById("exercicios").innerHTML="<p>Nenhum substantivo cadastrado.</p>";
@@ -192,6 +216,8 @@ function carregarSubstantivos(){
 
   criarExercicios();
  },error=>{
+  carregando.hidden=true;
+  areaExercicios.hidden=false;
   console.error("Não foi possível carregar os substantivos do Firebase:",error);
   document.getElementById("exercicios").innerHTML="<p>Não foi possível carregar o vocabulário.</p>";
   document.getElementById("maisExercicios").disabled=true;

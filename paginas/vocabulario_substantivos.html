@@ -69,7 +69,7 @@
 
     <script type="module">
         import { database } from "../js/firebase.js";
-        import { ref, get } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
+        import { ref, onValue } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
 
         let substantivos = [];
         const cardsPorPagina = 12;
@@ -196,12 +196,13 @@
             }
         });
 
-        async function carregarSubstantivos() {
-            try {
-                const snapshot = await get(ref(database, "substantivos"));
-
+        function carregarSubstantivos() {
+            onValue(ref(database, "substantivos"), snapshot => {
                 if (!snapshot.exists()) {
-                    throw new Error("O nó 'substantivos' não possui dados.");
+                    substantivos = [];
+                    container.innerHTML = "<p class=\"search-empty\">Nenhum substantivo cadastrado.</p>";
+                    paginacao.style.display = "none";
+                    return;
                 }
 
                 const dados = snapshot.val();
@@ -211,12 +212,21 @@
                     ...dadosSubstantivo
                 }));
 
-                exibirPagina(paginaAtual);
-            } catch (error) {
+                const termo = campoBusca.value.trim();
+
+                if (termo === "") {
+                    const totalPaginas = Math.ceil(substantivos.length / cardsPorPagina);
+                    paginaAtual = Math.min(paginaAtual, Math.max(totalPaginas, 1));
+                    paginacao.style.display = "";
+                    exibirPagina(paginaAtual);
+                } else {
+                    exibirBusca(termo);
+                }
+            }, error => {
                 console.error("Não foi possível carregar os substantivos do Firebase:", error);
                 container.innerHTML = "<p class=\"search-empty\">Não foi possível carregar o vocabulário.</p>";
                 paginacao.style.display = "none";
-            }
+            });
         }
 
         carregarSubstantivos();

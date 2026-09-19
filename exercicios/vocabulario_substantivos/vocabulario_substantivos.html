@@ -33,8 +33,11 @@
     </div>
 </main>
 <footer class="site-footer"><div class="footer-inner"><span>Material de estudo pessoal</span><a href="../../index.html">← Início</a></div></footer>
-<script src="../../js/vocabulario_substantivos.js"></script>
-<script>
+<script type="module">
+import { database } from "../../js/firebase.js";
+import { ref, onValue } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
+
+let lista=[];
 let exerciciosAtuais=[];
 let quantidadeExibida=0;
 const quantidadePorPagina=10;
@@ -167,7 +170,35 @@ function corrigir(){
 document.getElementById("corrigir").addEventListener("click",corrigir);
 document.getElementById("maisExercicios").addEventListener("click",exibirMaisExercicios);
 document.getElementById("resetar").addEventListener("click",criarExercicios);
-criarExercicios();
+
+function carregarSubstantivos(){
+ onValue(ref(database,"substantivos"),snapshot=>{
+  if(!snapshot.exists()){
+   lista=[];
+   document.getElementById("exercicios").innerHTML="<p>Nenhum substantivo cadastrado.</p>";
+   document.getElementById("maisExercicios").disabled=true;
+   document.getElementById("fimLista").textContent="";
+   return;
+  }
+
+  const dados=snapshot.val();
+
+  lista=Object.entries(dados).map(([substantivo,item])=>[
+   substantivo,
+   item.artigo,
+   item.plural,
+   item.traducao
+  ]);
+
+  criarExercicios();
+ },error=>{
+  console.error("Não foi possível carregar os substantivos do Firebase:",error);
+  document.getElementById("exercicios").innerHTML="<p>Não foi possível carregar o vocabulário.</p>";
+  document.getElementById("maisExercicios").disabled=true;
+ });
+}
+
+carregarSubstantivos();
 </script>
 </body>
 </html>

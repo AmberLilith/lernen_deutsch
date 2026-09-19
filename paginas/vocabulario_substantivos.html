@@ -14,7 +14,7 @@
             gap: 10px;
             padding: 32px 16px;
         }
-        .carregando-dados[hidden] { display: none; }
+        .carregando-dados.oculto { display: none; }
         .spinner {
             width: 22px;
             height: 22px;
@@ -59,7 +59,7 @@
 
             <div id="carregando" class="carregando-dados" role="status" aria-live="polite"><span class="spinner" aria-hidden="true"></span><span>Carregando vocabulário...</span></div>
 
-            <div class="grid" id="vocabulario" hidden></div>
+            <div class="grid" id="vocabulario" style="display: none;"></div>
 
             <div class="pagination" id="paginacao">
                 <button type="button" id="anterior">← Anterior</button>
@@ -220,8 +220,8 @@
 
         function carregarSubstantivos() {
             onValue(ref(database, "substantivos"), snapshot => {
-                carregando.hidden = true;
-                container.hidden = false;
+                carregando.classList.add("oculto");
+                container.style.display = "";
                 if (!snapshot.exists()) {
                     substantivos = [];
                     container.innerHTML = "<p class=\"search-empty\">Nenhum substantivo cadastrado.</p>";
@@ -247,8 +247,8 @@
                     exibirBusca(termo);
                 }
             }, error => {
-                carregando.hidden = true;
-                container.hidden = false;
+                carregando.classList.add("oculto");
+                container.style.display = "";
                 console.error("Não foi possível carregar os substantivos do Firebase:", error);
                 container.innerHTML = "<p class=\"search-empty\">Não foi possível carregar o vocabulário.</p>";
                 paginacao.style.display = "none";

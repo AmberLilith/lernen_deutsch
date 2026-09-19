@@ -110,3 +110,7 @@ tr:last-child td { border-bottom: 0 }
 .pagination button:disabled { opacity: .45; cursor: default }
 #paginaAtual { font-weight: 600 }
 @media(max-width:720px) { .nav { padding: 6px 15px } .brand { width: 205px; height: 56px; flex-basis: 205px } .nav-links { display: none } .container { padding: 34px 15px 55px } .panel { padding: 18px } .lesson-nav { flex-direction: column } }
+
+.footer-links { display: flex; align-items: center; gap: 12px }
+.footer-admin { font-size: .9em; opacity: .78 }
+.footer-admin:hover { opacity: 1 }

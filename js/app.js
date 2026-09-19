@@ -9,6 +9,31 @@ function ensureFavicon(){
 
 ensureFavicon();
 
+function ensureAdminLink(){
+ const footer = document.querySelector(".site-footer .footer-inner");
+ if(!footer || footer.querySelector(".footer-admin")) return;
+
+ const inicio = [...footer.querySelectorAll("a")].find(link =>
+   link.textContent.includes("Início")
+ );
+
+ if(!inicio) return;
+
+ const links = document.createElement("div");
+ links.className = "footer-links";
+
+ inicio.replaceWith(links);
+ links.appendChild(inicio);
+
+ const admin = document.createElement("a");
+ admin.className = "footer-admin";
+ admin.href = "https://amberlilith.github.io/lernen-deutsch-admin/";
+ admin.textContent = "Admin";
+ admin.title = "Painel administrativo";
+
+ links.appendChild(admin);
+}
+
 function norm(s){
  return s.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
   .replace(/[“”\"']/g,"").replace(/\s+/g," ");
@@ -139,6 +164,7 @@ async function inicializar(conteudos, exercicios){
 }
 
 document.addEventListener("DOMContentLoaded",()=>{
+ ensureAdminLink();
  Promise.all([
    import("./conteudos.js"),
    import("./exercicios.js")

@@ -104,6 +104,19 @@
         const campoBusca = document.getElementById("busca");
         const buscaResultado = document.getElementById("buscaResultado");
         const carregando = document.getElementById("carregando");
+        const inicioCarregamento = performance.now();
+        const tempoMinimoCarregamento = 400;
+
+        function finalizarCarregamento(callback) {
+            const tempoDecorrido = performance.now() - inicioCarregamento;
+            const espera = Math.max(0, tempoMinimoCarregamento - tempoDecorrido);
+
+            setTimeout(() => {
+                carregando.classList.add("oculto");
+                container.style.display = "";
+                callback();
+            }, espera);
+        }
 
         function criarCard(item) {
             const card = document.createElement("div");
@@ -220,38 +233,38 @@
 
         function carregarSubstantivos() {
             onValue(ref(database, "substantivos"), snapshot => {
-                carregando.classList.add("oculto");
-                container.style.display = "";
-                if (!snapshot.exists()) {
-                    substantivos = [];
-                    container.innerHTML = "<p class=\"search-empty\">Nenhum substantivo cadastrado.</p>";
-                    paginacao.style.display = "none";
-                    return;
-                }
+                finalizarCarregamento(() => {
+                    if (!snapshot.exists()) {
+                        substantivos = [];
+                        container.innerHTML = "<p class=\"search-empty\">Nenhum substantivo cadastrado.</p>";
+                        paginacao.style.display = "none";
+                        return;
+                    }
 
-                const dados = snapshot.val();
+                    const dados = snapshot.val();
 
-                substantivos = Object.entries(dados).map(([substantivo, dadosSubstantivo]) => ({
-                    substantivo,
-                    ...dadosSubstantivo
-                }));
+                    substantivos = Object.entries(dados).map(([substantivo, dadosSubstantivo]) => ({
+                        substantivo,
+                        ...dadosSubstantivo
+                    }));
 
-                const termo = campoBusca.value.trim();
+                    const termo = campoBusca.value.trim();
 
-                if (termo === "") {
-                    const totalPaginas = Math.ceil(substantivos.length / cardsPorPagina);
-                    paginaAtual = Math.min(paginaAtual, Math.max(totalPaginas, 1));
-                    paginacao.style.display = "";
-                    exibirPagina(paginaAtual);
-                } else {
-                    exibirBusca(termo);
-                }
+                    if (termo === "") {
+                        const totalPaginas = Math.ceil(substantivos.length / cardsPorPagina);
+                        paginaAtual = Math.min(paginaAtual, Math.max(totalPaginas, 1));
+                        paginacao.style.display = "";
+                        exibirPagina(paginaAtual);
+                    } else {
+                        exibirBusca(termo);
+                    }
+                });
             }, error => {
-                carregando.classList.add("oculto");
-                container.style.display = "";
-                console.error("Não foi possível carregar os substantivos do Firebase:", error);
-                container.innerHTML = "<p class=\"search-empty\">Não foi possível carregar o vocabulário.</p>";
-                paginacao.style.display = "none";
+                finalizarCarregamento(() => {
+                    console.error("Não foi possível carregar os substantivos do Firebase:", error);
+                    container.innerHTML = "<p class=\"search-empty\">Não foi possível carregar o vocabulário.</p>";
+                    paginacao.style.display = "none";
+                });
             });
         }
 

@@ -194,33 +194,47 @@ document.getElementById("resetar").addEventListener("click",criarExercicios);
 function carregarSubstantivos(){
  const carregando=document.getElementById("carregando");
  const areaExercicios=document.getElementById("exercicios-scroll");
+ const inicioCarregamento=performance.now();
+ const tempoMinimoCarregamento=400;
+
+ function finalizarCarregamento(callback){
+  const tempoDecorrido=performance.now()-inicioCarregamento;
+  const espera=Math.max(0,tempoMinimoCarregamento-tempoDecorrido);
+
+  setTimeout(()=>{
+   carregando.classList.add("oculto");
+   areaExercicios.style.display="";
+   callback();
+  },espera);
+ }
+
  onValue(ref(database,"substantivos"),snapshot=>{
-  carregando.classList.add("oculto");
-  areaExercicios.style.display="";
-  if(!snapshot.exists()){
-   lista=[];
-   document.getElementById("exercicios").innerHTML="<p>Nenhum substantivo cadastrado.</p>";
-   document.getElementById("maisExercicios").disabled=true;
-   document.getElementById("fimLista").textContent="";
-   return;
-  }
+  finalizarCarregamento(()=>{
+   if(!snapshot.exists()){
+    lista=[];
+    document.getElementById("exercicios").innerHTML="<p>Nenhum substantivo cadastrado.</p>";
+    document.getElementById("maisExercicios").disabled=true;
+    document.getElementById("fimLista").textContent="";
+    return;
+   }
 
-  const dados=snapshot.val();
+   const dados=snapshot.val();
 
-  lista=Object.entries(dados).map(([substantivo,item])=>[
-   substantivo,
-   item.artigo,
-   item.plural,
-   item.traducao
-  ]);
+   lista=Object.entries(dados).map(([substantivo,item])=>[
+    substantivo,
+    item.artigo,
+    item.plural,
+    item.traducao
+   ]);
 
-  criarExercicios();
+   criarExercicios();
+  });
  },error=>{
-  carregando.classList.add("oculto");
-  areaExercicios.style.display="";
-  console.error("Não foi possível carregar os substantivos do Firebase:",error);
-  document.getElementById("exercicios").innerHTML="<p>Não foi possível carregar o vocabulário.</p>";
-  document.getElementById("maisExercicios").disabled=true;
+  finalizarCarregamento(()=>{
+   console.error("Não foi possível carregar os substantivos do Firebase:",error);
+   document.getElementById("exercicios").innerHTML="<p>Não foi possível carregar o vocabulário.</p>";
+   document.getElementById("maisExercicios").disabled=true;
+  });
  });
 }
 

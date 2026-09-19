@@ -67,10 +67,11 @@
         </div>
     </footer>
 
-    <script src="../js/vocabulario_substantivos.js"></script>
-    <script src="../js/app.js"></script>
+    <script type="module">
+        import { database } from "../js/firebase.js";
+        import { ref, get } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
 
-    <script>
+        let substantivos = [];
         const cardsPorPagina = 12;
         let paginaAtual = 1;
 
@@ -81,9 +82,6 @@
         const paginacao = document.getElementById("paginacao");
         const campoBusca = document.getElementById("busca");
         const buscaResultado = document.getElementById("buscaResultado");
-
-        // Considera que 'substantivos' vem do arquivo JS importado
-        const totalPaginas = Math.ceil(substantivos.length / cardsPorPagina);
 
         function criarCard(item) {
             const card = document.createElement("div");
@@ -99,15 +97,13 @@
             const pluralElement = document.createElement("p");
             pluralElement.innerHTML = `<strong>Plural:</strong> ${item.plural}`;
 
-            let generoOpostoElement = document.createElement("p");
+            const generoOpostoElement = document.createElement("p");
             const pluralGeneroOpostoElement = document.createElement("p");
-            if(generoOposto != "Neutro" && item.generoOposto) { 
-            generoOpostoElement.innerHTML = `<strong>${generoOposto}:</strong> ${item.generoOposto}`;
-            pluralGeneroOpostoElement.innerHTML = `<strong>Plural ${generoOposto}:</strong> ${item.pluralGeneroOposto}`;
-        }
 
-             
-            
+            if (generoOposto !== "Neutro" && item.generoOposto) {
+                generoOpostoElement.innerHTML = `<strong>${generoOposto}:</strong> ${item.generoOposto}`;
+                pluralGeneroOpostoElement.innerHTML = `<strong>Plural ${generoOposto}:</strong> ${item.pluralGeneroOposto}`;
+            }
 
             const obs = document.createElement("p");
             obs.innerHTML = item.observacao ? `<strong>Obs.:</strong> ${item.observacao}` : "";
@@ -132,47 +128,42 @@
         function exibirPagina(pagina) {
             container.innerHTML = "";
 
+            const totalPaginas = Math.ceil(substantivos.length / cardsPorPagina);
             const inicio = (pagina - 1) * cardsPorPagina;
             const fim = inicio + cardsPorPagina;
 
-            const palavrasPagina = substantivos.slice(inicio, fim);
-
-            palavrasPagina.forEach(item => {
+            substantivos.slice(inicio, fim).forEach(item => {
                 container.appendChild(criarCard(item));
             });
 
-            indicadorPagina.textContent =
-                `Página ${pagina} de ${totalPaginas}`;
-
+            indicadorPagina.textContent = `Página ${pagina} de ${totalPaginas}`;
             botaoAnterior.disabled = pagina === 1;
             botaoProxima.disabled = pagina === totalPaginas;
         }
 
         function exibirBusca(termo) {
-    const termoNormalizado = normalizar(termo);
+            const termoNormalizado = normalizar(termo);
 
-    const resultados = substantivos.filter(item => {
-        const traducaoOk = normalizar(item.traducao).includes(termoNormalizado);
-        const substantivoOk = normalizar(item.substantivo).includes(termoNormalizado);
-        return traducaoOk || substantivoOk;
-    });
+            const resultados = substantivos.filter(item => {
+                const traducaoOk = normalizar(item.traducao).includes(termoNormalizado);
+                const substantivoOk = normalizar(item.substantivo).includes(termoNormalizado);
+                return traducaoOk || substantivoOk;
+            });
 
-    container.innerHTML = "";
+            container.innerHTML = "";
 
-    if (resultados.length === 0) {
-        const vazio = document.createElement("p");
-        vazio.className = "search-empty";
-        vazio.textContent = "Nenhuma palavra encontrada.";
-        container.appendChild(vazio);
-    } else {
-        resultados.forEach(item => {
-            container.appendChild(criarCard(item));
-        });
-    }
+            if (resultados.length === 0) {
+                const vazio = document.createElement("p");
+                vazio.className = "search-empty";
+                vazio.textContent = "Nenhuma palavra encontrada.";
+                container.appendChild(vazio);
+            } else {
+                resultados.forEach(item => container.appendChild(criarCard(item)));
+            }
 
-    buscaResultado.textContent =
-        `${resultados.length} resultado${resultados.length === 1 ? "" : "s"}`;
-}
+            buscaResultado.textContent =
+                `${resultados.length} resultado${resultados.length === 1 ? "" : "s"}`;
+        }
 
         campoBusca.addEventListener("input", () => {
             const termo = campoBusca.value.trim();
@@ -191,27 +182,44 @@
             if (paginaAtual > 1) {
                 paginaAtual--;
                 exibirPagina(paginaAtual);
-
-                window.scrollTo({
-                    top: 0,
-                    behavior: "smooth"
-                });
+                window.scrollTo({ top: 0, behavior: "smooth" });
             }
         });
 
         botaoProxima.addEventListener("click", () => {
+            const totalPaginas = Math.ceil(substantivos.length / cardsPorPagina);
+
             if (paginaAtual < totalPaginas) {
                 paginaAtual++;
                 exibirPagina(paginaAtual);
-
-                window.scrollTo({
-                    top: 0,
-                    behavior: "smooth"
-                });
+                window.scrollTo({ top: 0, behavior: "smooth" });
             }
         });
 
-        exibirPagina(paginaAtual);
+        async function carregarSubstantivos() {
+            try {
+                const snapshot = await get(ref(database, "substantivos"));
+
+                if (!snapshot.exists()) {
+                    throw new Error("O nó 'substantivos' não possui dados.");
+                }
+
+                const dados = snapshot.val();
+
+                substantivos = Object.entries(dados).map(([substantivo, dadosSubstantivo]) => ({
+                    substantivo,
+                    ...dadosSubstantivo
+                }));
+
+                exibirPagina(paginaAtual);
+            } catch (error) {
+                console.error("Não foi possível carregar os substantivos do Firebase:", error);
+                container.innerHTML = "<p class=\"search-empty\">Não foi possível carregar o vocabulário.</p>";
+                paginacao.style.display = "none";
+            }
+        }
+
+        carregarSubstantivos();
     </script>
 </body>
 

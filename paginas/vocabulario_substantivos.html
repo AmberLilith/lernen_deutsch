@@ -6,6 +6,25 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Vocabulário: Substantivos</title>
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .carregando-dados {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 32px 16px;
+        }
+        .carregando-dados[hidden] { display: none; }
+        .spinner {
+            width: 22px;
+            height: 22px;
+            border: 3px solid currentColor;
+            border-right-color: transparent;
+            border-radius: 50%;
+            animation: girar .7s linear infinite;
+        }
+        @keyframes girar { to { transform: rotate(360deg); } }
+    </style>
 </head>
 
 <body>
@@ -38,7 +57,9 @@
                 <span id="buscaResultado" class="search-result-count"></span>
             </div>
 
-            <div class="grid" id="vocabulario"></div>
+            <div id="carregando" class="carregando-dados" role="status" aria-live="polite"><span class="spinner" aria-hidden="true"></span><span>Carregando vocabulário...</span></div>
+
+            <div class="grid" id="vocabulario" hidden></div>
 
             <div class="pagination" id="paginacao">
                 <button type="button" id="anterior">← Anterior</button>
@@ -82,6 +103,7 @@
         const paginacao = document.getElementById("paginacao");
         const campoBusca = document.getElementById("busca");
         const buscaResultado = document.getElementById("buscaResultado");
+        const carregando = document.getElementById("carregando");
 
         function criarCard(item) {
             const card = document.createElement("div");
@@ -198,6 +220,8 @@
 
         function carregarSubstantivos() {
             onValue(ref(database, "substantivos"), snapshot => {
+                carregando.hidden = true;
+                container.hidden = false;
                 if (!snapshot.exists()) {
                     substantivos = [];
                     container.innerHTML = "<p class=\"search-empty\">Nenhum substantivo cadastrado.</p>";
@@ -223,6 +247,8 @@
                     exibirBusca(termo);
                 }
             }, error => {
+                carregando.hidden = true;
+                container.hidden = false;
                 console.error("Não foi possível carregar os substantivos do Firebase:", error);
                 container.innerHTML = "<p class=\"search-empty\">Não foi possível carregar o vocabulário.</p>";
                 paginacao.style.display = "none";

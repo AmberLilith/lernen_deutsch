@@ -106,444 +106,196 @@
     <script src="../js/app.js"></script>
 
 
-    <script>
-
-        /*
-         * Estrutura:
-         * [adjetivo, comparativo, superlativo, tradução]
-         */
-
-        const lista = [
-
-            ["alt", "älter", "am ältesten", "velho / antigo"],
-
-            ["jung", "jünger", "am jüngsten", "jovem"],
-
-            ["groß", "größer", "am größten", "grande"],
-
-            ["klein", "kleiner", "am kleinsten", "pequeno"],
-
-            ["lang", "länger", "am längsten", "longo"],
-
-            ["kurz", "kürzer", "am kürzesten", "curto"],
-
-            ["hoch", "höher", "am höchsten", "alto"],
-
-            ["niedrig", "niedriger", "am niedrigsten", "baixo"],
-
-            ["schnell", "schneller", "am schnellsten", "rápido"],
-
-            ["langsam", "langsamer", "am langsamsten", "lento"],
-
-            ["gut", "besser", "am besten", "bom"],
-
-            ["schlecht", "schlechter", "am schlechtesten", "ruim"],
-
-            ["schön", "schöner", "am schönsten", "bonito"],
-
-            ["hässlich", "hässlicher", "am hässlichsten", "feio"],
-
-            ["teuer", "teurer", "am teuersten", "caro"],
-
-            ["billig", "billiger", "am billigsten", "barato"],
-
-            ["leicht", "leichter", "am leichtesten", "fácil / leve"],
-
-            ["schwer", "schwerer", "am schwersten", "difícil / pesado"],
-
-            ["einfach", "einfacher", "am einfachsten", "simples / fácil"],
-
-            ["schwierig", "schwieriger", "am schwierigsten", "difícil"],
-
-            ["warm", "wärmer", "am wärmsten", "quente / morno"],
-
-            ["kalt", "kälter", "am kältesten", "frio"],
-
-            ["heiß", "heißer", "am heißesten", "quente"],
-
-            ["kühl", "kühler", "am kühlsten", "fresco"],
-
-            ["stark", "stärker", "am stärksten", "forte"],
-
-            ["schwach", "schwächer", "am schwächsten", "fraco"],
-
-            ["dick", "dicker", "am dicksten", "grosso"],
-
-            ["dünn", "dünner", "am dünnsten", "fino / magro"],
-
-            ["breit", "breiter", "am breitesten", "largo"],
-
-            ["eng", "enger", "am engsten", "estreito"],
-
-            ["reich", "reicher", "am reichsten", "rico"],
-
-            ["arm", "ärmer", "am ärmsten", "pobre"],
-
-            ["glücklich", "glücklicher", "am glücklichsten", "feliz"],
-
-            ["traurig", "trauriger", "am traurigsten", "triste"],
-
-            ["müde", "müder", "am müdesten", "cansado"],
-
-            ["wach", "wacher", "am wachsten", "acordado / alerta"],
-
-            ["krank", "kränker", "am kränksten", "doente"],
-
-            ["gesund", "gesünder", "am gesündesten", "saudável"],
-
-            ["freundlich", "freundlicher", "am freundlichsten", "amigável / gentil"],
-
-            ["unfreundlich", "unfreundlicher", "am unfreundlichsten", "hostil / pouco amigável"],
-
-            ["nett", "netter", "am nettesten", "legal / simpático"],
-
-            ["böse", "böser", "am bösesten", "mau / bravo"],
-
-            ["ruhig", "ruhiger", "am ruhigsten", "calmo"],
-
-            ["laut", "lauter", "am lautesten", "barulhento / alto"],
-
-            ["leise", "leiser", "am leisesten", "silencioso / baixo"],
-
-            ["sauber", "sauberer", "am saubersten", "limpo"],
-
-            ["schmutzig", "schmutziger", "am schmutzigsten", "sujo"],
-
-            ["neu", "neuer", "am neuesten", "novo"],
-
-            ["modern", "moderner", "am modernsten", "moderno"],
-
-            ["altmodisch", "altmodischer", "am altmodischsten", "antiquado"],
-
-            ["interessant", "interessanter", "am interessantesten", "interessante"],
-
-            ["langweilig", "langweiliger", "am langweiligsten", "entediante"],
-
-            ["wichtig", "wichtiger", "am wichtigsten", "importante"],
-
-            ["unwichtig", "unwichtiger", "am unwichtigsten", "sem importância"],
-
-            ["richtig", "richtiger", "am richtigsten", "correto"],
-
-            ["falsch", "falscher", "am falschesten", "errado"],
-
-            ["klar", "klarer", "am klarsten", "claro"],
-
-            ["dunkel", "dunkler", "am dunkelsten", "escuro"],
-
-            ["hell", "heller", "am hellsten", "claro / luminoso"],
-
-            ["voll", "voller", "am vollsten", "cheio"],
-
-            ["leer", "leerer", "am leersten", "vazio"],
-
-            ["früh", "früher", "am frühesten", "cedo"],
-
-            ["spät", "später", "am spätesten", "tarde"],
-
-            ["nah", "näher", "am nächsten", "perto"],
-
-            ["fern", "ferner", "am fernsten", "distante"],
-
-            ["viel", "mehr", "am meisten", "muito"],
-
-            ["wenig", "weniger", "am wenigsten", "pouco"],
-
-            ["gern", "lieber", "am liebsten", "com prazer / gostar de"],
-
-            ["teuer", "teurer", "am teuersten", "caro"],
-
-            ["süß", "süßer", "am süßesten", "doce"],
-
-            ["sauer", "saurer", "am sauersten", "azedo"],
-
-            ["salzig", "salziger", "am salzigsten", "salgado"],
-
-            ["bitter", "bitterer", "am bittersten", "amargo"],
-
-            ["scharf", "schärfer", "am schärfsten", "picante / afiado"],
-
-            ["weich", "weicher", "am weichsten", "macio"],
-
-            ["hart", "härter", "am härtesten", "duro"],
-
-            ["glatt", "glatter", "am glattesten", "liso"],
-
-            ["rau", "rauer", "am rauesten", "áspero"],
-
-            ["sicher", "sicherer", "am sichersten", "seguro"],
-
-            ["gefährlich", "gefährlicher", "am gefährlichsten", "perigoso"],
-
-            ["frei", "freier", "am freiesten", "livre"],
-
-            ["besetzt", "besetzter", "am besetztesten", "ocupado"],
-
-            ["offen", "offener", "am offensten", "aberto"],
-
-            ["geschlossen", "geschlossener", "am geschlossensten", "fechado"],
-
-            ["vollständig", "vollständiger", "am vollständigsten", "completo"],
-
-            ["leer", "leerer", "am leersten", "vazio"],
-
-            ["möglich", "möglicher", "am möglichsten", "possível"],
-
-            ["unmöglich", "unmöglicher", "am unmöglichsten", "impossível"],
-
-            ["bekannt", "bekannter", "am bekanntesten", "conhecido"],
-
-            ["unbekannt", "unbekannter", "am unbekanntesten", "desconhecido"],
-
-            ["beliebt", "beliebter", "am beliebtesten", "popular"],
-
-            ["berühmt", "berühmter", "am berühmtesten", "famoso"],
-
-            ["aktiv", "aktiver", "am aktivsten", "ativo"],
-
-            ["passiv", "passiver", "am passivsten", "passivo"],
-
-            ["produktiv", "produktiver", "am produktivsten", "produtivo"],
-
-            ["kreativ", "kreativer", "am kreativsten", "criativo"],
-
-            ["positiv", "positiver", "am positivsten", "positivo"],
-
-            ["negativ", "negativer", "am negativsten", "negativo"],
-
-            ["normal", "normaler", "am normalsten", "normal"],
-
-            ["speziell", "spezieller", "am speziellsten", "especial"],
-
-            ["praktisch", "praktischer", "am praktischsten", "prático"],
-
-            ["theoretisch", "theoretischer", "am theoretischsten", "teórico"],
-
-            ["persönlich", "persönlicher", "am persönlichsten", "pessoal"],
-
-            ["öffentlich", "öffentlicher", "am öffentlichsten", "público"],
-
-            ["privat", "privater", "am privatesten", "privado"],
-
-            ["männlich", "männlicher", "am männlichsten", "masculino"],
-
-            ["weiblich", "weiblicher", "am weiblichsten", "feminino"],
-
-            ["ähnlich", "ähnlicher", "am ähnlichsten", "semelhante"],
-
-            ["verschieden", "verschiedener", "am verschiedensten", "diferente"],
-
-            ["gleich", "gleicher", "am gleichsten", "igual"],
-
-            ["anders", "anders", "am anderssten", "diferente / de outro modo"]
-
-        ];
-
+    <script type="module">
+        import { database } from "../js/firebase.js";
+        import {
+            ref,
+            onValue
+        } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
 
         const cardsPorPagina = 12;
 
+        let lista = [];
         let paginaAtual = 1;
 
-
         const container = document.getElementById("vocabulario");
-
         const botaoAnterior = document.getElementById("anterior");
-
         const botaoProxima = document.getElementById("proxima");
-
         const indicadorPagina = document.getElementById("paginaAtual");
-
         const paginacao = document.getElementById("paginacao");
-
         const campoBusca = document.getElementById("busca");
-
         const buscaResultado = document.getElementById("buscaResultado");
 
-
         function normalizar(texto) {
-
-            return texto
+            return (texto || "")
                 .toLowerCase()
                 .normalize("NFD")
                 .replace(/[\u0300-\u036f]/g, "");
-
         }
 
-
         function criarCard(item) {
-
-            const [adjetivo, comparativo, superlativo, traducao] = item;
-
-
             const card = document.createElement("div");
-
             card.className = "card";
 
-
             const titulo = document.createElement("h3");
-
-            titulo.textContent = adjetivo;
-
+            titulo.textContent = item.adjetivo;
 
             const descricao = document.createElement("p");
 
-            descricao.innerHTML = `
-                <strong>Tradução:</strong> ${traducao}<br>
-                <strong>Comparativo:</strong> ${comparativo}<br>
-                <strong>Superlativo:</strong> ${superlativo}<br>                
-            `;
+            const traducao = document.createElement("strong");
+            traducao.textContent = "Tradução:";
+            descricao.append(traducao, document.createTextNode(` ${item.traducao}`), document.createElement("br"));
 
+            const comparativo = document.createElement("strong");
+            comparativo.textContent = "Comparativo:";
+            descricao.append(comparativo, document.createTextNode(` ${item.comparativo}`), document.createElement("br"));
 
-            card.appendChild(titulo);
+            const superlativo = document.createElement("strong");
+            superlativo.textContent = "Superlativo:";
+            descricao.append(superlativo, document.createTextNode(` ${item.superlativo}`), document.createElement("br"));
 
-            card.appendChild(descricao);
-
+            card.append(titulo, descricao);
 
             return card;
-
         }
-
 
         function exibirPagina(pagina) {
-
             container.innerHTML = "";
 
-            const inicio = (pagina - 1) * cardsPorPagina;
-
-            const fim = inicio + cardsPorPagina;
-
-            const palavrasPagina = lista.slice(inicio, fim);
-
-
-            palavrasPagina.forEach(item => {
-
-                container.appendChild(criarCard(item));
-
-            });
-
-
-            const totalPaginas = Math.ceil(lista.length / cardsPorPagina);
-
-
-            indicadorPagina.textContent =
-                `Página ${pagina} de ${totalPaginas}`;
-
-
-            botaoAnterior.disabled = pagina === 1;
-
-            botaoProxima.disabled = pagina === totalPaginas;
-
-        }
-
-
-        function exibirBusca(termo) {
-
-            const termoNormalizado = normalizar(termo);
-
-
-            const resultados = lista.filter(item => {
-
-                const textoBusca = item.join(" ");
-
-                return normalizar(textoBusca).includes(termoNormalizado);
-
-            });
-
-
-            container.innerHTML = "";
-
-
-            if (resultados.length === 0) {
-
-                const vazio = document.createElement("p");
-
-                vazio.className = "search-empty";
-
-                vazio.textContent = "Nenhum adjetivo encontrado.";
-
-                container.appendChild(vazio);
-
-            } else {
-
-                resultados.forEach(item => {
-
-                    container.appendChild(criarCard(item));
-
-                });
-
+            if (lista.length === 0) {
+                container.innerHTML = '<p class="search-empty">Nenhum adjetivo cadastrado.</p>';
+                paginacao.style.display = "none";
+                return;
             }
 
+            const totalPaginas = Math.ceil(lista.length / cardsPorPagina);
+            paginaAtual = Math.min(Math.max(pagina, 1), totalPaginas);
+
+            const inicio = (paginaAtual - 1) * cardsPorPagina;
+            const fim = inicio + cardsPorPagina;
+
+            lista.slice(inicio, fim).forEach(item => {
+                container.appendChild(criarCard(item));
+            });
+
+            indicadorPagina.textContent =
+                `Página ${paginaAtual} de ${totalPaginas}`;
+
+            botaoAnterior.disabled = paginaAtual === 1;
+            botaoProxima.disabled = paginaAtual === totalPaginas;
+            paginacao.style.display = "";
+        }
+
+        function exibirBusca(termo) {
+            const termoNormalizado = normalizar(termo);
+
+            const resultados = lista.filter(item => {
+                const textoBusca = [
+                    item.adjetivo,
+                    item.comparativo,
+                    item.superlativo,
+                    item.traducao
+                ].join(" ");
+
+                return normalizar(textoBusca).includes(termoNormalizado);
+            });
+
+            container.innerHTML = "";
+
+            if (resultados.length === 0) {
+                const vazio = document.createElement("p");
+                vazio.className = "search-empty";
+                vazio.textContent = "Nenhum adjetivo encontrado.";
+                container.appendChild(vazio);
+            } else {
+                resultados.forEach(item => {
+                    container.appendChild(criarCard(item));
+                });
+            }
 
             buscaResultado.textContent =
                 `${resultados.length} resultado${resultados.length === 1 ? "" : "s"}`;
-
         }
 
-
-        campoBusca.addEventListener("input", () => {
-
+        function atualizarExibicao() {
             const termo = campoBusca.value.trim();
 
-
             if (termo === "") {
-
                 buscaResultado.textContent = "";
-
-                paginacao.style.display = "";
-
                 exibirPagina(paginaAtual);
-
             } else {
-
                 paginacao.style.display = "none";
-
                 exibirBusca(termo);
+            }
+        }
 
+        campoBusca.addEventListener("input", () => {
+            if (campoBusca.value.trim() === "") {
+                paginaAtual = 1;
             }
 
+            atualizarExibicao();
         });
-
 
         botaoAnterior.addEventListener("click", () => {
-
             if (paginaAtual > 1) {
-
                 paginaAtual--;
-
                 exibirPagina(paginaAtual);
-
-                window.scrollTo({
-                    top: 0,
-                    behavior: "smooth"
-                });
-
+                window.scrollTo({ top: 0, behavior: "smooth" });
             }
-
         });
 
-
         botaoProxima.addEventListener("click", () => {
-
             const totalPaginas = Math.ceil(lista.length / cardsPorPagina);
 
             if (paginaAtual < totalPaginas) {
-
                 paginaAtual++;
-
                 exibirPagina(paginaAtual);
-
-                window.scrollTo({
-                    top: 0,
-                    behavior: "smooth"
-                });
-
+                window.scrollTo({ top: 0, behavior: "smooth" });
             }
-
         });
 
+        container.innerHTML = '<p class="search-empty">Carregando adjetivos...</p>';
+        paginacao.style.display = "none";
 
-        exibirPagina(paginaAtual);
+        onValue(
+            ref(database, "adjetivos"),
+            snapshot => {
+                if (!snapshot.exists()) {
+                    lista = [];
+                    paginaAtual = 1;
+                    atualizarExibicao();
+                    return;
+                }
 
+                lista = Object.entries(snapshot.val())
+                    .map(([adjetivo, dados]) => ({
+                        adjetivo,
+                        comparativo: dados.comparativo || "",
+                        superlativo: dados.superlativo || "",
+                        traducao: dados.traducao || ""
+                    }))
+                    .sort((a, b) =>
+                        a.adjetivo.localeCompare(b.adjetivo, "de", { sensitivity: "base" })
+                    );
+
+                const totalPaginas = Math.max(
+                    1,
+                    Math.ceil(lista.length / cardsPorPagina)
+                );
+
+                paginaAtual = Math.min(paginaAtual, totalPaginas);
+                atualizarExibicao();
+            },
+            error => {
+                console.error("Não foi possível carregar os adjetivos do Firebase:", error);
+                lista = [];
+                container.innerHTML =
+                    '<p class="search-empty">Não foi possível carregar o vocabulário de adjetivos.</p>';
+                paginacao.style.display = "none";
+                buscaResultado.textContent = "";
+            }
+        );
     </script>
 
 </body>

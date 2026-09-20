@@ -82,7 +82,15 @@ function precisaEDeLigacao(radical) {
 
   if (/[mn]$/.test(radical)) {
     const anterior = radical.at(-2) || "";
-    return anterior !== "l" && anterior !== "r";
+
+    // Em verbos como wohnen, mahnen e rahmen, o "h" apenas alonga
+    // a vogal anterior. Não há encontro consonantal que exija o "e".
+    if (/[aeiouäöü]h[mn]$/i.test(radical)) return false;
+
+    // Depois de l ou r também não se acrescenta o "e" de ligação.
+    if (anterior === "l" || anterior === "r") return false;
+
+    return true;
   }
 
   return false;

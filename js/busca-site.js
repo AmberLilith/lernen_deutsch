@@ -77,6 +77,30 @@ function montarPaginasBase() {
     url: "paginas/" + item.arquivo
   }));
 
+  paginas.push(
+    {
+      tipo: "Conteúdo",
+      grupo: "Estrutura das frases",
+      titulo: "Conjunções",
+      descricao: "Página de estudo sobre conjunções em alemão",
+      url: "paginas/conjuncoes.html"
+    },
+    {
+      tipo: "Conteúdo",
+      grupo: "Verbos",
+      titulo: "Futuro com presente",
+      descricao: "Uso do presente do indicativo com sentido de futuro",
+      url: "paginas/presentisches-futur.html"
+    },
+    {
+      tipo: "Exercício",
+      grupo: "Substantivos",
+      titulo: "Vocabulário de substantivos",
+      descricao: "Prática de artigos, substantivos e plurais",
+      url: "exercicios/vocabulario_substantivos/vocabulario_substantivos.html"
+    }
+  );
+
   exercicios.forEach(grupo => {
     grupo.itens.forEach(item => {
       paginas.push({

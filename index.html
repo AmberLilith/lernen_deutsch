@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Meu material de alemão · Alemão</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=20260920-2">
 </head>
 <body>
     <header class="site-header">
@@ -19,6 +19,32 @@
             <h1>Meu material de alemão</h1>
             <p class="lead">Conteúdos organizados por assunto, com explicação e exercícios separados. O objetivo é transformar o que foi estudado em um material consultável e reutilizável.</p>
         </section>
+
+        <section id="busca-site" class="site-search">
+            <div class="eyebrow">Pesquisa</div>
+            <h2>Pesquisar no material</h2>
+            <p class="site-search-intro">
+                Pesquise por assunto, página, exercício ou termo presente no conteúdo e no vocabulário.
+            </p>
+
+            <div class="site-search-field">
+                <span class="site-search-icon" aria-hidden="true">⌕</span>
+                <input
+                    type="search"
+                    id="buscaSite"
+                    placeholder="Ex.: Verbos, Dativ, wohnen, pronomes possessivos..."
+                    autocomplete="off"
+                    aria-label="Pesquisar em todo o site"
+                >
+            </div>
+
+            <p id="buscaSiteStatus" class="site-search-status" role="status" aria-live="polite">
+                Digite ao menos 2 caracteres para pesquisar.
+            </p>
+
+            <div id="buscaSiteResultados" class="site-search-results" hidden></div>
+        </section>
+
         <section id="conteudos">
             <div class="eyebrow">Conteúdos</div>
             <h2>Mapa do estudo</h2>
@@ -38,5 +64,6 @@
         <div class="footer-inner"><span>Material de estudo pessoal</span><a href="index.html">← Início</a></div>
     </footer>
     <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/busca-site.js?v=20260920-1"></script>
 </body>
 </html>

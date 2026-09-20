@@ -34,6 +34,186 @@ function ensureAdminLink(){
  links.appendChild(admin);
 }
 
+function agruparConteudos(conteudos){
+ const categorias = [];
+ conteudos.forEach(pagina => {
+   let grupo = categorias.find(item => item.nome === pagina.categoria);
+   if(!grupo){
+     grupo = { nome: pagina.categoria, paginas: [] };
+     categorias.push(grupo);
+   }
+   grupo.paginas.push(pagina);
+ });
+ return categorias;
+}
+
+function obterRaizSite(){
+ const scriptApp = [...document.scripts].find(script =>
+   /\/js\/app\.js(?:\?|$)/.test(script.src)
+ );
+ if(scriptApp?.src) return new URL("../", scriptApp.src);
+
+ const marca = document.querySelector(".brand");
+ if(marca){
+   const paginaInicial = new URL(marca.getAttribute("href"), window.location.href);
+   return new URL("./", paginaInicial);
+ }
+
+ return new URL("./", window.location.href);
+}
+
+function renderMenuLateral(conteudos){
+ if(document.querySelector(".side-menu")) return;
+
+ const raizSite = obterRaizSite();
+ const categorias = agruparConteudos(conteudos);
+ const caminhoAtual = decodeURIComponent(window.location.pathname);
+
+ const botaoAbrir = document.createElement("button");
+ botaoAbrir.type = "button";
+ botaoAbrir.className = "side-menu-toggle";
+ botaoAbrir.setAttribute("aria-controls", "menu-lateral");
+ botaoAbrir.setAttribute("aria-expanded", "false");
+ botaoAbrir.setAttribute("aria-label", "Abrir menu de conteúdos");
+
+ const icone = document.createElement("span");
+ icone.className = "side-menu-toggle-icon";
+ icone.setAttribute("aria-hidden", "true");
+ icone.textContent = "☰";
+
+ const rotulo = document.createElement("span");
+ rotulo.className = "side-menu-toggle-label";
+ rotulo.textContent = "Conteúdos";
+
+ botaoAbrir.append(icone, rotulo);
+
+ const nav = document.querySelector(".nav");
+ if(nav){
+   nav.appendChild(botaoAbrir);
+ }else{
+   botaoAbrir.classList.add("side-menu-toggle--floating");
+   document.body.appendChild(botaoAbrir);
+ }
+
+ const fundo = document.createElement("div");
+ fundo.className = "side-menu-backdrop";
+ fundo.hidden = true;
+
+ const menu = document.createElement("aside");
+ menu.id = "menu-lateral";
+ menu.className = "side-menu";
+ menu.setAttribute("aria-label", "Menu de conteúdos");
+ menu.setAttribute("aria-hidden", "true");
+
+ const topo = document.createElement("div");
+ topo.className = "side-menu-header";
+
+ const tituloArea = document.createElement("div");
+ const eyebrow = document.createElement("span");
+ eyebrow.className = "side-menu-eyebrow";
+ eyebrow.textContent = "Mapa do estudo";
+
+ const titulo = document.createElement("h2");
+ titulo.textContent = "Conteúdos";
+ tituloArea.append(eyebrow, titulo);
+
+ const botaoFechar = document.createElement("button");
+ botaoFechar.type = "button";
+ botaoFechar.className = "side-menu-close";
+ botaoFechar.setAttribute("aria-label", "Fechar menu");
+ botaoFechar.textContent = "×";
+
+ topo.append(tituloArea, botaoFechar);
+ menu.appendChild(topo);
+
+ const inicio = document.createElement("a");
+ inicio.className = "side-menu-home";
+ inicio.href = new URL("index.html#conteudos", raizSite).href;
+ inicio.textContent = "Todos os conteúdos";
+ menu.appendChild(inicio);
+
+ const listaCategorias = document.createElement("nav");
+ listaCategorias.className = "side-menu-groups";
+ listaCategorias.setAttribute("aria-label", "Seções de conteúdo");
+
+ categorias.forEach(grupo => {
+   const detalhes = document.createElement("details");
+   detalhes.className = "side-menu-group";
+
+   const resumo = document.createElement("summary");
+   resumo.textContent = grupo.nome;
+   detalhes.appendChild(resumo);
+
+   const lista = document.createElement("div");
+   lista.className = "side-menu-links";
+
+   let grupoAtual = false;
+
+   grupo.paginas.forEach(pagina => {
+     const link = document.createElement("a");
+     const destino = new URL("paginas/" + pagina.arquivo, raizSite);
+     link.href = destino.href;
+     link.textContent = pagina.titulo;
+
+     if(decodeURIComponent(destino.pathname) === caminhoAtual){
+       link.classList.add("ativo");
+       link.setAttribute("aria-current", "page");
+       grupoAtual = true;
+     }
+
+     lista.appendChild(link);
+   });
+
+   detalhes.open = grupoAtual;
+   detalhes.appendChild(lista);
+   listaCategorias.appendChild(detalhes);
+ });
+
+ menu.appendChild(listaCategorias);
+ document.body.append(fundo, menu);
+
+ let ultimoFoco = null;
+
+ function abrirMenu(){
+   ultimoFoco = document.activeElement;
+   menu.classList.add("aberto");
+   fundo.hidden = false;
+   requestAnimationFrame(() => fundo.classList.add("visivel"));
+   document.body.classList.add("side-menu-open");
+   menu.setAttribute("aria-hidden", "false");
+   botaoAbrir.setAttribute("aria-expanded", "true");
+   botaoFechar.focus();
+ }
+
+ function fecharMenu(){
+   menu.classList.remove("aberto");
+   fundo.classList.remove("visivel");
+   document.body.classList.remove("side-menu-open");
+   menu.setAttribute("aria-hidden", "true");
+   botaoAbrir.setAttribute("aria-expanded", "false");
+
+   setTimeout(() => {
+     if(!menu.classList.contains("aberto")) fundo.hidden = true;
+   }, 180);
+
+   if(ultimoFoco instanceof HTMLElement) ultimoFoco.focus();
+ }
+
+ botaoAbrir.addEventListener("click", abrirMenu);
+ botaoFechar.addEventListener("click", fecharMenu);
+ fundo.addEventListener("click", fecharMenu);
+
+ menu.querySelectorAll("a").forEach(link => {
+   link.addEventListener("click", fecharMenu);
+ });
+
+ document.addEventListener("keydown", event => {
+   if(event.key === "Escape" && menu.classList.contains("aberto")){
+     fecharMenu();
+   }
+ });
+}
+
 function norm(s){
  return s.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
   .replace(/[“”\"']/g,"").replace(/\s+/g," ");
@@ -157,6 +337,7 @@ async function renderExercicios(grupos){
 }
 
 async function inicializar(conteudos, exercicios){
+ renderMenuLateral(conteudos);
  renderConteudos(conteudos);
  await renderExercicios(exercicios);
  renderLessonNav(conteudos);

@@ -6,6 +6,7 @@ export const conteudos = [
   { arquivo: "negacao.html", titulo: "Negação: nicht e kein", descricao: "quando usar nicht e quando usar kein", categoria: "Artigos e casos", tag: "Gramática" },
   { arquivo: "pronomes-pessoais.html", titulo: "Pronomes pessoais", descricao: "pronomes pessoais nos casos, posição na frase, es impessoal e Sie/sie", categoria: "Pronomes", tag: "Gramática" },
   { arquivo: "pronomes-possessivos.html", titulo: "Pronomes possessivos", descricao: "formas possessivas e declinação conforme gênero, número e caso", categoria: "Pronomes", tag: "Gramática" },
+  { arquivo: "pronomes-demonstrativos.html", titulo: "Pronomes demonstrativos", descricao: "dieser, jener, derselbe, solcher e formas demonstrativas com der/die/das", categoria: "Pronomes", tag: "Gramática" },
   { arquivo: "dativ.html", titulo: "Dativ", descricao: "artigos, preposições e verbos relacionados ao Dativ", categoria: "Artigos e casos", tag: "Gramática" },
   { arquivo: "ndeklination.html", titulo: "n-Deklination", descricao: "substantivos masculinos com formas especiais", categoria: "Artigos e casos", tag: "Gramática" },
   { arquivo: "presente-regulares.html", titulo: "Presente: verbos regulares", descricao: "conjugação e terminações no presente", categoria: "Verbos", tag: "Verbos" },

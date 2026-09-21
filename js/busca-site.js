@@ -182,9 +182,10 @@ function carregarIndiceVocabulario() {
     indiceVocabularioPromise = Promise.all([
       get(ref(database, "substantivos")),
       get(ref(database, "verbos")),
-      get(ref(database, "adjetivos"))
+      get(ref(database, "adjetivos")),
+      get(ref(database, "adverbios"))
     ])
-      .then(([substantivos, verbos, adjetivos]) => [
+      .then(([substantivos, verbos, adjetivos, adverbios]) => [
         ...transformarSnapshot(
           substantivos,
           "Substantivos",
@@ -218,6 +219,15 @@ function carregarIndiceVocabulario() {
             dados.traducao,
             dados.comparativo,
             dados.superlativo
+          ].filter(Boolean).join(" · ")
+        ),
+        ...transformarSnapshot(
+          adverbios,
+          "Advérbios",
+          "paginas/vocabulario-adverbios.html",
+          dados => [
+            dados.traducao,
+            dados.tipo
           ].filter(Boolean).join(" · ")
         )
       ])

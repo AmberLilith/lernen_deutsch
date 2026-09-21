@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vocabulário: Advérbios</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .vocab-filtros {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(210px, 280px);
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        .vocab-filtros .input-search {
+            margin-bottom: 0;
+        }
+
+        .vocab-filtros select {
+            width: 100%;
+            padding: 11px 13px;
+            border: 1px solid #bbb;
+            border-radius: 6px;
+            background: #fff;
+            color: var(--ink);
+            font: inherit;
+        }
+
+        .vocab-filtros select:focus {
+            outline: 2px solid #d8c18d;
+            border-color: var(--gold);
+        }
+
+        .search-result-count {
+            display: block;
+            min-height: 1.5em;
+            margin: 8px 0 18px;
+            color: var(--muted);
+            font-size: .9rem;
+        }
+
+        .adverbio-card .tag {
+            margin-bottom: 10px;
+        }
+
+        .adverbio-card h3 {
+            margin-bottom: 8px;
+        }
+
+        @media(max-width:720px) {
+            .vocab-filtros {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="nav">
+            <a class="brand" href="../index.html">Alemão <small>estudos</small></a>
+
+            <div class="nav-links">
+                <a href="../index.html#conteudos">Conteúdos</a>
+                <a href="../index.html#exercicios">Exercícios</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <div class="breadcrumb">
+            <a href="../index.html">Início</a> / Vocabulário
+        </div>
+
+        <div class="hero">
+            <div class="eyebrow">Vocabulário</div>
+
+            <h1>Vocabulário de advérbios</h1>
+
+            <p class="lead">
+                Consulte advérbios em alemão, pesquise pela palavra ou tradução
+                e filtre por tipo, como tempo, lugar, modo, frequência e intensidade.
+            </p>
+        </div>
+
+        <div class="panel">
+
+            <div class="vocab-filtros">
+                <input
+                    type="search"
+                    id="busca"
+                    class="input-search"
+                    placeholder="Buscar por alemão ou português..."
+                    autocomplete="off"
+                    aria-label="Buscar advérbios">
+
+                <select id="filtroTipo" aria-label="Filtrar advérbios por tipo">
+                    <option value="">Todos os tipos</option>
+                </select>
+            </div>
+
+            <span id="buscaResultado" class="search-result-count"></span>
+
+            <div class="grid" id="vocabulario"></div>
+
+            <div class="pagination" id="paginacao">
+                <button type="button" id="anterior">← Anterior</button>
+                <span id="paginaAtual"></span>
+                <button type="button" id="proxima">Próxima →</button>
+            </div>
+
+        </div>
+
+        <div class="lesson-nav"></div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <span>Material de estudo pessoal</span>
+            <a href="../index.html">← Início</a>
+        </div>
+    </footer>
+
+    <script type="module">
+        import { database } from "../js/firebase.js";
+        import {
+            ref,
+            onValue
+        } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
+
+        const CARDS_POR_PAGINA = 12;
+
+        let adverbios = [];
+        let filtrados = [];
+        let paginaAtual = 1;
+
+        const container = document.getElementById("vocabulario");
+        const botaoAnterior = document.getElementById("anterior");
+        const botaoProxima = document.getElementById("proxima");
+        const indicadorPagina = document.getElementById("paginaAtual");
+        const paginacao = document.getElementById("paginacao");
+        const campoBusca = document.getElementById("busca");
+        const filtroTipo = document.getElementById("filtroTipo");
+        const buscaResultado = document.getElementById("buscaResultado");
+
+        function normalizar(texto) {
+            return String(texto || "")
+                .toLocaleLowerCase("pt-BR")
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .replace(/ß/g, "ss")
+                .trim();
+        }
+
+        function partesDoTipo(tipo) {
+            return String(tipo || "")
+                .split("/")
+                .map(item => item.trim())
+                .filter(Boolean);
+        }
+
+        function formatarTipo(tipo) {
+            return String(tipo || "")
+                .split("/")
+                .map(parte => {
+                    const limpa = parte.trim();
+                    return limpa
+                        ? limpa.charAt(0).toLocaleUpperCase("pt-BR") + limpa.slice(1)
+                        : "";
+                })
+                .filter(Boolean)
+                .join(" / ");
+        }
+
+        function criarCard(item) {
+            const card = document.createElement("div");
+            card.className = "card adverbio-card";
+
+            const tipo = document.createElement("span");
+            tipo.className = "tag";
+            tipo.textContent = formatarTipo(item.tipo) || "Sem tipo";
+
+            const titulo = document.createElement("h3");
+            titulo.textContent = item.adverbio;
+
+            const traducao = document.createElement("p");
+            const rotulo = document.createElement("strong");
+            rotulo.textContent = "Tradução:";
+            traducao.append(
+                rotulo,
+                document.createTextNode(" " + (item.traducao || "—"))
+            );
+
+            card.append(tipo, titulo, traducao);
+
+            return card;
+        }
+
+        function atualizarTipos() {
+            const tipos = new Map();
+
+            adverbios.forEach(item => {
+                partesDoTipo(item.tipo).forEach(tipo => {
+                    const chave = normalizar(tipo);
+                    if (!tipos.has(chave)) tipos.set(chave, tipo);
+                });
+            });
+
+            const selecionado = filtroTipo.value;
+
+            filtroTipo.innerHTML = '<option value="">Todos os tipos</option>';
+
+            [...tipos.entries()]
+                .sort((a, b) =>
+                    a[1].localeCompare(b[1], "pt-BR", { sensitivity: "base" })
+                )
+                .forEach(([chave, nome]) => {
+                    const option = document.createElement("option");
+                    option.value = chave;
+                    option.textContent = formatarTipo(nome);
+                    filtroTipo.appendChild(option);
+                });
+
+            if ([...filtroTipo.options].some(option => option.value === selecionado)) {
+                filtroTipo.value = selecionado;
+            }
+        }
+
+        function aplicarFiltros(reiniciarPagina = true) {
+            const termo = normalizar(campoBusca.value);
+            const tipoSelecionado = filtroTipo.value;
+
+            filtrados = adverbios.filter(item => {
+                const correspondeBusca =
+                    termo === "" ||
+                    normalizar(item.adverbio).includes(termo) ||
+                    normalizar(item.traducao).includes(termo) ||
+                    normalizar(item.tipo).includes(termo);
+
+                const correspondeTipo =
+                    tipoSelecionado === "" ||
+                    partesDoTipo(item.tipo)
+                        .map(normalizar)
+                        .includes(tipoSelecionado);
+
+                return correspondeBusca && correspondeTipo;
+            });
+
+            if (reiniciarPagina) paginaAtual = 1;
+
+            renderizarPagina();
+        }
+
+        function renderizarPagina() {
+            container.innerHTML = "";
+
+            if (filtrados.length === 0) {
+                const vazio = document.createElement("p");
+                vazio.className = "search-empty";
+                vazio.textContent = "Nenhum advérbio encontrado.";
+                container.appendChild(vazio);
+
+                paginacao.style.display = "none";
+                buscaResultado.textContent = "0 resultados";
+                return;
+            }
+
+            const totalPaginas = Math.ceil(
+                filtrados.length / CARDS_POR_PAGINA
+            );
+
+            paginaAtual = Math.min(
+                Math.max(paginaAtual, 1),
+                totalPaginas
+            );
+
+            const inicio = (paginaAtual - 1) * CARDS_POR_PAGINA;
+            const fim = inicio + CARDS_POR_PAGINA;
+
+            filtrados
+                .slice(inicio, fim)
+                .forEach(item => container.appendChild(criarCard(item)));
+
+            indicadorPagina.textContent =
+                `Página ${paginaAtual} de ${totalPaginas}`;
+
+            botaoAnterior.disabled = paginaAtual === 1;
+            botaoProxima.disabled = paginaAtual === totalPaginas;
+            paginacao.style.display = totalPaginas > 1 ? "" : "none";
+
+            buscaResultado.textContent =
+                `${filtrados.length} advérbio${filtrados.length === 1 ? "" : "s"} encontrado${filtrados.length === 1 ? "" : "s"}`;
+        }
+
+        campoBusca.addEventListener("input", () => aplicarFiltros(true));
+        filtroTipo.addEventListener("change", () => aplicarFiltros(true));
+
+        botaoAnterior.addEventListener("click", () => {
+            if (paginaAtual > 1) {
+                paginaAtual--;
+                renderizarPagina();
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+        });
+
+        botaoProxima.addEventListener("click", () => {
+            const totalPaginas = Math.ceil(
+                filtrados.length / CARDS_POR_PAGINA
+            );
+
+            if (paginaAtual < totalPaginas) {
+                paginaAtual++;
+                renderizarPagina();
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+        });
+
+        container.innerHTML =
+            '<p class="search-empty">Carregando advérbios...</p>';
+        paginacao.style.display = "none";
+
+        onValue(
+            ref(database, "adverbios"),
+            snapshot => {
+                if (!snapshot.exists()) {
+                    adverbios = [];
+                    filtrados = [];
+                    atualizarTipos();
+                    renderizarPagina();
+                    return;
+                }
+
+                adverbios = Object.entries(snapshot.val())
+                    .map(([adverbio, dados]) => ({
+                        adverbio,
+                        traducao: dados?.traducao || "",
+                        tipo: dados?.tipo || ""
+                    }))
+                    .sort((a, b) =>
+                        a.adverbio.localeCompare(
+                            b.adverbio,
+                            "de",
+                            { sensitivity: "base" }
+                        )
+                    );
+
+                atualizarTipos();
+                aplicarFiltros(false);
+            },
+            error => {
+                console.error(
+                    "Não foi possível carregar os advérbios do Firebase:",
+                    error
+                );
+
+                adverbios = [];
+                filtrados = [];
+                container.innerHTML =
+                    '<p class="search-empty">Não foi possível carregar o vocabulário de advérbios.</p>';
+                paginacao.style.display = "none";
+                buscaResultado.textContent = "";
+            }
+        );
+    </script>
+
+    <script type="module" src="../js/app.js?v=20260921-1"></script>
+
+</body>
+</html>

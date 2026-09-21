@@ -29,5 +29,6 @@ export const conteudos = [
   { arquivo: "indefinidos-plural.html", titulo: "Indefinidos no plural", descricao: "einige, manche e ausência de artigo", categoria: "Adjetivos", tag: "Gramática" },
   { arquivo: "pronomes-relativos.html", titulo: "Pronomes Relativos", descricao: "Pronomes Relativos", categoria: "Pronomes", tag: "Gramática" },
   { arquivo: "comparativo-superlativo.html", titulo: "Comparativo e Superlativo", descricao: "Formação e uso do comparativo e superlativo", categoria: "Adjetivos", tag: "Gramática" },
-  { arquivo: "vocabulario-adjetivos.html", titulo: "Vocabulário de Adjetivos", descricao: "lista de adjetivos com significados e declinações", categoria: "Adjetivos", tag: "Gramática" }
+  { arquivo: "vocabulario-adjetivos.html", titulo: "Vocabulário de Adjetivos", descricao: "lista de adjetivos com significados e declinações", categoria: "Adjetivos", tag: "Gramática" },
+  { arquivo: "vocabulario-adverbios.html", titulo: "Vocabulário de Advérbios", descricao: "lista de advérbios com tradução e classificação por tipo", categoria: "Advérbios", tag: "Vocabulário" }
 ];

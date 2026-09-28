@@ -284,3 +284,26 @@
         padding: 8px;
     }
 }
+
+/* Observação do verbo no modal */
+.modal-observacao {
+    margin: -8px 0 26px;
+    padding: 16px 18px;
+    background: #f8f5ed;
+    border: 1px solid #e2d8c5;
+    border-left: 4px solid #b27b17;
+    border-radius: 7px;
+}
+
+.modal-observacao h3 {
+    margin: 0 0 7px;
+    font-size: 1rem;
+}
+
+.modal-observacao p {
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}

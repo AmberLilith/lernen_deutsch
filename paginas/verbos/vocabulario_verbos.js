@@ -331,10 +331,13 @@ function abrirModal(dados) {
   const titulo = document.getElementById("modal-titulo");
   const traducao = document.getElementById("modal-traducao");
   const info = document.getElementById("modal-info");
+  const observacao = document.getElementById("modal-observacao");
+  const observacaoTexto = document.getElementById("modal-observacao-texto");
   const conjugacao = document.getElementById("modal-conjugacao");
   const modal = document.getElementById("modal-verbo");
 
   const formasPreterito = preterito(dados);
+  const textoObservacao = String(dados.observacao || "").trim();
 
   titulo.textContent = dados.verbo;
   traducao.textContent = dados.traducao;
@@ -356,6 +359,14 @@ function abrirModal(dados) {
       </span>
     </div>
   `;
+
+  if (textoObservacao) {
+    observacaoTexto.textContent = textoObservacao;
+    observacao.hidden = false;
+  } else {
+    observacaoTexto.textContent = "";
+    observacao.hidden = true;
+  }
 
   conjugacao.innerHTML = "";
   conjugacao.appendChild(
@@ -478,7 +489,8 @@ function aplicarFiltro() {
   verbosFiltrados = listaVerbos.filter(item => {
     return (
       normalizarTexto(item.verbo).includes(busca) ||
-      normalizarTexto(item.traducao).includes(busca)
+      normalizarTexto(item.traducao).includes(busca) ||
+      normalizarTexto(item.observacao).includes(busca)
     );
   });
 

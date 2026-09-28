@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Vocabulário: Verbos</title>
-    <link rel="stylesheet" href="./vocabulario_verbos.css">
+    <link rel="stylesheet" href="./vocabulario_verbos.css?v=20260928-1">
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
@@ -19,7 +19,7 @@
     <div class="hero">
         <div class="eyebrow">Vocabulário</div>
         <h1>Vocabulário de verbos</h1>
-        <p class="lead">Pesquise pelo significado em português ou clique em um verbo para consultar sua conjugação.</p>
+        <p class="lead">Pesquise pelo significado em português ou clique em um verbo para consultar seus detalhes, observações e conjugações.</p>
     </div>
     <div class="panel" id="verbos-panel">
         <div class="search-field"></div>
@@ -42,10 +42,16 @@
             <button type="button" id="fechar-modal" aria-label="Fechar">×</button>
         </div>
         <div id="modal-info"></div>
+
+        <section id="modal-observacao" class="modal-observacao" hidden>
+            <h3>Observação</h3>
+            <p id="modal-observacao-texto"></p>
+        </section>
+
         <div id="modal-conjugacao"></div>
     </div>
 </div>
-<script type="module" src="./vocabulario_verbos.js?v=20260920-2"></script>
+<script type="module" src="./vocabulario_verbos.js?v=20260928-1"></script>
 <script type="module" src="../../js/app.js?v=20260919-1"></script>
 </body>
 </html>

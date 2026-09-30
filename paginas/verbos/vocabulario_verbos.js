@@ -1,8 +1,4 @@
-import { database } from "../../js/firebase.js";
-import {
-  ref,
-  onValue
-} from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
+import { observarColecao } from "../../js/dados-offline.js";
 
 const VERBOS_POR_PAGINA = 10;
 
@@ -548,17 +544,17 @@ function carregarVerbos() {
 
   resultado.textContent = "Carregando verbos...";
 
-  onValue(
-    ref(database, "verbos"),
-    snapshot => {
-      if (!snapshot.exists()) {
+  observarColecao(
+    "verbos",
+    dadosColecao => {
+      if (!dadosColecao || Object.keys(dadosColecao).length === 0) {
         listaVerbos = [];
         verbosFiltrados = [];
         renderizarVerbos();
         return;
       }
 
-      listaVerbos = Object.entries(snapshot.val())
+      listaVerbos = Object.entries(dadosColecao)
         .map(([verbo, dados]) => ({
           verbo,
           ...dados
@@ -570,13 +566,21 @@ function carregarVerbos() {
       aplicarFiltro();
     },
     error => {
-      console.error("Não foi possível carregar os verbos do Firebase:", error);
-      resultado.textContent = "Não foi possível carregar os verbos.";
+      console.error("Não foi possível carregar os verbos:", error);
+
+      resultado.textContent =
+        error?.code === "OFFLINE_SEM_CACHE"
+          ? "Sem cópia offline. Conecte-se uma vez para sincronizar."
+          : "Não foi possível carregar os verbos.";
+
       container.innerHTML = `
         <div class="sem-resultados">
-          Não foi possível carregar o vocabulário.
+          ${error?.code === "OFFLINE_SEM_CACHE"
+            ? "O vocabulário ainda não foi salvo neste dispositivo."
+            : "Não foi possível carregar o vocabulário."}
         </div>
       `;
+
       document.querySelector(".paginacao-verbos").style.display = "none";
     }
   );

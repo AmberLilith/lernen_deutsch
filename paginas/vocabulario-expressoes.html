@@ -160,11 +160,7 @@ Consulte expressões e estruturas frequentes em alemão, com tradução, explica
 </footer>
 
 <script type="module">
-import { database } from "../js/firebase.js";
-import {
-    ref,
-    onValue
-} from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
+import { observarColecao } from "../js/dados-offline.js";
 
 const CARDS_POR_PAGINA = 10;
 
@@ -367,10 +363,10 @@ container.innerHTML =
     '<p class="search-empty">Carregando expressões...</p>';
 paginacao.style.display = "none";
 
-onValue(
-    ref(database, "expressoes"),
-    snapshot => {
-        if (!snapshot.exists()) {
+observarColecao(
+    "expressoes",
+    dadosColecao => {
+        if (!dadosColecao || Object.keys(dadosColecao).length === 0) {
             expressoes = [];
             filtradas = [];
             atualizarTipos();
@@ -378,7 +374,7 @@ onValue(
             return;
         }
 
-        expressoes = Object.entries(snapshot.val())
+        expressoes = Object.entries(dadosColecao)
             .map(([id, dados]) => ({
                 id,
                 expressao: dados?.expressao || id,
@@ -401,21 +397,23 @@ onValue(
     },
     error => {
         console.error(
-            "Não foi possível carregar as expressões do Firebase:",
+            "Não foi possível carregar as expressões:",
             error
         );
 
         expressoes = [];
         filtradas = [];
         container.innerHTML =
-            '<p class="search-empty">Não foi possível carregar o vocabulário de expressões.</p>';
+            error?.code === "OFFLINE_SEM_CACHE"
+                ? '<p class="search-empty">Sem cópia offline ainda. Conecte-se à internet uma vez para sincronizar o vocabulário.</p>'
+                : '<p class="search-empty">Não foi possível carregar o vocabulário de expressões.</p>';
         paginacao.style.display = "none";
         buscaResultado.textContent = "";
     }
 );
 </script>
 
-<script type="module" src="../js/app.js?v=20260929-1"></script>
+<script type="module" src="../js/app.js?v=20260930-1"></script>
 
 </body>
 </html>

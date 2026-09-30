@@ -165,7 +165,7 @@ function carregarIndicePaginas() {
 }
 
 function transformarSnapshot(snapshot, tipo, url, criarTexto) {
-  if (!snapshot.exists()) return [];
+  if (!snapshot?.exists()) return [];
 
   return Object.entries(snapshot.val()).map(([nome, dados]) => ({
     tipo: "Vocabulário",
@@ -177,64 +177,100 @@ function transformarSnapshot(snapshot, tipo, url, criarTexto) {
   }));
 }
 
+function transformarExpressoes(snapshot) {
+  if (!snapshot?.exists()) return [];
+
+  return Object.entries(snapshot.val()).map(([id, dados]) => {
+    const item = dados || {};
+    const texto = [
+      item.traducao,
+      item.tipo,
+      item.explicacao,
+      item.exemplo,
+      item.traducaoExemplo
+    ].filter(Boolean).join(" · ");
+
+    return {
+      tipo: "Vocabulário",
+      grupo: "Expressões",
+      titulo: item.expressao || id,
+      descricao: texto,
+      texto,
+      url: "paginas/vocabulario-expressoes.html"
+    };
+  });
+}
+
+async function obterSnapshotSeguro(caminho) {
+  try {
+    return await get(ref(database, caminho));
+  } catch (erro) {
+    console.warn(
+      "Não foi possível indexar o vocabulário de " + caminho + ":",
+      erro
+    );
+    return null;
+  }
+}
+
 function carregarIndiceVocabulario() {
   if (!indiceVocabularioPromise) {
     indiceVocabularioPromise = Promise.all([
-      get(ref(database, "substantivos")),
-      get(ref(database, "verbos")),
-      get(ref(database, "adjetivos")),
-      get(ref(database, "adverbios"))
-    ])
-      .then(([substantivos, verbos, adjetivos, adverbios]) => [
-        ...transformarSnapshot(
-          substantivos,
-          "Substantivos",
-          "paginas/vocabulario_substantivos.html",
-          dados => [
-            dados.artigo,
-            dados.traducao,
-            dados.plural,
-            dados.generoOposto,
-            dados.pluralGeneroOposto,
-            dados.observacao
-          ].filter(Boolean).join(" · ")
-        ),
-        ...transformarSnapshot(
-          verbos,
-          "Verbos",
-          "paginas/verbos/vocabulario_verbos.html",
-          dados => [
-            dados.traducao,
-            dados.partizip,
-            dados.auxiliar,
-            dados.prefixo,
-            dados.regularidade
-          ].filter(Boolean).join(" · ")
-        ),
-        ...transformarSnapshot(
-          adjetivos,
-          "Adjetivos",
-          "paginas/vocabulario-adjetivos.html",
-          dados => [
-            dados.traducao,
-            dados.comparativo,
-            dados.superlativo
-          ].filter(Boolean).join(" · ")
-        ),
-        ...transformarSnapshot(
-          adverbios,
-          "Advérbios",
-          "paginas/vocabulario-adverbios.html",
-          dados => [
-            dados.traducao,
-            dados.tipo
-          ].filter(Boolean).join(" · ")
-        )
-      ])
-      .catch(erro => {
-        console.warn("Não foi possível indexar o vocabulário do Firebase:", erro);
-        return [];
-      });
+      obterSnapshotSeguro("substantivos"),
+      obterSnapshotSeguro("verbos"),
+      obterSnapshotSeguro("adjetivos"),
+      obterSnapshotSeguro("adverbios"),
+      obterSnapshotSeguro("expressoes")
+    ]).then(([substantivos, verbos, adjetivos, adverbios, expressoes]) => [
+      ...transformarSnapshot(
+        substantivos,
+        "Substantivos",
+        "paginas/vocabulario_substantivos.html",
+        dados => [
+          dados.artigo,
+          dados.traducao,
+          dados.plural,
+          dados.generoOposto,
+          dados.pluralGeneroOposto,
+          dados.observacao
+        ].filter(Boolean).join(" · ")
+      ),
+      ...transformarSnapshot(
+        verbos,
+        "Verbos",
+        "paginas/verbos/vocabulario_verbos.html",
+        dados => [
+          dados.traducao,
+          dados.partizip,
+          dados.auxiliar,
+          dados.prefixo,
+          dados.regularidade,
+          dados.observacao
+        ].filter(Boolean).join(" · ")
+      ),
+      ...transformarSnapshot(
+        adjetivos,
+        "Adjetivos",
+        "paginas/vocabulario-adjetivos.html",
+        dados => [
+          dados.traducao,
+          dados.comparativo,
+          dados.superlativo,
+          dados.observacao
+        ].filter(Boolean).join(" · ")
+      ),
+      ...transformarSnapshot(
+        adverbios,
+        "Advérbios",
+        "paginas/vocabulario-adverbios.html",
+        dados => [
+          dados.traducao,
+          dados.tipo,
+          dados.observacao
+        ].filter(Boolean).join(" · ")
+      ),
+      ...transformarExpressoes(expressoes)
+    ]);
   }
 
   return indiceVocabularioPromise;

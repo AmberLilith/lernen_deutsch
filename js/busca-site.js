@@ -1,10 +1,6 @@
 import { conteudos } from "./conteudos.js";
 import { exercicios } from "./exercicios.js";
-import { database } from "./firebase.js";
-import {
-  ref,
-  get
-} from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
+import { obterColecao } from "./dados-offline.js";
 
 const input = document.getElementById("buscaSite");
 const status = document.getElementById("buscaSiteStatus");
@@ -164,65 +160,38 @@ function carregarIndicePaginas() {
   return indicePaginasPromise;
 }
 
-function transformarSnapshot(snapshot, tipo, url, criarTexto) {
-  if (!snapshot?.exists()) return [];
+function transformarColecao(dadosColecao, tipo, url, criarTexto) {
+  if (!dadosColecao || typeof dadosColecao !== "object") return [];
 
-  return Object.entries(snapshot.val()).map(([nome, dados]) => ({
+  return Object.entries(dadosColecao).map(([nome, dados]) => ({
     tipo: "Vocabulário",
     grupo: tipo,
-    titulo: nome,
+    titulo: dados?.expressao || nome,
     descricao: criarTexto(dados || {}),
     texto: criarTexto(dados || {}),
     url
   }));
 }
 
-function transformarExpressoes(snapshot) {
-  if (!snapshot?.exists()) return [];
-
-  return Object.entries(snapshot.val()).map(([id, dados]) => {
-    const item = dados || {};
-    const texto = [
-      item.traducao,
-      item.tipo,
-      item.explicacao,
-      item.exemplo,
-      item.traducaoExemplo
-    ].filter(Boolean).join(" · ");
-
-    return {
-      tipo: "Vocabulário",
-      grupo: "Expressões",
-      titulo: item.expressao || id,
-      descricao: texto,
-      texto,
-      url: "paginas/vocabulario-expressoes.html"
-    };
-  });
-}
-
-async function obterSnapshotSeguro(caminho) {
-  try {
-    return await get(ref(database, caminho));
-  } catch (erro) {
-    console.warn(
-      "Não foi possível indexar o vocabulário de " + caminho + ":",
-      erro
-    );
-    return null;
-  }
-}
-
 function carregarIndiceVocabulario() {
   if (!indiceVocabularioPromise) {
-    indiceVocabularioPromise = Promise.all([
-      obterSnapshotSeguro("substantivos"),
-      obterSnapshotSeguro("verbos"),
-      obterSnapshotSeguro("adjetivos"),
-      obterSnapshotSeguro("adverbios"),
-      obterSnapshotSeguro("expressoes")
-    ]).then(([substantivos, verbos, adjetivos, adverbios, expressoes]) => [
-      ...transformarSnapshot(
+    const nomes = [
+      "substantivos",
+      "verbos",
+      "adjetivos",
+      "adverbios",
+      "expressoes"
+    ];
+
+    indiceVocabularioPromise = Promise.all(
+      nomes.map(nome =>
+        obterColecao(nome).catch(error => {
+          console.warn("Não foi possível carregar " + nome + " para a busca:", error);
+          return {};
+        })
+      )
+    ).then(([substantivos, verbos, adjetivos, adverbios, expressoes]) => [
+      ...transformarColecao(
         substantivos,
         "Substantivos",
         "paginas/vocabulario_substantivos.html",
@@ -235,7 +204,7 @@ function carregarIndiceVocabulario() {
           dados.observacao
         ].filter(Boolean).join(" · ")
       ),
-      ...transformarSnapshot(
+      ...transformarColecao(
         verbos,
         "Verbos",
         "paginas/verbos/vocabulario_verbos.html",
@@ -248,7 +217,7 @@ function carregarIndiceVocabulario() {
           dados.observacao
         ].filter(Boolean).join(" · ")
       ),
-      ...transformarSnapshot(
+      ...transformarColecao(
         adjetivos,
         "Adjetivos",
         "paginas/vocabulario-adjetivos.html",
@@ -259,7 +228,7 @@ function carregarIndiceVocabulario() {
           dados.observacao
         ].filter(Boolean).join(" · ")
       ),
-      ...transformarSnapshot(
+      ...transformarColecao(
         adverbios,
         "Advérbios",
         "paginas/vocabulario-adverbios.html",
@@ -269,7 +238,19 @@ function carregarIndiceVocabulario() {
           dados.observacao
         ].filter(Boolean).join(" · ")
       ),
-      ...transformarExpressoes(expressoes)
+      ...transformarColecao(
+        expressoes,
+        "Expressões",
+        "paginas/vocabulario-expressoes.html",
+        dados => [
+          dados.expressao,
+          dados.traducao,
+          dados.tipo,
+          dados.explicacao,
+          dados.exemplo,
+          dados.traducaoExemplo
+        ].filter(Boolean).join(" · ")
+      )
     ]);
   }
 

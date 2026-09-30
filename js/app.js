@@ -214,6 +214,75 @@ function renderMenuLateral(conteudos){
  });
 }
 
+function garantirRecursosOffline(){
+ const raiz = obterRaizSite();
+
+ if(!document.querySelector('link[rel="manifest"]')){
+   const manifest = document.createElement("link");
+   manifest.rel = "manifest";
+   manifest.href = new URL("manifest.webmanifest", raiz).href;
+   document.head.appendChild(manifest);
+ }
+
+ if(!document.querySelector('meta[name="theme-color"]')){
+   const tema = document.createElement("meta");
+   tema.name = "theme-color";
+   tema.content = "#1f2933";
+   document.head.appendChild(tema);
+ }
+}
+
+function atualizarStatusConexao(){
+ let indicador = document.querySelector(".offline-status");
+
+ if(!indicador){
+   indicador = document.createElement("div");
+   indicador.className = "offline-status";
+   indicador.setAttribute("role", "status");
+   indicador.setAttribute("aria-live", "polite");
+   document.body.appendChild(indicador);
+ }
+
+ const offline = !navigator.onLine;
+ document.body.classList.toggle("is-offline", offline);
+ indicador.textContent = offline ? "Offline · usando dados salvos" : "";
+ indicador.hidden = !offline;
+}
+
+function sincronizarDadosOffline(){
+ if(!navigator.onLine) return;
+
+ const modulo = new URL("js/dados-offline.js", obterRaizSite()).href;
+
+ import(modulo)
+   .then(({ sincronizarColecoes }) => sincronizarColecoes())
+   .catch(error =>
+     console.warn("Não foi possível sincronizar os dados offline:", error)
+   );
+}
+
+function inicializarModoOffline(){
+ garantirRecursosOffline();
+ atualizarStatusConexao();
+
+ if("serviceWorker" in navigator){
+   navigator.serviceWorker
+     .register(new URL("sw.js", obterRaizSite()).href)
+     .catch(error =>
+       console.warn("Não foi possível registrar o modo offline:", error)
+     );
+ }
+
+ sincronizarDadosOffline();
+
+ window.addEventListener("online", () => {
+   atualizarStatusConexao();
+   sincronizarDadosOffline();
+ });
+
+ window.addEventListener("offline", atualizarStatusConexao);
+}
+
 function norm(s){
  return s.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
   .replace(/[“”\"']/g,"").replace(/\s+/g," ");
@@ -346,6 +415,7 @@ async function inicializar(conteudos, exercicios){
 
 document.addEventListener("DOMContentLoaded",()=>{
  ensureAdminLink();
+ inicializarModoOffline();
  Promise.all([
    import("./conteudos.js"),
    import("./exercicios.js")

@@ -103,15 +103,11 @@
     </footer>
 
 
-    <script src="../js/app.js"></script>
+    <script src="../js/app.js?v=20260930-1"></script>
 
 
     <script type="module">
-        import { database } from "../js/firebase.js";
-        import {
-            ref,
-            onValue
-        } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
+        import { observarColecao } from "../js/dados-offline.js";
 
         const cardsPorPagina = 12;
 
@@ -258,17 +254,17 @@
         container.innerHTML = '<p class="search-empty">Carregando adjetivos...</p>';
         paginacao.style.display = "none";
 
-        onValue(
-            ref(database, "adjetivos"),
-            snapshot => {
-                if (!snapshot.exists()) {
+        observarColecao(
+            "adjetivos",
+            dadosColecao => {
+                if (!dadosColecao || Object.keys(dadosColecao).length === 0) {
                     lista = [];
                     paginaAtual = 1;
                     atualizarExibicao();
                     return;
                 }
 
-                lista = Object.entries(snapshot.val())
+                lista = Object.entries(dadosColecao)
                     .map(([adjetivo, dados]) => ({
                         adjetivo,
                         comparativo: dados.comparativo || "",
@@ -276,7 +272,11 @@
                         traducao: dados.traducao || ""
                     }))
                     .sort((a, b) =>
-                        a.adjetivo.localeCompare(b.adjetivo, "de", { sensitivity: "base" })
+                        a.adjetivo.localeCompare(
+                            b.adjetivo,
+                            "de",
+                            { sensitivity: "base" }
+                        )
                     );
 
                 const totalPaginas = Math.max(
@@ -288,10 +288,12 @@
                 atualizarExibicao();
             },
             error => {
-                console.error("Não foi possível carregar os adjetivos do Firebase:", error);
+                console.error("Não foi possível carregar os adjetivos:", error);
                 lista = [];
                 container.innerHTML =
-                    '<p class="search-empty">Não foi possível carregar o vocabulário de adjetivos.</p>';
+                    error?.code === "OFFLINE_SEM_CACHE"
+                        ? '<p class="search-empty">Sem cópia offline ainda. Conecte-se à internet uma vez para sincronizar o vocabulário.</p>'
+                        : '<p class="search-empty">Não foi possível carregar o vocabulário de adjetivos.</p>';
                 paginacao.style.display = "none";
                 buscaResultado.textContent = "";
             }

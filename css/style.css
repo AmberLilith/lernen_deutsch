@@ -469,3 +469,33 @@ tr:last-child td { border-bottom: 0 }
     font-size: 16px;
   }
 }
+
+
+/* Estado de conexão / modo offline */
+.offline-status {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 1900;
+    max-width: min(320px, calc(100vw - 36px));
+    padding: 9px 13px;
+    border: 1px solid #d7c79c;
+    border-radius: 999px;
+    background: #fff8df;
+    color: #5e4a16;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
+    font-size: .86rem;
+    font-weight: 600;
+}
+
+.offline-status[hidden] {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .offline-status {
+        right: 12px;
+        bottom: 12px;
+        max-width: calc(100vw - 24px);
+    }
+}

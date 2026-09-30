@@ -34,5 +34,6 @@ export const conteudos = [
   { arquivo: "sehr-viel.html", titulo: "Sehr × Viel", descricao: "diferença entre intensidade com sehr e quantidade ou frequência com viel", categoria: "Diferenças de uso", tag: "Vocabulário" },
   { arquivo: "waehrend-solange.html", titulo: "Während × Solange", descricao: "diferença entre simultaneidade com während e duração ou condição com solange", categoria: "Diferenças de uso", tag: "Gramática" },
   { arquivo: "uhr-stunde.html", titulo: "Uhr × Stunde", descricao: "diferença entre horário com Uhr e duração em horas com Stunde", categoria: "Diferenças de uso", tag: "Vocabulário" },
-  { arquivo: "nach-zu-in.html", titulo: "Nach × Zu × In", descricao: "quando usar nach, zu e in para indicar destino em alemão", categoria: "Diferenças de uso", tag: "Gramática" }
+  { arquivo: "nach-zu-in.html", titulo: "Nach × Zu × In", descricao: "quando usar nach, zu e in para indicar destino em alemão", categoria: "Diferenças de uso", tag: "Gramática" },
+  { arquivo: "vor-bevor.html", titulo: "Vor × Bevor", descricao: "diferença entre vor antes de substantivos e bevor antes de orações", categoria: "Diferenças de uso", tag: "Gramática" }
 ];

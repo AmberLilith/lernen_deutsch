@@ -32,7 +32,6 @@ export const conteudos = [
   { arquivo: "vocabulario-adjetivos.html", titulo: "Vocabulário de Adjetivos", descricao: "lista de adjetivos com significados e declinações", categoria: "Adjetivos", tag: "Gramática" },
   { arquivo: "vocabulario-adverbios.html", titulo: "Vocabulário de Advérbios", descricao: "lista de advérbios com tradução e classificação por tipo", categoria: "Advérbios", tag: "Vocabulário" },
   { arquivo: "vocabulario-expressoes.html", titulo: "Vocabulário de Expressões", descricao: "expressões e estruturas frequentes com tradução, explicação e exemplos de uso", categoria: "Expressões", tag: "Vocabulário" },
-  { arquivo: "lust-haben.html", titulo: "Lust haben", descricao: "como dizer estar com vontade usando Lust auf + Akkusativ e Lust haben com zu + Infinitiv", categoria: "Expressões", tag: "Expressões" },
   { arquivo: "sehr-viel.html", titulo: "Sehr × Viel", descricao: "diferença entre intensidade com sehr e quantidade ou frequência com viel", categoria: "Diferenças de uso", tag: "Vocabulário" },
   { arquivo: "waehrend-solange.html", titulo: "Während × Solange", descricao: "diferença entre simultaneidade com während e duração ou condição com solange", categoria: "Diferenças de uso", tag: "Gramática" },
   { arquivo: "uhr-stunde.html", titulo: "Uhr × Stunde", descricao: "diferença entre horário com Uhr e duração em horas com Stunde", categoria: "Diferenças de uso", tag: "Vocabulário" },

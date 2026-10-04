@@ -1,4 +1,4 @@
-const CACHE_NAME = "lernen-deutsch-static-20260930-2";
+const CACHE_NAME = "lernen-deutsch-static-20261004-1";
 const ARQUIVOS = [
   "index.html",
   "manifest.webmanifest",
@@ -47,6 +47,7 @@ const ARQUIVOS = [
   "paginas/futur-1.html",
   "paginas/generos.html",
   "paginas/indefinidos-plural.html",
+  "paginas/lust-haben.html",
   "paginas/modais.html",
   "paginas/nach-zu-in.html",
   "paginas/ndeklination.html",

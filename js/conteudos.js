@@ -36,5 +36,6 @@ export const conteudos = [
   { arquivo: "waehrend-solange.html", titulo: "Während × Solange", descricao: "diferença entre simultaneidade com während e duração ou condição com solange", categoria: "Diferenças de uso", tag: "Gramática" },
   { arquivo: "uhr-stunde.html", titulo: "Uhr × Stunde", descricao: "diferença entre horário com Uhr e duração em horas com Stunde", categoria: "Diferenças de uso", tag: "Vocabulário" },
   { arquivo: "nach-zu-in.html", titulo: "Nach × Zu × In", descricao: "quando usar nach, zu e in para indicar destino em alemão", categoria: "Diferenças de uso", tag: "Gramática" },
-  { arquivo: "vor-bevor.html", titulo: "Vor × Bevor", descricao: "diferença entre vor antes de substantivos e bevor antes de orações", categoria: "Diferenças de uso", tag: "Gramática" }
+  { arquivo: "vor-bevor.html", titulo: "Vor × Bevor", descricao: "diferença entre vor antes de substantivos e bevor antes de orações", categoria: "Diferenças de uso", tag: "Gramática" },
+  { arquivo: "nach-danach-nachdem-nachher.html", titulo: "Nach × Danach × Nachdem × Nachher", descricao: "diferença entre nach + Dativ, danach, nachdem, nachher e outras expressões com nach", categoria: "Diferenças de uso", tag: "Gramática" }
 ];

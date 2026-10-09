@@ -79,11 +79,14 @@
     line-height: 1.5;
 }
 
-.expressao-exemplo span {
+.expressao-exemplo strong {
     display: block;
-    margin-top: 4px;
-    color: var(--muted);
-    font-size: .92rem;
+    margin-bottom: 4px;
+}
+
+.expressao-exemplo-texto {
+    display: block;
+    white-space: pre-line;
 }
 
 @media(max-width:720px) {
@@ -229,16 +232,14 @@ function criarCard(item) {
         const exemplo = document.createElement("p");
         exemplo.className = "expressao-exemplo";
 
-        const frase = document.createElement("strong");
-        frase.textContent = item.exemplo;
-        exemplo.appendChild(frase);
+        const rotulo = document.createElement("strong");
+        rotulo.textContent = "Exemplo(s):";
 
-        if (item.traducaoExemplo) {
-            const traducaoExemplo = document.createElement("span");
-            traducaoExemplo.textContent = item.traducaoExemplo;
-            exemplo.appendChild(traducaoExemplo);
-        }
+        const texto = document.createElement("span");
+        texto.className = "expressao-exemplo-texto";
+        texto.textContent = item.exemplo;
 
+        exemplo.append(rotulo, texto);
         card.appendChild(exemplo);
     }
 
@@ -285,7 +286,6 @@ function aplicarFiltros(reiniciarPagina = true) {
             item.traducao,
             item.explicacao,
             item.exemplo,
-            item.traducaoExemplo,
             item.tipo
         ].join(" ");
 
@@ -381,8 +381,7 @@ observarColecao(
                 traducao: dados?.traducao || "",
                 tipo: dados?.tipo || "",
                 explicacao: dados?.explicacao || "",
-                exemplo: dados?.exemplo || "",
-                traducaoExemplo: dados?.traducaoExemplo || ""
+                exemplo: dados?.exemplo || ""
             }))
             .sort((a, b) =>
                 a.expressao.localeCompare(

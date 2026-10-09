@@ -247,8 +247,7 @@ function carregarIndiceVocabulario() {
           dados.traducao,
           dados.tipo,
           dados.explicacao,
-          dados.exemplo,
-          dados.traducaoExemplo
+          dados.exemplo
         ].filter(Boolean).join(" · ")
       )
     ]);

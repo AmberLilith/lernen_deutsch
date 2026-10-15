@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Vocabulário: Adjetivos</title>
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .adjetivo-observacao {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #e4e7eb;
+            color: var(--muted);
+            line-height: 1.5;
+            white-space: pre-line;
+        }
+
+        .adjetivo-observacao strong {
+            color: var(--ink);
+        }
+    </style>
 </head>
 
 <body>
@@ -152,6 +166,21 @@
 
             card.append(titulo, descricao);
 
+            if (item.observacao) {
+                const observacao = document.createElement("p");
+                observacao.className = "adjetivo-observacao";
+
+                const rotuloObservacao = document.createElement("strong");
+                rotuloObservacao.textContent = "Observação:";
+
+                observacao.append(
+                    rotuloObservacao,
+                    document.createTextNode(" " + item.observacao)
+                );
+
+                card.appendChild(observacao);
+            }
+
             return card;
         }
 
@@ -190,7 +219,8 @@
                     item.adjetivo,
                     item.comparativo,
                     item.superlativo,
-                    item.traducao
+                    item.traducao,
+                    item.observacao
                 ].join(" ");
 
                 return normalizar(textoBusca).includes(termoNormalizado);
@@ -269,7 +299,8 @@
                         adjetivo,
                         comparativo: dados.comparativo || "",
                         superlativo: dados.superlativo || "",
-                        traducao: dados.traducao || ""
+                        traducao: dados.traducao || "",
+                        observacao: dados.observacao || ""
                     }))
                     .sort((a, b) =>
                         a.adjetivo.localeCompare(

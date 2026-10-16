@@ -30,6 +30,7 @@ export const conteudos = [
   { arquivo: "pronomes-relativos.html", titulo: "Pronomes Relativos", descricao: "Pronomes Relativos", categoria: "Pronomes", tag: "Gramática" },
   { arquivo: "comparativo-superlativo.html", titulo: "Comparativo e Superlativo", descricao: "Formação e uso do comparativo e superlativo", categoria: "Adjetivos", tag: "Gramática" },
   { arquivo: "vocabulario-adjetivos.html", titulo: "Vocabulário de Adjetivos", descricao: "lista de adjetivos com significados e declinações", categoria: "Adjetivos", tag: "Gramática" },
+  { arquivo: "adverbios.html", titulo: "Advérbios", descricao: "tipos de advérbios, particularidades, posição na frase, TeKaMoLo e conectores adverbiais", categoria: "Advérbios", tag: "Gramática" },
   { arquivo: "vocabulario-adverbios.html", titulo: "Vocabulário de Advérbios", descricao: "lista de advérbios com tradução e classificação por tipo", categoria: "Advérbios", tag: "Vocabulário" },
   { arquivo: "vocabulario-expressoes.html", titulo: "Vocabulário de Expressões", descricao: "expressões e estruturas frequentes com tradução, explicação e exemplos de uso", categoria: "Expressões", tag: "Vocabulário" },
   { arquivo: "sehr-viel.html", titulo: "Sehr × Viel", descricao: "diferença entre intensidade com sehr e quantidade ou frequência com viel", categoria: "Diferenças de uso", tag: "Vocabulário" },

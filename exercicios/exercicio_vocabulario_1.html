@@ -164,7 +164,7 @@ function normalizarResposta(valor) {
         .replace(/ß/g, "ss")
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
-        .replace(/[.,;:!?()]/g, "")
+        .replace(/[.,;:!?()/]/g, "")
         .replace(/\s+/g, " ");
 }
 

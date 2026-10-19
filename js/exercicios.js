@@ -50,9 +50,7 @@ export const exercicios = [
       { arquivo: "ordem-frase.html", titulo: "Ordem das palavras", detalhe: "Prática de estrutura" },
       { arquivo: "subordinadas.html", titulo: "Orações subordinadas", detalhe: "Prática de subordinadas" }
     ]
-  }
-,
-
+  },
   {
     tema: "Vocabulário",
     itens: [

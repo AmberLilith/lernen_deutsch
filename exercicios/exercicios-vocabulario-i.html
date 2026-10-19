@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Exercícios Vocabulário I · Alemão</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .direction-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px 22px;
+            margin: 18px 0 22px;
+            padding: 14px 16px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+        }
+        .direction-options legend {
+            padding: 0 6px;
+            font-weight: 800;
+        }
+        .direction-options label {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            cursor: pointer;
+        }
+        .direction-options input {
+            margin-top: 6px;
+            accent-color: var(--gold);
+        }
+        .vocab-question {
+            padding: 16px 0;
+            border-bottom: 1px solid var(--line);
+        }
+        .vocab-question:last-child { border-bottom: 0; }
+        .vocab-prompt {
+            margin-bottom: 8px;
+            font-weight: 800;
+        }
+        .vocab-answer-input {
+            width: 100%;
+            max-width: 760px;
+            padding: 10px 11px;
+            border: 1px solid #c9c1b1;
+            border-radius: 6px;
+            background: #fff;
+            color: var(--ink);
+            font: inherit;
+        }
+        .vocab-answer-input:focus {
+            outline: 2px solid #d8c18d;
+            border-color: var(--gold);
+        }
+        .vocab-answer-input.campo-correto {
+            border-color: var(--green);
+            background: #f0f7f2;
+        }
+        .vocab-answer-input.campo-incorreto {
+            border-color: var(--red);
+            background: #fcf1ef;
+        }
+        .vocab-feedback {
+            min-height: 1.4em;
+            margin-top: 6px;
+            font-size: .88rem;
+        }
+        .vocab-feedback.correct { color: var(--green); font-weight: 800; }
+        .vocab-feedback.incorrect { color: var(--red); }
+        .direction-note { margin: 0 0 12px; }
+    </style>
+</head>
+<body>
+<header class="site-header">
+    <nav class="nav">
+        <a class="brand" href="../index.html">Alemão <small>estudos</small></a>
+        <div class="nav-links"><a href="../index.html#conteudos">Conteúdos</a><a href="../index.html#exercicios">Exercícios</a></div>
+    </nav>
+</header>
+
+<main class="container">
+    <div class="breadcrumb"><a href="../index.html">Início</a> / Exercícios / Vocabulário</div>
+    <div class="hero">
+        <div class="eyebrow">Exercício de vocabulário</div>
+        <h1>Exercícios Vocabulário I</h1>
+        <p class="lead">Escolha a direção da tradução e escreva a resposta para cada uma das palavras. Clique em Corrigir para conferir seus resultados.</p>
+    </div>
+
+    <section class="panel">
+        <fieldset class="direction-options">
+            <legend>Direção do exercício</legend>
+            <label>
+                <input type="radio" name="direcao" value="pt-de" checked>
+                <span>Mostrar em português e responder em alemão</span>
+            </label>
+            <label>
+                <input type="radio" name="direcao" value="de-pt">
+                <span>Mostrar em alemão e responder em português</span>
+            </label>
+        </fieldset>
+        <p class="note direction-note">Ao trocar a direção, as respostas preenchidas serão apagadas.</p>
+        <div class="progress" aria-label="Progresso da correção"><span id="barraProgresso"></span></div>
+        <div id="questoesVocabulario"></div>
+        <div class="controls">
+            <button type="button" class="primary" id="corrigirVocabulario">Corrigir</button>
+            <button type="button" class="secondary" id="limparVocabulario">Limpar respostas</button>
+        </div>
+        <div id="resultadoVocabulario" class="score" role="status" aria-live="polite"></div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span>Material de estudo pessoal</span>
+        <div class="footer-links"><a href="../index.html">← Início</a></div>
+    </div>
+</footer>
+
+<script>
+const vocabulario = [
+    { de: "realisieren", pt: "perceber no sentido de entender", deRespostas: ["realisieren"], ptRespostas: ["perceber no sentido de entender", "entender", "compreender", "dar-se conta"] },
+    { de: "die Geldbörse", pt: "carteira", deRespostas: ["die Geldbörse", "Geldbörse"], ptRespostas: ["carteira", "a carteira"] },
+    { de: "bemerken", pt: "perceber no sentido de ver, reparar algo", deRespostas: ["bemerken"], ptRespostas: ["perceber no sentido de ver, reparar algo", "notar", "reparar", "reparar em algo"] },
+    { de: "Einkaufsliste", pt: "lista de compras", deRespostas: ["Einkaufsliste", "die Einkaufsliste"], ptRespostas: ["lista de compras", "a lista de compras"] },
+    { de: "vergessen", pt: "esquecer", deRespostas: ["vergessen"], ptRespostas: ["esquecer"] },
+    { de: "versuchen", pt: "tentar, testar, experimentar", deRespostas: ["versuchen"], ptRespostas: ["tentar", "testar", "experimentar"] },
+    { de: "sich erinnern an", pt: "lembrar se de", deRespostas: ["sich erinnern an"], ptRespostas: ["lembrar se de", "lembrar-se de", "recordar-se de"] },
+    { de: "schwer", pt: "difícil ou pesado no sentido de raro ou peso", deRespostas: ["schwer"], ptRespostas: ["difícil ou pesado no sentido de raro ou peso", "difícil ou pesado", "difícil", "pesado"] },
+    { de: "Obst", pt: "frutas", deRespostas: ["Obst"], ptRespostas: ["frutas", "fruta"] },
+    { de: "Gemüse", pt: "vegetais", deRespostas: ["Gemüse"], ptRespostas: ["vegetais", "legumes"] },
+    { de: "Ei", pt: "ovo", deRespostas: ["Ei", "das Ei"], ptRespostas: ["ovo", "um ovo"] },
+    { de: "bis", pt: "até", deRespostas: ["bis"], ptRespostas: ["até"] },
+    { de: "Während", pt: "enquanto", deRespostas: ["Während", "während"], ptRespostas: ["enquanto"] },
+    { de: "treffen", pt: "encontrar alguém", deRespostas: ["treffen"], ptRespostas: ["encontrar alguém", "encontrar", "encontrar-se com alguém"] },
+    { de: "die Schlange", pt: "a fila", deRespostas: ["die Schlange", "Schlange"], ptRespostas: ["a fila", "fila"] },
+    { de: "die Kasse", pt: "o caixa (físico)", deRespostas: ["die Kasse", "Kasse"], ptRespostas: ["o caixa físico", "caixa físico", "o caixa", "caixa", "caixa registradora"] },
+    { de: "der Kassierer", pt: "o caixa (homem)", deRespostas: ["der Kassierer", "Kassierer"], ptRespostas: ["o caixa homem", "caixa homem", "o caixa", "caixa", "operador de caixa"] },
+    { de: "die Kassiererin", pt: "a caixa (mulher)", deRespostas: ["die Kassiererin", "Kassiererin"], ptRespostas: ["a caixa mulher", "caixa mulher", "a caixa", "caixa", "operadora de caixa"] },
+    { de: "fast", pt: "quase", deRespostas: ["fast"], ptRespostas: ["quase"] },
+    { de: "Ehemann", pt: "marido", deRespostas: ["Ehemann", "der Ehemann"], ptRespostas: ["marido", "o marido"] },
+    { de: "abmachen", pt: "combinar ou remover", deRespostas: ["abmachen"], ptRespostas: ["combinar ou remover", "combinar", "remover"] },
+    { de: "Die Einkäufe", pt: "as compras", deRespostas: ["Die Einkäufe", "die Einkäufe", "Einkäufe"], ptRespostas: ["as compras", "compras"] },
+    { de: "Wegräumen", pt: "guardar em armário, gavetas, prateleiras etc", deRespostas: ["Wegräumen", "wegräumen"], ptRespostas: ["guardar em armário gavetas prateleiras etc", "guardar", "guardar no lugar", "arrumar"] },
+    { de: "Aufbewahren", pt: "guardar algo no seu devido lugar", deRespostas: ["Aufbewahren", "aufbewahren"], ptRespostas: ["guardar algo no seu devido lugar", "guardar", "armazenar", "conservar"] },
+    { de: "Einpacken", pt: "empacotar, embalar ou colocar na mala/bolsa", deRespostas: ["Einpacken", "einpacken"], ptRespostas: ["empacotar embalar ou colocar na mala bolsa", "empacotar", "embalar", "colocar na mala", "colocar na bolsa"] },
+    { de: "zu meiner Überraschung", pt: "para minha surpresa", deRespostas: ["zu meiner Überraschung"], ptRespostas: ["para minha surpresa"] },
+    { de: "das Toilettenpapier", pt: "o papel higiênico", deRespostas: ["das Toilettenpapier", "Toilettenpapier"], ptRespostas: ["o papel higiênico", "papel higiênico"] },
+    { de: "dringend", pt: "urgentemente", deRespostas: ["dringend"], ptRespostas: ["urgentemente", "urgente"] },
+    { de: "brauchen", pt: "precisar", deRespostas: ["brauchen"], ptRespostas: ["precisar", "necessitar"] },
+    { de: "wirklich", pt: "realmente", deRespostas: ["wirklich"], ptRespostas: ["realmente", "de verdade"] },
+    { de: "der Kühlschrank", pt: "geladeira", deRespostas: ["der Kühlschrank", "Kühlschrank"], ptRespostas: ["geladeira", "a geladeira"] },
+    { de: "das Lebensmittel", pt: "alimento / produto alimentício", deRespostas: ["das Lebensmittel", "Lebensmittel"], ptRespostas: ["alimento", "produto alimentício", "gênero alimentício", "alimento produto alimentício", "alimentos"] },
+    { de: "konservieren", pt: "conservar", deRespostas: ["konservieren"], ptRespostas: ["conservar"] },
+    { de: "stecken", pt: "enfiar, inserir, colocar (muito usado para por em bolsa, sacola, mochila)", deRespostas: ["stecken"], ptRespostas: ["enfiar", "inserir", "colocar", "colocar em bolsa", "colocar em sacola", "colocar na mochila"] },
+    { de: "der Boden", pt: "o chão", deRespostas: ["der Boden", "Boden"], ptRespostas: ["o chão", "chão"] },
+    { de: "suchen", pt: "procurar", deRespostas: ["suchen"], ptRespostas: ["procurar", "buscar"] }
+];
+
+let direcaoAtual = "pt-de";
+let vocabularioEmbaralhado = [];
+
+function embaralharVocabulario() {
+    const itens = [...vocabulario];
+
+    for (let i = itens.length - 1; i > 0; i--) {
+        const indiceAleatorio = Math.floor(Math.random() * (i + 1));
+        [itens[i], itens[indiceAleatorio]] = [itens[indiceAleatorio], itens[i]];
+    }
+
+    return itens;
+}
+
+function normalizarResposta(valor) {
+    return valor.trim()
+        .toLocaleLowerCase("de-DE")
+        .replace(/ß/g, "ss")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[.,;:!?()/]/g, "")
+        .replace(/\s+/g, " ");
+}
+
+function criarQuestoes() {
+    const container = document.getElementById("questoesVocabulario");
+    container.replaceChildren();
+    vocabularioEmbaralhado = embaralharVocabulario();
+
+    vocabularioEmbaralhado.forEach(function(item, indice) {
+        const questao = document.createElement("div");
+        questao.className = "vocab-question";
+        questao.dataset.indice = String(indice);
+
+        const prompt = document.createElement("div");
+        prompt.className = "vocab-prompt";
+        prompt.textContent = String(indice + 1) + ". " + (direcaoAtual === "pt-de" ? item.pt : item.de);
+
+        const input = document.createElement("input");
+        input.type = "text";
+        input.className = "vocab-answer-input";
+        input.autocomplete = "off";
+        input.placeholder = direcaoAtual === "pt-de" ? "Escreva em alemão..." : "Escreva em português...";
+        input.setAttribute("aria-label", "Resposta para a questão " + (indice + 1));
+
+        const feedback = document.createElement("div");
+        feedback.className = "vocab-feedback";
+        feedback.setAttribute("aria-live", "polite");
+
+        questao.append(prompt, input, feedback);
+        container.appendChild(questao);
+    });
+    limparVocabulario();
+}
+
+function corrigirVocabulario() {
+    let acertos = 0;
+    const questoes = document.querySelectorAll(".vocab-question");
+
+    questoes.forEach(function(questao) {
+        const item = vocabularioEmbaralhado[Number(questao.dataset.indice)];
+        const input = questao.querySelector(".vocab-answer-input");
+        const feedback = questao.querySelector(".vocab-feedback");
+        const aceitas = direcaoAtual === "pt-de" ? item.deRespostas : item.ptRespostas;
+        const respostaCorreta = aceitas.some(function(resposta) {
+            return normalizarResposta(resposta) === normalizarResposta(input.value);
+        });
+
+        input.classList.remove("campo-correto", "campo-incorreto");
+        feedback.classList.remove("correct", "incorrect");
+
+        if (respostaCorreta) {
+            acertos++;
+            input.classList.add("campo-correto");
+            feedback.classList.add("correct");
+            feedback.textContent = "✓ Correta";
+        } else {
+            input.classList.add("campo-incorreto");
+            feedback.classList.add("incorrect");
+            const esperada = direcaoAtual === "pt-de" ? item.de : item.pt;
+            feedback.textContent = "✗ Resposta esperada: " + esperada;
+        }
+    });
+
+    const resultado = document.getElementById("resultadoVocabulario");
+    resultado.textContent = "Resultado: " + acertos + " de " + questoes.length + " palavras corretas.";
+    resultado.style.display = "block";
+    document.getElementById("barraProgresso").style.width = (questoes.length ? acertos / questoes.length * 100 : 0) + "%";
+}
+
+function limparVocabulario() {
+    document.querySelectorAll(".vocab-answer-input").forEach(function(input) {
+        input.value = "";
+        input.classList.remove("campo-correto", "campo-incorreto");
+    });
+    document.querySelectorAll(".vocab-feedback").forEach(function(feedback) {
+        feedback.textContent = "";
+        feedback.classList.remove("correct", "incorrect");
+    });
+    const resultado = document.getElementById("resultadoVocabulario");
+    resultado.textContent = "";
+    resultado.style.display = "none";
+    document.getElementById("barraProgresso").style.width = "0%";
+}
+
+document.querySelectorAll('input[name="direcao"]').forEach(function(radio) {
+    radio.addEventListener("change", function() {
+        direcaoAtual = radio.value;
+        criarQuestoes();
+    });
+});
+
+document.getElementById("corrigirVocabulario").addEventListener("click", corrigirVocabulario);
+document.getElementById("limparVocabulario").addEventListener("click", limparVocabulario);
+criarQuestoes();
+</script>
+<script src="../js/app.js?v=20261019-1"></script>
+</body>
+</html>

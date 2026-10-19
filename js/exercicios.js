@@ -51,4 +51,12 @@ export const exercicios = [
       { arquivo: "subordinadas.html", titulo: "Orações subordinadas", detalhe: "Prática de subordinadas" }
     ]
   }
+,
+
+  {
+    tema: "Vocabulário",
+    itens: [
+      { arquivo: "exercicio_vocabulario_1.html", titulo: "exercicio_vocabulario_1", detalhe: "36 palavras · português ↔ alemão" }
+    ]
+  }
 ];

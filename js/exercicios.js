@@ -54,7 +54,7 @@ export const exercicios = [
   {
     tema: "Vocabulário",
     itens: [
-      { arquivo: "exercicio_vocabulario_1.html", titulo: "exercicio_vocabulario_1", detalhe: "36 palavras · português ↔ alemão" }
+      { arquivo: "exercicio_vocabulario_1.html", titulo: "Exercícios Vocabulário I", detalhe: "36 palavras · português ↔ alemão" }
     ]
   }
 ];

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>exercicio_vocabulario_1 · Alemão</title>
+    <title>Exercícios Vocabulário I · Alemão</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
         .direction-options {
@@ -82,7 +82,7 @@
     <div class="breadcrumb"><a href="../index.html">Início</a> / Exercícios / Vocabulário</div>
     <div class="hero">
         <div class="eyebrow">Exercício de vocabulário</div>
-        <h1>exercicio_vocabulario_1</h1>
+        <h1>Exercícios Vocabulário I</h1>
         <p class="lead">Escolha a direção da tradução e escreva a resposta para cada uma das palavras. Clique em Corrigir para conferir seus resultados.</p>
     </div>
 
@@ -157,6 +157,18 @@ const vocabulario = [
 ];
 
 let direcaoAtual = "pt-de";
+let vocabularioEmbaralhado = [];
+
+function embaralharVocabulario() {
+    const itens = [...vocabulario];
+
+    for (let i = itens.length - 1; i > 0; i--) {
+        const indiceAleatorio = Math.floor(Math.random() * (i + 1));
+        [itens[i], itens[indiceAleatorio]] = [itens[indiceAleatorio], itens[i]];
+    }
+
+    return itens;
+}
 
 function normalizarResposta(valor) {
     return valor.trim()
@@ -171,8 +183,9 @@ function normalizarResposta(valor) {
 function criarQuestoes() {
     const container = document.getElementById("questoesVocabulario");
     container.replaceChildren();
+    vocabularioEmbaralhado = embaralharVocabulario();
 
-    vocabulario.forEach(function(item, indice) {
+    vocabularioEmbaralhado.forEach(function(item, indice) {
         const questao = document.createElement("div");
         questao.className = "vocab-question";
         questao.dataset.indice = String(indice);
@@ -203,7 +216,7 @@ function corrigirVocabulario() {
     const questoes = document.querySelectorAll(".vocab-question");
 
     questoes.forEach(function(questao) {
-        const item = vocabulario[Number(questao.dataset.indice)];
+        const item = vocabularioEmbaralhado[Number(questao.dataset.indice)];
         const input = questao.querySelector(".vocab-answer-input");
         const feedback = questao.querySelector(".vocab-feedback");
         const aceitas = direcaoAtual === "pt-de" ? item.deRespostas : item.ptRespostas;

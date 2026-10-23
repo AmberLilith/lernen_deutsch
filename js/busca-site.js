@@ -164,17 +164,28 @@ function carregarIndicePaginas() {
   return indicePaginasPromise;
 }
 
-function transformarColecao(dadosColecao, tipo, url, criarTexto) {
+function transformarColecao(
+  dadosColecao,
+  tipo,
+  url,
+  criarTexto,
+  criarTermo = (_dados, nome) => nome
+) {
   if (!dadosColecao || typeof dadosColecao !== "object") return [];
 
-  return Object.entries(dadosColecao).map(([nome, dados]) => ({
-    tipo: "Vocabulário",
-    grupo: tipo,
-    titulo: dados?.expressao || nome,
-    descricao: criarTexto(dados || {}),
-    texto: criarTexto(dados || {}),
-    url
-  }));
+  return Object.entries(dadosColecao).map(([nome, dados]) => {
+    const registro = dados || {};
+    const termo = criarTermo(registro, nome) || nome;
+
+    return {
+      tipo: "Vocabulário",
+      grupo: tipo,
+      titulo: registro.expressao || nome,
+      descricao: criarTexto(registro),
+      texto: criarTexto(registro),
+      url: url + "?termo=" + encodeURIComponent(termo)
+    };
+  });
 }
 
 function carregarIndiceVocabulario() {
@@ -252,7 +263,8 @@ function carregarIndiceVocabulario() {
           dados.tipo,
           dados.explicacao,
           dados.exemplo
-        ].filter(Boolean).join(" · ")
+        ].filter(Boolean).join(" · "),
+        dados => dados.expressao
       )
     ]);
   }

@@ -487,6 +487,12 @@ tr:last-child td { border-bottom: 0 }
 }
 
 
+.site-search-target {
+    outline: 3px solid var(--gold);
+    outline-offset: 3px;
+    scroll-margin-block: 120px;
+}
+
 /* Estado de conexão / modo offline */
 .offline-status {
     position: fixed;

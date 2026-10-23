@@ -179,6 +179,9 @@ const paginacao = document.getElementById("paginacao");
 const campoBusca = document.getElementById("busca");
 const filtroTipo = document.getElementById("filtroTipo");
 const buscaResultado = document.getElementById("buscaResultado");
+const termoInicial = new URLSearchParams(window.location.search).get("termo") || "";
+let buscaGlobalPendente = Boolean(termoInicial);
+campoBusca.value = termoInicial;
 
 function normalizar(texto) {
     return String(texto || "")
@@ -207,6 +210,7 @@ function criarLinhaComRotulo(rotulo, valor) {
 function criarCard(item) {
     const card = document.createElement("article");
     card.className = "card expressao-card";
+    card.dataset.vocabularioItem = item.expressao;
 
     const tipo = document.createElement("span");
     tipo.className = "tag";
@@ -303,6 +307,22 @@ function aplicarFiltros(reiniciarPagina = true) {
     renderizarPagina();
 }
 
+function destacarResultadoGlobal(termo) {
+    if (!buscaGlobalPendente) return;
+    buscaGlobalPendente = false;
+
+    const cards = [...container.querySelectorAll(".card")];
+    const termoNormalizado = normalizar(termo);
+    const alvo = cards.find(card =>
+        normalizar(card.dataset.vocabularioItem) === termoNormalizado
+    ) || (cards.length === 1 ? cards[0] : null);
+
+    if (!alvo) return;
+
+    alvo.classList.add("site-search-target");
+    alvo.scrollIntoView({ behavior: "smooth", block: "center" });
+}
+
 function renderizarPagina() {
     container.innerHTML = "";
 
@@ -336,10 +356,18 @@ function renderizarPagina() {
 
     buscaResultado.textContent =
         `${filtradas.length} expressão${filtradas.length === 1 ? "" : "ões"} encontrada${filtradas.length === 1 ? "" : "s"}`;
+
+    destacarResultadoGlobal(campoBusca.value);
 }
 
-campoBusca.addEventListener("input", () => aplicarFiltros(true));
-filtroTipo.addEventListener("change", () => aplicarFiltros(true));
+campoBusca.addEventListener("input", () => {
+    buscaGlobalPendente = false;
+    aplicarFiltros(true);
+});
+filtroTipo.addEventListener("change", () => {
+    buscaGlobalPendente = false;
+    aplicarFiltros(true);
+});
 
 botaoAnterior.addEventListener("click", () => {
     if (paginaAtual > 1) {

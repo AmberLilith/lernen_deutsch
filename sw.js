@@ -1,4 +1,4 @@
-const CACHE_NAME = "lernen-deutsch-static-20261023-2";
+const CACHE_NAME = "lernen-deutsch-static-20261023-3";
 const ARQUIVOS = [
   "index.html",
   "manifest.webmanifest",
@@ -148,13 +148,36 @@ self.addEventListener("fetch", event => {
 
         return resposta;
       } catch {
-        return (
-          await caches.match(requisicao, { ignoreSearch: true }) ||
-          await caches.match(urlLocal("index.html")) ||
-          new Response("Conteúdo indisponível offline.", {
+        const respostaEmCache = await caches.match(requisicao, {
+          ignoreSearch: true
+        });
+
+        if (respostaEmCache) return respostaEmCache;
+
+        const caminhoRaiz = new URL(self.registration.scope).pathname;
+        const caminhoIndex = new URL(urlLocal("index.html")).pathname;
+
+        if (url.pathname === caminhoRaiz || url.pathname === caminhoIndex) {
+          return await caches.match(urlLocal("index.html")) ||
+            new Response("Página inicial indisponível offline.", {
+              status: 503,
+              headers: { "Content-Type": "text/plain; charset=utf-8" }
+            });
+        }
+
+        return new Response(
+          "<!doctype html>" +
+          '<html lang="pt-BR"><meta charset="utf-8">' +
+          '<meta name="viewport" content="width=device-width, initial-scale=1">' +
+          "<title>Conteúdo indisponível offline</title>" +
+          "<body><main><h1>Conteúdo indisponível offline</h1>" +
+          "<p>Esta página não está salva neste dispositivo. Conecte-se à internet e tente novamente.</p>" +
+          '<p><a href="' + urlLocal("index.html") + '">Voltar ao início</a></p>' +
+          "</main></body></html>",
+          {
             status: 503,
-            headers: { "Content-Type": "text/plain; charset=utf-8" }
-          })
+            headers: { "Content-Type": "text/html; charset=utf-8" }
+          }
         );
       }
     })());

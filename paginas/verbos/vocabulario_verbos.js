@@ -24,6 +24,9 @@ let listaVerbos = [];
 let verbosFiltrados = [];
 let paginaVerbos = 1;
 
+const termoInicial = new URLSearchParams(window.location.search).get("termo") || "";
+document.getElementById("pesquisa-verbo").value = termoInicial;
+
 function normalizarTexto(texto) {
   return (texto || "")
     .toLocaleLowerCase("pt-BR")
@@ -564,6 +567,14 @@ function carregarVerbos() {
         );
 
       aplicarFiltro();
+
+      if (termoInicial) {
+        const verboSelecionado = listaVerbos.find(item =>
+          normalizarTexto(item.verbo) === normalizarTexto(termoInicial)
+        );
+
+        if (verboSelecionado) abrirModal(verboSelecionado);
+      }
     },
     error => {
       console.error("Não foi possível carregar os verbos:", error);

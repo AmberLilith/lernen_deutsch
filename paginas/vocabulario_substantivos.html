@@ -102,6 +102,9 @@
         const paginacao = document.getElementById("paginacao");
         const campoBusca = document.getElementById("busca");
         const buscaResultado = document.getElementById("buscaResultado");
+        const termoInicial = new URLSearchParams(window.location.search).get("termo") || "";
+        let buscaGlobalPendente = Boolean(termoInicial);
+        campoBusca.value = termoInicial;
         const carregando = document.getElementById("carregando");
         const inicioCarregamento = performance.now();
         const tempoMinimoCarregamento = 400;
@@ -120,6 +123,7 @@
         function criarCard(item) {
             const card = document.createElement("div");
             card.className = "card";
+            card.dataset.vocabularioItem = item.substantivo;
             const generoOposto = item.artigo === "der" ? "Feminino" : "Masculino";
 
             const titulo = document.createElement("h3");
@@ -157,6 +161,22 @@
                 .toLowerCase()
                 .normalize("NFD")
                 .replace(/[\u0300-\u036f]/g, "");
+        }
+
+        function destacarResultadoGlobal(termo) {
+            if (!buscaGlobalPendente) return;
+            buscaGlobalPendente = false;
+
+            const cards = [...container.querySelectorAll(".card")];
+            const termoNormalizado = normalizar(termo);
+            const alvo = cards.find(card =>
+                normalizar(card.dataset.vocabularioItem) === termoNormalizado
+            ) || (cards.length === 1 ? cards[0] : null);
+
+            if (!alvo) return;
+
+            alvo.classList.add("site-search-target");
+            alvo.scrollIntoView({ behavior: "smooth", block: "center" });
         }
 
         function exibirPagina(pagina) {
@@ -197,9 +217,12 @@
 
             buscaResultado.textContent =
                 `${resultados.length} resultado${resultados.length === 1 ? "" : "s"}`;
+
+            destacarResultadoGlobal(termo);
         }
 
         campoBusca.addEventListener("input", () => {
+            buscaGlobalPendente = false;
             const termo = campoBusca.value.trim();
 
             if (termo === "") {

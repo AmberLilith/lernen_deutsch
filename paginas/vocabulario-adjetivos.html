@@ -135,6 +135,9 @@
         const paginacao = document.getElementById("paginacao");
         const campoBusca = document.getElementById("busca");
         const buscaResultado = document.getElementById("buscaResultado");
+        const termoInicial = new URLSearchParams(window.location.search).get("termo") || "";
+        let buscaGlobalPendente = Boolean(termoInicial);
+        campoBusca.value = termoInicial;
 
         function normalizar(texto) {
             return (texto || "")
@@ -146,6 +149,7 @@
         function criarCard(item) {
             const card = document.createElement("div");
             card.className = "card";
+            card.dataset.vocabularioItem = item.adjetivo;
 
             const titulo = document.createElement("h3");
             titulo.textContent = item.adjetivo;
@@ -182,6 +186,22 @@
             }
 
             return card;
+        }
+
+        function destacarResultadoGlobal(termo) {
+            if (!buscaGlobalPendente) return;
+            buscaGlobalPendente = false;
+
+            const cards = [...container.querySelectorAll(".card")];
+            const termoNormalizado = normalizar(termo);
+            const alvo = cards.find(card =>
+                normalizar(card.dataset.vocabularioItem) === termoNormalizado
+            ) || (cards.length === 1 ? cards[0] : null);
+
+            if (!alvo) return;
+
+            alvo.classList.add("site-search-target");
+            alvo.scrollIntoView({ behavior: "smooth", block: "center" });
         }
 
         function exibirPagina(pagina) {
@@ -241,6 +261,8 @@
 
             buscaResultado.textContent =
                 `${resultados.length} resultado${resultados.length === 1 ? "" : "s"}`;
+
+            destacarResultadoGlobal(termo);
         }
 
         function atualizarExibicao() {
@@ -256,6 +278,7 @@
         }
 
         campoBusca.addEventListener("input", () => {
+            buscaGlobalPendente = false;
             if (campoBusca.value.trim() === "") {
                 paginaAtual = 1;
             }

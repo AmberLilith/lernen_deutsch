@@ -413,8 +413,40 @@ async function inicializar(conteudos, exercicios){
  document.querySelectorAll(".answer-input").forEach(i=>i.addEventListener("keydown",e=>{if(e.key==="Enter")checkExercise();}));
 }
 
+function inicializarBuscaNoCabecalho(){
+ const header = document.querySelector(".site-header");
+ if(!header) return;
+
+ let container = header.querySelector(".site-header-container");
+
+ if(!container){
+   container = document.createElement("div");
+   container.className = "site-header-container";
+   header.insertBefore(container, header.firstChild);
+
+   while(container.nextSibling){
+     container.appendChild(container.nextSibling);
+   }
+ }
+
+ let slot = container.querySelector('[data-componente="busca-site"]');
+
+ if(!slot){
+   slot = document.createElement("div");
+   slot.dataset.componente = "busca-site";
+   container.appendChild(slot);
+ }
+
+ const urlBusca = new URL("js/busca-site.js", obterRaizSite()).href;
+
+ import(urlBusca)
+   .then(({ inicializarBuscaSite }) => inicializarBuscaSite())
+   .catch(error => console.error("Não foi possível carregar a pesquisa global:", error));
+}
+
 document.addEventListener("DOMContentLoaded",()=>{
  ensureAdminLink();
+ inicializarBuscaNoCabecalho();
  inicializarModoOffline();
  Promise.all([
    import("./conteudos.js"),

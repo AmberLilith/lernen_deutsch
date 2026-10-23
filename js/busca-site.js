@@ -487,4 +487,4 @@ input.addEventListener("search", () => {
 });
 }
 
-inicializarBuscaSite();
+export { inicializarBuscaSite };

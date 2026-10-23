@@ -1,4 +1,4 @@
-const CACHE_NAME = "lernen-deutsch-static-20261023-1";
+const CACHE_NAME = "lernen-deutsch-static-20261023-2";
 const ARQUIVOS = [
   "index.html",
   "manifest.webmanifest",

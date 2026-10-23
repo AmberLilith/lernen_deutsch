@@ -1,14 +1,18 @@
 import { conteudos } from "./conteudos.js";
 import { exercicios } from "./exercicios.js";
 import { obterColecao } from "./dados-offline.js";
+import { renderizarBuscaSite } from "./componentes/busca-site.js";
 
-const input = document.getElementById("buscaSite");
-const status = document.getElementById("buscaSiteStatus");
-const resultados = document.getElementById("buscaSiteResultados");
+function inicializarBuscaSite() {
+  const container = document.querySelector('[data-componente="busca-site"]');
+  if (!container) return;
 
-if (!input || !status || !resultados) {
-  throw new Error("Área de pesquisa global não encontrada.");
-}
+  const { input, status, resultados } = renderizarBuscaSite(container);
+  const raizSite = new URL("../", import.meta.url);
+
+  function urlSite(caminho) {
+    return new URL(caminho, raizSite).href;
+  }
 
 let indicePaginasPromise = null;
 let indiceVocabularioPromise = null;
@@ -120,7 +124,7 @@ function montarPaginasBase() {
 
 async function obterTextoPagina(item) {
   try {
-    const resposta = await fetch(item.url);
+    const resposta = await fetch(urlSite(item.url));
 
     if (!resposta.ok) {
       throw new Error("HTTP " + resposta.status);
@@ -271,7 +275,7 @@ function criarSecao(titulo) {
 function criarResultado(item, termo) {
   const link = document.createElement("a");
   link.className = "site-search-result";
-  link.href = item.url;
+  link.href = urlSite(item.url);
 
   const topo = document.createElement("div");
   topo.className = "site-search-result-top";
@@ -349,7 +353,7 @@ function renderizarCategorias(categorias) {
 
     grupo.paginas.forEach(pagina => {
       const link = document.createElement("a");
-      link.href = "paginas/" + pagina.arquivo;
+      link.href = urlSite("paginas/" + pagina.arquivo);
       link.textContent = pagina.titulo;
       subitens.appendChild(link);
     });
@@ -481,3 +485,6 @@ input.addEventListener("input", () => {
 input.addEventListener("search", () => {
   pesquisar(input.value);
 });
+}
+
+inicializarBuscaSite();

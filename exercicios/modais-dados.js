@@ -1,7 +1,7 @@
-/* Dados dos exercícios de verbos modais. */
+/* Dados dos exercícios de verbos modais. Total: 100 exercícios principais. */
 window.EXERCICIOS_MODAIS = [
   {
-    "exec1": {
+    "ex001": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Ich ___ Deutsch sprechen. (capacidade)",
       "alternativas": [
@@ -16,7 +16,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec2": {
+    "ex002": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Du ___ heute zum Arzt gehen. Du hast Fieber. (necessidade)",
       "alternativas": [
@@ -31,7 +31,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec3": {
+    "ex003": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Hier ___ man nicht rauchen. (proibição)",
       "alternativas": [
@@ -46,7 +46,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec4": {
+    "ex004": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Ihr ___ leise sein, die Kinder schlafen. (recomendação)",
       "alternativas": [
@@ -61,7 +61,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec5": {
+    "ex005": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Er ___ nach Berlin fahren; er hat schon ein Ticket gekauft. (vontade)",
       "alternativas": [
@@ -76,7 +76,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec6": {
+    "ex006": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Ich ___ einen Kaffee, bitte. (pedido educado)",
       "alternativas": [
@@ -91,7 +91,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec7": {
+    "ex007": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Als Kind ___ ich nicht schwimmen. (incapacidade no passado)",
       "alternativas": [
@@ -106,7 +106,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec8": {
+    "ex008": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Du ___ hier nicht parken; das ist verboten.",
       "alternativas": [
@@ -121,7 +121,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec9": {
+    "ex009": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Die Kinder ___ früh schlafen gehen. (conselho)",
       "alternativas": [
@@ -136,7 +136,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec10": {
+    "ex010": {
       "tipo": "multiplas_escolhas",
       "enunciado": "___ du mir bitte helfen?",
       "alternativas": [
@@ -151,7 +151,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec11": {
+    "ex011": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Sie ___ sehr gut Klavier spielen. (ela)",
       "alternativas": [
@@ -166,7 +166,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec12": {
+    "ex012": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Wir ___ gestern lange warten. (obrigação no Präteritum)",
       "alternativas": [
@@ -181,7 +181,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec13": {
+    "ex013": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Er ___ früher bis Mitternacht aufbleiben. (tinha permissão)",
       "alternativas": [
@@ -196,7 +196,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec14": {
+    "ex014": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Ich ___ keinen Kaffee. (não gostar)",
       "alternativas": [
@@ -211,7 +211,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec15": {
+    "ex015": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Sie ___ heute nicht kommen, weil sie krank ist. (possibilidade)",
       "alternativas": [
@@ -226,7 +226,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec16": {
+    "ex016": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Wir ___ das Problem gemeinsam lösen. (capacidade)",
       "alternativas": [
@@ -241,7 +241,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec17": {
+    "ex017": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Du ___ deine Hausaufgaben machen, bevor du spielst. (obrigação)",
       "alternativas": [
@@ -256,7 +256,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec18": {
+    "ex018": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Ihr ___ jetzt nach Hause gehen. Der Unterricht ist vorbei und ihr habt die Erlaubnis.",
       "alternativas": [
@@ -271,7 +271,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec19": {
+    "ex019": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Du ___ einen Tee trinken? (oferta educada)",
       "alternativas": [
@@ -286,7 +286,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec20": {
+    "ex020": {
       "tipo": "multiplas_escolhas",
       "enunciado": "Wir ___ morgen früh aufstehen, denn der Zug fährt um sechs Uhr.",
       "alternativas": [
@@ -301,527 +301,13 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec21": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com a forma correta do modal no Präsens.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Ich ___ gut schwimmen. (können)",
-        "respostas_possiveis": [
-          "kann"
-        ]
-      }
-    }
+    "ex021": "grupo_completar_com_palavra_correta_1"
   },
   {
-    "exec22": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com a forma correta do modal no Präsens.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Du ___ heute länger arbeiten. (müssen)",
-        "respostas_possiveis": [
-          "musst"
-        ]
-      }
-    }
+    "ex022": "grupo_completar_com_palavra_correta_2"
   },
   {
-    "exec23": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com a forma correta do modal no Präsens.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Er ___ hier bleiben. (dürfen)",
-        "respostas_possiveis": [
-          "darf"
-        ]
-      }
-    }
-  },
-  {
-    "exec24": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com a forma correta do modal no Präsens.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Wir ___ mehr Wasser trinken. (sollen)",
-        "respostas_possiveis": [
-          "sollen"
-        ]
-      }
-    }
-  },
-  {
-    "exec25": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com a forma correta do modal no Präsens.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Ihr ___ nach Berlin fahren. (wollen)",
-        "respostas_possiveis": [
-          "wollt"
-        ]
-      }
-    }
-  },
-  {
-    "exec26": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com a forma correta de mögen.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Sie ___ Schokolade. (ela / mögen)",
-        "respostas_possiveis": [
-          "mag"
-        ]
-      }
-    }
-  },
-  {
-    "exec27": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com a forma correta de möchten.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Ich ___ einen Tee trinken.",
-        "respostas_possiveis": [
-          "möchte"
-        ]
-      }
-    }
-  },
-  {
-    "exec28": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Use o Präteritum de können.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Gestern ___ ich nicht kommen.",
-        "respostas_possiveis": [
-          "konnte"
-        ]
-      }
-    }
-  },
-  {
-    "exec29": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Use o Präteritum de müssen.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Wir ___ lange warten.",
-        "respostas_possiveis": [
-          "mussten"
-        ]
-      }
-    }
-  },
-  {
-    "exec30": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Use o Präteritum de dürfen.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Als Kind ___ er länger draußen bleiben.",
-        "respostas_possiveis": [
-          "durfte"
-        ]
-      }
-    }
-  },
-  {
-    "exec31": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Use o Präteritum de wollen.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Sie ___ Ärztin werden.",
-        "respostas_possiveis": [
-          "wollte"
-        ]
-      }
-    }
-  },
-  {
-    "exec32": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Use o Präteritum de sollen.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Du ___ früher schlafen gehen.",
-        "respostas_possiveis": [
-          "solltest"
-        ]
-      }
-    }
-  },
-  {
-    "exec33": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com dürfen no Präsens.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Du ___ hier nicht rauchen.",
-        "respostas_possiveis": [
-          "darfst"
-        ]
-      }
-    }
-  },
-  {
-    "exec34": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com müssen no Präsens.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Wir ___ morgen nicht arbeiten. (não precisamos)",
-        "respostas_possiveis": [
-          "müssen"
-        ]
-      }
-    }
-  },
-  {
-    "exec35": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com können no Präsens.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Ich ___ sehr gut singen.",
-        "respostas_possiveis": [
-          "kann"
-        ]
-      }
-    }
-  },
-  {
-    "exec36": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com sollen no Präsens.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Ihr ___ eure Hausaufgaben machen.",
-        "respostas_possiveis": [
-          "sollt"
-        ]
-      }
-    }
-  },
-  {
-    "exec37": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com mögen no Präsens.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Das Kind ___ keinen Fisch.",
-        "respostas_possiveis": [
-          "mag"
-        ]
-      }
-    }
-  },
-  {
-    "exec38": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Na oração subordinada, o modal conjugado vai para o final.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Er sagt, dass er heute arbeiten ___. (müssen)",
-        "respostas_possiveis": [
-          "muss"
-        ]
-      }
-    }
-  },
-  {
-    "exec39": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Com um modal, o verbo separável fica unido no infinitivo.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Ich muss morgen früh ___. (aufstehen)",
-        "respostas_possiveis": [
-          "aufstehen"
-        ]
-      }
-    }
-  },
-  {
-    "exec40": {
-      "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete com o infinitivo do verbo reflexivo.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Du musst dich ___. (beeilen)",
-        "respostas_possiveis": [
-          "beeilen"
-        ]
-      }
-    }
-  },
-  {
-    "exec41": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Eu consigo falar alemão.",
-        "respostas_possiveis": [
-          "Ich kann Deutsch sprechen."
-        ]
-      }
-    }
-  },
-  {
-    "exec42": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Nós precisamos trabalhar hoje.",
-        "respostas_possiveis": [
-          "Wir müssen heute arbeiten."
-        ]
-      }
-    }
-  },
-  {
-    "exec43": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão. Use dürfen para indicar permissão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Você pode ficar aqui.",
-        "respostas_possiveis": [
-          "Du darfst hier bleiben."
-        ]
-      }
-    }
-  },
-  {
-    "exec44": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Ela quer ir para casa.",
-        "respostas_possiveis": [
-          "Sie will nach Hause gehen."
-        ]
-      }
-    }
-  },
-  {
-    "exec45": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Eu gostaria de tomar um café.",
-        "respostas_possiveis": [
-          "Ich möchte einen Kaffee trinken."
-        ]
-      }
-    }
-  },
-  {
-    "exec46": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão usando o Präteritum.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Ontem eu não pude vir.",
-        "respostas_possiveis": [
-          "Gestern konnte ich nicht kommen."
-        ]
-      }
-    }
-  },
-  {
-    "exec47": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão. A frase expressa ausência de obrigação.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Nós não precisamos trabalhar amanhã.",
-        "respostas_possiveis": [
-          "Wir müssen morgen nicht arbeiten."
-        ]
-      }
-    }
-  },
-  {
-    "exec48": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão. A frase expressa proibição.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Você não pode estacionar aqui.",
-        "respostas_possiveis": [
-          "Du darfst hier nicht parken."
-        ]
-      }
-    }
-  },
-  {
-    "exec49": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "As crianças devem dormir cedo.",
-        "respostas_possiveis": [
-          "Die Kinder sollen früh schlafen gehen."
-        ]
-      }
-    }
-  },
-  {
-    "exec50": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão usando o Präteritum.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Ele teve que estudar ontem.",
-        "respostas_possiveis": [
-          "Er musste gestern lernen."
-        ]
-      }
-    }
-  },
-  {
-    "exec51": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão usando uma forma educada.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Você poderia me ajudar?",
-        "respostas_possiveis": [
-          "Könntest du mir helfen?"
-        ]
-      }
-    }
-  },
-  {
-    "exec52": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Eu gostaria de aprender alemão.",
-        "respostas_possiveis": [
-          "Ich möchte Deutsch lernen."
-        ]
-      }
-    }
-  },
-  {
-    "exec53": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Nós podemos brincar lá fora hoje.",
-        "respostas_possiveis": [
-          "Wir können heute draußen spielen."
-        ]
-      }
-    }
-  },
-  {
-    "exec54": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Ela precisa levantar cedo amanhã.",
-        "respostas_possiveis": [
-          "Sie muss morgen früh aufstehen."
-        ]
-      }
-    }
-  },
-  {
-    "exec55": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão usando sollen.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Você deveria beber mais água.",
-        "respostas_possiveis": [
-          "Du solltest mehr Wasser trinken."
-        ]
-      }
-    }
-  },
-  {
-    "exec56": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Eu não gosto de café.",
-        "respostas_possiveis": [
-          "Ich mag keinen Kaffee."
-        ]
-      }
-    }
-  },
-  {
-    "exec57": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão. Use dürfen para indicar permissão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Ele pode ficar aqui.",
-        "respostas_possiveis": [
-          "Er darf hier bleiben."
-        ]
-      }
-    }
-  },
-  {
-    "exec58": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão usando o Präteritum.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Nós queríamos viajar para Berlim.",
-        "respostas_possiveis": [
-          "Wir wollten nach Berlin fahren."
-        ]
-      }
-    }
-  },
-  {
-    "exec59": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão usando o Perfekt com modal.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Eu tive que trabalhar até tarde.",
-        "respostas_possiveis": [
-          "Ich habe bis spät arbeiten müssen."
-        ]
-      }
-    }
-  },
-  {
-    "exec60": {
-      "tipo": "traducao",
-      "enunciado": "Traduza para o alemão.",
-      "letras": {
-        "letra": "A",
-        "enunciado": "Você precisa se apressar.",
-        "respostas_possiveis": [
-          "Du musst dich beeilen."
-        ]
-      }
-    }
-  },
-  {
-    "exec61": {
+    "ex023": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada verbo modal ao seu significado mais comum.",
       "alternativas": [
@@ -839,7 +325,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec62": {
+    "ex024": {
       "tipo": "relacionar",
       "enunciado": "Relacione a forma conjugada à pessoa correspondente.",
       "alternativas": [
@@ -857,7 +343,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec63": {
+    "ex025": {
       "tipo": "relacionar",
       "enunciado": "Relacione a forma de müssen ao sujeito.",
       "alternativas": [
@@ -875,7 +361,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec64": {
+    "ex026": {
       "tipo": "relacionar",
       "enunciado": "Relacione a forma de dürfen ao sujeito.",
       "alternativas": [
@@ -893,7 +379,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec65": {
+    "ex027": {
       "tipo": "relacionar",
       "enunciado": "Relacione a forma de sollen ao sujeito.",
       "alternativas": [
@@ -911,7 +397,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec66": {
+    "ex028": {
       "tipo": "relacionar",
       "enunciado": "Relacione a forma de wollen ao sujeito.",
       "alternativas": [
@@ -929,7 +415,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec67": {
+    "ex029": {
       "tipo": "relacionar",
       "enunciado": "Relacione as formas de mögen aos seus significados.",
       "alternativas": [
@@ -947,7 +433,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec68": {
+    "ex030": {
       "tipo": "relacionar",
       "enunciado": "Relacione as formas do Präteritum ao significado.",
       "alternativas": [
@@ -965,7 +451,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec69": {
+    "ex031": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada construção negativa ao seu sentido.",
       "alternativas": [
@@ -983,7 +469,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec70": {
+    "ex032": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada estrutura à posição do verbo.",
       "alternativas": [
@@ -1001,7 +487,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec71": {
+    "ex033": {
       "tipo": "relacionar",
       "enunciado": "Relacione os verbos separáveis ao significado.",
       "alternativas": [
@@ -1019,7 +505,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec72": {
+    "ex034": {
       "tipo": "relacionar",
       "enunciado": "Relacione os pronomes reflexivos ao sujeito.",
       "alternativas": [
@@ -1037,7 +523,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec73": {
+    "ex035": {
       "tipo": "relacionar",
       "enunciado": "Relacione as frases ao significado.",
       "alternativas": [
@@ -1055,7 +541,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec74": {
+    "ex036": {
       "tipo": "relacionar",
       "enunciado": "Relacione a pergunta ao objetivo comunicativo.",
       "alternativas": [
@@ -1073,7 +559,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec75": {
+    "ex037": {
       "tipo": "relacionar",
       "enunciado": "Relacione as formas de mögen aos seus usos.",
       "alternativas": [
@@ -1091,7 +577,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec76": {
+    "ex038": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada frase à sua ideia principal.",
       "alternativas": [
@@ -1109,7 +595,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec77": {
+    "ex039": {
       "tipo": "relacionar",
       "enunciado": "Relacione as formas do Präteritum ao sujeito.",
       "alternativas": [
@@ -1127,7 +613,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec78": {
+    "ex040": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada frase no Perfekt à tradução.",
       "alternativas": [
@@ -1145,7 +631,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec79": {
+    "ex041": {
       "tipo": "relacionar",
       "enunciado": "Relacione a oração subordinada ao significado.",
       "alternativas": [
@@ -1163,7 +649,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec80": {
+    "ex042": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada modal ao contexto mais adequado.",
       "alternativas": [
@@ -1181,203 +667,825 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "exec81": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Ich kann heute nicht kommen."
+    "ex043": "grupo_traducao_1"
+  },
+  {
+    "ex044": "grupo_traducao_2"
+  },
+  {
+    "ex045": "grupo_montar_frase_1"
+  },
+  {
+    "ex046": "grupo_montar_frase_2"
+  },
+  {
+    "ex047": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ich ___ heute zu Hause bleiben. (müssen)",
+      "alternativas": [
+        "muss",
+        "musst",
+        "müssen",
+        "müsst"
       ],
-      "resposta_portugues": "Eu não posso vir hoje."
+      "respostas_possiveis": [
+        "muss"
+      ]
     }
   },
   {
-    "exec82": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Wir müssen morgen früh aufstehen."
+    "ex048": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Du ___ sehr gut Deutsch sprechen. (können)",
+      "alternativas": [
+        "kann",
+        "kannst",
+        "könnt",
+        "können"
       ],
-      "resposta_portugues": "Nós precisamos levantar cedo amanhã."
+      "respostas_possiveis": [
+        "kannst"
+      ]
     }
   },
   {
-    "exec83": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Du darfst hier nicht rauchen."
+    "ex049": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Meine Schwester ___ heute länger arbeiten. (müssen)",
+      "alternativas": [
+        "muss",
+        "musst",
+        "müssen",
+        "müsst"
       ],
-      "resposta_portugues": "Você não tem permissão para fumar aqui."
+      "respostas_possiveis": [
+        "muss"
+      ]
     }
   },
   {
-    "exec84": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Sie möchte einen Kaffee trinken."
+    "ex050": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Wir ___ am Wochenende ins Kino gehen. (wollen)",
+      "alternativas": [
+        "will",
+        "willst",
+        "wollen",
+        "wollt"
       ],
-      "resposta_portugues": "Ela gostaria de tomar um café."
+      "respostas_possiveis": [
+        "wollen"
+      ]
     }
   },
   {
-    "exec85": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Er will in Deutschland studieren."
+    "ex051": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ihr ___ hier warten. (dürfen)",
+      "alternativas": [
+        "darf",
+        "darfst",
+        "dürfen",
+        "dürft"
       ],
-      "resposta_portugues": "Ele quer estudar na Alemanha."
+      "respostas_possiveis": [
+        "dürft"
+      ]
     }
   },
   {
-    "exec86": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Ihr sollt die Aufgabe machen."
+    "ex052": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Er ___ seiner Mutter helfen. (sollen)",
+      "alternativas": [
+        "soll",
+        "sollst",
+        "sollen",
+        "sollt"
       ],
-      "resposta_portugues": "Vocês devem fazer a tarefa."
+      "respostas_possiveis": [
+        "soll"
+      ]
     }
   },
   {
-    "exec87": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Die Kinder können draußen spielen."
+    "ex053": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "___ ich das Fenster öffnen? (dürfen)",
+      "alternativas": [
+        "Darf",
+        "Darfst",
+        "Dürfen",
+        "Dürft"
       ],
-      "resposta_portugues": "As crianças podem brincar lá fora."
+      "respostas_possiveis": [
+        "Darf"
+      ]
     }
   },
   {
-    "exec88": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Ich musste gestern lange arbeiten."
+    "ex054": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Die Kinder ___ im Garten spielen. (können)",
+      "alternativas": [
+        "kann",
+        "kannst",
+        "können",
+        "könnt"
       ],
-      "resposta_portugues": "Eu tive que trabalhar por muito tempo ontem."
+      "respostas_possiveis": [
+        "können"
+      ]
     }
   },
   {
-    "exec89": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Wir konnten den Zug nicht erreichen."
+    "ex055": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ich ___ einen Tee trinken. (möchten)",
+      "alternativas": [
+        "möchte",
+        "möchtest",
+        "möchten",
+        "möchtet"
       ],
-      "resposta_portugues": "Nós não conseguimos pegar o trem."
+      "respostas_possiveis": [
+        "möchte"
+      ]
     }
   },
   {
-    "exec90": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Sie durfte allein nach Hause gehen."
+    "ex056": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Du ___ mehr Wasser trinken. (sollen)",
+      "alternativas": [
+        "soll",
+        "sollst",
+        "sollen",
+        "sollt"
       ],
-      "resposta_portugues": "Ela teve permissão para ir para casa sozinha."
+      "respostas_possiveis": [
+        "sollst"
+      ]
     }
   },
   {
-    "exec91": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Ich will meine Mutter anrufen."
+    "ex057": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Wir ___ morgen früh aufstehen. (müssen)",
+      "alternativas": [
+        "muss",
+        "musst",
+        "müssen",
+        "müsst"
       ],
-      "resposta_portugues": "Eu quero telefonar para minha mãe."
+      "respostas_possiveis": [
+        "müssen"
+      ]
     }
   },
   {
-    "exec92": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Du musst dich beeilen."
+    "ex058": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Frau Müller ___ sehr gut kochen. (können)",
+      "alternativas": [
+        "kann",
+        "kannst",
+        "können",
+        "könnt"
       ],
-      "resposta_portugues": "Você precisa se apressar."
+      "respostas_possiveis": [
+        "kann"
+      ]
     }
   },
   {
-    "exec93": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Wir wollen uns auf die Reise freuen."
+    "ex059": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ihr ___ heute nicht arbeiten. (müssen)",
+      "alternativas": [
+        "muss",
+        "musst",
+        "müssen",
+        "müsst"
       ],
-      "resposta_portugues": "Nós queremos ficar animados com a viagem."
+      "respostas_possiveis": [
+        "müsst"
+      ]
     }
   },
   {
-    "exec94": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Er hat lange arbeiten müssen."
+    "ex060": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Die Lehrerin ___ die Regel erklären. (wollen)",
+      "alternativas": [
+        "will",
+        "willst",
+        "wollen",
+        "wollt"
       ],
-      "resposta_portugues": "Ele teve que trabalhar por muito tempo."
+      "respostas_possiveis": [
+        "will"
+      ]
     }
   },
   {
-    "exec95": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Ich habe nicht kommen können."
+    "ex061": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ich ___ heute länger schlafen. (dürfen)",
+      "alternativas": [
+        "darf",
+        "darfst",
+        "dürfen",
+        "dürft"
       ],
-      "resposta_portugues": "Eu não pude vir."
+      "respostas_possiveis": [
+        "darf"
+      ]
     }
   },
   {
-    "exec96": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Wir werden bald umziehen müssen."
+    "ex062": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Peter und Anna ___ ein neues Auto kaufen. (wollen)",
+      "alternativas": [
+        "will",
+        "willst",
+        "wollen",
+        "wollt"
       ],
-      "resposta_portugues": "Nós teremos que nos mudar em breve."
+      "respostas_possiveis": [
+        "wollen"
+      ]
     }
   },
   {
-    "exec97": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Ich bleibe zu Hause, weil ich lernen muss."
+    "ex063": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Du ___ deine Hausaufgaben machen. (müssen)",
+      "alternativas": [
+        "muss",
+        "musst",
+        "müssen",
+        "müsst"
       ],
-      "resposta_portugues": "Eu fico em casa porque preciso estudar."
+      "respostas_possiveis": [
+        "musst"
+      ]
     }
   },
   {
-    "exec98": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Sie sagt, dass sie heute nicht arbeiten kann."
+    "ex064": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "___ ihr mir bitte helfen? (können)",
+      "alternativas": [
+        "Kann",
+        "Kannst",
+        "Können",
+        "Könnt"
       ],
-      "resposta_portugues": "Ela diz que não pode trabalhar hoje."
+      "respostas_possiveis": [
+        "Könnt"
+      ]
     }
   },
   {
-    "exec99": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Kannst du mir bitte helfen?"
+    "ex065": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Er ___ keinen Kaffee. (mögen)",
+      "alternativas": [
+        "mag",
+        "magst",
+        "mögen",
+        "mögt"
       ],
-      "resposta_portugues": "Você pode me ajudar, por favor?"
+      "respostas_possiveis": [
+        "mag"
+      ]
     }
   },
   {
-    "exec100": {
-      "tipo": "montar_frase",
-      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
-      "resposta": [
-        "Möchten Sie etwas trinken?"
+    "ex066": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Wir ___ heute zu Hause bleiben. (möchten)",
+      "alternativas": [
+        "möchte",
+        "möchtest",
+        "möchten",
+        "möchtet"
       ],
-      "resposta_portugues": "O senhor / a senhora gostaria de beber alguma coisa?"
+      "respostas_possiveis": [
+        "möchten"
+      ]
+    }
+  },
+  {
+    "ex067": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Als Kind ___ ich sehr schnell laufen. (können, Präteritum)",
+      "alternativas": [
+        "konnte",
+        "konntest",
+        "konnten",
+        "konntet"
+      ],
+      "respostas_possiveis": [
+        "konnte"
+      ]
+    }
+  },
+  {
+    "ex068": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Du ___ gestern zum Arzt gehen. (müssen, Präteritum)",
+      "alternativas": [
+        "musste",
+        "musstest",
+        "mussten",
+        "musstet"
+      ],
+      "respostas_possiveis": [
+        "musstest"
+      ]
+    }
+  },
+  {
+    "ex069": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Sie ___ früher lange aufbleiben. (dürfen, Präteritum)",
+      "alternativas": [
+        "durfte",
+        "durftest",
+        "durften",
+        "durftet"
+      ],
+      "respostas_possiveis": [
+        "durfte"
+      ]
+    }
+  },
+  {
+    "ex070": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Wir ___ damals nicht reisen. (können, Präteritum)",
+      "alternativas": [
+        "konnte",
+        "konntest",
+        "konnten",
+        "konntet"
+      ],
+      "respostas_possiveis": [
+        "konnten"
+      ]
+    }
+  },
+  {
+    "ex071": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ihr ___ als Kinder viel spielen. (dürfen, Präteritum)",
+      "alternativas": [
+        "durfte",
+        "durftest",
+        "durften",
+        "durftet"
+      ],
+      "respostas_possiveis": [
+        "durftet"
+      ]
+    }
+  },
+  {
+    "ex072": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Er ___ Pilot werden. (wollen, Präteritum)",
+      "alternativas": [
+        "wollte",
+        "wolltest",
+        "wollten",
+        "wolltet"
+      ],
+      "respostas_possiveis": [
+        "wollte"
+      ]
+    }
+  },
+  {
+    "ex073": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ich ___ gestern länger arbeiten. (müssen, Präteritum)",
+      "alternativas": [
+        "musste",
+        "musstest",
+        "mussten",
+        "musstet"
+      ],
+      "respostas_possiveis": [
+        "musste"
+      ]
+    }
+  },
+  {
+    "ex074": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Die Kinder ___ nicht allein ausgehen. (dürfen, Präteritum)",
+      "alternativas": [
+        "durfte",
+        "durftest",
+        "durften",
+        "durftet"
+      ],
+      "respostas_possiveis": [
+        "durften"
+      ]
+    }
+  },
+  {
+    "ex075": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Du ___ sehr gut tanzen. (können, Präteritum)",
+      "alternativas": [
+        "konnte",
+        "konntest",
+        "konnten",
+        "konntet"
+      ],
+      "respostas_possiveis": [
+        "konntest"
+      ]
+    }
+  },
+  {
+    "ex076": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Wir ___ ein neues Haus kaufen. (wollen, Präteritum)",
+      "alternativas": [
+        "wollte",
+        "wolltest",
+        "wollten",
+        "wolltet"
+      ],
+      "respostas_possiveis": [
+        "wollten"
+      ]
+    }
+  },
+  {
+    "ex077": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ich habe heute viel ___ . (arbeiten müssen)",
+      "alternativas": [
+        "arbeiten müssen",
+        "müssen gearbeitet",
+        "gearbeitet müssen",
+        "arbeiten gemusst"
+      ],
+      "respostas_possiveis": [
+        "arbeiten müssen"
+      ]
+    }
+  },
+  {
+    "ex078": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Sie hat nicht kommen ___ . (können)",
+      "alternativas": [
+        "gekonnt",
+        "können",
+        "gekonnt haben",
+        "gekonnen"
+      ],
+      "respostas_possiveis": [
+        "können"
+      ]
+    }
+  },
+  {
+    "ex079": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Wir haben früh aufstehen ___ . (müssen)",
+      "alternativas": [
+        "gemusst",
+        "müssen",
+        "gemüssen",
+        "müssten"
+      ],
+      "respostas_possiveis": [
+        "müssen"
+      ]
+    }
+  },
+  {
+    "ex080": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Er hat länger bleiben ___ . (dürfen)",
+      "alternativas": [
+        "gedurft",
+        "dürfen",
+        "gedürfen",
+        "durfte"
+      ],
+      "respostas_possiveis": [
+        "dürfen"
+      ]
+    }
+  },
+  {
+    "ex081": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ich werde morgen lernen ___ . (müssen)",
+      "alternativas": [
+        "müssen",
+        "gemusst",
+        "muss",
+        "musste"
+      ],
+      "respostas_possiveis": [
+        "müssen"
+      ]
+    }
+  },
+  {
+    "ex082": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Du ___ hier nicht parken. (proibição)",
+      "alternativas": [
+        "musst",
+        "darfst",
+        "kannst",
+        "willst"
+      ],
+      "respostas_possiveis": [
+        "darfst"
+      ]
+    }
+  },
+  {
+    "ex083": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Man ___ im Museum nicht fotografieren. (proibição)",
+      "alternativas": [
+        "muss",
+        "darf",
+        "soll",
+        "will"
+      ],
+      "respostas_possiveis": [
+        "darf"
+      ]
+    }
+  },
+  {
+    "ex084": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Du ___ nicht mitkommen, wenn du müde bist. (possibilidade)",
+      "alternativas": [
+        "musst",
+        "kannst",
+        "darfst",
+        "willst"
+      ],
+      "respostas_possiveis": [
+        "musst"
+      ]
+    }
+  },
+  {
+    "ex085": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Wir ___ jetzt losfahren, sonst kommen wir zu spät. (necessidade)",
+      "alternativas": [
+        "müssen",
+        "dürfen",
+        "wollen",
+        "mögen"
+      ],
+      "respostas_possiveis": [
+        "müssen"
+      ]
+    }
+  },
+  {
+    "ex086": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "___ du mir das Salz geben? (pedido)",
+      "alternativas": [
+        "Kann",
+        "Kannst",
+        "Könnt",
+        "Können"
+      ],
+      "respostas_possiveis": [
+        "Kannst"
+      ]
+    }
+  },
+  {
+    "ex087": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ich ___ bitte einen Apfelsaft. (pedido educado)",
+      "alternativas": [
+        "mag",
+        "möchte",
+        "muss",
+        "darf"
+      ],
+      "respostas_possiveis": [
+        "möchte"
+      ]
+    }
+  },
+  {
+    "ex088": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Er ___ Arzt werden, weil er Menschen helfen will. (desejo)",
+      "alternativas": [
+        "will",
+        "muss",
+        "darf",
+        "soll"
+      ],
+      "respostas_possiveis": [
+        "will"
+      ]
+    }
+  },
+  {
+    "ex089": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ihr ___ die Tür schließen, es ist kalt. (recomendação)",
+      "alternativas": [
+        "soll",
+        "sollst",
+        "sollen",
+        "sollt"
+      ],
+      "respostas_possiveis": [
+        "sollt"
+      ]
+    }
+  },
+  {
+    "ex090": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Wir ___ heute nicht einkaufen gehen; der Laden ist geschlossen. (possibilidade)",
+      "alternativas": [
+        "können",
+        "müssen",
+        "dürfen",
+        "wollen"
+      ],
+      "respostas_possiveis": [
+        "können"
+      ]
+    }
+  },
+  {
+    "ex091": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Ich ___ als Kind nicht allein schwimmen. (incapacidade no passado)",
+      "alternativas": [
+        "konnte",
+        "durfte",
+        "musste",
+        "wollte"
+      ],
+      "respostas_possiveis": [
+        "konnte"
+      ]
+    }
+  },
+  {
+    "ex092": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Sie ___ gestern nicht kommen, weil sie krank war. (não conseguiu)",
+      "alternativas": [
+        "konnte",
+        "durfte",
+        "musste",
+        "wollte"
+      ],
+      "respostas_possiveis": [
+        "konnte"
+      ]
+    }
+  },
+  {
+    "ex093": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Du ___ hier warten, bis der Arzt dich ruft. (permissão)",
+      "alternativas": [
+        "darfst",
+        "musst",
+        "sollst",
+        "willst"
+      ],
+      "respostas_possiveis": [
+        "darfst"
+      ]
+    }
+  },
+  {
+    "ex094": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Die Schüler ___ für die Prüfung lernen. (obrigação)",
+      "alternativas": [
+        "müssen",
+        "dürfen",
+        "möchten",
+        "wollen"
+      ],
+      "respostas_possiveis": [
+        "müssen"
+      ]
+    }
+  },
+  {
+    "ex095": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "___ ich dich etwas fragen? (permissão)",
+      "alternativas": [
+        "Darf",
+        "Muss",
+        "Soll",
+        "Will"
+      ],
+      "respostas_possiveis": [
+        "Darf"
+      ]
+    }
+  },
+  {
+    "ex096": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Meine Eltern ___ am Sonntag zu Besuch kommen. (intenção)",
+      "alternativas": [
+        "wollen",
+        "müssen",
+        "dürfen",
+        "können"
+      ],
+      "respostas_possiveis": [
+        "wollen"
+      ]
+    }
+  },
+  {
+    "ex097": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Du ___ nicht so laut sprechen. Das Baby schläft. (recomendação)",
+      "alternativas": [
+        "sollst",
+        "darfst",
+        "willst",
+        "kannst"
+      ],
+      "respostas_possiveis": [
+        "sollst"
+      ]
+    }
+  },
+  {
+    "ex098": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Er ___ sehr gut Gitarre spielen. (habilidade)",
+      "alternativas": [
+        "kann",
+        "muss",
+        "darf",
+        "soll"
+      ],
+      "respostas_possiveis": [
+        "kann"
+      ]
+    }
+  },
+  {
+    "ex099": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Wir ___ morgen um sechs Uhr aufstehen. (necessidade)",
+      "alternativas": [
+        "müssen",
+        "dürfen",
+        "möchten",
+        "können"
+      ],
+      "respostas_possiveis": [
+        "müssen"
+      ]
+    }
+  },
+  {
+    "ex100": {
+      "tipo": "multiplas_escolhas",
+      "enunciado": "Kinder ___ genug schlafen. (recomendação)",
+      "alternativas": [
+        "sollen",
+        "wollen",
+        "dürfen",
+        "mögen"
+      ],
+      "respostas_possiveis": [
+        "sollen"
+      ]
     }
   }
 ];

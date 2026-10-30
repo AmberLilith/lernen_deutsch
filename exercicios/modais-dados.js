@@ -1336,141 +1336,6 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "ex086": {
-      "tipo": "multiplas_escolhas",
-      "enunciado": "Sie ___ gestern nicht kommen, weil sie krank war. (não conseguiu)",
-      "alternativas": [
-        "konnte",
-        "durfte",
-        "musste",
-        "wollte"
-      ],
-      "respostas_possiveis": [
-        "konnte"
-      ]
-    }
-  },
-  {
-    "ex087": {
-      "tipo": "multiplas_escolhas",
-      "enunciado": "Du ___ hier warten, bis der Arzt dich ruft. (permissão)",
-      "alternativas": [
-        "darfst",
-        "musst",
-        "sollst",
-        "willst"
-      ],
-      "respostas_possiveis": [
-        "darfst"
-      ]
-    }
-  },
-  {
-    "ex088": {
-      "tipo": "multiplas_escolhas",
-      "enunciado": "Die Schüler ___ für die Prüfung lernen. (obrigação)",
-      "alternativas": [
-        "müssen",
-        "dürfen",
-        "möchten",
-        "wollen"
-      ],
-      "respostas_possiveis": [
-        "müssen"
-      ]
-    }
-  },
-  {
-    "ex089": {
-      "tipo": "multiplas_escolhas",
-      "enunciado": "___ ich dich etwas fragen? (permissão)",
-      "alternativas": [
-        "Darf",
-        "Muss",
-        "Soll",
-        "Will"
-      ],
-      "respostas_possiveis": [
-        "Darf"
-      ]
-    }
-  },
-  {
-    "ex090": {
-      "tipo": "multiplas_escolhas",
-      "enunciado": "Meine Eltern ___ am Sonntag zu Besuch kommen. (intenção)",
-      "alternativas": [
-        "wollen",
-        "müssen",
-        "dürfen",
-        "können"
-      ],
-      "respostas_possiveis": [
-        "wollen"
-      ]
-    }
-  },
-  {
-    "ex091": {
-      "tipo": "multiplas_escolhas",
-      "enunciado": "Du ___ nicht so laut sprechen. Das Baby schläft. (recomendação)",
-      "alternativas": [
-        "sollst",
-        "darfst",
-        "willst",
-        "kannst"
-      ],
-      "respostas_possiveis": [
-        "sollst"
-      ]
-    }
-  },
-  {
-    "ex092": {
-      "tipo": "multiplas_escolhas",
-      "enunciado": "Er ___ sehr gut Gitarre spielen. (habilidade)",
-      "alternativas": [
-        "kann",
-        "muss",
-        "darf",
-        "soll"
-      ],
-      "respostas_possiveis": [
-        "kann"
-      ]
-    }
-  },
-  {
-    "ex093": {
-      "tipo": "multiplas_escolhas",
-      "enunciado": "Wir ___ morgen um sechs Uhr aufstehen. (necessidade)",
-      "alternativas": [
-        "müssen",
-        "dürfen",
-        "möchten",
-        "können"
-      ],
-      "respostas_possiveis": [
-        "müssen"
-      ]
-    }
-  },
-  {
-    "ex094": {
-      "tipo": "multiplas_escolhas",
-      "enunciado": "Kinder ___ genug schlafen. (recomendação)",
-      "alternativas": [
-        "sollen",
-        "wollen",
-        "dürfen",
-        "mögen"
-      ],
-      "respostas_possiveis": [
-        "sollen"
-      ]
-    }
-  },
-  {
     "ex095": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete com a forma correta do modal no Präsens.",
@@ -1894,6 +1759,678 @@ window.EXERCICIOS_MODAIS = [
           "letra": "J",
           "resposta": "Möchten Sie etwas trinken?",
           "resposta_portugues": "O senhor / a senhora gostaria de beber alguma coisa?"
+        }
+      ]
+    }
+  },
+  {
+    "ex101": {
+      "tipo": "completar_com_palavra_correta",
+      "enunciado": "Complete com a forma correta do verbo modal.",
+      "itens": [
+        {
+          "letra": "A",
+          "enunciado": "Ich ___ heute länger schlafen. (können)",
+          "respostas_possiveis": [
+            "kann"
+          ]
+        },
+        {
+          "letra": "B",
+          "enunciado": "Du ___ deine Schwester anrufen. (sollen)",
+          "respostas_possiveis": [
+            "sollst"
+          ]
+        },
+        {
+          "letra": "C",
+          "enunciado": "Er ___ morgen früh aufstehen. (müssen)",
+          "respostas_possiveis": [
+            "muss"
+          ]
+        },
+        {
+          "letra": "D",
+          "enunciado": "Wir ___ heute ins Kino gehen. (wollen)",
+          "respostas_possiveis": [
+            "wollen"
+          ]
+        },
+        {
+          "letra": "E",
+          "enunciado": "Ihr ___ hier warten. (dürfen)",
+          "respostas_possiveis": [
+            "dürft"
+          ]
+        },
+        {
+          "letra": "F",
+          "enunciado": "Meine Eltern ___ sehr gut tanzen. (können)",
+          "respostas_possiveis": [
+            "können"
+          ]
+        },
+        {
+          "letra": "G",
+          "enunciado": "Sie ___ einen Tee trinken. (möchten, ela)",
+          "respostas_possiveis": [
+            "möchte"
+          ]
+        },
+        {
+          "letra": "H",
+          "enunciado": "Das Kind ___ keine Tomaten. (mögen)",
+          "respostas_possiveis": [
+            "mag"
+          ]
+        },
+        {
+          "letra": "I",
+          "enunciado": "Ich ___ gestern nicht kommen. (können, Präteritum)",
+          "respostas_possiveis": [
+            "konnte"
+          ]
+        },
+        {
+          "letra": "J",
+          "enunciado": "Wir ___ lange auf den Bus warten. (müssen, Präteritum)",
+          "respostas_possiveis": [
+            "mussten"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ex102": {
+      "tipo": "completar_com_palavra_correta",
+      "enunciado": "Complete com a forma correta do verbo modal.",
+      "itens": [
+        {
+          "letra": "A",
+          "enunciado": "Du ___ heute nicht arbeiten. (müssen)",
+          "respostas_possiveis": [
+            "musst"
+          ]
+        },
+        {
+          "letra": "B",
+          "enunciado": "___ ich das Fenster öffnen? (dürfen)",
+          "respostas_possiveis": [
+            "Darf"
+          ]
+        },
+        {
+          "letra": "C",
+          "enunciado": "Die Kinder ___ draußen spielen. (dürfen)",
+          "respostas_possiveis": [
+            "dürfen"
+          ]
+        },
+        {
+          "letra": "D",
+          "enunciado": "Frau Schmidt ___ uns helfen. (wollen)",
+          "respostas_possiveis": [
+            "will"
+          ]
+        },
+        {
+          "letra": "E",
+          "enunciado": "Ihr ___ leiser sprechen. (sollen)",
+          "respostas_possiveis": [
+            "sollt"
+          ]
+        },
+        {
+          "letra": "F",
+          "enunciado": "Er ___ keinen Fisch. (mögen)",
+          "respostas_possiveis": [
+            "mag"
+          ]
+        },
+        {
+          "letra": "G",
+          "enunciado": "Ich ___ gern nach Österreich fahren. (möchten)",
+          "respostas_possiveis": [
+            "möchte"
+          ]
+        },
+        {
+          "letra": "H",
+          "enunciado": "Sie ___ sehr schnell laufen. (können, eles/elas)",
+          "respostas_possiveis": [
+            "können"
+          ]
+        },
+        {
+          "letra": "I",
+          "enunciado": "Als Kind ___ er gut schwimmen. (können, Präteritum)",
+          "respostas_possiveis": [
+            "konnte"
+          ]
+        },
+        {
+          "letra": "J",
+          "enunciado": "Du ___ gestern länger bleiben. (dürfen, Präteritum)",
+          "respostas_possiveis": [
+            "durftest"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ex103": {
+      "tipo": "completar_com_palavra_correta",
+      "enunciado": "Complete com a forma correta do verbo modal.",
+      "itens": [
+        {
+          "letra": "A",
+          "enunciado": "Wir ___ morgen um sechs Uhr losfahren. (müssen)",
+          "respostas_possiveis": [
+            "müssen"
+          ]
+        },
+        {
+          "letra": "B",
+          "enunciado": "___ du mir bitte helfen? (können)",
+          "respostas_possiveis": [
+            "Kannst"
+          ]
+        },
+        {
+          "letra": "C",
+          "enunciado": "Man ___ hier nicht fotografieren. (dürfen)",
+          "respostas_possiveis": [
+            "darf"
+          ]
+        },
+        {
+          "letra": "D",
+          "enunciado": "Meine Schwester ___ Ärztin werden. (wollen)",
+          "respostas_possiveis": [
+            "will"
+          ]
+        },
+        {
+          "letra": "E",
+          "enunciado": "Ihr ___ mehr Wasser trinken. (sollen)",
+          "respostas_possiveis": [
+            "sollt"
+          ]
+        },
+        {
+          "letra": "F",
+          "enunciado": "Ich ___ klassische Musik. (mögen)",
+          "respostas_possiveis": [
+            "mag"
+          ]
+        },
+        {
+          "letra": "G",
+          "enunciado": "___ Sie etwas essen? (möchten)",
+          "respostas_possiveis": [
+            "Möchten"
+          ]
+        },
+        {
+          "letra": "H",
+          "enunciado": "Die Schüler ___ die Aufgabe allein lösen. (können)",
+          "respostas_possiveis": [
+            "können"
+          ]
+        },
+        {
+          "letra": "I",
+          "enunciado": "Gestern ___ ich viel lernen. (müssen, Präteritum)",
+          "respostas_possiveis": [
+            "musste"
+          ]
+        },
+        {
+          "letra": "J",
+          "enunciado": "Früher ___ wir hier Fußball spielen. (dürfen, Präteritum)",
+          "respostas_possiveis": [
+            "durften"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ex104": {
+      "tipo": "traducao",
+      "enunciado": "Traduza para o alemão.",
+      "itens": [
+        {
+          "letra": "A",
+          "enunciado": "Eu posso cozinhar muito bem.",
+          "respostas_possiveis": [
+            "Ich kann sehr gut kochen."
+          ]
+        },
+        {
+          "letra": "B",
+          "enunciado": "Você precisa estudar hoje.",
+          "respostas_possiveis": [
+            "Du musst heute lernen."
+          ]
+        },
+        {
+          "letra": "C",
+          "enunciado": "Nós queremos visitar Berlim.",
+          "respostas_possiveis": [
+            "Wir wollen Berlin besuchen."
+          ]
+        },
+        {
+          "letra": "D",
+          "enunciado": "Ela gostaria de beber água.",
+          "respostas_possiveis": [
+            "Sie möchte Wasser trinken."
+          ]
+        },
+        {
+          "letra": "E",
+          "enunciado": "Vocês podem entrar agora.",
+          "respostas_possiveis": [
+            "Ihr dürft jetzt hereinkommen."
+          ]
+        },
+        {
+          "letra": "F",
+          "enunciado": "Ele deve ajudar o irmão.",
+          "respostas_possiveis": [
+            "Er soll seinem Bruder helfen."
+          ]
+        },
+        {
+          "letra": "G",
+          "enunciado": "Eu não gosto de leite.",
+          "respostas_possiveis": [
+            "Ich mag keine Milch."
+          ]
+        },
+        {
+          "letra": "H",
+          "enunciado": "As crianças conseguem nadar.",
+          "respostas_possiveis": [
+            "Die Kinder können schwimmen."
+          ]
+        },
+        {
+          "letra": "I",
+          "enunciado": "Ontem eu tive que trabalhar.",
+          "respostas_possiveis": [
+            "Gestern musste ich arbeiten."
+          ]
+        },
+        {
+          "letra": "J",
+          "enunciado": "Nós não pudemos encontrar o caminho.",
+          "respostas_possiveis": [
+            "Wir konnten den Weg nicht finden."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ex105": {
+      "tipo": "traducao",
+      "enunciado": "Traduza para o alemão.",
+      "itens": [
+        {
+          "letra": "A",
+          "enunciado": "Você pode fechar a porta, por favor?",
+          "respostas_possiveis": [
+            "Kannst du bitte die Tür schließen?"
+          ]
+        },
+        {
+          "letra": "B",
+          "enunciado": "Eu preciso comprar pão.",
+          "respostas_possiveis": [
+            "Ich muss Brot kaufen."
+          ]
+        },
+        {
+          "letra": "C",
+          "enunciado": "Eles querem aprender alemão.",
+          "respostas_possiveis": [
+            "Sie wollen Deutsch lernen."
+          ]
+        },
+        {
+          "letra": "D",
+          "enunciado": "Nós gostaríamos de uma mesa para duas pessoas.",
+          "respostas_possiveis": [
+            "Wir möchten einen Tisch für zwei Personen."
+          ]
+        },
+        {
+          "letra": "E",
+          "enunciado": "Você não tem permissão para entrar aqui.",
+          "respostas_possiveis": [
+            "Du darfst hier nicht eintreten."
+          ]
+        },
+        {
+          "letra": "F",
+          "enunciado": "A professora deveria explicar a regra.",
+          "respostas_possiveis": [
+            "Die Lehrerin soll die Regel erklären."
+          ]
+        },
+        {
+          "letra": "G",
+          "enunciado": "Meu pai sabe consertar bicicletas.",
+          "respostas_possiveis": [
+            "Mein Vater kann Fahrräder reparieren."
+          ]
+        },
+        {
+          "letra": "H",
+          "enunciado": "Ela não quer sair hoje.",
+          "respostas_possiveis": [
+            "Sie will heute nicht ausgehen."
+          ]
+        },
+        {
+          "letra": "I",
+          "enunciado": "Quando criança, eu podia brincar no jardim.",
+          "respostas_possiveis": [
+            "Als Kind durfte ich im Garten spielen."
+          ]
+        },
+        {
+          "letra": "J",
+          "enunciado": "Ele não conseguiu dormir ontem.",
+          "respostas_possiveis": [
+            "Er konnte gestern nicht schlafen."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ex106": {
+      "tipo": "traducao",
+      "enunciado": "Traduza para o alemão.",
+      "itens": [
+        {
+          "letra": "A",
+          "enunciado": "Nós precisamos sair agora.",
+          "respostas_possiveis": [
+            "Wir müssen jetzt gehen."
+          ]
+        },
+        {
+          "letra": "B",
+          "enunciado": "Você gostaria de tomar um café?",
+          "respostas_possiveis": [
+            "Möchtest du einen Kaffee trinken?"
+          ]
+        },
+        {
+          "letra": "C",
+          "enunciado": "Os alunos devem fazer a tarefa.",
+          "respostas_possiveis": [
+            "Die Schüler sollen die Aufgabe machen."
+          ]
+        },
+        {
+          "letra": "D",
+          "enunciado": "Minha irmã pode dirigir.",
+          "respostas_possiveis": [
+            "Meine Schwester kann Auto fahren."
+          ]
+        },
+        {
+          "letra": "E",
+          "enunciado": "Eu quero telefonar para minha amiga.",
+          "respostas_possiveis": [
+            "Ich will meine Freundin anrufen."
+          ]
+        },
+        {
+          "letra": "F",
+          "enunciado": "Vocês não precisam esperar.",
+          "respostas_possiveis": [
+            "Ihr müsst nicht warten."
+          ]
+        },
+        {
+          "letra": "G",
+          "enunciado": "Não se pode fumar neste quarto.",
+          "respostas_possiveis": [
+            "Man darf in diesem Zimmer nicht rauchen."
+          ]
+        },
+        {
+          "letra": "H",
+          "enunciado": "Ela teve que levantar cedo.",
+          "respostas_possiveis": [
+            "Sie musste früh aufstehen."
+          ]
+        },
+        {
+          "letra": "I",
+          "enunciado": "Nós queríamos viajar para a Alemanha.",
+          "respostas_possiveis": [
+            "Wir wollten nach Deutschland reisen."
+          ]
+        },
+        {
+          "letra": "J",
+          "enunciado": "Você poderia me mostrar o caminho?",
+          "respostas_possiveis": [
+            "Könntest du mir den Weg zeigen?"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ex107": {
+      "tipo": "montar_frase",
+      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
+      "itens": [
+        {
+          "letra": "A",
+          "enunciado": "Ich kann heute länger bleiben.",
+          "resposta": "Ich kann heute länger bleiben.",
+          "resposta_portugues": "Eu posso ficar mais tempo hoje."
+        },
+        {
+          "letra": "B",
+          "enunciado": "Du musst deine Hausaufgaben machen.",
+          "resposta": "Du musst deine Hausaufgaben machen.",
+          "resposta_portugues": "Você precisa fazer sua tarefa de casa."
+        },
+        {
+          "letra": "C",
+          "enunciado": "Wir wollen am Samstag Freunde besuchen.",
+          "resposta": "Wir wollen am Samstag Freunde besuchen.",
+          "resposta_portugues": "Nós queremos visitar amigos no sábado."
+        },
+        {
+          "letra": "D",
+          "enunciado": "Sie möchte ein Glas Wasser trinken.",
+          "resposta": "Sie möchte ein Glas Wasser trinken.",
+          "resposta_portugues": "Ela gostaria de beber um copo de água."
+        },
+        {
+          "letra": "E",
+          "enunciado": "Ihr dürft im Garten spielen.",
+          "resposta": "Ihr dürft im Garten spielen.",
+          "resposta_portugues": "Vocês têm permissão para brincar no jardim."
+        },
+        {
+          "letra": "F",
+          "enunciado": "Er soll seiner Mutter helfen.",
+          "resposta": "Er soll seiner Mutter helfen.",
+          "resposta_portugues": "Ele deve ajudar a mãe dele."
+        },
+        {
+          "letra": "G",
+          "enunciado": "Die Kinder können schon lesen.",
+          "resposta": "Die Kinder können schon lesen.",
+          "resposta_portugues": "As crianças já sabem ler."
+        },
+        {
+          "letra": "H",
+          "enunciado": "Ich musste gestern lange arbeiten.",
+          "resposta": "Ich musste gestern lange arbeiten.",
+          "resposta_portugues": "Eu tive que trabalhar muito tempo ontem."
+        },
+        {
+          "letra": "I",
+          "enunciado": "Wir konnten den Zug nicht nehmen.",
+          "resposta": "Wir konnten den Zug nicht nehmen.",
+          "resposta_portugues": "Nós não conseguimos pegar o trem."
+        },
+        {
+          "letra": "J",
+          "enunciado": "Darf ich hier sitzen?",
+          "resposta": "Darf ich hier sitzen?",
+          "resposta_portugues": "Posso me sentar aqui?"
+        }
+      ]
+    }
+  },
+  {
+    "ex108": {
+      "tipo": "montar_frase",
+      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
+      "itens": [
+        {
+          "letra": "A",
+          "enunciado": "Meine Schwester will in Hamburg studieren.",
+          "resposta": "Meine Schwester will in Hamburg studieren.",
+          "resposta_portugues": "Minha irmã quer estudar em Hamburgo."
+        },
+        {
+          "letra": "B",
+          "enunciado": "Du solltest mehr schlafen.",
+          "resposta": "Du solltest mehr schlafen.",
+          "resposta_portugues": "Você deveria dormir mais."
+        },
+        {
+          "letra": "C",
+          "enunciado": "Wir müssen morgen früh einkaufen.",
+          "resposta": "Wir müssen morgen früh einkaufen.",
+          "resposta_portugues": "Nós precisamos fazer compras amanhã cedo."
+        },
+        {
+          "letra": "D",
+          "enunciado": "Er darf heute länger fernsehen.",
+          "resposta": "Er darf heute länger fernsehen.",
+          "resposta_portugues": "Ele tem permissão para assistir mais televisão hoje."
+        },
+        {
+          "letra": "E",
+          "enunciado": "Ich möchte Deutsch besser sprechen.",
+          "resposta": "Ich möchte Deutsch besser sprechen.",
+          "resposta_portugues": "Eu gostaria de falar alemão melhor."
+        },
+        {
+          "letra": "F",
+          "enunciado": "Könnt ihr mir bitte helfen?",
+          "resposta": "Könnt ihr mir bitte helfen?",
+          "resposta_portugues": "Vocês podem me ajudar, por favor?"
+        },
+        {
+          "letra": "G",
+          "enunciado": "Die Gäste sollen draußen warten.",
+          "resposta": "Die Gäste sollen draußen warten.",
+          "resposta_portugues": "Os convidados devem esperar lá fora."
+        },
+        {
+          "letra": "H",
+          "enunciado": "Sie wollte ein neues Fahrrad kaufen.",
+          "resposta": "Sie wollte ein neues Fahrrad kaufen.",
+          "resposta_portugues": "Ela queria comprar uma bicicleta nova."
+        },
+        {
+          "letra": "I",
+          "enunciado": "Ich durfte als Kind allein spielen.",
+          "resposta": "Ich durfte als Kind allein spielen.",
+          "resposta_portugues": "Quando criança, eu tinha permissão para brincar sozinho."
+        },
+        {
+          "letra": "J",
+          "enunciado": "Warum musst du heute so früh gehen?",
+          "resposta": "Warum musst du heute so früh gehen?",
+          "resposta_portugues": "Por que você precisa ir tão cedo hoje?"
+        }
+      ]
+    }
+  },
+  {
+    "ex109": {
+      "tipo": "montar_frase",
+      "enunciado": "Monte a frase em alemão com as palavras embaralhadas.",
+      "itens": [
+        {
+          "letra": "A",
+          "enunciado": "Wir möchten am Wochenende ans Meer fahren.",
+          "resposta": "Wir möchten am Wochenende ans Meer fahren.",
+          "resposta_portugues": "Nós gostaríamos de ir ao mar no fim de semana."
+        },
+        {
+          "letra": "B",
+          "enunciado": "Er kann sehr gut Klavier spielen.",
+          "resposta": "Er kann sehr gut Klavier spielen.",
+          "resposta_portugues": "Ele sabe tocar piano muito bem."
+        },
+        {
+          "letra": "C",
+          "enunciado": "Du darfst dein Handy hier benutzen.",
+          "resposta": "Du darfst dein Handy hier benutzen.",
+          "resposta_portugues": "Você tem permissão para usar seu celular aqui."
+        },
+        {
+          "letra": "D",
+          "enunciado": "Die Ärztin muss heute viele Patienten untersuchen.",
+          "resposta": "Die Ärztin muss heute viele Patienten untersuchen.",
+          "resposta_portugues": "A médica precisa examinar muitos pacientes hoje."
+        },
+        {
+          "letra": "E",
+          "enunciado": "Ich will heute Abend einen Film sehen.",
+          "resposta": "Ich will heute Abend einen Film sehen.",
+          "resposta_portugues": "Eu quero assistir a um filme hoje à noite."
+        },
+        {
+          "letra": "F",
+          "enunciado": "Ihr sollt die Fenster schließen.",
+          "resposta": "Ihr sollt die Fenster schließen.",
+          "resposta_portugues": "Vocês devem fechar as janelas."
+        },
+        {
+          "letra": "G",
+          "enunciado": "Sie konnte wegen des Regens nicht kommen.",
+          "resposta": "Sie konnte wegen des Regens nicht kommen.",
+          "resposta_portugues": "Ela não conseguiu vir por causa da chuva."
+        },
+        {
+          "letra": "H",
+          "enunciado": "Wir haben länger arbeiten müssen.",
+          "resposta": "Wir haben länger arbeiten müssen.",
+          "resposta_portugues": "Nós tivemos que trabalhar por mais tempo."
+        },
+        {
+          "letra": "I",
+          "enunciado": "Kannst du das bitte wiederholen?",
+          "resposta": "Kannst du das bitte wiederholen?",
+          "resposta_portugues": "Você pode repetir isso, por favor?"
+        },
+        {
+          "letra": "J",
+          "enunciado": "Möchten Sie noch etwas bestellen?",
+          "resposta": "Möchten Sie noch etwas bestellen?",
+          "resposta_portugues": "O senhor / a senhora gostaria de pedir mais alguma coisa?"
         }
       ]
     }

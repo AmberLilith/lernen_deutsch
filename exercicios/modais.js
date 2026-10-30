@@ -104,6 +104,7 @@ function atualizarStatus(card,exercicio,s){
   resposta.textContent=s.gabaritoVisivel?textoGabarito(exercicio):"";
 }
 function renderizarMultiplasEscolhas(card,exercicio,s){
+  s.alternativas=embaralhar(exercicio.alternativas||[]);
   const opcoes=el("div","modal-choice-list");
   s.alternativas.forEach(alternativa=>{
     const label=el("label","modal-choice");
@@ -133,6 +134,9 @@ function renderizarLetras(card,exercicio,s){
   });
 }
 function renderizarRelacionar(card,exercicio,s){
+  s.origens=embaralhar((exercicio.alternativas||[]).map((texto,indice)=>({indice,texto})));
+  s.destinos=embaralhar((exercicio.respostas||[]).map((texto,indice)=>({indice,texto})));
+  s.origemSelecionada=null;
   const layout=el("div","matching-layout");
   const colunaA=el("div","matching-column"),colunaB=el("div","matching-column");
   colunaA.appendChild(el("h3","","Arraste uma opção"));
@@ -191,6 +195,7 @@ function renderizarRelacionar(card,exercicio,s){
   }
 }
 function renderizarMontarFrase(card,exercicio,s){
+  s.palavras=embaralhar(tokenizar((exercicio.resposta||[])[0]).map((texto,indice)=>({indice,texto})));
   card.appendChild(el("p","sentence-translation",exercicio.resposta_portugues||""));
   const banco=el("div","sentence-bank"),montada=el("div","sentence-built");
   card.append(el("strong","sentence-label","Palavras disponíveis"),banco);

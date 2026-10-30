@@ -1218,7 +1218,7 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex078": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Du ___ nicht mitkommen, wenn du müde bist. (possibilidade)",
+      "enunciado": "Du ___ mitkommen, wenn du möchtest. (possibilidade)",
       "alternativas": [
         "musst",
         "kannst",
@@ -1226,7 +1226,7 @@ window.EXERCICIOS_MODAIS = [
         "willst"
       ],
       "respostas_possiveis": [
-        "musst"
+        "kannst"
       ]
     }
   },

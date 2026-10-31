@@ -331,7 +331,7 @@ window.EXERCICIOS_MODAIS = [
         "lädt ... ein"
       ],
       "respostas_possiveis": [
-        "lädtein"
+        "einlädt"
       ],
       "justificativa": "Na oração subordinada, o verbo separável fica unido e conjugado no final."
     }
@@ -347,7 +347,7 @@ window.EXERCICIOS_MODAIS = [
         "wachen ... auf"
       ],
       "respostas_possiveis": [
-        "wachenauf"
+        "aufwachen"
       ],
       "justificativa": "Na oração subordinada, o verbo separável fica unido e conjugado no final."
     }
@@ -363,7 +363,7 @@ window.EXERCICIOS_MODAIS = [
         "fahrt ... los"
       ],
       "respostas_possiveis": [
-        "fahrtlos"
+        "losfahrt"
       ],
       "justificativa": "Na oração subordinada, o verbo separável fica unido e conjugado no final."
     }
@@ -379,7 +379,7 @@ window.EXERCICIOS_MODAIS = [
         "kommen ... zurück"
       ],
       "respostas_possiveis": [
-        "kommenzurück"
+        "zurückkommen"
       ],
       "justificativa": "Na oração subordinada, o verbo separável fica unido e conjugado no final."
     }
@@ -395,7 +395,7 @@ window.EXERCICIOS_MODAIS = [
         "stehe ... auf"
       ],
       "respostas_possiveis": [
-        "steheauf"
+        "aufstehe"
       ],
       "justificativa": "Na oração subordinada, o verbo separável fica unido e conjugado no final."
     }
@@ -411,7 +411,7 @@ window.EXERCICIOS_MODAIS = [
         "rufst ... an"
       ],
       "respostas_possiveis": [
-        "rufstan"
+        "anrufst"
       ],
       "justificativa": "Na oração subordinada, o verbo separável fica unido e conjugado no final."
     }
@@ -427,7 +427,7 @@ window.EXERCICIOS_MODAIS = [
         "kauft ... ein"
       ],
       "respostas_possiveis": [
-        "kauftein"
+        "einkauft"
       ],
       "justificativa": "Na oração subordinada, o verbo separável fica unido e conjugado no final."
     }
@@ -443,7 +443,7 @@ window.EXERCICIOS_MODAIS = [
         "kommen ... mit"
       ],
       "respostas_possiveis": [
-        "kommenmit"
+        "mitkommen"
       ],
       "justificativa": "Na oração subordinada, o verbo separável fica unido e conjugado no final."
     }
@@ -459,7 +459,7 @@ window.EXERCICIOS_MODAIS = [
         "seht ... fern"
       ],
       "respostas_possiveis": [
-        "sehtfern"
+        "fernseht"
       ],
       "justificativa": "Na oração subordinada, o verbo separável fica unido e conjugado no final."
     }
@@ -475,7 +475,7 @@ window.EXERCICIOS_MODAIS = [
         "machen ... auf"
       ],
       "respostas_possiveis": [
-        "machenauf"
+        "aufmachen"
       ],
       "justificativa": "Na oração subordinada, o verbo separável fica unido e conjugado no final."
     }

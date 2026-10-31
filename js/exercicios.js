@@ -23,15 +23,15 @@ export const exercicios = [
       { arquivo: "presente-regulares.html", titulo: "Presente regular", detalhe: "200 exercícios" },
       { arquivo: "presente-irregulares.html", titulo: "Presente irregular", detalhe: "200 exercícios" },
       { arquivo: "modais.html", titulo: "Verbos modais", detalhe: "Prática de verbos modais" },
-      { arquivo: "separaveis.html", titulo: "Verbos separáveis", detalhe: "Prática de verbos separáveis" },
-      { arquivo: "perfekt.html", titulo: "Perfekt", detalhe: "5 itens" },
+      { arquivo: "separaveis.html", titulo: "Verbos separáveis", detalhe: "200 exercícios" },
+      { arquivo: "perfekt.html", titulo: "Perfekt", detalhe: "200 exercícios" },
       { arquivo: "vocabulario_verbos/vocabulario_verbos.html", titulo: "Vocabulário de verbos", detalhe: "Pesquisa e conjugação" }
     ]
   },
   {
     tema: "Adjetivos",
     itens: [
-      { arquivo: "adjetivos.html", titulo: "Adjetivos", detalhe: "4 itens" },
+      { arquivo: "adjetivos.html", titulo: "Adjetivos", detalhe: "200 exercícios" },
       { arquivo: "adjetivos-extras.html", titulo: "Adjetivos extras", detalhe: "30 traduções" },
       { arquivo: "indefinidos-plural.html", titulo: "Indefinidos no plural", detalhe: "Prática de indefinidos" }
     ]

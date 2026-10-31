@@ -827,13 +827,13 @@ window.EXERCICIOS_MODAIS = [
         "du",
         "er",
         "sie (ela)",
-        "es"
+        "wir"
       ],
       "respostas": [
         "dir",
         "ihm",
         "ihr",
-        "ihm"
+        "uns"
       ],
       "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
     }
@@ -845,14 +845,14 @@ window.EXERCICIOS_MODAIS = [
       "alternativas": [
         "er",
         "sie (ela)",
-        "es",
-        "wir"
+        "wir",
+        "ihr"
       ],
       "respostas": [
         "ihn",
         "sie",
-        "es",
-        "uns"
+        "uns",
+        "euch"
       ],
       "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
     }
@@ -863,15 +863,15 @@ window.EXERCICIOS_MODAIS = [
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
       "alternativas": [
         "sie (ela)",
-        "es",
         "wir",
-        "ihr"
+        "ihr",
+        "sie (plural)"
       ],
       "respostas": [
         "ihr",
-        "ihm",
         "uns",
-        "euch"
+        "euch",
+        "ihnen"
       ],
       "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
     }
@@ -881,52 +881,14 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
       "alternativas": [
-        "es",
         "wir",
         "ihr",
-        "sie (plural)"
-      ],
-      "respostas": [
-        "es",
-        "uns",
-        "euch",
-        "sie"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex056": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "wir",
-        "ihr",
-        "sie (plural)",
-        "Sie (formal)"
-      ],
-      "respostas": [
-        "uns",
-        "euch",
-        "ihnen",
-        "Ihnen"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex057": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "ihr",
-        "sie (plural)",
         "Sie (formal)",
         "ich"
       ],
       "respostas": [
+        "uns",
         "euch",
-        "sie",
         "Sie",
         "mich"
       ],
@@ -934,159 +896,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "ex058": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "sie (plural)",
-        "Sie (formal)",
-        "ich",
-        "du"
-      ],
-      "respostas": [
-        "ihnen",
-        "Ihnen",
-        "mir",
-        "dir"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex059": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "Sie (formal)",
-        "ich",
-        "du",
-        "er"
-      ],
-      "respostas": [
-        "Sie",
-        "mich",
-        "dich",
-        "ihn"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex060": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "ich",
-        "du",
-        "er",
-        "sie (ela)"
-      ],
-      "respostas": [
-        "mir",
-        "dir",
-        "ihm",
-        "ihr"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex061": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "du",
-        "er",
-        "sie (ela)",
-        "es"
-      ],
-      "respostas": [
-        "dich",
-        "ihn",
-        "sie",
-        "es"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex062": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "er",
-        "sie (ela)",
-        "es",
-        "wir"
-      ],
-      "respostas": [
-        "ihm",
-        "ihr",
-        "ihm",
-        "uns"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex063": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "sie (ela)",
-        "es",
-        "wir",
-        "ihr"
-      ],
-      "respostas": [
-        "sie",
-        "es",
-        "uns",
-        "euch"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex064": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "es",
-        "wir",
-        "ihr",
-        "sie (plural)"
-      ],
-      "respostas": [
-        "ihm",
-        "uns",
-        "euch",
-        "ihnen"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex065": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "wir",
-        "ihr",
-        "sie (plural)",
-        "Sie (formal)"
-      ],
-      "respostas": [
-        "uns",
-        "euch",
-        "sie",
-        "Sie"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex066": {
+    "ex056": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
       "alternativas": [
@@ -1105,197 +915,7 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "ex067": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "sie (plural)",
-        "Sie (formal)",
-        "ich",
-        "du"
-      ],
-      "respostas": [
-        "sie",
-        "Sie",
-        "mich",
-        "dich"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex068": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "Sie (formal)",
-        "ich",
-        "du",
-        "er"
-      ],
-      "respostas": [
-        "Ihnen",
-        "mir",
-        "dir",
-        "ihm"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex069": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "ich",
-        "du",
-        "er",
-        "sie (ela)"
-      ],
-      "respostas": [
-        "mich",
-        "dich",
-        "ihn",
-        "sie"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex070": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "du",
-        "er",
-        "sie (ela)",
-        "es"
-      ],
-      "respostas": [
-        "dir",
-        "ihm",
-        "ihr",
-        "ihm"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex071": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "er",
-        "sie (ela)",
-        "es",
-        "wir"
-      ],
-      "respostas": [
-        "ihn",
-        "sie",
-        "es",
-        "uns"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex072": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "sie (ela)",
-        "es",
-        "wir",
-        "ihr"
-      ],
-      "respostas": [
-        "ihr",
-        "ihm",
-        "uns",
-        "euch"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex073": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "es",
-        "wir",
-        "ihr",
-        "sie (plural)"
-      ],
-      "respostas": [
-        "es",
-        "uns",
-        "euch",
-        "sie"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex074": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "wir",
-        "ihr",
-        "sie (plural)",
-        "Sie (formal)"
-      ],
-      "respostas": [
-        "uns",
-        "euch",
-        "ihnen",
-        "Ihnen"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex075": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "ihr",
-        "sie (plural)",
-        "Sie (formal)",
-        "ich"
-      ],
-      "respostas": [
-        "euch",
-        "sie",
-        "Sie",
-        "mich"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex076": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "sie (plural)",
-        "Sie (formal)",
-        "ich",
-        "du"
-      ],
-      "respostas": [
-        "ihnen",
-        "Ihnen",
-        "mir",
-        "dir"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex077": {
+    "ex057": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
       "alternativas": [
@@ -1314,9 +934,142 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "ex078": {
+    "ex058": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "Sie (formal)",
+        "ich",
+        "du",
+        "er"
+      ],
+      "respostas": [
+        "Ihnen",
+        "mir",
+        "dir",
+        "ihm"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex059": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "du",
+        "er",
+        "sie (ela)",
+        "wir"
+      ],
+      "respostas": [
+        "dich",
+        "ihn",
+        "sie",
+        "uns"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex060": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "du",
+        "er",
+        "sie (ela)",
+        "wir"
+      ],
+      "respostas": [
+        "dir",
+        "ihm",
+        "ihr",
+        "uns"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex061": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "sie (ela)",
+        "wir",
+        "ihr",
+        "Sie (formal)"
+      ],
+      "respostas": [
+        "sie",
+        "uns",
+        "euch",
+        "Sie"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex062": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "sie (ela)",
+        "wir",
+        "ihr",
+        "sie (plural)"
+      ],
+      "respostas": [
+        "ihr",
+        "uns",
+        "euch",
+        "ihnen"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex063": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "ihr",
+        "Sie (formal)",
+        "ich",
+        "du"
+      ],
+      "respostas": [
+        "euch",
+        "Sie",
+        "mich",
+        "dich"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex064": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "ihr",
+        "sie (plural)",
+        "Sie (formal)",
+        "ich"
+      ],
+      "respostas": [
+        "euch",
+        "ihnen",
+        "Ihnen",
+        "mir"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex065": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
       "alternativas": [
         "ich",
         "du",
@@ -1324,10 +1077,257 @@ window.EXERCICIOS_MODAIS = [
         "sie (ela)"
       ],
       "respostas": [
+        "mich",
+        "dich",
+        "ihn",
+        "sie"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex066": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "Sie (formal)",
+        "ich",
+        "du",
+        "er"
+      ],
+      "respostas": [
+        "Ihnen",
         "mir",
         "dir",
-        "ihm",
+        "ihm"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex067": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "er",
+        "sie (ela)",
+        "wir",
         "ihr"
+      ],
+      "respostas": [
+        "ihn",
+        "sie",
+        "uns",
+        "euch"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex068": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "du",
+        "er",
+        "sie (ela)",
+        "wir"
+      ],
+      "respostas": [
+        "dir",
+        "ihm",
+        "ihr",
+        "uns"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex069": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "wir",
+        "ihr",
+        "Sie (formal)",
+        "ich"
+      ],
+      "respostas": [
+        "uns",
+        "euch",
+        "Sie",
+        "mich"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex070": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "sie (ela)",
+        "wir",
+        "ihr",
+        "sie (plural)"
+      ],
+      "respostas": [
+        "ihr",
+        "uns",
+        "euch",
+        "ihnen"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex071": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "Sie (formal)",
+        "ich",
+        "du",
+        "er"
+      ],
+      "respostas": [
+        "Sie",
+        "mich",
+        "dich",
+        "ihn"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex072": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "ihr",
+        "sie (plural)",
+        "Sie (formal)",
+        "ich"
+      ],
+      "respostas": [
+        "euch",
+        "ihnen",
+        "Ihnen",
+        "mir"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex073": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "du",
+        "er",
+        "sie (ela)",
+        "wir"
+      ],
+      "respostas": [
+        "dich",
+        "ihn",
+        "sie",
+        "uns"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex074": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "Sie (formal)",
+        "ich",
+        "du",
+        "er"
+      ],
+      "respostas": [
+        "Ihnen",
+        "mir",
+        "dir",
+        "ihm"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex075": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "sie (ela)",
+        "wir",
+        "ihr",
+        "Sie (formal)"
+      ],
+      "respostas": [
+        "sie",
+        "uns",
+        "euch",
+        "Sie"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex076": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "du",
+        "er",
+        "sie (ela)",
+        "wir"
+      ],
+      "respostas": [
+        "dir",
+        "ihm",
+        "ihr",
+        "uns"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex077": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "ihr",
+        "Sie (formal)",
+        "ich",
+        "du"
+      ],
+      "respostas": [
+        "euch",
+        "Sie",
+        "mich",
+        "dich"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex078": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "sie (ela)",
+        "wir",
+        "ihr",
+        "sie (plural)"
+      ],
+      "respostas": [
+        "ihr",
+        "uns",
+        "euch",
+        "ihnen"
       ],
       "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
     }
@@ -1337,16 +1337,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
       "alternativas": [
+        "ich",
         "du",
         "er",
-        "sie (ela)",
-        "es"
+        "sie (ela)"
       ],
       "respostas": [
+        "mich",
         "dich",
         "ihn",
-        "sie",
-        "es"
+        "sie"
       ],
       "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
     }
@@ -1356,16 +1356,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
       "alternativas": [
-        "er",
-        "sie (ela)",
-        "es",
-        "wir"
+        "ihr",
+        "sie (plural)",
+        "Sie (formal)",
+        "ich"
       ],
       "respostas": [
-        "ihm",
-        "ihr",
-        "ihm",
-        "uns"
+        "euch",
+        "ihnen",
+        "Ihnen",
+        "mir"
       ],
       "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
     }
@@ -1375,14 +1375,14 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
       "alternativas": [
+        "er",
         "sie (ela)",
-        "es",
         "wir",
         "ihr"
       ],
       "respostas": [
+        "ihn",
         "sie",
-        "es",
         "uns",
         "euch"
       ],
@@ -1394,82 +1394,6 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
       "alternativas": [
-        "es",
-        "wir",
-        "ihr",
-        "sie (plural)"
-      ],
-      "respostas": [
-        "ihm",
-        "uns",
-        "euch",
-        "ihnen"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex083": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "wir",
-        "ihr",
-        "sie (plural)",
-        "Sie (formal)"
-      ],
-      "respostas": [
-        "uns",
-        "euch",
-        "sie",
-        "Sie"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex084": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "ihr",
-        "sie (plural)",
-        "Sie (formal)",
-        "ich"
-      ],
-      "respostas": [
-        "euch",
-        "ihnen",
-        "Ihnen",
-        "mir"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex085": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "sie (plural)",
-        "Sie (formal)",
-        "ich",
-        "du"
-      ],
-      "respostas": [
-        "sie",
-        "Sie",
-        "mich",
-        "dich"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex086": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
         "Sie (formal)",
         "ich",
         "du",
@@ -1485,132 +1409,18 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "ex087": {
+    "ex083": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "ich",
-        "du",
-        "er",
-        "sie (ela)"
-      ],
-      "respostas": [
-        "mich",
-        "dich",
-        "ihn",
-        "sie"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex088": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "du",
-        "er",
-        "sie (ela)",
-        "es"
-      ],
-      "respostas": [
-        "dir",
-        "ihm",
-        "ihr",
-        "ihm"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex089": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "er",
-        "sie (ela)",
-        "es",
-        "wir"
-      ],
-      "respostas": [
-        "ihn",
-        "sie",
-        "es",
-        "uns"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex090": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
-      "alternativas": [
-        "sie (ela)",
-        "es",
-        "wir",
-        "ihr"
-      ],
-      "respostas": [
-        "ihr",
-        "ihm",
-        "uns",
-        "euch"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex091": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "es",
-        "wir",
-        "ihr",
-        "sie (plural)"
-      ],
-      "respostas": [
-        "es",
-        "uns",
-        "euch",
-        "sie"
-      ],
-      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
-    }
-  },
-  {
-    "ex092": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
       "alternativas": [
         "wir",
         "ihr",
-        "sie (plural)",
-        "Sie (formal)"
-      ],
-      "respostas": [
-        "uns",
-        "euch",
-        "ihnen",
-        "Ihnen"
-      ],
-      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
-    }
-  },
-  {
-    "ex093": {
-      "tipo": "relacionar",
-      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
-      "alternativas": [
-        "ihr",
-        "sie (plural)",
         "Sie (formal)",
         "ich"
       ],
       "respostas": [
+        "uns",
         "euch",
-        "sie",
         "Sie",
         "mich"
       ],
@@ -1618,26 +1428,26 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "ex094": {
+    "ex084": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
       "alternativas": [
-        "sie (plural)",
-        "Sie (formal)",
-        "ich",
-        "du"
+        "du",
+        "er",
+        "sie (ela)",
+        "wir"
       ],
       "respostas": [
-        "ihnen",
-        "Ihnen",
-        "mir",
-        "dir"
+        "dir",
+        "ihm",
+        "ihr",
+        "uns"
       ],
       "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
     }
   },
   {
-    "ex095": {
+    "ex085": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
       "alternativas": [
@@ -1656,9 +1466,142 @@ window.EXERCICIOS_MODAIS = [
     }
   },
   {
-    "ex096": {
+    "ex086": {
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "sie (ela)",
+        "wir",
+        "ihr",
+        "sie (plural)"
+      ],
+      "respostas": [
+        "ihr",
+        "uns",
+        "euch",
+        "ihnen"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex087": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "du",
+        "er",
+        "sie (ela)",
+        "wir"
+      ],
+      "respostas": [
+        "dich",
+        "ihn",
+        "sie",
+        "uns"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex088": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "ihr",
+        "sie (plural)",
+        "Sie (formal)",
+        "ich"
+      ],
+      "respostas": [
+        "euch",
+        "ihnen",
+        "Ihnen",
+        "mir"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex089": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "sie (ela)",
+        "wir",
+        "ihr",
+        "Sie (formal)"
+      ],
+      "respostas": [
+        "sie",
+        "uns",
+        "euch",
+        "Sie"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex090": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "Sie (formal)",
+        "ich",
+        "du",
+        "er"
+      ],
+      "respostas": [
+        "Ihnen",
+        "mir",
+        "dir",
+        "ihm"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex091": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "ihr",
+        "Sie (formal)",
+        "ich",
+        "du"
+      ],
+      "respostas": [
+        "euch",
+        "Sie",
+        "mich",
+        "dich"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex092": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "du",
+        "er",
+        "sie (ela)",
+        "wir"
+      ],
+      "respostas": [
+        "dir",
+        "ihm",
+        "ihr",
+        "uns"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex093": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
       "alternativas": [
         "ich",
         "du",
@@ -1666,10 +1609,67 @@ window.EXERCICIOS_MODAIS = [
         "sie (ela)"
       ],
       "respostas": [
-        "mir",
-        "dir",
-        "ihm",
+        "mich",
+        "dich",
+        "ihn",
+        "sie"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex094": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "sie (ela)",
+        "wir",
+        "ihr",
+        "sie (plural)"
+      ],
+      "respostas": [
+        "ihr",
+        "uns",
+        "euch",
+        "ihnen"
+      ],
+      "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+    }
+  },
+  {
+    "ex095": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
+      "alternativas": [
+        "er",
+        "sie (ela)",
+        "wir",
         "ihr"
+      ],
+      "respostas": [
+        "ihn",
+        "sie",
+        "uns",
+        "euch"
+      ],
+      "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
+    }
+  },
+  {
+    "ex096": {
+      "tipo": "relacionar",
+      "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
+      "alternativas": [
+        "ihr",
+        "sie (plural)",
+        "Sie (formal)",
+        "ich"
+      ],
+      "respostas": [
+        "euch",
+        "ihnen",
+        "Ihnen",
+        "mir"
       ],
       "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
     }
@@ -1679,16 +1679,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
       "alternativas": [
-        "du",
-        "er",
-        "sie (ela)",
-        "es"
+        "wir",
+        "ihr",
+        "Sie (formal)",
+        "ich"
       ],
       "respostas": [
-        "dich",
-        "ihn",
-        "sie",
-        "es"
+        "uns",
+        "euch",
+        "Sie",
+        "mich"
       ],
       "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
     }
@@ -1698,16 +1698,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
       "alternativas": [
-        "er",
-        "sie (ela)",
-        "es",
-        "wir"
+        "Sie (formal)",
+        "ich",
+        "du",
+        "er"
       ],
       "respostas": [
-        "ihm",
-        "ihr",
-        "ihm",
-        "uns"
+        "Ihnen",
+        "mir",
+        "dir",
+        "ihm"
       ],
       "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
     }
@@ -1717,16 +1717,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Akkusativ.",
       "alternativas": [
-        "sie (ela)",
-        "es",
-        "wir",
-        "ihr"
+        "Sie (formal)",
+        "ich",
+        "du",
+        "er"
       ],
       "respostas": [
-        "sie",
-        "es",
-        "uns",
-        "euch"
+        "Sie",
+        "mich",
+        "dich",
+        "ihn"
       ],
       "justificativa": "No Akkusativ, os pronomes mudam de forma: mich, dich, ihn, sie, es, uns, euch, sie, Sie."
     }
@@ -1736,16 +1736,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada forma do sujeito à forma correspondente no Dativ.",
       "alternativas": [
-        "es",
-        "wir",
-        "ihr",
-        "sie (plural)"
+        "du",
+        "er",
+        "sie (ela)",
+        "wir"
       ],
       "respostas": [
+        "dir",
         "ihm",
-        "uns",
-        "euch",
-        "ihnen"
+        "ihr",
+        "uns"
       ],
       "justificativa": "No Dativ, os pronomes mudam de forma: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
     }

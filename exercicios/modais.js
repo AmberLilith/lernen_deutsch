@@ -20,14 +20,15 @@ function tokens(frase){return String(frase||"").trim().split(/\s+/u).filter(Bool
 function novoItemState(item,tipo){const s={tentativas:0,acertou:false,gabaritoVisivel:false,feedback:"",verificou:false,entrada:"",frase:[]};if(tipo==="montar_frase")s.palavras=embaralhar(tokens(item.resposta).map((texto,indice)=>({indice,texto})));return s;}
 function novoEstado(ex){const s={tentativas:0,acertou:false,gabaritoVisivel:false,feedback:"",verificou:false};if(ex.tipo==="multiplas_escolhas"){s.alternativas=embaralhar(ex.alternativas||[]);s.selecionada="";}else if(ex.tipo==="relacionar"){s.pares={};s.origemSelecionada=null;s.origens=embaralhar((ex.alternativas||[]).map((texto,indice)=>({indice,texto})));s.destinos=embaralhar((ex.respostas||[]).map((texto,indice)=>({indice,texto})));}else{s.itens=itensDe(ex).map(item=>novoItemState(item,ex.tipo));}return s;}
 function estadoDe(ex){if(!estados.has(ex.id))estados.set(ex.id,novoEstado(ex));return estados.get(ex.id);}
-function atualizarStatus(area,s,answerText){
- const feedback=area.querySelector(".modal-exercise-feedback"),hint=area.querySelector(".modal-attempt-hint"),button=area.querySelector(".modal-reveal-button"),answer=area.querySelector(".modal-answer");
+function atualizarStatus(area,s,answerText,rationaleText=""){
+ const feedback=area.querySelector(".modal-exercise-feedback"),hint=area.querySelector(".modal-attempt-hint"),button=area.querySelector(".modal-reveal-button"),answer=area.querySelector(".modal-answer"),rationale=area.querySelector(".modal-rationale");
  feedback.textContent=s.feedback;feedback.classList.toggle("is-correct",s.verificou&&s.acertou);feedback.classList.toggle("is-wrong",s.verificou&&!s.acertou&&!!s.feedback);
  hint.hidden=s.tentativas===0||s.acertou||s.tentativas>=MIN_TENTATIVAS;
  const faltam=MIN_TENTATIVAS-s.tentativas;
  hint.textContent="Falta"+(faltam===1?"":"m")+" "+faltam+" tentativa"+(faltam===1?"":"s")+" para liberar o gabarito.";
  button.hidden=s.acertou||s.tentativas<MIN_TENTATIVAS;
  answer.hidden=!s.gabaritoVisivel;answer.textContent=s.gabaritoVisivel?answerText:"";
+ if(rationale){rationale.hidden=!(s.acertou||s.gabaritoVisivel);rationale.textContent=(s.acertou||s.gabaritoVisivel)&&rationaleText?"Justificativa: "+rationaleText:"";}
 }
 function respostaItem(item,tipo){if(tipo==="montar_frase")return item.resposta;return (item.respostas_possiveis||[]).join(" / ");}
 function criarAreaItem(card,item,s,tipo,indice){
@@ -48,9 +49,9 @@ function criarAreaItem(card,item,s,tipo,indice){
    input.addEventListener("input",()=>{s.entrada=input.value;if(!s.acertou){s.verificou=false;s.feedback="";}});
    area.append(input);
  }
- area.append(el("p","modal-exercise-feedback"),el("p","modal-attempt-hint"),el("button","secondary modal-reveal-button","Exibir resposta"),el("div","modal-answer"));
- const btn=area.querySelector(".modal-reveal-button");btn.type="button";btn.hidden=true;btn.addEventListener("click",()=>{s.gabaritoVisivel=true;atualizarStatus(area,s,respostaItem(item,tipo));});
- atualizarStatus(area,s,respostaItem(item,tipo));card.append(area);return area;
+ area.append(el("p","modal-exercise-feedback"),el("p","modal-attempt-hint"),el("p","modal-rationale"),el("button","secondary modal-reveal-button","Exibir resposta"),el("div","modal-answer"));
+ const btn=area.querySelector(".modal-reveal-button");btn.type="button";btn.hidden=true;btn.addEventListener("click",()=>{s.gabaritoVisivel=true;atualizarStatus(area,s,respostaItem(item,tipo),item.justificativa||"");});
+ atualizarStatus(area,s,respostaItem(item,tipo),item.justificativa||"");card.append(area);return area;
 }
 function criarMultipla(card,ex,s){
  const opcoes=el("div","modal-choice-list");s.alternativas=embaralhar(ex.alternativas||[]);
@@ -75,7 +76,7 @@ function criarCartao(ex,numero){
  else{const itens=itensDe(ex);itens.forEach((item,i)=>criarAreaItem(card,item,s.itens[i],ex.tipo,i));}
  if(ex.tipo==="multiplas_escolhas"||ex.tipo==="relacionar"){
    card.append(el("p","modal-exercise-feedback"),el("p","modal-attempt-hint"),el("button","secondary modal-reveal-button","Exibir resposta"),el("div","modal-answer"));
-   const btn=card.querySelector(".modal-reveal-button");btn.type="button";btn.hidden=true;btn.addEventListener("click",()=>{s.gabaritoVisivel=true;atualizarStatus(card,s,textoGabaritoPrincipal(ex));});atualizarStatus(card,s,textoGabaritoPrincipal(ex));
+   const btn=card.querySelector(".modal-reveal-button");btn.type="button";btn.hidden=true;btn.addEventListener("click",()=>{s.gabaritoVisivel=true;atualizarStatus(card,s,textoGabaritoPrincipal(ex),ex.justificativa||"");});atualizarStatus(card,s,textoGabaritoPrincipal(ex),ex.justificativa||"");
  }
  return card;
 }
@@ -86,10 +87,10 @@ function corrigirPagina(){
   if(ex.tipo==="multiplas_escolhas"||ex.tipo==="relacionar"){
    if(s.acertou){acertos++;respondidos++;return;}
    const tem=ex.tipo==="multiplas_escolhas"?!!s.selecionada:Object.keys(s.pares).length>0;
-   if(!tem){s.feedback="Responda a questão antes de corrigir.";s.verificou=false;atualizarStatus(card,s,textoGabaritoPrincipal(ex));return;}
-   s.tentativas++;s.verificou=true;s.acertou=respostaPrincipal(ex,s);s.feedback=s.acertou?"Resposta correta!":"Ainda não. Revise e tente novamente.";if(s.acertou)acertos++;respondidos++;atualizarStatus(card,s,textoGabaritoPrincipal(ex));
+   if(!tem){s.feedback="Responda a questão antes de corrigir.";s.verificou=false;atualizarStatus(card,s,textoGabaritoPrincipal(ex),ex.justificativa||"");return;}
+   s.tentativas++;s.verificou=true;s.acertou=respostaPrincipal(ex,s);s.feedback=s.acertou?"Resposta correta!":"Ainda não. Revise e tente novamente.";if(s.acertou)acertos++;respondidos++;atualizarStatus(card,s,textoGabaritoPrincipal(ex),ex.justificativa||"");
   }else{
-   const itens=itensDe(ex);itens.forEach((item,i)=>{const st=s.itens[i],area=card.querySelector('[data-item-index="'+i+'"]');if(st.acertou){acertos++;respondidos++;return;}if(!temRespostaItem(st,ex.tipo)){st.feedback="Responda o item antes de corrigir.";st.verificou=false;atualizarStatus(area,st,respostaItem(item,ex.tipo));return;}st.tentativas++;st.verificou=true;st.acertou=corretaItem(item,st,ex.tipo);st.feedback=st.acertou?"Resposta correta!":"Ainda não. Revise e tente novamente.";if(st.acertou)acertos++;respondidos++;atualizarStatus(area,st,respostaItem(item,ex.tipo));if(area._draw)area._draw();});
+   const itens=itensDe(ex);itens.forEach((item,i)=>{const st=s.itens[i],area=card.querySelector('[data-item-index="'+i+'"]');if(st.acertou){acertos++;respondidos++;return;}if(!temRespostaItem(st,ex.tipo)){st.feedback="Responda o item antes de corrigir.";st.verificou=false;atualizarStatus(area,st,respostaItem(item,ex.tipo),item.justificativa||"");return;}st.tentativas++;st.verificou=true;st.acertou=corretaItem(item,st,ex.tipo);st.feedback=st.acertou?"Resposta correta!":"Ainda não. Revise e tente novamente.";if(st.acertou)acertos++;respondidos++;atualizarStatus(area,st,respostaItem(item,ex.tipo),item.justificativa||"");if(area._draw)area._draw();});
   }
  });
  statusGeral.textContent="Nesta página: "+acertos+" acerto(s) · "+respondidos+" item(ns) respondido(s).";

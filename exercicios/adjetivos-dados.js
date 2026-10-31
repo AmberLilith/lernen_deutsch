@@ -643,17 +643,17 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex041": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete o adjetivo predicativo: Die Sache ist ___ (alt).",
+      "enunciado": "Complete o adjetivo predicativo: Der Mann ist ___ (alt).",
       "alternativas": [
-        "alt",
         "alte",
         "alten",
-        "alter"
+        "alter",
+        "alt"
       ],
       "respostas_possiveis": [
         "alt"
       ],
-      "justificativa": "Depois de um verbo de ligação, o adjetivo predicativo permanece na forma básica, sem declinação."
+      "justificativa": "Depois de sein, o adjetivo predicativo permanece na forma básica, sem declinação."
     }
   },
   {
@@ -661,143 +661,143 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "multiplas_escolhas",
       "enunciado": "Complete o adjetivo predicativo: Die Frau ist ___ (schön).",
       "alternativas": [
-        "schön",
         "schöne",
         "schönen",
-        "schöner"
+        "schöner",
+        "schön"
       ],
       "respostas_possiveis": [
         "schön"
       ],
-      "justificativa": "Depois de um verbo de ligação, o adjetivo predicativo permanece na forma básica, sem declinação."
+      "justificativa": "Depois de sein, o adjetivo predicativo permanece na forma básica, sem declinação."
     }
   },
   {
     "ex043": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete o adjetivo predicativo: Die Sache ist ___ (klein).",
+      "enunciado": "Complete o adjetivo predicativo: Das Kind ist ___ (klein).",
       "alternativas": [
-        "klein",
         "kleine",
         "kleinen",
-        "kleiner"
+        "kleiner",
+        "klein"
       ],
       "respostas_possiveis": [
         "klein"
       ],
-      "justificativa": "Depois de um verbo de ligação, o adjetivo predicativo permanece na forma básica, sem declinação."
+      "justificativa": "Depois de sein, o adjetivo predicativo permanece na forma básica, sem declinação."
     }
   },
   {
     "ex044": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete o adjetivo predicativo: Die Sache ist ___ (gut).",
+      "enunciado": "Complete o adjetivo predicativo: Der Freund ist ___ (gut).",
       "alternativas": [
-        "gut",
         "gute",
         "guten",
-        "guter"
+        "guter",
+        "gut"
       ],
       "respostas_possiveis": [
         "gut"
       ],
-      "justificativa": "Depois de um verbo de ligação, o adjetivo predicativo permanece na forma básica, sem declinação."
+      "justificativa": "Depois de sein, o adjetivo predicativo permanece na forma básica, sem declinação."
     }
   },
   {
     "ex045": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete o adjetivo predicativo: Die Sache ist ___ (neu).",
+      "enunciado": "Complete o adjetivo predicativo: Das Auto ist ___ (neu).",
       "alternativas": [
-        "neu",
         "neue",
         "neuen",
-        "neuer"
+        "neuer",
+        "neu"
       ],
       "respostas_possiveis": [
         "neu"
       ],
-      "justificativa": "Depois de um verbo de ligação, o adjetivo predicativo permanece na forma básica, sem declinação."
+      "justificativa": "Depois de sein, o adjetivo predicativo permanece na forma básica, sem declinação."
     }
   },
   {
     "ex046": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete o adjetivo predicativo: Die Sache ist ___ (jung).",
+      "enunciado": "Complete o adjetivo predicativo: Der Lehrer ist ___ (jung).",
       "alternativas": [
-        "jung",
         "junge",
         "jungen",
-        "junger"
+        "junger",
+        "jung"
       ],
       "respostas_possiveis": [
         "jung"
       ],
-      "justificativa": "Depois de um verbo de ligação, o adjetivo predicativo permanece na forma básica, sem declinação."
+      "justificativa": "Depois de sein, o adjetivo predicativo permanece na forma básica, sem declinação."
     }
   },
   {
     "ex047": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete o adjetivo predicativo: Die Sache ist ___ (kalt).",
+      "enunciado": "Complete o adjetivo predicativo: Das Wasser ist ___ (kalt).",
       "alternativas": [
-        "kalt",
         "kalte",
         "kalten",
-        "kalter"
+        "kalter",
+        "kalt"
       ],
       "respostas_possiveis": [
         "kalt"
       ],
-      "justificativa": "Depois de um verbo de ligação, o adjetivo predicativo permanece na forma básica, sem declinação."
+      "justificativa": "Depois de sein, o adjetivo predicativo permanece na forma básica, sem declinação."
     }
   },
   {
     "ex048": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete o adjetivo predicativo: Die Sache ist ___ (frisch).",
+      "enunciado": "Complete o adjetivo predicativo: Das Brot ist ___ (frisch).",
       "alternativas": [
-        "frisch",
         "frische",
         "frischen",
-        "frischer"
+        "frischer",
+        "frisch"
       ],
       "respostas_possiveis": [
         "frisch"
       ],
-      "justificativa": "Depois de um verbo de ligação, o adjetivo predicativo permanece na forma básica, sem declinação."
+      "justificativa": "Depois de sein, o adjetivo predicativo permanece na forma básica, sem declinação."
     }
   },
   {
     "ex049": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete o adjetivo predicativo: Die Sache ist ___ (interessant).",
+      "enunciado": "Complete o adjetivo predicativo: Das Buch ist ___ (interessant).",
       "alternativas": [
-        "interessant",
         "interessante",
         "interessanten",
-        "interessanter"
+        "interessanter",
+        "interessant"
       ],
       "respostas_possiveis": [
         "interessant"
       ],
-      "justificativa": "Depois de um verbo de ligação, o adjetivo predicativo permanece na forma básica, sem declinação."
+      "justificativa": "Depois de sein, o adjetivo predicativo permanece na forma básica, sem declinação."
     }
   },
   {
     "ex050": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete o adjetivo predicativo: Die Sache ist ___ (teuer).",
+      "enunciado": "Complete o adjetivo predicativo: Der Mantel ist ___ (teuer).",
       "alternativas": [
-        "teuer",
         "teuere",
         "teueren",
-        "teuerer"
+        "teuerer",
+        "teuer"
       ],
       "respostas_possiveis": [
         "teuer"
       ],
-      "justificativa": "Depois de um verbo de ligação, o adjetivo predicativo permanece na forma básica, sem declinação."
+      "justificativa": "Depois de sein, o adjetivo predicativo permanece na forma básica, sem declinação."
     }
   },
   {

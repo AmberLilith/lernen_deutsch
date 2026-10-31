@@ -843,16 +843,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "comer",
-        "ler",
-        "pegar",
-        "dormir"
+        "gegessen",
+        "gelesen",
+        "genommen",
+        "geschlafen"
       ],
       "respostas": [
-        "comer",
-        "ler",
-        "pegar",
-        "dormir"
+        "essen",
+        "lesen",
+        "nehmen",
+        "schlafen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -900,16 +900,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "pagar",
-        "telefonar",
-        "trazer",
-        "estar sentado"
+        "bezahlt",
+        "angerufen",
+        "gebracht",
+        "gesessen"
       ],
       "respostas": [
-        "pagar",
-        "telefonar",
-        "trazer",
-        "estar sentado"
+        "bezahlen",
+        "anrufen",
+        "bringen",
+        "sitzen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -957,16 +957,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "morar",
-        "ir",
-        "permanecer",
-        "beber"
+        "gewohnt",
+        "gegangen",
+        "geblieben",
+        "getrunken"
       ],
       "respostas": [
-        "morar",
-        "ir",
-        "permanecer",
-        "beber"
+        "wohnen",
+        "gehen",
+        "bleiben",
+        "trinken"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1014,16 +1014,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "telefonar",
-        "encontrar-se",
-        "entender",
-        "contar"
+        "angerufen",
+        "getroffen",
+        "verstanden",
+        "erzählt"
       ],
       "respostas": [
-        "telefonar",
-        "encontrar-se",
-        "entender",
-        "contar"
+        "anrufen",
+        "treffen",
+        "verstehen",
+        "erzählen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1071,16 +1071,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "voar",
-        "fazer",
-        "perguntar",
-        "cozinhar"
+        "geflogen",
+        "gemacht",
+        "gefragt",
+        "gekocht"
       ],
       "respostas": [
-        "voar",
-        "fazer",
-        "perguntar",
-        "cozinhar"
+        "fliegen",
+        "machen",
+        "fragen",
+        "kochen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1128,16 +1128,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "falar",
-        "encontrar",
-        "chegar",
-        "fazer compras"
+        "gesprochen",
+        "gefunden",
+        "angekommen",
+        "eingekauft"
       ],
       "respostas": [
-        "falar",
-        "encontrar",
-        "chegar",
-        "fazer compras"
+        "sprechen",
+        "finden",
+        "ankommen",
+        "einkaufen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1185,16 +1185,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "fechar",
-        "conhecer",
-        "tornar-se",
-        "nadar"
+        "geschlossen",
+        "gekannt",
+        "geworden",
+        "geschwommen"
       ],
       "respostas": [
-        "fechar",
-        "conhecer",
-        "tornar-se",
-        "nadar"
+        "schließen",
+        "kennen",
+        "werden",
+        "schwimmen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1242,16 +1242,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "ir de veículo",
-        "comer",
-        "ler",
-        "pegar"
+        "gefahren",
+        "gegessen",
+        "gelesen",
+        "genommen"
       ],
       "respostas": [
-        "ir de veículo",
-        "comer",
-        "ler",
-        "pegar"
+        "fahren",
+        "essen",
+        "lesen",
+        "nehmen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1299,16 +1299,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "começar",
-        "pagar",
-        "telefonar",
-        "trazer"
+        "begonnen",
+        "bezahlt",
+        "angerufen",
+        "gebracht"
       ],
       "respostas": [
-        "começar",
-        "pagar",
-        "telefonar",
-        "trazer"
+        "beginnen",
+        "bezahlen",
+        "anrufen",
+        "bringen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1356,16 +1356,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "comprar",
-        "morar",
-        "ir",
-        "permanecer"
+        "gekauft",
+        "gewohnt",
+        "gegangen",
+        "geblieben"
       ],
       "respostas": [
-        "comprar",
-        "morar",
-        "ir",
-        "permanecer"
+        "kaufen",
+        "wohnen",
+        "gehen",
+        "bleiben"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1413,16 +1413,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "correr",
-        "telefonar",
-        "encontrar-se",
-        "entender"
+        "gelaufen",
+        "angerufen",
+        "getroffen",
+        "verstanden"
       ],
       "respostas": [
-        "correr",
-        "telefonar",
-        "encontrar-se",
-        "entender"
+        "laufen",
+        "anrufen",
+        "treffen",
+        "verstehen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1470,16 +1470,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "estar em pé",
-        "voar",
-        "fazer",
-        "perguntar"
+        "gestanden",
+        "geflogen",
+        "gemacht",
+        "gefragt"
       ],
       "respostas": [
-        "estar em pé",
-        "voar",
-        "fazer",
-        "perguntar"
+        "stehen",
+        "fliegen",
+        "machen",
+        "fragen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1527,16 +1527,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "ver",
-        "falar",
-        "encontrar",
-        "chegar"
+        "gesehen",
+        "gesprochen",
+        "gefunden",
+        "angekommen"
       ],
       "respostas": [
-        "ver",
-        "falar",
-        "encontrar",
-        "chegar"
+        "sehen",
+        "sprechen",
+        "finden",
+        "ankommen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1584,16 +1584,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "estudar",
-        "fechar",
-        "conhecer",
-        "tornar-se"
+        "studiert",
+        "geschlossen",
+        "gekannt",
+        "geworden"
       ],
       "respostas": [
-        "estudar",
-        "fechar",
-        "conhecer",
-        "tornar-se"
+        "studieren",
+        "schließen",
+        "kennen",
+        "werden"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1641,16 +1641,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "viajar",
-        "ir de veículo",
-        "comer",
-        "ler"
+        "gereist",
+        "gefahren",
+        "gegessen",
+        "gelesen"
       ],
       "respostas": [
-        "viajar",
-        "ir de veículo",
-        "comer",
-        "ler"
+        "reisen",
+        "fahren",
+        "essen",
+        "lesen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1698,16 +1698,16 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "ajudar",
-        "começar",
-        "pagar",
-        "telefonar"
+        "geholfen",
+        "begonnen",
+        "bezahlt",
+        "angerufen"
       ],
       "respostas": [
-        "ajudar",
-        "começar",
-        "pagar",
-        "telefonar"
+        "helfen",
+        "beginnen",
+        "bezahlen",
+        "anrufen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }

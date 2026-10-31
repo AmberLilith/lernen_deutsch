@@ -1,4 +1,4 @@
-const CACHE_NAME = "lernen-deutsch-static-20261030-1";
+const CACHE_NAME = "lernen-deutsch-static-20261030-2";
 const ARQUIVOS = [
   "index.html",
   "manifest.webmanifest",
@@ -16,6 +16,7 @@ const ARQUIVOS = [
   "exercicios/adjetivos-extras/adjetivos-extras.html",
   "exercicios/adjetivos-extras/questions.js",
   "exercicios/adjetivos.html",
+  "exercicios/adjetivos-dados.js",
   "exercicios/artigos-definidos.html",
   "exercicios/artigos-indefinidos.html",
   "exercicios/casos.html",
@@ -32,11 +33,16 @@ const ARQUIVOS = [
   "exercicios/negacao.html",
   "exercicios/ordem-frase.html",
   "exercicios/perfekt.html",
+  "exercicios/perfekt-dados.js",
   "exercicios/preposicoes.html",
   "exercicios/presente-irregulares.html",
+  "exercicios/presente-irregulares-dados.js",
   "exercicios/presente-regulares.html",
+  "exercicios/presente-regulares-dados.js",
   "exercicios/pronomes-pessoais.html",
+  "exercicios/pronomes-pessoais-dados.js",
   "exercicios/separaveis.html",
+  "exercicios/separaveis-dados.js",
   "exercicios/sich-freuen-auf-ueber.html",
   "exercicios/subordinadas.html",
   "exercicios/vocabulario_substantivos/vocabulario_substantivos.css",

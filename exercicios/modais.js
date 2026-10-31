@@ -58,11 +58,20 @@ function criarMultipla(card,ex,s){
  s.alternativas.forEach(alternativa=>{const label=el("label","modal-choice"),input=document.createElement("input");input.type="radio";input.name="resposta-"+ex.id;input.value=alternativa;input.checked=s.selecionada===alternativa;input.addEventListener("change",()=>{if(s.acertou)return;s.selecionada=alternativa;s.verificou=false;s.feedback="";});label.append(input,el("span","",alternativa));opcoes.append(label);});card.append(opcoes);
 }
 function criarRelacionar(card,ex,s){
+ const reiniciar=el("button","secondary matching-reset","Reiniciar");reiniciar.type="button";reiniciar.addEventListener("click",()=>{
+  s.pares={};s.origemSelecionada=null;s.tentativas=0;s.acertou=false;s.gabaritoVisivel=false;s.verificou=false;s.feedback="";
+  atualizar();atualizarStatus(card,s,textoGabaritoPrincipal(ex),ex.justificativa||"");
+ });
+ card.append(reiniciar);
  const layout=el("div","matching-layout"),a=el("div","matching-column"),b=el("div","matching-column");a.append(el("h3","","Selecione uma opção"));b.append(el("h3","","Selecione o significado"));
- s.origens.forEach(o=>{const btn=el("button","match-source",o.texto);btn.type="button";btn.addEventListener("click",()=>{if(s.acertou)return;s.origemSelecionada=o.indice;atualizar();});a.append(btn);});
- s.destinos.forEach(d=>{const btn=el("button","match-target",d.texto);btn.type="button";btn.addEventListener("click",()=>{if(s.acertou||s.origemSelecionada===null)return;s.pares[d.indice]=s.origemSelecionada;s.origemSelecionada=null;s.verificou=false;s.feedback="";atualizar();});b.append(btn);});
+ s.origens.forEach(o=>{const btn=el("button","match-source",o.texto);btn.type="button";btn.addEventListener("click",()=>{if(s.acertou||Object.values(s.pares).includes(o.indice))return;s.origemSelecionada=o.indice;atualizar();});a.append(btn);});
+ s.destinos.forEach(d=>{const btn=el("button","match-target",d.texto);btn.type="button";btn.addEventListener("click",()=>{if(s.acertou||s.origemSelecionada===null||Object.prototype.hasOwnProperty.call(s.pares,d.indice))return;s.pares[d.indice]=s.origemSelecionada;s.origemSelecionada=null;s.verificou=false;s.feedback="";atualizar();});b.append(btn);});
  layout.append(a,b);card.append(layout);
- function atualizar(){a.querySelectorAll("button").forEach((x,i)=>{x.classList.toggle("is-selected",s.origemSelecionada===s.origens[i].indice);x.classList.toggle("is-used",Object.values(s.pares).includes(s.origens[i].indice));});b.querySelectorAll("button").forEach((x,i)=>{const origem=s.origens.find(o=>o.indice===s.pares[s.destinos[i].indice]);x.textContent=s.destinos[i].texto+(origem?"  ← "+origem.texto:"");});}
+ function atualizar(){
+  a.querySelectorAll("button").forEach((x,i)=>{const usado=Object.values(s.pares).includes(s.origens[i].indice);x.disabled=usado||s.acertou;x.classList.toggle("is-selected",s.origemSelecionada===s.origens[i].indice);x.classList.toggle("is-used",usado);});
+  b.querySelectorAll("button").forEach((x,i)=>{const destino=s.destinos[i],origem=s.origens.find(o=>o.indice===s.pares[destino.indice]),usado=Object.prototype.hasOwnProperty.call(s.pares,destino.indice);x.disabled=usado||s.acertou;x.textContent=destino.texto+(origem?"  ← "+origem.texto:"");x.classList.toggle("is-filled",usado);});
+ }
+ atualizar();
 }
 function corretaItem(item,s,tipo){if(tipo==="montar_frase"){const frase=s.frase.map(i=>s.palavras.find(p=>p.indice===i)?.texto||"").join(" ");return normalizar(frase)===normalizar(item.resposta);}return (item.respostas_possiveis||[]).some(r=>normalizar(r)===normalizar(s.entrada));}
 function temRespostaItem(s,tipo){return tipo==="montar_frase"?s.frase.length>0:!!s.entrada.trim();}

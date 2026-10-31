@@ -3,15 +3,14 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex001": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete na oração principal: ich ___ heute ___. (aufstehen)",
+      "enunciado": "Complete na oração principal: ich ___ heute. (aufstehen)",
       "alternativas": [
-        "stehe ... auf",
+        "stehe auf",
         "aufstehen",
-        "aufgestanden",
-        "stehe auf"
+        "aufstehe"
       ],
       "respostas_possiveis": [
-        "stehe ... auf"
+        "stehe auf"
       ],
       "justificativa": "Na oração principal no Präsens, a parte conjugada fica na posição verbal e o prefixo vai para o final."
     }
@@ -19,15 +18,14 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex002": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete na oração principal: du ___ heute ___. (anrufen)",
+      "enunciado": "Complete na oração principal: du ___ heute. (anrufen)",
       "alternativas": [
-        "rufst ... an",
+        "rufst an",
         "anrufen",
-        "angerufen",
-        "rufst an"
+        "anrufst"
       ],
       "respostas_possiveis": [
-        "rufst ... an"
+        "rufst an"
       ],
       "justificativa": "Na oração principal no Präsens, a parte conjugada fica na posição verbal e o prefixo vai para o final."
     }
@@ -35,15 +33,14 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex003": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete na oração principal: er ___ heute ___. (einkaufen)",
+      "enunciado": "Complete na oração principal: er ___ heute. (einkaufen)",
       "alternativas": [
-        "kauft ... ein",
+        "kauft ein",
         "einkaufen",
-        "eingekauft",
-        "kauft ein"
+        "einkauft"
       ],
       "respostas_possiveis": [
-        "kauft ... ein"
+        "kauft ein"
       ],
       "justificativa": "Na oração principal no Präsens, a parte conjugada fica na posição verbal e o prefixo vai para o final."
     }
@@ -51,15 +48,14 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex004": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete na oração principal: wir ___ heute ___. (mitkommen)",
+      "enunciado": "Complete na oração principal: wir ___ heute. (mitkommen)",
       "alternativas": [
-        "kommen ... mit",
+        "kommen mit",
         "mitkommen",
-        "mitgekommen",
-        "kommen mit"
+        "mitkommen"
       ],
       "respostas_possiveis": [
-        "kommen ... mit"
+        "kommen mit"
       ],
       "justificativa": "Na oração principal no Präsens, a parte conjugada fica na posição verbal e o prefixo vai para o final."
     }
@@ -67,15 +63,14 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex005": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete na oração principal: ihr ___ heute ___. (fernsehen)",
+      "enunciado": "Complete na oração principal: ihr ___ heute. (fernsehen)",
       "alternativas": [
-        "seht ... fern",
+        "seht fern",
         "fernsehen",
-        "ferngesehen",
-        "seht fern"
+        "fernseht"
       ],
       "respostas_possiveis": [
-        "seht ... fern"
+        "seht fern"
       ],
       "justificativa": "Na oração principal no Präsens, a parte conjugada fica na posição verbal e o prefixo vai para o final."
     }
@@ -83,15 +78,14 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex006": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete na oração principal: sie ___ heute ___. (aufmachen)",
+      "enunciado": "Complete na oração principal: sie ___ heute. (aufmachen)",
       "alternativas": [
-        "machen ... auf",
+        "machen auf",
         "aufmachen",
-        "aufgemacht",
-        "machen auf"
+        "aufmachen"
       ],
       "respostas_possiveis": [
-        "machen ... auf"
+        "machen auf"
       ],
       "justificativa": "Na oração principal no Präsens, a parte conjugada fica na posição verbal e o prefixo vai para o final."
     }
@@ -99,15 +93,14 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex007": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete na oração principal: ich ___ heute ___. (zumachen)",
+      "enunciado": "Complete na oração principal: ich ___ heute. (zumachen)",
       "alternativas": [
-        "mache ... zu",
+        "mache zu",
         "zumachen",
-        "zugemacht",
-        "mache zu"
+        "zumache"
       ],
       "respostas_possiveis": [
-        "mache ... zu"
+        "mache zu"
       ],
       "justificativa": "Na oração principal no Präsens, a parte conjugada fica na posição verbal e o prefixo vai para o final."
     }
@@ -115,15 +108,14 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex008": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete na oração principal: du ___ heute ___. (abholen)",
+      "enunciado": "Complete na oração principal: du ___ heute. (abholen)",
       "alternativas": [
-        "holst ... ab",
+        "holst ab",
         "abholen",
-        "abgeholt",
-        "holst ab"
+        "abholst"
       ],
       "respostas_possiveis": [
-        "holst ... ab"
+        "holst ab"
       ],
       "justificativa": "Na oração principal no Präsens, a parte conjugada fica na posição verbal e o prefixo vai para o final."
     }
@@ -131,15 +123,14 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex009": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete na oração principal: er ___ heute ___. (einladen)",
+      "enunciado": "Complete na oração principal: er ___ heute. (einladen)",
       "alternativas": [
-        "lädt ... ein",
+        "lädt ein",
         "einladen",
-        "eingeladen",
-        "lädt ein"
+        "einlädt"
       ],
       "respostas_possiveis": [
-        "lädt ... ein"
+        "lädt ein"
       ],
       "justificativa": "Na oração principal no Präsens, a parte conjugada fica na posição verbal e o prefixo vai para o final."
     }
@@ -147,15 +138,14 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex010": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete na oração principal: wir ___ heute ___. (aufwachen)",
+      "enunciado": "Complete na oração principal: wir ___ heute. (aufwachen)",
       "alternativas": [
-        "wachen ... auf",
+        "wachen auf",
         "aufwachen",
-        "aufgewacht",
-        "wachen auf"
+        "aufwachen"
       ],
       "respostas_possiveis": [
-        "wachen ... auf"
+        "wachen auf"
       ],
       "justificativa": "Na oração principal no Präsens, a parte conjugada fica na posição verbal e o prefixo vai para o final."
     }
@@ -163,12 +153,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex011": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete: ihr kann/können morgen ___. (losfahren)",
+      "enunciado": "Complete com o infinitivo após o modal: ihr kann/können morgen ___. (losfahren)",
       "alternativas": [
         "losfahren",
         "losgefahren",
         "fahrt",
-        "fahrt los"
+        "losfahrt"
       ],
       "respostas_possiveis": [
         "losfahren"
@@ -179,12 +169,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex012": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete: sie kann/können morgen ___. (zurückkommen)",
+      "enunciado": "Complete com o infinitivo após o modal: sie kann/können morgen ___. (zurückkommen)",
       "alternativas": [
         "zurückkommen",
         "zurückgekommen",
         "kommen",
-        "kommen zurück"
+        "zurückkommen"
       ],
       "respostas_possiveis": [
         "zurückkommen"
@@ -195,12 +185,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex013": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete: ich kann/können morgen ___. (aufstehen)",
+      "enunciado": "Complete com o infinitivo após o modal: ich kann/können morgen ___. (aufstehen)",
       "alternativas": [
         "aufstehen",
         "aufgestanden",
         "stehe",
-        "stehe auf"
+        "aufstehe"
       ],
       "respostas_possiveis": [
         "aufstehen"
@@ -211,12 +201,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex014": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete: du kann/können morgen ___. (anrufen)",
+      "enunciado": "Complete com o infinitivo após o modal: du kann/können morgen ___. (anrufen)",
       "alternativas": [
         "anrufen",
         "angerufen",
         "rufst",
-        "rufst an"
+        "anrufst"
       ],
       "respostas_possiveis": [
         "anrufen"
@@ -227,12 +217,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex015": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete: er kann/können morgen ___. (einkaufen)",
+      "enunciado": "Complete com o infinitivo após o modal: er kann/können morgen ___. (einkaufen)",
       "alternativas": [
         "einkaufen",
         "eingekauft",
         "kauft",
-        "kauft ein"
+        "einkauft"
       ],
       "respostas_possiveis": [
         "einkaufen"
@@ -243,12 +233,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex016": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete: wir kann/können morgen ___. (mitkommen)",
+      "enunciado": "Complete com o infinitivo após o modal: wir kann/können morgen ___. (mitkommen)",
       "alternativas": [
         "mitkommen",
         "mitgekommen",
         "kommen",
-        "kommen mit"
+        "mitkommen"
       ],
       "respostas_possiveis": [
         "mitkommen"
@@ -259,12 +249,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex017": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete: ihr kann/können morgen ___. (fernsehen)",
+      "enunciado": "Complete com o infinitivo após o modal: ihr kann/können morgen ___. (fernsehen)",
       "alternativas": [
         "fernsehen",
         "ferngesehen",
         "seht",
-        "seht fern"
+        "fernseht"
       ],
       "respostas_possiveis": [
         "fernsehen"
@@ -275,12 +265,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex018": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete: sie kann/können morgen ___. (aufmachen)",
+      "enunciado": "Complete com o infinitivo após o modal: sie kann/können morgen ___. (aufmachen)",
       "alternativas": [
         "aufmachen",
         "aufgemacht",
         "machen",
-        "machen auf"
+        "aufmachen"
       ],
       "respostas_possiveis": [
         "aufmachen"
@@ -291,12 +281,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex019": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete: ich kann/können morgen ___. (zumachen)",
+      "enunciado": "Complete com o infinitivo após o modal: ich kann/können morgen ___. (zumachen)",
       "alternativas": [
         "zumachen",
         "zugemacht",
         "mache",
-        "mache zu"
+        "zumache"
       ],
       "respostas_possiveis": [
         "zumachen"
@@ -307,12 +297,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex020": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete: du kann/können morgen ___. (abholen)",
+      "enunciado": "Complete com o infinitivo após o modal: du kann/können morgen ___. (abholen)",
       "alternativas": [
         "abholen",
         "abgeholt",
         "holst",
-        "holst ab"
+        "abholst"
       ],
       "respostas_possiveis": [
         "abholen"
@@ -323,12 +313,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex021": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete a subordinada: ..., weil er heute ___. (einladen)",
+      "enunciado": "Complete na oração subordinada: ..., weil er ___ hoje. (einladen)",
       "alternativas": [
-        "lädtein",
+        "einlädt",
         "einladen",
         "eingeladen",
-        "lädt ... ein"
+        "lädt ein"
       ],
       "respostas_possiveis": [
         "einlädt"
@@ -339,12 +329,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex022": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete a subordinada: ..., weil wir heute ___. (aufwachen)",
+      "enunciado": "Complete na oração subordinada: ..., weil wir ___ hoje. (aufwachen)",
       "alternativas": [
-        "wachenauf",
+        "aufwachen",
         "aufwachen",
         "aufgewacht",
-        "wachen ... auf"
+        "wachen auf"
       ],
       "respostas_possiveis": [
         "aufwachen"
@@ -355,12 +345,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex023": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete a subordinada: ..., weil ihr heute ___. (losfahren)",
+      "enunciado": "Complete na oração subordinada: ..., weil ihr ___ hoje. (losfahren)",
       "alternativas": [
-        "fahrtlos",
+        "losfahrt",
         "losfahren",
         "losgefahren",
-        "fahrt ... los"
+        "fahrt los"
       ],
       "respostas_possiveis": [
         "losfahrt"
@@ -371,12 +361,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex024": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete a subordinada: ..., weil sie heute ___. (zurückkommen)",
+      "enunciado": "Complete na oração subordinada: ..., weil sie ___ hoje. (zurückkommen)",
       "alternativas": [
-        "kommenzurück",
+        "zurückkommen",
         "zurückkommen",
         "zurückgekommen",
-        "kommen ... zurück"
+        "kommen zurück"
       ],
       "respostas_possiveis": [
         "zurückkommen"
@@ -387,12 +377,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex025": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete a subordinada: ..., weil ich heute ___. (aufstehen)",
+      "enunciado": "Complete na oração subordinada: ..., weil ich ___ hoje. (aufstehen)",
       "alternativas": [
-        "steheauf",
+        "aufstehe",
         "aufstehen",
         "aufgestanden",
-        "stehe ... auf"
+        "stehe auf"
       ],
       "respostas_possiveis": [
         "aufstehe"
@@ -403,12 +393,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex026": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete a subordinada: ..., weil du heute ___. (anrufen)",
+      "enunciado": "Complete na oração subordinada: ..., weil du ___ hoje. (anrufen)",
       "alternativas": [
-        "rufstan",
+        "anrufst",
         "anrufen",
         "angerufen",
-        "rufst ... an"
+        "rufst an"
       ],
       "respostas_possiveis": [
         "anrufst"
@@ -419,12 +409,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex027": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete a subordinada: ..., weil er heute ___. (einkaufen)",
+      "enunciado": "Complete na oração subordinada: ..., weil er ___ hoje. (einkaufen)",
       "alternativas": [
-        "kauftein",
+        "einkauft",
         "einkaufen",
         "eingekauft",
-        "kauft ... ein"
+        "kauft ein"
       ],
       "respostas_possiveis": [
         "einkauft"
@@ -435,12 +425,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex028": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete a subordinada: ..., weil wir heute ___. (mitkommen)",
+      "enunciado": "Complete na oração subordinada: ..., weil wir ___ hoje. (mitkommen)",
       "alternativas": [
-        "kommenmit",
+        "mitkommen",
         "mitkommen",
         "mitgekommen",
-        "kommen ... mit"
+        "kommen mit"
       ],
       "respostas_possiveis": [
         "mitkommen"
@@ -451,12 +441,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex029": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete a subordinada: ..., weil ihr heute ___. (fernsehen)",
+      "enunciado": "Complete na oração subordinada: ..., weil ihr ___ hoje. (fernsehen)",
       "alternativas": [
-        "sehtfern",
+        "fernseht",
         "fernsehen",
         "ferngesehen",
-        "seht ... fern"
+        "seht fern"
       ],
       "respostas_possiveis": [
         "fernseht"
@@ -467,12 +457,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex030": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete a subordinada: ..., weil sie heute ___. (aufmachen)",
+      "enunciado": "Complete na oração subordinada: ..., weil sie ___ hoje. (aufmachen)",
       "alternativas": [
-        "machenauf",
+        "aufmachen",
         "aufmachen",
         "aufgemacht",
-        "machen ... auf"
+        "machen auf"
       ],
       "respostas_possiveis": [
         "aufmachen"
@@ -643,15 +633,15 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex041": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete no Präteritum: ihr ___ gestern ___. (fernsehen)",
+      "enunciado": "Complete no Präteritum: ihr ___ gestern. (fernsehen)",
       "alternativas": [
-        "saht ... fern",
+        "saht fern",
         "fernsehen",
         "ferngesehen",
         "saht"
       ],
       "respostas_possiveis": [
-        "saht ... fern"
+        "saht fern"
       ],
       "justificativa": "No Präteritum da oração principal, o verbo é conjugado e o prefixo fica no final."
     }
@@ -659,15 +649,15 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex042": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete no Präteritum: sie ___ gestern ___. (aufmachen)",
+      "enunciado": "Complete no Präteritum: sie ___ gestern. (aufmachen)",
       "alternativas": [
-        "machten ... auf",
+        "machten auf",
         "aufmachen",
         "aufgemacht",
         "machten"
       ],
       "respostas_possiveis": [
-        "machten ... auf"
+        "machten auf"
       ],
       "justificativa": "No Präteritum da oração principal, o verbo é conjugado e o prefixo fica no final."
     }
@@ -675,15 +665,15 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex043": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete no Präteritum: ich ___ gestern ___. (zumachen)",
+      "enunciado": "Complete no Präteritum: ich ___ gestern. (zumachen)",
       "alternativas": [
-        "machte ... zu",
+        "machte zu",
         "zumachen",
         "zugemacht",
         "machte"
       ],
       "respostas_possiveis": [
-        "machte ... zu"
+        "machte zu"
       ],
       "justificativa": "No Präteritum da oração principal, o verbo é conjugado e o prefixo fica no final."
     }
@@ -691,15 +681,15 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex044": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete no Präteritum: du ___ gestern ___. (abholen)",
+      "enunciado": "Complete no Präteritum: du ___ gestern. (abholen)",
       "alternativas": [
-        "holtest ... ab",
+        "holtest ab",
         "abholen",
         "abgeholt",
         "holtest"
       ],
       "respostas_possiveis": [
-        "holtest ... ab"
+        "holtest ab"
       ],
       "justificativa": "No Präteritum da oração principal, o verbo é conjugado e o prefixo fica no final."
     }
@@ -707,15 +697,15 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex045": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete no Präteritum: er ___ gestern ___. (einladen)",
+      "enunciado": "Complete no Präteritum: er ___ gestern. (einladen)",
       "alternativas": [
-        "lud ... ein",
+        "lud ein",
         "einladen",
         "eingeladen",
         "lud"
       ],
       "respostas_possiveis": [
-        "lud ... ein"
+        "lud ein"
       ],
       "justificativa": "No Präteritum da oração principal, o verbo é conjugado e o prefixo fica no final."
     }
@@ -723,15 +713,15 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex046": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete no Präteritum: wir ___ gestern ___. (aufwachen)",
+      "enunciado": "Complete no Präteritum: wir ___ gestern. (aufwachen)",
       "alternativas": [
-        "wachten ... auf",
+        "wachten auf",
         "aufwachen",
         "aufgewacht",
         "wachten"
       ],
       "respostas_possiveis": [
-        "wachten ... auf"
+        "wachten auf"
       ],
       "justificativa": "No Präteritum da oração principal, o verbo é conjugado e o prefixo fica no final."
     }
@@ -739,15 +729,15 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex047": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete no Präteritum: ihr ___ gestern ___. (losfahren)",
+      "enunciado": "Complete no Präteritum: ihr ___ gestern. (losfahren)",
       "alternativas": [
-        "fuhrt ... los",
+        "fuhrt los",
         "losfahren",
         "losgefahren",
         "fuhrt"
       ],
       "respostas_possiveis": [
-        "fuhrt ... los"
+        "fuhrt los"
       ],
       "justificativa": "No Präteritum da oração principal, o verbo é conjugado e o prefixo fica no final."
     }
@@ -755,15 +745,15 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex048": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete no Präteritum: sie ___ gestern ___. (zurückkommen)",
+      "enunciado": "Complete no Präteritum: sie ___ gestern. (zurückkommen)",
       "alternativas": [
-        "kamen ... zurück",
+        "kamen zurück",
         "zurückkommen",
         "zurückgekommen",
         "kamen"
       ],
       "respostas_possiveis": [
-        "kamen ... zurück"
+        "kamen zurück"
       ],
       "justificativa": "No Präteritum da oração principal, o verbo é conjugado e o prefixo fica no final."
     }
@@ -771,15 +761,15 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex049": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete no Präteritum: ich ___ gestern ___. (aufstehen)",
+      "enunciado": "Complete no Präteritum: ich ___ gestern. (aufstehen)",
       "alternativas": [
-        "stand ... auf",
+        "stand auf",
         "aufstehen",
         "aufgestanden",
         "stand"
       ],
       "respostas_possiveis": [
-        "stand ... auf"
+        "stand auf"
       ],
       "justificativa": "No Präteritum da oração principal, o verbo é conjugado e o prefixo fica no final."
     }
@@ -787,15 +777,15 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex050": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete no Präteritum: du ___ gestern ___. (anrufen)",
+      "enunciado": "Complete no Präteritum: du ___ gestern. (anrufen)",
       "alternativas": [
-        "riefst ... an",
+        "riefst an",
         "anrufen",
         "angerufen",
         "riefst"
       ],
       "respostas_possiveis": [
-        "riefst ... an"
+        "riefst an"
       ],
       "justificativa": "No Präteritum da oração principal, o verbo é conjugado e o prefixo fica no final."
     }
@@ -1757,33 +1747,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Oração principal: ich ___ heute ___. (aufstehen)",
+          "enunciado": "Complete na oração principal: ich ___ heute. (aufstehen)",
           "respostas_possiveis": [
-            "stehe ... auf"
+            "stehe auf"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "B",
-          "enunciado": "Oração principal: du ___ heute ___. (mitkommen)",
+          "enunciado": "Complete na oração principal: du ___ heute. (mitkommen)",
           "respostas_possiveis": [
-            "kommst ... mit"
+            "kommst mit"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "C",
-          "enunciado": "Oração principal: er ___ heute ___. (zumachen)",
+          "enunciado": "Complete na oração principal: er ___ heute. (zumachen)",
           "respostas_possiveis": [
-            "macht ... zu"
+            "macht zu"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "D",
-          "enunciado": "Oração principal: wir ___ heute ___. (aufwachen)",
+          "enunciado": "Complete na oração principal: wir ___ heute. (aufwachen)",
           "respostas_possiveis": [
-            "wachen ... auf"
+            "wachen auf"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         }
@@ -1798,33 +1788,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Oração principal: du ___ heute ___. (einkaufen)",
+          "enunciado": "Complete na oração principal: du ___ heute. (einkaufen)",
           "respostas_possiveis": [
-            "kaufst ... ein"
+            "kaufst ein"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "B",
-          "enunciado": "Oração principal: er ___ heute ___. (aufmachen)",
+          "enunciado": "Complete na oração principal: er ___ heute. (aufmachen)",
           "respostas_possiveis": [
-            "macht ... auf"
+            "macht auf"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "C",
-          "enunciado": "Oração principal: wir ___ heute ___. (einladen)",
+          "enunciado": "Complete na oração principal: wir ___ heute. (einladen)",
           "respostas_possiveis": [
-            "laden ... ein"
+            "laden ein"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "D",
-          "enunciado": "Oração principal: ihr ___ heute ___. (zurückkommen)",
+          "enunciado": "Complete na oração principal: ihr ___ heute. (zurückkommen)",
           "respostas_possiveis": [
-            "kommt ... zurück"
+            "kommt zurück"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         }
@@ -1839,33 +1829,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Oração principal: er ___ heute ___. (fernsehen)",
+          "enunciado": "Complete na oração principal: er ___ heute. (fernsehen)",
           "respostas_possiveis": [
-            "sieht ... fern"
+            "sieht fern"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "B",
-          "enunciado": "Oração principal: wir ___ heute ___. (abholen)",
+          "enunciado": "Complete na oração principal: wir ___ heute. (abholen)",
           "respostas_possiveis": [
-            "holen ... ab"
+            "holen ab"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "C",
-          "enunciado": "Oração principal: ihr ___ heute ___. (losfahren)",
+          "enunciado": "Complete na oração principal: ihr ___ heute. (losfahren)",
           "respostas_possiveis": [
-            "fahrt ... los"
+            "fahrt los"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "D",
-          "enunciado": "Oração principal: sie ___ heute ___. (anrufen)",
+          "enunciado": "Complete na oração principal: sie ___ heute. (anrufen)",
           "respostas_possiveis": [
-            "rufen ... an"
+            "rufen an"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         }
@@ -1880,33 +1870,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Oração principal: wir ___ heute ___. (zumachen)",
+          "enunciado": "Complete na oração principal: wir ___ heute. (zumachen)",
           "respostas_possiveis": [
-            "machen ... zu"
+            "machen zu"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "B",
-          "enunciado": "Oração principal: ihr ___ heute ___. (aufwachen)",
+          "enunciado": "Complete na oração principal: ihr ___ heute. (aufwachen)",
           "respostas_possiveis": [
-            "wacht ... auf"
+            "wacht auf"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "C",
-          "enunciado": "Oração principal: sie ___ heute ___. (aufstehen)",
+          "enunciado": "Complete na oração principal: sie ___ heute. (aufstehen)",
           "respostas_possiveis": [
-            "stehen ... auf"
+            "stehen auf"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "D",
-          "enunciado": "Oração principal: ich ___ heute ___. (mitkommen)",
+          "enunciado": "Complete na oração principal: ich ___ heute. (mitkommen)",
           "respostas_possiveis": [
-            "komme ... mit"
+            "komme mit"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         }
@@ -1921,33 +1911,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Oração principal: ihr ___ heute ___. (einladen)",
+          "enunciado": "Complete na oração principal: ihr ___ heute. (einladen)",
           "respostas_possiveis": [
-            "ladet ... ein"
+            "ladet ein"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "B",
-          "enunciado": "Oração principal: sie ___ heute ___. (zurückkommen)",
+          "enunciado": "Complete na oração principal: sie ___ heute. (zurückkommen)",
           "respostas_possiveis": [
-            "kommen ... zurück"
+            "kommen zurück"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "C",
-          "enunciado": "Oração principal: ich ___ heute ___. (einkaufen)",
+          "enunciado": "Complete na oração principal: ich ___ heute. (einkaufen)",
           "respostas_possiveis": [
-            "kaufe ... ein"
+            "kaufe ein"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "D",
-          "enunciado": "Oração principal: du ___ heute ___. (aufmachen)",
+          "enunciado": "Complete na oração principal: du ___ heute. (aufmachen)",
           "respostas_possiveis": [
-            "machst ... auf"
+            "machst auf"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         }
@@ -1962,33 +1952,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Oração principal: sie ___ heute ___. (losfahren)",
+          "enunciado": "Complete na oração principal: sie ___ heute. (losfahren)",
           "respostas_possiveis": [
-            "fahren ... los"
+            "fahren los"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "B",
-          "enunciado": "Oração principal: ich ___ heute ___. (anrufen)",
+          "enunciado": "Complete na oração principal: ich ___ heute. (anrufen)",
           "respostas_possiveis": [
-            "rufe ... an"
+            "rufe an"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "C",
-          "enunciado": "Oração principal: du ___ heute ___. (fernsehen)",
+          "enunciado": "Complete na oração principal: du ___ heute. (fernsehen)",
           "respostas_possiveis": [
-            "siehst ... fern"
+            "siehst fern"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "D",
-          "enunciado": "Oração principal: er ___ heute ___. (abholen)",
+          "enunciado": "Complete na oração principal: er ___ heute. (abholen)",
           "respostas_possiveis": [
-            "holt ... ab"
+            "holt ab"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         }
@@ -2003,33 +1993,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Oração principal: ich ___ heute ___. (aufstehen)",
+          "enunciado": "Complete na oração principal: ich ___ heute. (aufstehen)",
           "respostas_possiveis": [
-            "stehe ... auf"
+            "stehe auf"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "B",
-          "enunciado": "Oração principal: du ___ heute ___. (mitkommen)",
+          "enunciado": "Complete na oração principal: du ___ heute. (mitkommen)",
           "respostas_possiveis": [
-            "kommst ... mit"
+            "kommst mit"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "C",
-          "enunciado": "Oração principal: er ___ heute ___. (zumachen)",
+          "enunciado": "Complete na oração principal: er ___ heute. (zumachen)",
           "respostas_possiveis": [
-            "macht ... zu"
+            "macht zu"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "D",
-          "enunciado": "Oração principal: wir ___ heute ___. (aufwachen)",
+          "enunciado": "Complete na oração principal: wir ___ heute. (aufwachen)",
           "respostas_possiveis": [
-            "wachen ... auf"
+            "wachen auf"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         }
@@ -2044,33 +2034,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Oração principal: du ___ heute ___. (einkaufen)",
+          "enunciado": "Complete na oração principal: du ___ heute. (einkaufen)",
           "respostas_possiveis": [
-            "kaufst ... ein"
+            "kaufst ein"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "B",
-          "enunciado": "Oração principal: er ___ heute ___. (aufmachen)",
+          "enunciado": "Complete na oração principal: er ___ heute. (aufmachen)",
           "respostas_possiveis": [
-            "macht ... auf"
+            "macht auf"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "C",
-          "enunciado": "Oração principal: wir ___ heute ___. (einladen)",
+          "enunciado": "Complete na oração principal: wir ___ heute. (einladen)",
           "respostas_possiveis": [
-            "laden ... ein"
+            "laden ein"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "D",
-          "enunciado": "Oração principal: ihr ___ heute ___. (zurückkommen)",
+          "enunciado": "Complete na oração principal: ihr ___ heute. (zurückkommen)",
           "respostas_possiveis": [
-            "kommt ... zurück"
+            "kommt zurück"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         }
@@ -2085,33 +2075,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Oração principal: er ___ heute ___. (fernsehen)",
+          "enunciado": "Complete na oração principal: er ___ heute. (fernsehen)",
           "respostas_possiveis": [
-            "sieht ... fern"
+            "sieht fern"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "B",
-          "enunciado": "Oração principal: wir ___ heute ___. (abholen)",
+          "enunciado": "Complete na oração principal: wir ___ heute. (abholen)",
           "respostas_possiveis": [
-            "holen ... ab"
+            "holen ab"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "C",
-          "enunciado": "Oração principal: ihr ___ heute ___. (losfahren)",
+          "enunciado": "Complete na oração principal: ihr ___ heute. (losfahren)",
           "respostas_possiveis": [
-            "fahrt ... los"
+            "fahrt los"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "D",
-          "enunciado": "Oração principal: sie ___ heute ___. (anrufen)",
+          "enunciado": "Complete na oração principal: sie ___ heute. (anrufen)",
           "respostas_possiveis": [
-            "rufen ... an"
+            "rufen an"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         }
@@ -2126,33 +2116,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Oração principal: wir ___ heute ___. (zumachen)",
+          "enunciado": "Complete na oração principal: wir ___ heute. (zumachen)",
           "respostas_possiveis": [
-            "machen ... zu"
+            "machen zu"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "B",
-          "enunciado": "Oração principal: ihr ___ heute ___. (aufwachen)",
+          "enunciado": "Complete na oração principal: ihr ___ heute. (aufwachen)",
           "respostas_possiveis": [
-            "wacht ... auf"
+            "wacht auf"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "C",
-          "enunciado": "Oração principal: sie ___ heute ___. (aufstehen)",
+          "enunciado": "Complete na oração principal: sie ___ heute. (aufstehen)",
           "respostas_possiveis": [
-            "stehen ... auf"
+            "stehen auf"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         },
         {
           "letra": "D",
-          "enunciado": "Oração principal: ich ___ heute ___. (mitkommen)",
+          "enunciado": "Complete na oração principal: ich ___ heute. (mitkommen)",
           "respostas_possiveis": [
-            "komme ... mit"
+            "komme mit"
           ],
           "justificativa": "Conjugue o verbo e coloque o prefixo no final."
         }
@@ -2167,7 +2157,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "ihr muss/müssen morgen ___. (einladen)",
+          "enunciado": "Complete com o infinitivo após o modal: ihr kann/können morgen ___. (einladen)",
           "respostas_possiveis": [
             "einladen"
           ],
@@ -2175,7 +2165,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "sie muss/müssen morgen ___. (zurückkommen)",
+          "enunciado": "Complete com o infinitivo após o modal: sie kann/können morgen ___. (zurückkommen)",
           "respostas_possiveis": [
             "zurückkommen"
           ],
@@ -2183,7 +2173,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "ich muss/müssen morgen ___. (einkaufen)",
+          "enunciado": "Complete com o infinitivo após o modal: ich kann/können morgen ___. (einkaufen)",
           "respostas_possiveis": [
             "einkaufen"
           ],
@@ -2191,7 +2181,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "du muss/müssen morgen ___. (aufmachen)",
+          "enunciado": "Complete com o infinitivo após o modal: du kann/können morgen ___. (aufmachen)",
           "respostas_possiveis": [
             "aufmachen"
           ],
@@ -2208,7 +2198,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "sie muss/müssen morgen ___. (losfahren)",
+          "enunciado": "Complete com o infinitivo após o modal: sie kann/können morgen ___. (losfahren)",
           "respostas_possiveis": [
             "losfahren"
           ],
@@ -2216,7 +2206,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "ich muss/müssen morgen ___. (anrufen)",
+          "enunciado": "Complete com o infinitivo após o modal: ich kann/können morgen ___. (anrufen)",
           "respostas_possiveis": [
             "anrufen"
           ],
@@ -2224,7 +2214,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "du muss/müssen morgen ___. (fernsehen)",
+          "enunciado": "Complete com o infinitivo após o modal: du kann/können morgen ___. (fernsehen)",
           "respostas_possiveis": [
             "fernsehen"
           ],
@@ -2232,7 +2222,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "er muss/müssen morgen ___. (abholen)",
+          "enunciado": "Complete com o infinitivo após o modal: er kann/können morgen ___. (abholen)",
           "respostas_possiveis": [
             "abholen"
           ],
@@ -2249,7 +2239,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "ich muss/müssen morgen ___. (aufstehen)",
+          "enunciado": "Complete com o infinitivo após o modal: ich kann/können morgen ___. (aufstehen)",
           "respostas_possiveis": [
             "aufstehen"
           ],
@@ -2257,7 +2247,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "du muss/müssen morgen ___. (mitkommen)",
+          "enunciado": "Complete com o infinitivo após o modal: du kann/können morgen ___. (mitkommen)",
           "respostas_possiveis": [
             "mitkommen"
           ],
@@ -2265,7 +2255,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "er muss/müssen morgen ___. (zumachen)",
+          "enunciado": "Complete com o infinitivo após o modal: er kann/können morgen ___. (zumachen)",
           "respostas_possiveis": [
             "zumachen"
           ],
@@ -2273,7 +2263,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "wir muss/müssen morgen ___. (aufwachen)",
+          "enunciado": "Complete com o infinitivo após o modal: wir kann/können morgen ___. (aufwachen)",
           "respostas_possiveis": [
             "aufwachen"
           ],
@@ -2290,7 +2280,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "du muss/müssen morgen ___. (einkaufen)",
+          "enunciado": "Complete com o infinitivo após o modal: du kann/können morgen ___. (einkaufen)",
           "respostas_possiveis": [
             "einkaufen"
           ],
@@ -2298,7 +2288,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "er muss/müssen morgen ___. (aufmachen)",
+          "enunciado": "Complete com o infinitivo após o modal: er kann/können morgen ___. (aufmachen)",
           "respostas_possiveis": [
             "aufmachen"
           ],
@@ -2306,7 +2296,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "wir muss/müssen morgen ___. (einladen)",
+          "enunciado": "Complete com o infinitivo após o modal: wir kann/können morgen ___. (einladen)",
           "respostas_possiveis": [
             "einladen"
           ],
@@ -2314,7 +2304,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "ihr muss/müssen morgen ___. (zurückkommen)",
+          "enunciado": "Complete com o infinitivo após o modal: ihr kann/können morgen ___. (zurückkommen)",
           "respostas_possiveis": [
             "zurückkommen"
           ],
@@ -2331,7 +2321,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "er muss/müssen morgen ___. (fernsehen)",
+          "enunciado": "Complete com o infinitivo após o modal: er kann/können morgen ___. (fernsehen)",
           "respostas_possiveis": [
             "fernsehen"
           ],
@@ -2339,7 +2329,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "wir muss/müssen morgen ___. (abholen)",
+          "enunciado": "Complete com o infinitivo após o modal: wir kann/können morgen ___. (abholen)",
           "respostas_possiveis": [
             "abholen"
           ],
@@ -2347,7 +2337,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "ihr muss/müssen morgen ___. (losfahren)",
+          "enunciado": "Complete com o infinitivo após o modal: ihr kann/können morgen ___. (losfahren)",
           "respostas_possiveis": [
             "losfahren"
           ],
@@ -2355,7 +2345,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "sie muss/müssen morgen ___. (anrufen)",
+          "enunciado": "Complete com o infinitivo após o modal: sie kann/können morgen ___. (anrufen)",
           "respostas_possiveis": [
             "anrufen"
           ],
@@ -2372,7 +2362,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "wir muss/müssen morgen ___. (zumachen)",
+          "enunciado": "Complete com o infinitivo após o modal: wir kann/können morgen ___. (zumachen)",
           "respostas_possiveis": [
             "zumachen"
           ],
@@ -2380,7 +2370,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "ihr muss/müssen morgen ___. (aufwachen)",
+          "enunciado": "Complete com o infinitivo após o modal: ihr kann/können morgen ___. (aufwachen)",
           "respostas_possiveis": [
             "aufwachen"
           ],
@@ -2388,7 +2378,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "sie muss/müssen morgen ___. (aufstehen)",
+          "enunciado": "Complete com o infinitivo após o modal: sie kann/können morgen ___. (aufstehen)",
           "respostas_possiveis": [
             "aufstehen"
           ],
@@ -2396,7 +2386,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "ich muss/müssen morgen ___. (mitkommen)",
+          "enunciado": "Complete com o infinitivo após o modal: ich kann/können morgen ___. (mitkommen)",
           "respostas_possiveis": [
             "mitkommen"
           ],
@@ -2413,7 +2403,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "ihr muss/müssen morgen ___. (einladen)",
+          "enunciado": "Complete com o infinitivo após o modal: ihr kann/können morgen ___. (einladen)",
           "respostas_possiveis": [
             "einladen"
           ],
@@ -2421,7 +2411,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "sie muss/müssen morgen ___. (zurückkommen)",
+          "enunciado": "Complete com o infinitivo após o modal: sie kann/können morgen ___. (zurückkommen)",
           "respostas_possiveis": [
             "zurückkommen"
           ],
@@ -2429,7 +2419,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "ich muss/müssen morgen ___. (einkaufen)",
+          "enunciado": "Complete com o infinitivo após o modal: ich kann/können morgen ___. (einkaufen)",
           "respostas_possiveis": [
             "einkaufen"
           ],
@@ -2437,7 +2427,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "du muss/müssen morgen ___. (aufmachen)",
+          "enunciado": "Complete com o infinitivo após o modal: du kann/können morgen ___. (aufmachen)",
           "respostas_possiveis": [
             "aufmachen"
           ],
@@ -2454,7 +2444,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "sie muss/müssen morgen ___. (losfahren)",
+          "enunciado": "Complete com o infinitivo após o modal: sie kann/können morgen ___. (losfahren)",
           "respostas_possiveis": [
             "losfahren"
           ],
@@ -2462,7 +2452,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "ich muss/müssen morgen ___. (anrufen)",
+          "enunciado": "Complete com o infinitivo após o modal: ich kann/können morgen ___. (anrufen)",
           "respostas_possiveis": [
             "anrufen"
           ],
@@ -2470,7 +2460,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "du muss/müssen morgen ___. (fernsehen)",
+          "enunciado": "Complete com o infinitivo após o modal: du kann/können morgen ___. (fernsehen)",
           "respostas_possiveis": [
             "fernsehen"
           ],
@@ -2478,7 +2468,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "er muss/müssen morgen ___. (abholen)",
+          "enunciado": "Complete com o infinitivo após o modal: er kann/können morgen ___. (abholen)",
           "respostas_possiveis": [
             "abholen"
           ],
@@ -2495,7 +2485,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "ich muss/müssen morgen ___. (aufstehen)",
+          "enunciado": "Complete com o infinitivo após o modal: ich kann/können morgen ___. (aufstehen)",
           "respostas_possiveis": [
             "aufstehen"
           ],
@@ -2503,7 +2493,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "du muss/müssen morgen ___. (mitkommen)",
+          "enunciado": "Complete com o infinitivo após o modal: du kann/können morgen ___. (mitkommen)",
           "respostas_possiveis": [
             "mitkommen"
           ],
@@ -2511,7 +2501,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "er muss/müssen morgen ___. (zumachen)",
+          "enunciado": "Complete com o infinitivo após o modal: er kann/können morgen ___. (zumachen)",
           "respostas_possiveis": [
             "zumachen"
           ],
@@ -2519,7 +2509,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "wir muss/müssen morgen ___. (aufwachen)",
+          "enunciado": "Complete com o infinitivo após o modal: wir kann/können morgen ___. (aufwachen)",
           "respostas_possiveis": [
             "aufwachen"
           ],
@@ -2536,7 +2526,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "du muss/müssen morgen ___. (einkaufen)",
+          "enunciado": "Complete com o infinitivo após o modal: du kann/können morgen ___. (einkaufen)",
           "respostas_possiveis": [
             "einkaufen"
           ],
@@ -2544,7 +2534,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "er muss/müssen morgen ___. (aufmachen)",
+          "enunciado": "Complete com o infinitivo após o modal: er kann/können morgen ___. (aufmachen)",
           "respostas_possiveis": [
             "aufmachen"
           ],
@@ -2552,7 +2542,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "wir muss/müssen morgen ___. (einladen)",
+          "enunciado": "Complete com o infinitivo após o modal: wir kann/können morgen ___. (einladen)",
           "respostas_possiveis": [
             "einladen"
           ],
@@ -2560,7 +2550,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "ihr muss/müssen morgen ___. (zurückkommen)",
+          "enunciado": "Complete com o infinitivo após o modal: ihr kann/können morgen ___. (zurückkommen)",
           "respostas_possiveis": [
             "zurückkommen"
           ],
@@ -2577,7 +2567,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "..., weil er heute ___. (fernsehen)",
+          "enunciado": "Complete na oração subordinada: ..., weil er ___ hoje. (fernsehen)",
           "respostas_possiveis": [
             "fernsieht"
           ],
@@ -2585,7 +2575,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "..., weil wir heute ___. (abholen)",
+          "enunciado": "Complete na oração subordinada: ..., weil wir ___ hoje. (abholen)",
           "respostas_possiveis": [
             "abholen"
           ],
@@ -2593,7 +2583,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "..., weil ihr heute ___. (losfahren)",
+          "enunciado": "Complete na oração subordinada: ..., weil ihr ___ hoje. (losfahren)",
           "respostas_possiveis": [
             "losfahrt"
           ],
@@ -2601,7 +2591,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "..., weil sie heute ___. (anrufen)",
+          "enunciado": "Complete na oração subordinada: ..., weil sie ___ hoje. (anrufen)",
           "respostas_possiveis": [
             "anrufen"
           ],
@@ -2618,7 +2608,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "..., weil wir heute ___. (zumachen)",
+          "enunciado": "Complete na oração subordinada: ..., weil wir ___ hoje. (zumachen)",
           "respostas_possiveis": [
             "zumachen"
           ],
@@ -2626,7 +2616,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "..., weil ihr heute ___. (aufwachen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ihr ___ hoje. (aufwachen)",
           "respostas_possiveis": [
             "aufwacht"
           ],
@@ -2634,7 +2624,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "..., weil sie heute ___. (aufstehen)",
+          "enunciado": "Complete na oração subordinada: ..., weil sie ___ hoje. (aufstehen)",
           "respostas_possiveis": [
             "aufstehen"
           ],
@@ -2642,7 +2632,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "..., weil ich heute ___. (mitkommen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ich ___ hoje. (mitkommen)",
           "respostas_possiveis": [
             "mitkomme"
           ],
@@ -2659,7 +2649,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "..., weil ihr heute ___. (einladen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ihr ___ hoje. (einladen)",
           "respostas_possiveis": [
             "einladet"
           ],
@@ -2667,7 +2657,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "..., weil sie heute ___. (zurückkommen)",
+          "enunciado": "Complete na oração subordinada: ..., weil sie ___ hoje. (zurückkommen)",
           "respostas_possiveis": [
             "zurückkommen"
           ],
@@ -2675,7 +2665,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "..., weil ich heute ___. (einkaufen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ich ___ hoje. (einkaufen)",
           "respostas_possiveis": [
             "einkaufe"
           ],
@@ -2683,7 +2673,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "..., weil du heute ___. (aufmachen)",
+          "enunciado": "Complete na oração subordinada: ..., weil du ___ hoje. (aufmachen)",
           "respostas_possiveis": [
             "aufmachst"
           ],
@@ -2700,7 +2690,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "..., weil sie heute ___. (losfahren)",
+          "enunciado": "Complete na oração subordinada: ..., weil sie ___ hoje. (losfahren)",
           "respostas_possiveis": [
             "losfahren"
           ],
@@ -2708,7 +2698,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "..., weil ich heute ___. (anrufen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ich ___ hoje. (anrufen)",
           "respostas_possiveis": [
             "anrufe"
           ],
@@ -2716,7 +2706,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "..., weil du heute ___. (fernsehen)",
+          "enunciado": "Complete na oração subordinada: ..., weil du ___ hoje. (fernsehen)",
           "respostas_possiveis": [
             "fernsiehst"
           ],
@@ -2724,7 +2714,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "..., weil er heute ___. (abholen)",
+          "enunciado": "Complete na oração subordinada: ..., weil er ___ hoje. (abholen)",
           "respostas_possiveis": [
             "abholt"
           ],
@@ -2741,7 +2731,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "..., weil ich heute ___. (aufstehen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ich ___ hoje. (aufstehen)",
           "respostas_possiveis": [
             "aufstehe"
           ],
@@ -2749,7 +2739,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "..., weil du heute ___. (mitkommen)",
+          "enunciado": "Complete na oração subordinada: ..., weil du ___ hoje. (mitkommen)",
           "respostas_possiveis": [
             "mitkommst"
           ],
@@ -2757,7 +2747,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "..., weil er heute ___. (zumachen)",
+          "enunciado": "Complete na oração subordinada: ..., weil er ___ hoje. (zumachen)",
           "respostas_possiveis": [
             "zumacht"
           ],
@@ -2765,7 +2755,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "..., weil wir heute ___. (aufwachen)",
+          "enunciado": "Complete na oração subordinada: ..., weil wir ___ hoje. (aufwachen)",
           "respostas_possiveis": [
             "aufwachen"
           ],
@@ -2782,7 +2772,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "..., weil du heute ___. (einkaufen)",
+          "enunciado": "Complete na oração subordinada: ..., weil du ___ hoje. (einkaufen)",
           "respostas_possiveis": [
             "einkaufst"
           ],
@@ -2790,7 +2780,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "..., weil er heute ___. (aufmachen)",
+          "enunciado": "Complete na oração subordinada: ..., weil er ___ hoje. (aufmachen)",
           "respostas_possiveis": [
             "aufmacht"
           ],
@@ -2798,7 +2788,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "..., weil wir heute ___. (einladen)",
+          "enunciado": "Complete na oração subordinada: ..., weil wir ___ hoje. (einladen)",
           "respostas_possiveis": [
             "einladen"
           ],
@@ -2806,7 +2796,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "..., weil ihr heute ___. (zurückkommen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ihr ___ hoje. (zurückkommen)",
           "respostas_possiveis": [
             "zurückkommt"
           ],
@@ -2823,7 +2813,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "..., weil er heute ___. (fernsehen)",
+          "enunciado": "Complete na oração subordinada: ..., weil er ___ hoje. (fernsehen)",
           "respostas_possiveis": [
             "fernsieht"
           ],
@@ -2831,7 +2821,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "..., weil wir heute ___. (abholen)",
+          "enunciado": "Complete na oração subordinada: ..., weil wir ___ hoje. (abholen)",
           "respostas_possiveis": [
             "abholen"
           ],
@@ -2839,7 +2829,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "..., weil ihr heute ___. (losfahren)",
+          "enunciado": "Complete na oração subordinada: ..., weil ihr ___ hoje. (losfahren)",
           "respostas_possiveis": [
             "losfahrt"
           ],
@@ -2847,7 +2837,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "..., weil sie heute ___. (anrufen)",
+          "enunciado": "Complete na oração subordinada: ..., weil sie ___ hoje. (anrufen)",
           "respostas_possiveis": [
             "anrufen"
           ],
@@ -2864,7 +2854,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "..., weil wir heute ___. (zumachen)",
+          "enunciado": "Complete na oração subordinada: ..., weil wir ___ hoje. (zumachen)",
           "respostas_possiveis": [
             "zumachen"
           ],
@@ -2872,7 +2862,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "..., weil ihr heute ___. (aufwachen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ihr ___ hoje. (aufwachen)",
           "respostas_possiveis": [
             "aufwacht"
           ],
@@ -2880,7 +2870,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "..., weil sie heute ___. (aufstehen)",
+          "enunciado": "Complete na oração subordinada: ..., weil sie ___ hoje. (aufstehen)",
           "respostas_possiveis": [
             "aufstehen"
           ],
@@ -2888,7 +2878,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "..., weil ich heute ___. (mitkommen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ich ___ hoje. (mitkommen)",
           "respostas_possiveis": [
             "mitkomme"
           ],
@@ -2905,7 +2895,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "..., weil ihr heute ___. (einladen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ihr ___ hoje. (einladen)",
           "respostas_possiveis": [
             "einladet"
           ],
@@ -2913,7 +2903,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "..., weil sie heute ___. (zurückkommen)",
+          "enunciado": "Complete na oração subordinada: ..., weil sie ___ hoje. (zurückkommen)",
           "respostas_possiveis": [
             "zurückkommen"
           ],
@@ -2921,7 +2911,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "..., weil ich heute ___. (einkaufen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ich ___ hoje. (einkaufen)",
           "respostas_possiveis": [
             "einkaufe"
           ],
@@ -2929,7 +2919,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "..., weil du heute ___. (aufmachen)",
+          "enunciado": "Complete na oração subordinada: ..., weil du ___ hoje. (aufmachen)",
           "respostas_possiveis": [
             "aufmachst"
           ],
@@ -2946,7 +2936,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "..., weil sie heute ___. (losfahren)",
+          "enunciado": "Complete na oração subordinada: ..., weil sie ___ hoje. (losfahren)",
           "respostas_possiveis": [
             "losfahren"
           ],
@@ -2954,7 +2944,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "..., weil ich heute ___. (anrufen)",
+          "enunciado": "Complete na oração subordinada: ..., weil ich ___ hoje. (anrufen)",
           "respostas_possiveis": [
             "anrufe"
           ],
@@ -2962,7 +2952,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "..., weil du heute ___. (fernsehen)",
+          "enunciado": "Complete na oração subordinada: ..., weil du ___ hoje. (fernsehen)",
           "respostas_possiveis": [
             "fernsiehst"
           ],
@@ -2970,7 +2960,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "..., weil er heute ___. (abholen)",
+          "enunciado": "Complete na oração subordinada: ..., weil er ___ hoje. (abholen)",
           "respostas_possiveis": [
             "abholt"
           ],
@@ -2987,7 +2977,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "ich ist/sind ___. (aufstehen)",
+          "enunciado": "Complete no Perfekt: ich ist/sind ___. (aufstehen)",
           "respostas_possiveis": [
             "aufgestanden"
           ],
@@ -2995,7 +2985,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "du ist/sind ___. (mitkommen)",
+          "enunciado": "Complete no Perfekt: du ist/sind ___. (mitkommen)",
           "respostas_possiveis": [
             "mitgekommen"
           ],
@@ -3003,7 +2993,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "er hat/haben ___. (zumachen)",
+          "enunciado": "Complete no Perfekt: er hat/haben ___. (zumachen)",
           "respostas_possiveis": [
             "zugemacht"
           ],
@@ -3011,7 +3001,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "wir ist/sind ___. (aufwachen)",
+          "enunciado": "Complete no Perfekt: wir ist/sind ___. (aufwachen)",
           "respostas_possiveis": [
             "aufgewacht"
           ],
@@ -3028,7 +3018,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "du hat/haben ___. (einkaufen)",
+          "enunciado": "Complete no Perfekt: du hat/haben ___. (einkaufen)",
           "respostas_possiveis": [
             "eingekauft"
           ],
@@ -3036,7 +3026,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "er hat/haben ___. (aufmachen)",
+          "enunciado": "Complete no Perfekt: er hat/haben ___. (aufmachen)",
           "respostas_possiveis": [
             "aufgemacht"
           ],
@@ -3044,7 +3034,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "wir hat/haben ___. (einladen)",
+          "enunciado": "Complete no Perfekt: wir hat/haben ___. (einladen)",
           "respostas_possiveis": [
             "eingeladen"
           ],
@@ -3052,7 +3042,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "ihr ist/sind ___. (zurückkommen)",
+          "enunciado": "Complete no Perfekt: ihr ist/sind ___. (zurückkommen)",
           "respostas_possiveis": [
             "zurückgekommen"
           ],
@@ -3069,7 +3059,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "er hat/haben ___. (fernsehen)",
+          "enunciado": "Complete no Perfekt: er hat/haben ___. (fernsehen)",
           "respostas_possiveis": [
             "ferngesehen"
           ],
@@ -3077,7 +3067,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "wir hat/haben ___. (abholen)",
+          "enunciado": "Complete no Perfekt: wir hat/haben ___. (abholen)",
           "respostas_possiveis": [
             "abgeholt"
           ],
@@ -3085,7 +3075,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "ihr ist/sind ___. (losfahren)",
+          "enunciado": "Complete no Perfekt: ihr ist/sind ___. (losfahren)",
           "respostas_possiveis": [
             "losgefahren"
           ],
@@ -3093,7 +3083,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "sie hat/haben ___. (anrufen)",
+          "enunciado": "Complete no Perfekt: sie hat/haben ___. (anrufen)",
           "respostas_possiveis": [
             "angerufen"
           ],
@@ -3110,7 +3100,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "wir hat/haben ___. (zumachen)",
+          "enunciado": "Complete no Perfekt: wir hat/haben ___. (zumachen)",
           "respostas_possiveis": [
             "zugemacht"
           ],
@@ -3118,7 +3108,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "ihr ist/sind ___. (aufwachen)",
+          "enunciado": "Complete no Perfekt: ihr ist/sind ___. (aufwachen)",
           "respostas_possiveis": [
             "aufgewacht"
           ],
@@ -3126,7 +3116,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "sie ist/sind ___. (aufstehen)",
+          "enunciado": "Complete no Perfekt: sie ist/sind ___. (aufstehen)",
           "respostas_possiveis": [
             "aufgestanden"
           ],
@@ -3134,7 +3124,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "ich ist/sind ___. (mitkommen)",
+          "enunciado": "Complete no Perfekt: ich ist/sind ___. (mitkommen)",
           "respostas_possiveis": [
             "mitgekommen"
           ],
@@ -3151,7 +3141,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "ihr hat/haben ___. (einladen)",
+          "enunciado": "Complete no Perfekt: ihr hat/haben ___. (einladen)",
           "respostas_possiveis": [
             "eingeladen"
           ],
@@ -3159,7 +3149,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "sie ist/sind ___. (zurückkommen)",
+          "enunciado": "Complete no Perfekt: sie ist/sind ___. (zurückkommen)",
           "respostas_possiveis": [
             "zurückgekommen"
           ],
@@ -3167,7 +3157,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "ich hat/haben ___. (einkaufen)",
+          "enunciado": "Complete no Perfekt: ich hat/haben ___. (einkaufen)",
           "respostas_possiveis": [
             "eingekauft"
           ],
@@ -3175,7 +3165,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "du hat/haben ___. (aufmachen)",
+          "enunciado": "Complete no Perfekt: du hat/haben ___. (aufmachen)",
           "respostas_possiveis": [
             "aufgemacht"
           ],
@@ -3192,7 +3182,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "sie ist/sind ___. (losfahren)",
+          "enunciado": "Complete no Perfekt: sie ist/sind ___. (losfahren)",
           "respostas_possiveis": [
             "losgefahren"
           ],
@@ -3200,7 +3190,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "ich hat/haben ___. (anrufen)",
+          "enunciado": "Complete no Perfekt: ich hat/haben ___. (anrufen)",
           "respostas_possiveis": [
             "angerufen"
           ],
@@ -3208,7 +3198,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "du hat/haben ___. (fernsehen)",
+          "enunciado": "Complete no Perfekt: du hat/haben ___. (fernsehen)",
           "respostas_possiveis": [
             "ferngesehen"
           ],
@@ -3216,7 +3206,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "er hat/haben ___. (abholen)",
+          "enunciado": "Complete no Perfekt: er hat/haben ___. (abholen)",
           "respostas_possiveis": [
             "abgeholt"
           ],
@@ -3233,7 +3223,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "ich ist/sind ___. (aufstehen)",
+          "enunciado": "Complete no Perfekt: ich ist/sind ___. (aufstehen)",
           "respostas_possiveis": [
             "aufgestanden"
           ],
@@ -3241,7 +3231,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "du ist/sind ___. (mitkommen)",
+          "enunciado": "Complete no Perfekt: du ist/sind ___. (mitkommen)",
           "respostas_possiveis": [
             "mitgekommen"
           ],
@@ -3249,7 +3239,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "er hat/haben ___. (zumachen)",
+          "enunciado": "Complete no Perfekt: er hat/haben ___. (zumachen)",
           "respostas_possiveis": [
             "zugemacht"
           ],
@@ -3257,7 +3247,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "wir ist/sind ___. (aufwachen)",
+          "enunciado": "Complete no Perfekt: wir ist/sind ___. (aufwachen)",
           "respostas_possiveis": [
             "aufgewacht"
           ],
@@ -3274,7 +3264,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "du hat/haben ___. (einkaufen)",
+          "enunciado": "Complete no Perfekt: du hat/haben ___. (einkaufen)",
           "respostas_possiveis": [
             "eingekauft"
           ],
@@ -3282,7 +3272,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "er hat/haben ___. (aufmachen)",
+          "enunciado": "Complete no Perfekt: er hat/haben ___. (aufmachen)",
           "respostas_possiveis": [
             "aufgemacht"
           ],
@@ -3290,7 +3280,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "wir hat/haben ___. (einladen)",
+          "enunciado": "Complete no Perfekt: wir hat/haben ___. (einladen)",
           "respostas_possiveis": [
             "eingeladen"
           ],
@@ -3298,7 +3288,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "ihr ist/sind ___. (zurückkommen)",
+          "enunciado": "Complete no Perfekt: ihr ist/sind ___. (zurückkommen)",
           "respostas_possiveis": [
             "zurückgekommen"
           ],
@@ -3315,7 +3305,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "er hat/haben ___. (fernsehen)",
+          "enunciado": "Complete no Perfekt: er hat/haben ___. (fernsehen)",
           "respostas_possiveis": [
             "ferngesehen"
           ],
@@ -3323,7 +3313,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "wir hat/haben ___. (abholen)",
+          "enunciado": "Complete no Perfekt: wir hat/haben ___. (abholen)",
           "respostas_possiveis": [
             "abgeholt"
           ],
@@ -3331,7 +3321,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "ihr ist/sind ___. (losfahren)",
+          "enunciado": "Complete no Perfekt: ihr ist/sind ___. (losfahren)",
           "respostas_possiveis": [
             "losgefahren"
           ],
@@ -3339,7 +3329,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "sie hat/haben ___. (anrufen)",
+          "enunciado": "Complete no Perfekt: sie hat/haben ___. (anrufen)",
           "respostas_possiveis": [
             "angerufen"
           ],
@@ -3356,7 +3346,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "wir hat/haben ___. (zumachen)",
+          "enunciado": "Complete no Perfekt: wir hat/haben ___. (zumachen)",
           "respostas_possiveis": [
             "zugemacht"
           ],
@@ -3364,7 +3354,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "ihr ist/sind ___. (aufwachen)",
+          "enunciado": "Complete no Perfekt: ihr ist/sind ___. (aufwachen)",
           "respostas_possiveis": [
             "aufgewacht"
           ],
@@ -3372,7 +3362,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "sie ist/sind ___. (aufstehen)",
+          "enunciado": "Complete no Perfekt: sie ist/sind ___. (aufstehen)",
           "respostas_possiveis": [
             "aufgestanden"
           ],
@@ -3380,7 +3370,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "ich ist/sind ___. (mitkommen)",
+          "enunciado": "Complete no Perfekt: ich ist/sind ___. (mitkommen)",
           "respostas_possiveis": [
             "mitgekommen"
           ],
@@ -3397,33 +3387,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "ihr ___ gestern ___. (einladen)",
+          "enunciado": "Complete no Präteritum: ihr ___ gestern. (einladen)",
           "respostas_possiveis": [
-            "ludet ... ein"
+            "ludet ein"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "B",
-          "enunciado": "sie ___ gestern ___. (zurückkommen)",
+          "enunciado": "Complete no Präteritum: sie ___ gestern. (zurückkommen)",
           "respostas_possiveis": [
-            "kamen ... zurück"
+            "kamen zurück"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "C",
-          "enunciado": "ich ___ gestern ___. (einkaufen)",
+          "enunciado": "Complete no Präteritum: ich ___ gestern. (einkaufen)",
           "respostas_possiveis": [
-            "kaufte ... ein"
+            "kaufte ein"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "D",
-          "enunciado": "du ___ gestern ___. (aufmachen)",
+          "enunciado": "Complete no Präteritum: du ___ gestern. (aufmachen)",
           "respostas_possiveis": [
-            "machtest ... auf"
+            "machtest auf"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         }
@@ -3438,33 +3428,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "sie ___ gestern ___. (losfahren)",
+          "enunciado": "Complete no Präteritum: sie ___ gestern. (losfahren)",
           "respostas_possiveis": [
-            "fuhren ... los"
+            "fuhren los"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "B",
-          "enunciado": "ich ___ gestern ___. (anrufen)",
+          "enunciado": "Complete no Präteritum: ich ___ gestern. (anrufen)",
           "respostas_possiveis": [
-            "rief ... an"
+            "rief an"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "C",
-          "enunciado": "du ___ gestern ___. (fernsehen)",
+          "enunciado": "Complete no Präteritum: du ___ gestern. (fernsehen)",
           "respostas_possiveis": [
-            "sahst ... fern"
+            "sahst fern"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "D",
-          "enunciado": "er ___ gestern ___. (abholen)",
+          "enunciado": "Complete no Präteritum: er ___ gestern. (abholen)",
           "respostas_possiveis": [
-            "holte ... ab"
+            "holte ab"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         }
@@ -3479,33 +3469,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "ich ___ gestern ___. (aufstehen)",
+          "enunciado": "Complete no Präteritum: ich ___ gestern. (aufstehen)",
           "respostas_possiveis": [
-            "stand ... auf"
+            "stand auf"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "B",
-          "enunciado": "du ___ gestern ___. (mitkommen)",
+          "enunciado": "Complete no Präteritum: du ___ gestern. (mitkommen)",
           "respostas_possiveis": [
-            "kamst ... mit"
+            "kamst mit"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "C",
-          "enunciado": "er ___ gestern ___. (zumachen)",
+          "enunciado": "Complete no Präteritum: er ___ gestern. (zumachen)",
           "respostas_possiveis": [
-            "machte ... zu"
+            "machte zu"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "D",
-          "enunciado": "wir ___ gestern ___. (aufwachen)",
+          "enunciado": "Complete no Präteritum: wir ___ gestern. (aufwachen)",
           "respostas_possiveis": [
-            "wachten ... auf"
+            "wachten auf"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         }
@@ -3520,33 +3510,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "du ___ gestern ___. (einkaufen)",
+          "enunciado": "Complete no Präteritum: du ___ gestern. (einkaufen)",
           "respostas_possiveis": [
-            "kauftest ... ein"
+            "kauftest ein"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "B",
-          "enunciado": "er ___ gestern ___. (aufmachen)",
+          "enunciado": "Complete no Präteritum: er ___ gestern. (aufmachen)",
           "respostas_possiveis": [
-            "machte ... auf"
+            "machte auf"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "C",
-          "enunciado": "wir ___ gestern ___. (einladen)",
+          "enunciado": "Complete no Präteritum: wir ___ gestern. (einladen)",
           "respostas_possiveis": [
-            "luden ... ein"
+            "luden ein"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "D",
-          "enunciado": "ihr ___ gestern ___. (zurückkommen)",
+          "enunciado": "Complete no Präteritum: ihr ___ gestern. (zurückkommen)",
           "respostas_possiveis": [
-            "kamt ... zurück"
+            "kamt zurück"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         }
@@ -3561,33 +3551,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "er ___ gestern ___. (fernsehen)",
+          "enunciado": "Complete no Präteritum: er ___ gestern. (fernsehen)",
           "respostas_possiveis": [
-            "sah ... fern"
+            "sah fern"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "B",
-          "enunciado": "wir ___ gestern ___. (abholen)",
+          "enunciado": "Complete no Präteritum: wir ___ gestern. (abholen)",
           "respostas_possiveis": [
-            "holten ... ab"
+            "holten ab"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "C",
-          "enunciado": "ihr ___ gestern ___. (losfahren)",
+          "enunciado": "Complete no Präteritum: ihr ___ gestern. (losfahren)",
           "respostas_possiveis": [
-            "fuhrt ... los"
+            "fuhrt los"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "D",
-          "enunciado": "sie ___ gestern ___. (anrufen)",
+          "enunciado": "Complete no Präteritum: sie ___ gestern. (anrufen)",
           "respostas_possiveis": [
-            "riefen ... an"
+            "riefen an"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         }
@@ -3602,33 +3592,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "wir ___ gestern ___. (zumachen)",
+          "enunciado": "Complete no Präteritum: wir ___ gestern. (zumachen)",
           "respostas_possiveis": [
-            "machten ... zu"
+            "machten zu"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "B",
-          "enunciado": "ihr ___ gestern ___. (aufwachen)",
+          "enunciado": "Complete no Präteritum: ihr ___ gestern. (aufwachen)",
           "respostas_possiveis": [
-            "wachtet ... auf"
+            "wachtet auf"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "C",
-          "enunciado": "sie ___ gestern ___. (aufstehen)",
+          "enunciado": "Complete no Präteritum: sie ___ gestern. (aufstehen)",
           "respostas_possiveis": [
-            "standen ... auf"
+            "standen auf"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "D",
-          "enunciado": "ich ___ gestern ___. (mitkommen)",
+          "enunciado": "Complete no Präteritum: ich ___ gestern. (mitkommen)",
           "respostas_possiveis": [
-            "kam ... mit"
+            "kam mit"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         }
@@ -3643,33 +3633,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "ihr ___ gestern ___. (einladen)",
+          "enunciado": "Complete no Präteritum: ihr ___ gestern. (einladen)",
           "respostas_possiveis": [
-            "ludet ... ein"
+            "ludet ein"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "B",
-          "enunciado": "sie ___ gestern ___. (zurückkommen)",
+          "enunciado": "Complete no Präteritum: sie ___ gestern. (zurückkommen)",
           "respostas_possiveis": [
-            "kamen ... zurück"
+            "kamen zurück"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "C",
-          "enunciado": "ich ___ gestern ___. (einkaufen)",
+          "enunciado": "Complete no Präteritum: ich ___ gestern. (einkaufen)",
           "respostas_possiveis": [
-            "kaufte ... ein"
+            "kaufte ein"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "D",
-          "enunciado": "du ___ gestern ___. (aufmachen)",
+          "enunciado": "Complete no Präteritum: du ___ gestern. (aufmachen)",
           "respostas_possiveis": [
-            "machtest ... auf"
+            "machtest auf"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         }
@@ -3684,33 +3674,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "sie ___ gestern ___. (losfahren)",
+          "enunciado": "Complete no Präteritum: sie ___ gestern. (losfahren)",
           "respostas_possiveis": [
-            "fuhren ... los"
+            "fuhren los"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "B",
-          "enunciado": "ich ___ gestern ___. (anrufen)",
+          "enunciado": "Complete no Präteritum: ich ___ gestern. (anrufen)",
           "respostas_possiveis": [
-            "rief ... an"
+            "rief an"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "C",
-          "enunciado": "du ___ gestern ___. (fernsehen)",
+          "enunciado": "Complete no Präteritum: du ___ gestern. (fernsehen)",
           "respostas_possiveis": [
-            "sahst ... fern"
+            "sahst fern"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "D",
-          "enunciado": "er ___ gestern ___. (abholen)",
+          "enunciado": "Complete no Präteritum: er ___ gestern. (abholen)",
           "respostas_possiveis": [
-            "holte ... ab"
+            "holte ab"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         }
@@ -3725,33 +3715,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "ich ___ gestern ___. (aufstehen)",
+          "enunciado": "Complete no Präteritum: ich ___ gestern. (aufstehen)",
           "respostas_possiveis": [
-            "stand ... auf"
+            "stand auf"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "B",
-          "enunciado": "du ___ gestern ___. (mitkommen)",
+          "enunciado": "Complete no Präteritum: du ___ gestern. (mitkommen)",
           "respostas_possiveis": [
-            "kamst ... mit"
+            "kamst mit"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "C",
-          "enunciado": "er ___ gestern ___. (zumachen)",
+          "enunciado": "Complete no Präteritum: er ___ gestern. (zumachen)",
           "respostas_possiveis": [
-            "machte ... zu"
+            "machte zu"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "D",
-          "enunciado": "wir ___ gestern ___. (aufwachen)",
+          "enunciado": "Complete no Präteritum: wir ___ gestern. (aufwachen)",
           "respostas_possiveis": [
-            "wachten ... auf"
+            "wachten auf"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         }
@@ -3766,33 +3756,33 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "du ___ gestern ___. (einkaufen)",
+          "enunciado": "Complete no Präteritum: du ___ gestern. (einkaufen)",
           "respostas_possiveis": [
-            "kauftest ... ein"
+            "kauftest ein"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "B",
-          "enunciado": "er ___ gestern ___. (aufmachen)",
+          "enunciado": "Complete no Präteritum: er ___ gestern. (aufmachen)",
           "respostas_possiveis": [
-            "machte ... auf"
+            "machte auf"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "C",
-          "enunciado": "wir ___ gestern ___. (einladen)",
+          "enunciado": "Complete no Präteritum: wir ___ gestern. (einladen)",
           "respostas_possiveis": [
-            "luden ... ein"
+            "luden ein"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         },
         {
           "letra": "D",
-          "enunciado": "ihr ___ gestern ___. (zurückkommen)",
+          "enunciado": "Complete no Präteritum: ihr ___ gestern. (zurückkommen)",
           "respostas_possiveis": [
-            "kamt ... zurück"
+            "kamt zurück"
           ],
           "justificativa": "No Präteritum da oração principal, separe o prefixo."
         }

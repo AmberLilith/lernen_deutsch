@@ -195,7 +195,7 @@ window.EXERCICIOS_MODAIS = [
   {
     "indefinidosplural013": {
       "tipo": "completar_com_palavra_correta",
-      "enunciado": "Complete: Wir haben nur ___ Minuten. (Temos apenas poucas minutos.)",
+      "enunciado": "Complete: Wir haben nur ___ Minuten. (Temos apenas poucos minutos.)",
       "itens": [
         {
           "letra": "A",

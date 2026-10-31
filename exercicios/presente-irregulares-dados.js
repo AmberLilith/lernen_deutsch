@@ -3807,7 +3807,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er fährt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: ele dirige (verbo: fahren)",
           "respostas_possiveis": [
             "er fährt"
           ],
@@ -3815,7 +3815,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: nós dormimos (verbo: schlafen)",
           "respostas_possiveis": [
             "wir schlafen"
           ],
@@ -3823,7 +3823,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr tragt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: vocês carregam (verbo: tragen)",
           "respostas_possiveis": [
             "ihr tragt"
           ],
@@ -3831,7 +3831,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: eles/elas lavam (verbo: waschen)",
           "respostas_possiveis": [
             "sie waschen"
           ],
@@ -3848,7 +3848,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: nós falamos (verbo: sprechen)",
           "respostas_possiveis": [
             "wir sprechen"
           ],
@@ -3856,7 +3856,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr esst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: vocês comem (verbo: essen)",
           "respostas_possiveis": [
             "ihr esst"
           ],
@@ -3864,7 +3864,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: eles/elas dão (verbo: geben)",
           "respostas_possiveis": [
             "sie geben"
           ],
@@ -3872,7 +3872,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich nehme\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: eu pego (verbo: nehmen)",
           "respostas_possiveis": [
             "ich nehme"
           ],
@@ -3889,7 +3889,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr fahrt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: vocês dirigem (verbo: fahren)",
           "respostas_possiveis": [
             "ihr fahrt"
           ],
@@ -3897,7 +3897,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: eles/elas dormem (verbo: schlafen)",
           "respostas_possiveis": [
             "sie schlafen"
           ],
@@ -3905,7 +3905,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich trage\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: eu carrego (verbo: tragen)",
           "respostas_possiveis": [
             "ich trage"
           ],
@@ -3913,7 +3913,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du wäschst\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: você lava (verbo: waschen)",
           "respostas_possiveis": [
             "du wäschst"
           ],
@@ -3930,7 +3930,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: eles/elas falam (verbo: sprechen)",
           "respostas_possiveis": [
             "sie sprechen"
           ],
@@ -3938,7 +3938,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich esse\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: eu como (verbo: essen)",
           "respostas_possiveis": [
             "ich esse"
           ],
@@ -3946,7 +3946,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du gibst\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: você dá (verbo: geben)",
           "respostas_possiveis": [
             "du gibst"
           ],
@@ -3954,7 +3954,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er nimmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: ele pega (verbo: nehmen)",
           "respostas_possiveis": [
             "er nimmt"
           ],
@@ -3971,7 +3971,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich fahre\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: eu dirijo (verbo: fahren)",
           "respostas_possiveis": [
             "ich fahre"
           ],
@@ -3979,7 +3979,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du schläfst\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: você dorme (verbo: schlafen)",
           "respostas_possiveis": [
             "du schläfst"
           ],
@@ -3987,7 +3987,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er trägt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: ele carrega (verbo: tragen)",
           "respostas_possiveis": [
             "er trägt"
           ],
@@ -3995,7 +3995,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: nós lavamos (verbo: waschen)",
           "respostas_possiveis": [
             "wir waschen"
           ],
@@ -4012,7 +4012,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du sprichst\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: você fala (verbo: sprechen)",
           "respostas_possiveis": [
             "du sprichst"
           ],
@@ -4020,7 +4020,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er isst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: ele come (verbo: essen)",
           "respostas_possiveis": [
             "er isst"
           ],
@@ -4028,7 +4028,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: nós damos (verbo: geben)",
           "respostas_possiveis": [
             "wir geben"
           ],
@@ -4036,7 +4036,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr nehmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: vocês pegam (verbo: nehmen)",
           "respostas_possiveis": [
             "ihr nehmt"
           ],
@@ -4053,7 +4053,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er fährt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: ele dirige (verbo: fahren)",
           "respostas_possiveis": [
             "er fährt"
           ],
@@ -4061,7 +4061,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: nós dormimos (verbo: schlafen)",
           "respostas_possiveis": [
             "wir schlafen"
           ],
@@ -4069,7 +4069,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr tragt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: vocês carregam (verbo: tragen)",
           "respostas_possiveis": [
             "ihr tragt"
           ],
@@ -4077,7 +4077,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: eles/elas lavam (verbo: waschen)",
           "respostas_possiveis": [
             "sie waschen"
           ],
@@ -4094,7 +4094,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: nós falamos (verbo: sprechen)",
           "respostas_possiveis": [
             "wir sprechen"
           ],
@@ -4102,7 +4102,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr esst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: vocês comem (verbo: essen)",
           "respostas_possiveis": [
             "ihr esst"
           ],
@@ -4110,7 +4110,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: eles/elas dão (verbo: geben)",
           "respostas_possiveis": [
             "sie geben"
           ],
@@ -4118,7 +4118,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich nehme\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: eu pego (verbo: nehmen)",
           "respostas_possiveis": [
             "ich nehme"
           ],
@@ -4135,7 +4135,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr fahrt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: vocês dirigem (verbo: fahren)",
           "respostas_possiveis": [
             "ihr fahrt"
           ],
@@ -4143,7 +4143,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: eles/elas dormem (verbo: schlafen)",
           "respostas_possiveis": [
             "sie schlafen"
           ],
@@ -4151,7 +4151,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich trage\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: eu carrego (verbo: tragen)",
           "respostas_possiveis": [
             "ich trage"
           ],
@@ -4159,7 +4159,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du wäschst\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: você lava (verbo: waschen)",
           "respostas_possiveis": [
             "du wäschst"
           ],
@@ -4176,7 +4176,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: eles/elas falam (verbo: sprechen)",
           "respostas_possiveis": [
             "sie sprechen"
           ],
@@ -4184,7 +4184,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich esse\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: eu como (verbo: essen)",
           "respostas_possiveis": [
             "ich esse"
           ],
@@ -4192,7 +4192,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du gibst\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: você dá (verbo: geben)",
           "respostas_possiveis": [
             "du gibst"
           ],
@@ -4200,7 +4200,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er nimmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: ele pega (verbo: nehmen)",
           "respostas_possiveis": [
             "er nimmt"
           ],
@@ -4217,7 +4217,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich fahre\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: eu dirijo (verbo: fahren)",
           "respostas_possiveis": [
             "ich fahre"
           ],
@@ -4225,7 +4225,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du schläfst\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: você dorme (verbo: schlafen)",
           "respostas_possiveis": [
             "du schläfst"
           ],
@@ -4233,7 +4233,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er trägt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: ele carrega (verbo: tragen)",
           "respostas_possiveis": [
             "er trägt"
           ],
@@ -4241,7 +4241,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: nós lavamos (verbo: waschen)",
           "respostas_possiveis": [
             "wir waschen"
           ],
@@ -4258,7 +4258,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du sprichst\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: você fala (verbo: sprechen)",
           "respostas_possiveis": [
             "du sprichst"
           ],
@@ -4266,7 +4266,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er isst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: ele come (verbo: essen)",
           "respostas_possiveis": [
             "er isst"
           ],
@@ -4274,7 +4274,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: nós damos (verbo: geben)",
           "respostas_possiveis": [
             "wir geben"
           ],
@@ -4282,7 +4282,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr nehmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: vocês pegam (verbo: nehmen)",
           "respostas_possiveis": [
             "ihr nehmt"
           ],
@@ -4299,7 +4299,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er fährt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: ele dirige (verbo: fahren)",
           "respostas_possiveis": [
             "er fährt"
           ],
@@ -4307,7 +4307,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: nós dormimos (verbo: schlafen)",
           "respostas_possiveis": [
             "wir schlafen"
           ],
@@ -4315,7 +4315,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr tragt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: vocês carregam (verbo: tragen)",
           "respostas_possiveis": [
             "ihr tragt"
           ],
@@ -4323,7 +4323,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: eles/elas lavam (verbo: waschen)",
           "respostas_possiveis": [
             "sie waschen"
           ],
@@ -4340,7 +4340,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: nós falamos (verbo: sprechen)",
           "respostas_possiveis": [
             "wir sprechen"
           ],
@@ -4348,7 +4348,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr esst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: vocês comem (verbo: essen)",
           "respostas_possiveis": [
             "ihr esst"
           ],
@@ -4356,7 +4356,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: eles/elas dão (verbo: geben)",
           "respostas_possiveis": [
             "sie geben"
           ],
@@ -4364,7 +4364,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich nehme\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: eu pego (verbo: nehmen)",
           "respostas_possiveis": [
             "ich nehme"
           ],
@@ -4381,7 +4381,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr fahrt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: vocês dirigem (verbo: fahren)",
           "respostas_possiveis": [
             "ihr fahrt"
           ],
@@ -4389,7 +4389,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: eles/elas dormem (verbo: schlafen)",
           "respostas_possiveis": [
             "sie schlafen"
           ],
@@ -4397,7 +4397,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich trage\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: eu carrego (verbo: tragen)",
           "respostas_possiveis": [
             "ich trage"
           ],
@@ -4405,7 +4405,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du wäschst\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: você lava (verbo: waschen)",
           "respostas_possiveis": [
             "du wäschst"
           ],
@@ -4422,7 +4422,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: eles/elas falam (verbo: sprechen)",
           "respostas_possiveis": [
             "sie sprechen"
           ],
@@ -4430,7 +4430,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich esse\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: eu como (verbo: essen)",
           "respostas_possiveis": [
             "ich esse"
           ],
@@ -4438,7 +4438,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du gibst\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: você dá (verbo: geben)",
           "respostas_possiveis": [
             "du gibst"
           ],
@@ -4446,7 +4446,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er nimmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: ele pega (verbo: nehmen)",
           "respostas_possiveis": [
             "er nimmt"
           ],
@@ -4463,7 +4463,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich fahre\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: eu dirijo (verbo: fahren)",
           "respostas_possiveis": [
             "ich fahre"
           ],
@@ -4471,7 +4471,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du schläfst\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: você dorme (verbo: schlafen)",
           "respostas_possiveis": [
             "du schläfst"
           ],
@@ -4479,7 +4479,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er trägt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: ele carrega (verbo: tragen)",
           "respostas_possiveis": [
             "er trägt"
           ],
@@ -4487,7 +4487,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: nós lavamos (verbo: waschen)",
           "respostas_possiveis": [
             "wir waschen"
           ],
@@ -4504,7 +4504,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du sprichst\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: você fala (verbo: sprechen)",
           "respostas_possiveis": [
             "du sprichst"
           ],
@@ -4512,7 +4512,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er isst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: ele come (verbo: essen)",
           "respostas_possiveis": [
             "er isst"
           ],
@@ -4520,7 +4520,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: nós damos (verbo: geben)",
           "respostas_possiveis": [
             "wir geben"
           ],
@@ -4528,7 +4528,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr nehmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: vocês pegam (verbo: nehmen)",
           "respostas_possiveis": [
             "ihr nehmt"
           ],
@@ -4545,7 +4545,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er fährt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: ele dirige (verbo: fahren)",
           "respostas_possiveis": [
             "er fährt"
           ],
@@ -4553,7 +4553,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: nós dormimos (verbo: schlafen)",
           "respostas_possiveis": [
             "wir schlafen"
           ],
@@ -4561,7 +4561,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr tragt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: vocês carregam (verbo: tragen)",
           "respostas_possiveis": [
             "ihr tragt"
           ],
@@ -4569,7 +4569,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: eles/elas lavam (verbo: waschen)",
           "respostas_possiveis": [
             "sie waschen"
           ],
@@ -4586,7 +4586,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: nós falamos (verbo: sprechen)",
           "respostas_possiveis": [
             "wir sprechen"
           ],
@@ -4594,7 +4594,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr esst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: vocês comem (verbo: essen)",
           "respostas_possiveis": [
             "ihr esst"
           ],
@@ -4602,7 +4602,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: eles/elas dão (verbo: geben)",
           "respostas_possiveis": [
             "sie geben"
           ],
@@ -4610,7 +4610,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich nehme\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: eu pego (verbo: nehmen)",
           "respostas_possiveis": [
             "ich nehme"
           ],
@@ -4627,7 +4627,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr fahrt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: vocês dirigem (verbo: fahren)",
           "respostas_possiveis": [
             "ihr fahrt"
           ],
@@ -4635,7 +4635,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: eles/elas dormem (verbo: schlafen)",
           "respostas_possiveis": [
             "sie schlafen"
           ],
@@ -4643,7 +4643,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich trage\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: eu carrego (verbo: tragen)",
           "respostas_possiveis": [
             "ich trage"
           ],
@@ -4651,7 +4651,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du wäschst\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: você lava (verbo: waschen)",
           "respostas_possiveis": [
             "du wäschst"
           ],
@@ -4668,7 +4668,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: eles/elas falam (verbo: sprechen)",
           "respostas_possiveis": [
             "sie sprechen"
           ],
@@ -4676,7 +4676,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich esse\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: eu como (verbo: essen)",
           "respostas_possiveis": [
             "ich esse"
           ],
@@ -4684,7 +4684,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du gibst\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: você dá (verbo: geben)",
           "respostas_possiveis": [
             "du gibst"
           ],
@@ -4692,7 +4692,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er nimmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: ele pega (verbo: nehmen)",
           "respostas_possiveis": [
             "er nimmt"
           ],
@@ -4709,7 +4709,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich fahre\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: eu dirijo (verbo: fahren)",
           "respostas_possiveis": [
             "ich fahre"
           ],
@@ -4717,7 +4717,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du schläfst\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: você dorme (verbo: schlafen)",
           "respostas_possiveis": [
             "du schläfst"
           ],
@@ -4725,7 +4725,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er trägt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: ele carrega (verbo: tragen)",
           "respostas_possiveis": [
             "er trägt"
           ],
@@ -4733,7 +4733,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: nós lavamos (verbo: waschen)",
           "respostas_possiveis": [
             "wir waschen"
           ],
@@ -4750,7 +4750,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du sprichst\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: você fala (verbo: sprechen)",
           "respostas_possiveis": [
             "du sprichst"
           ],
@@ -4758,7 +4758,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er isst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: ele come (verbo: essen)",
           "respostas_possiveis": [
             "er isst"
           ],
@@ -4766,7 +4766,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: nós damos (verbo: geben)",
           "respostas_possiveis": [
             "wir geben"
           ],
@@ -4774,7 +4774,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr nehmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: vocês pegam (verbo: nehmen)",
           "respostas_possiveis": [
             "ihr nehmt"
           ],
@@ -4791,7 +4791,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er fährt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: ele dirige (verbo: fahren)",
           "respostas_possiveis": [
             "er fährt"
           ],
@@ -4799,7 +4799,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: nós dormimos (verbo: schlafen)",
           "respostas_possiveis": [
             "wir schlafen"
           ],
@@ -4807,7 +4807,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr tragt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: vocês carregam (verbo: tragen)",
           "respostas_possiveis": [
             "ihr tragt"
           ],
@@ -4815,7 +4815,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: eles/elas lavam (verbo: waschen)",
           "respostas_possiveis": [
             "sie waschen"
           ],
@@ -4832,7 +4832,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: nós falamos (verbo: sprechen)",
           "respostas_possiveis": [
             "wir sprechen"
           ],
@@ -4840,7 +4840,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr esst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: vocês comem (verbo: essen)",
           "respostas_possiveis": [
             "ihr esst"
           ],
@@ -4848,7 +4848,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: eles/elas dão (verbo: geben)",
           "respostas_possiveis": [
             "sie geben"
           ],
@@ -4856,7 +4856,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich nehme\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: eu pego (verbo: nehmen)",
           "respostas_possiveis": [
             "ich nehme"
           ],
@@ -4873,7 +4873,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr fahrt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: vocês dirigem (verbo: fahren)",
           "respostas_possiveis": [
             "ihr fahrt"
           ],
@@ -4881,7 +4881,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: eles/elas dormem (verbo: schlafen)",
           "respostas_possiveis": [
             "sie schlafen"
           ],
@@ -4889,7 +4889,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich trage\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: eu carrego (verbo: tragen)",
           "respostas_possiveis": [
             "ich trage"
           ],
@@ -4897,7 +4897,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du wäschst\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: você lava (verbo: waschen)",
           "respostas_possiveis": [
             "du wäschst"
           ],
@@ -4914,7 +4914,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: eles/elas falam (verbo: sprechen)",
           "respostas_possiveis": [
             "sie sprechen"
           ],
@@ -4922,7 +4922,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich esse\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: eu como (verbo: essen)",
           "respostas_possiveis": [
             "ich esse"
           ],
@@ -4930,7 +4930,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du gibst\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: você dá (verbo: geben)",
           "respostas_possiveis": [
             "du gibst"
           ],
@@ -4938,7 +4938,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er nimmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: ele pega (verbo: nehmen)",
           "respostas_possiveis": [
             "er nimmt"
           ],
@@ -4955,7 +4955,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich fahre\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: eu dirijo (verbo: fahren)",
           "respostas_possiveis": [
             "ich fahre"
           ],
@@ -4963,7 +4963,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du schläfst\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: você dorme (verbo: schlafen)",
           "respostas_possiveis": [
             "du schläfst"
           ],
@@ -4971,7 +4971,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er trägt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: ele carrega (verbo: tragen)",
           "respostas_possiveis": [
             "er trägt"
           ],
@@ -4979,7 +4979,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: nós lavamos (verbo: waschen)",
           "respostas_possiveis": [
             "wir waschen"
           ],
@@ -4996,7 +4996,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du sprichst\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: você fala (verbo: sprechen)",
           "respostas_possiveis": [
             "du sprichst"
           ],
@@ -5004,7 +5004,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er isst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: ele come (verbo: essen)",
           "respostas_possiveis": [
             "er isst"
           ],
@@ -5012,7 +5012,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: nós damos (verbo: geben)",
           "respostas_possiveis": [
             "wir geben"
           ],
@@ -5020,7 +5020,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr nehmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: vocês pegam (verbo: nehmen)",
           "respostas_possiveis": [
             "ihr nehmt"
           ],
@@ -5037,7 +5037,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er fährt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: ele dirige (verbo: fahren)",
           "respostas_possiveis": [
             "er fährt"
           ],
@@ -5045,7 +5045,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: nós dormimos (verbo: schlafen)",
           "respostas_possiveis": [
             "wir schlafen"
           ],
@@ -5053,7 +5053,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr tragt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: vocês carregam (verbo: tragen)",
           "respostas_possiveis": [
             "ihr tragt"
           ],
@@ -5061,7 +5061,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: eles/elas lavam (verbo: waschen)",
           "respostas_possiveis": [
             "sie waschen"
           ],
@@ -5078,7 +5078,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: nós falamos (verbo: sprechen)",
           "respostas_possiveis": [
             "wir sprechen"
           ],
@@ -5086,7 +5086,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr esst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: vocês comem (verbo: essen)",
           "respostas_possiveis": [
             "ihr esst"
           ],
@@ -5094,7 +5094,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: eles/elas dão (verbo: geben)",
           "respostas_possiveis": [
             "sie geben"
           ],
@@ -5102,7 +5102,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich nehme\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: eu pego (verbo: nehmen)",
           "respostas_possiveis": [
             "ich nehme"
           ],
@@ -5119,7 +5119,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr fahrt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: vocês dirigem (verbo: fahren)",
           "respostas_possiveis": [
             "ihr fahrt"
           ],
@@ -5127,7 +5127,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: eles/elas dormem (verbo: schlafen)",
           "respostas_possiveis": [
             "sie schlafen"
           ],
@@ -5135,7 +5135,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich trage\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: eu carrego (verbo: tragen)",
           "respostas_possiveis": [
             "ich trage"
           ],
@@ -5143,7 +5143,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du wäschst\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: você lava (verbo: waschen)",
           "respostas_possiveis": [
             "du wäschst"
           ],
@@ -5160,7 +5160,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: eles/elas falam (verbo: sprechen)",
           "respostas_possiveis": [
             "sie sprechen"
           ],
@@ -5168,7 +5168,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich esse\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: eu como (verbo: essen)",
           "respostas_possiveis": [
             "ich esse"
           ],
@@ -5176,7 +5176,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du gibst\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: você dá (verbo: geben)",
           "respostas_possiveis": [
             "du gibst"
           ],
@@ -5184,7 +5184,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er nimmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: ele pega (verbo: nehmen)",
           "respostas_possiveis": [
             "er nimmt"
           ],
@@ -5201,7 +5201,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich fahre\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: eu dirijo (verbo: fahren)",
           "respostas_possiveis": [
             "ich fahre"
           ],
@@ -5209,7 +5209,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du schläfst\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: você dorme (verbo: schlafen)",
           "respostas_possiveis": [
             "du schläfst"
           ],
@@ -5217,7 +5217,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er trägt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: ele carrega (verbo: tragen)",
           "respostas_possiveis": [
             "er trägt"
           ],
@@ -5225,7 +5225,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: nós lavamos (verbo: waschen)",
           "respostas_possiveis": [
             "wir waschen"
           ],
@@ -5242,7 +5242,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du sprichst\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: você fala (verbo: sprechen)",
           "respostas_possiveis": [
             "du sprichst"
           ],
@@ -5250,7 +5250,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er isst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: ele come (verbo: essen)",
           "respostas_possiveis": [
             "er isst"
           ],
@@ -5258,7 +5258,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: nós damos (verbo: geben)",
           "respostas_possiveis": [
             "wir geben"
           ],
@@ -5266,7 +5266,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr nehmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: vocês pegam (verbo: nehmen)",
           "respostas_possiveis": [
             "ihr nehmt"
           ],
@@ -5283,7 +5283,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er fährt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: ele dirige (verbo: fahren)",
           "respostas_possiveis": [
             "er fährt"
           ],
@@ -5291,7 +5291,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: nós dormimos (verbo: schlafen)",
           "respostas_possiveis": [
             "wir schlafen"
           ],
@@ -5299,7 +5299,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr tragt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: vocês carregam (verbo: tragen)",
           "respostas_possiveis": [
             "ihr tragt"
           ],
@@ -5307,7 +5307,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: eles/elas lavam (verbo: waschen)",
           "respostas_possiveis": [
             "sie waschen"
           ],
@@ -5324,7 +5324,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: nós falamos (verbo: sprechen)",
           "respostas_possiveis": [
             "wir sprechen"
           ],
@@ -5332,7 +5332,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr esst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: vocês comem (verbo: essen)",
           "respostas_possiveis": [
             "ihr esst"
           ],
@@ -5340,7 +5340,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: eles/elas dão (verbo: geben)",
           "respostas_possiveis": [
             "sie geben"
           ],
@@ -5348,7 +5348,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich nehme\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: eu pego (verbo: nehmen)",
           "respostas_possiveis": [
             "ich nehme"
           ],
@@ -5365,7 +5365,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr fahrt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: vocês dirigem (verbo: fahren)",
           "respostas_possiveis": [
             "ihr fahrt"
           ],
@@ -5373,7 +5373,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: eles/elas dormem (verbo: schlafen)",
           "respostas_possiveis": [
             "sie schlafen"
           ],
@@ -5381,7 +5381,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich trage\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: eu carrego (verbo: tragen)",
           "respostas_possiveis": [
             "ich trage"
           ],
@@ -5389,7 +5389,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du wäschst\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: você lava (verbo: waschen)",
           "respostas_possiveis": [
             "du wäschst"
           ],
@@ -5406,7 +5406,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: eles/elas falam (verbo: sprechen)",
           "respostas_possiveis": [
             "sie sprechen"
           ],
@@ -5414,7 +5414,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich esse\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: eu como (verbo: essen)",
           "respostas_possiveis": [
             "ich esse"
           ],
@@ -5422,7 +5422,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du gibst\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: você dá (verbo: geben)",
           "respostas_possiveis": [
             "du gibst"
           ],
@@ -5430,7 +5430,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er nimmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: ele pega (verbo: nehmen)",
           "respostas_possiveis": [
             "er nimmt"
           ],
@@ -5447,7 +5447,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich fahre\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: eu dirijo (verbo: fahren)",
           "respostas_possiveis": [
             "ich fahre"
           ],
@@ -5455,7 +5455,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du schläfst\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: você dorme (verbo: schlafen)",
           "respostas_possiveis": [
             "du schläfst"
           ],
@@ -5463,7 +5463,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er trägt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: ele carrega (verbo: tragen)",
           "respostas_possiveis": [
             "er trägt"
           ],
@@ -5471,7 +5471,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: nós lavamos (verbo: waschen)",
           "respostas_possiveis": [
             "wir waschen"
           ],
@@ -5488,7 +5488,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du sprichst\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: você fala (verbo: sprechen)",
           "respostas_possiveis": [
             "du sprichst"
           ],
@@ -5496,7 +5496,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er isst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: ele come (verbo: essen)",
           "respostas_possiveis": [
             "er isst"
           ],
@@ -5504,7 +5504,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: nós damos (verbo: geben)",
           "respostas_possiveis": [
             "wir geben"
           ],
@@ -5512,7 +5512,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr nehmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: vocês pegam (verbo: nehmen)",
           "respostas_possiveis": [
             "ihr nehmt"
           ],
@@ -5529,7 +5529,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er fährt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: ele dirige (verbo: fahren)",
           "respostas_possiveis": [
             "er fährt"
           ],
@@ -5537,7 +5537,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: nós dormimos (verbo: schlafen)",
           "respostas_possiveis": [
             "wir schlafen"
           ],
@@ -5545,7 +5545,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr tragt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: vocês carregam (verbo: tragen)",
           "respostas_possiveis": [
             "ihr tragt"
           ],
@@ -5553,7 +5553,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: eles/elas lavam (verbo: waschen)",
           "respostas_possiveis": [
             "sie waschen"
           ],
@@ -5570,7 +5570,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: nós falamos (verbo: sprechen)",
           "respostas_possiveis": [
             "wir sprechen"
           ],
@@ -5578,7 +5578,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr esst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: vocês comem (verbo: essen)",
           "respostas_possiveis": [
             "ihr esst"
           ],
@@ -5586,7 +5586,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: eles/elas dão (verbo: geben)",
           "respostas_possiveis": [
             "sie geben"
           ],
@@ -5594,7 +5594,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich nehme\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: eu pego (verbo: nehmen)",
           "respostas_possiveis": [
             "ich nehme"
           ],
@@ -5611,7 +5611,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr fahrt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: vocês dirigem (verbo: fahren)",
           "respostas_possiveis": [
             "ihr fahrt"
           ],
@@ -5619,7 +5619,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: eles/elas dormem (verbo: schlafen)",
           "respostas_possiveis": [
             "sie schlafen"
           ],
@@ -5627,7 +5627,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich trage\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: eu carrego (verbo: tragen)",
           "respostas_possiveis": [
             "ich trage"
           ],
@@ -5635,7 +5635,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du wäschst\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: você lava (verbo: waschen)",
           "respostas_possiveis": [
             "du wäschst"
           ],
@@ -5652,7 +5652,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: eles/elas falam (verbo: sprechen)",
           "respostas_possiveis": [
             "sie sprechen"
           ],
@@ -5660,7 +5660,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich esse\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: eu como (verbo: essen)",
           "respostas_possiveis": [
             "ich esse"
           ],
@@ -5668,7 +5668,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du gibst\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: você dá (verbo: geben)",
           "respostas_possiveis": [
             "du gibst"
           ],
@@ -5676,7 +5676,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er nimmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: ele pega (verbo: nehmen)",
           "respostas_possiveis": [
             "er nimmt"
           ],
@@ -5693,7 +5693,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich fahre\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: eu dirijo (verbo: fahren)",
           "respostas_possiveis": [
             "ich fahre"
           ],
@@ -5701,7 +5701,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du schläfst\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: você dorme (verbo: schlafen)",
           "respostas_possiveis": [
             "du schläfst"
           ],
@@ -5709,7 +5709,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er trägt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: ele carrega (verbo: tragen)",
           "respostas_possiveis": [
             "er trägt"
           ],
@@ -5717,7 +5717,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: nós lavamos (verbo: waschen)",
           "respostas_possiveis": [
             "wir waschen"
           ],
@@ -5734,7 +5734,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du sprichst\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: você fala (verbo: sprechen)",
           "respostas_possiveis": [
             "du sprichst"
           ],
@@ -5742,7 +5742,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er isst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: ele come (verbo: essen)",
           "respostas_possiveis": [
             "er isst"
           ],
@@ -5750,7 +5750,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: nós damos (verbo: geben)",
           "respostas_possiveis": [
             "wir geben"
           ],
@@ -5758,7 +5758,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr nehmt\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: vocês pegam (verbo: nehmen)",
           "respostas_possiveis": [
             "ihr nehmt"
           ],
@@ -5775,7 +5775,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er fährt\" (verbo: fahren)",
+          "enunciado": "Traduza para o alemão: ele dirige (verbo: fahren)",
           "respostas_possiveis": [
             "er fährt"
           ],
@@ -5783,7 +5783,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir schlafen\" (verbo: schlafen)",
+          "enunciado": "Traduza para o alemão: nós dormimos (verbo: schlafen)",
           "respostas_possiveis": [
             "wir schlafen"
           ],
@@ -5791,7 +5791,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr tragt\" (verbo: tragen)",
+          "enunciado": "Traduza para o alemão: vocês carregam (verbo: tragen)",
           "respostas_possiveis": [
             "ihr tragt"
           ],
@@ -5799,7 +5799,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie waschen\" (verbo: waschen)",
+          "enunciado": "Traduza para o alemão: eles/elas lavam (verbo: waschen)",
           "respostas_possiveis": [
             "sie waschen"
           ],
@@ -5816,7 +5816,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir sprechen\" (verbo: sprechen)",
+          "enunciado": "Traduza para o alemão: nós falamos (verbo: sprechen)",
           "respostas_possiveis": [
             "wir sprechen"
           ],
@@ -5824,7 +5824,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr esst\" (verbo: essen)",
+          "enunciado": "Traduza para o alemão: vocês comem (verbo: essen)",
           "respostas_possiveis": [
             "ihr esst"
           ],
@@ -5832,7 +5832,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie geben\" (verbo: geben)",
+          "enunciado": "Traduza para o alemão: eles/elas dão (verbo: geben)",
           "respostas_possiveis": [
             "sie geben"
           ],
@@ -5840,7 +5840,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich nehme\" (verbo: nehmen)",
+          "enunciado": "Traduza para o alemão: eu pego (verbo: nehmen)",
           "respostas_possiveis": [
             "ich nehme"
           ],

@@ -75,7 +75,7 @@ function criarCartao(ex,numero){
  else if(ex.tipo==="relacionar")criarRelacionar(card,ex,s);
  else{const itens=itensDe(ex);itens.forEach((item,i)=>criarAreaItem(card,item,s.itens[i],ex.tipo,i));}
  if(ex.tipo==="multiplas_escolhas"||ex.tipo==="relacionar"){
-   card.append(el("p","modal-exercise-feedback"),el("p","modal-attempt-hint"),el("button","secondary modal-reveal-button","Exibir resposta"),el("div","modal-answer"));
+   card.append(el("p","modal-exercise-feedback"),el("p","modal-attempt-hint"),el("p","modal-rationale"),el("button","secondary modal-reveal-button","Exibir resposta"),el("div","modal-answer"));
    const btn=card.querySelector(".modal-reveal-button");btn.type="button";btn.hidden=true;btn.addEventListener("click",()=>{s.gabaritoVisivel=true;atualizarStatus(card,s,textoGabaritoPrincipal(ex),ex.justificativa||"");});atualizarStatus(card,s,textoGabaritoPrincipal(ex),ex.justificativa||"");
  }
  return card;

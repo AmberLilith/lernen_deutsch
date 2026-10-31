@@ -3,81 +3,81 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex001": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete (artigo definido, Nominativ, masculino): der ___ Mann (alt)",
+      "enunciado": "Complete (artigo definido, Nominativ, neutro): Das ___ Gebäude ist neu. (hoch)",
       "alternativas": [
-        "alte",
-        "alten",
-        "alter",
-        "altes"
+        "hoch",
+        "hohen",
+        "hoher",
+        "hohe"
       ],
       "respostas_possiveis": [
-        "alte"
+        "hohe"
       ],
-      "justificativa": "No Nominativ, masculino, com artigo definido, a terminação correta é -e."
+      "justificativa": "No Nominativ neutro com artigo definido, a terminação é -e. O adjetivo hoch perde o c antes da terminação."
     }
   },
   {
     "ex002": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete (artigo definido, Akkusativ, feminino): die ___ Frau (schön)",
+      "enunciado": "Complete (artigo definido, Akkusativ, masculino): Ich sehe den ___ Turm. (hoch)",
       "alternativas": [
-        "schöne",
-        "schönen",
-        "schöner",
-        "schönes"
+        "hoch",
+        "hohe",
+        "hoher",
+        "hohen"
       ],
       "respostas_possiveis": [
-        "schöne"
+        "hohen"
       ],
-      "justificativa": "No Akkusativ, feminino, com artigo definido, a terminação correta é -e."
+      "justificativa": "No Akkusativ masculino com artigo definido, a terminação é -en: hoch torna-se hohen."
     }
   },
   {
     "ex003": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete (artigo definido, Dativ, neutro): dem ___ Kind (klein)",
+      "enunciado": "Complete (artigo indefinido, Nominativ, masculino): Ein ___ Turm steht hier. (hoch)",
       "alternativas": [
-        "kleinen",
-        "kleine",
-        "kleiner",
-        "kleines"
+        "hoch",
+        "hohe",
+        "hohen",
+        "hoher"
       ],
       "respostas_possiveis": [
-        "kleinen"
+        "hoher"
       ],
-      "justificativa": "No Dativ, neutro, com artigo definido, a terminação correta é -en."
+      "justificativa": "No Nominativ masculino com artigo indefinido, a terminação é -er: hoher."
     }
   },
   {
     "ex004": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete (artigo definido, Genitiv, plural): der ___ Freund (gut)",
+      "enunciado": "Complete (artigo indefinido, Dativ, neutro): Wir wohnen in einem ___ Haus. (hoch)",
       "alternativas": [
-        "guten",
-        "gute",
-        "guter",
-        "gutes"
+        "hoch",
+        "hohe",
+        "hoher",
+        "hohen"
       ],
       "respostas_possiveis": [
-        "guten"
+        "hohen"
       ],
-      "justificativa": "No Genitiv, plural, com artigo definido, a terminação correta é -en."
+      "justificativa": "No Dativ neutro com artigo indefinido, a terminação é -en: hohen."
     }
   },
   {
     "ex005": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete (artigo definido, Nominativ, masculino): der ___ Auto (neu)",
+      "enunciado": "Complete o adjetivo predicativo: Das Gebäude ist ___. (hoch)",
       "alternativas": [
-        "neue",
-        "neuen",
-        "neuer",
-        "neues"
+        "hohe",
+        "hohen",
+        "hoher",
+        "hoch"
       ],
       "respostas_possiveis": [
-        "neue"
+        "hoch"
       ],
-      "justificativa": "No Nominativ, masculino, com artigo definido, a terminação correta é -e."
+      "justificativa": "Depois de sein, o adjetivo predicativo permanece na forma básica, sem declinação."
     }
   },
   {

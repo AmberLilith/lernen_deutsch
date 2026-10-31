@@ -3801,31 +3801,31 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Ich stehe um sechs Uhr auf."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: Eu acordo cedo.",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Ich wache früh auf."
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich wache früh auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: Eu arrumo meu quarto.",
           "respostas_possiveis": [
-            "Der Zug fährt um acht Uhr los."
+            "Ich räume mein Zimmer auf."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich räume mein Zimmer auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ela apaga a luz.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Sie macht das Licht aus."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie macht das Licht aus.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -3838,35 +3838,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Nós buscamos a criança.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Wir holen das Kind ab."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ela convida os amigos.",
+          "enunciado": "Traduza: A aula começa às nove horas.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Der Unterricht fängt um neun Uhr an."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Unterricht fängt um neun Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: As crianças acordam cedo.",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Die Kinder wachen früh auf."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Kinder wachen früh auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Nós fazemos compras hoje.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Wir kaufen heute ein."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -3879,27 +3879,27 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Ele vai embora agora.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Er geht jetzt weg."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er geht jetzt weg.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ele volta amanhã.",
+          "enunciado": "Traduza: A cor parece bonita.",
           "respostas_possiveis": [
-            "Er kommt morgen zurück."
+            "Die Farbe sieht schön aus."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Farbe sieht schön aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Eu assisto à televisão à noite.",
+          "enunciado": "Traduza: Eu me levanto às seis horas.",
           "respostas_possiveis": [
-            "Ich sehe abends fern."
+            "Ich stehe um sechs Uhr auf."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
@@ -3907,7 +3907,7 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Ich wache früh auf."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich wache früh auf.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -3920,19 +3920,19 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Ela participa do curso.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Sie nimmt am Kurs teil."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie nimmt am Kurs teil.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Nós fazemos compras hoje.",
+          "enunciado": "Traduza: Eu ligo o computador.",
           "respostas_possiveis": [
-            "Wir kaufen heute ein."
+            "Ich schalte den Computer ein."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schalte den Computer ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
@@ -3940,15 +3940,15 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Wir holen das Kind ab."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: A aula começa às nove horas.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Der Unterricht fängt um neun Uhr an."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Unterricht fängt um neun Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -3961,35 +3961,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Nós trazemos nossos amigos.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Wir bringen unsere Freunde mit."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir bringen unsere Freunde mit.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: Abra a janela!",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Mach das Fenster auf!"
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Mach das Fenster auf!”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: Ele vai embora agora.",
           "respostas_possiveis": [
-            "Der Zug fährt um acht Uhr los."
+            "Er geht jetzt weg."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er geht jetzt weg.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: A cor parece bonita.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Die Farbe sieht schön aus."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Farbe sieht schön aus.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4006,31 +4006,31 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Sie kommt mit."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie kommt mit.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ela convida os amigos.",
+          "enunciado": "Traduza: Eu cuido das crianças.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Ich passe auf die Kinder auf."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich passe auf die Kinder auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: Ela participa do curso.",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Sie nimmt am Kurs teil."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie nimmt am Kurs teil.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Eu ligo o computador.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Ich schalte den Computer ein."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schalte den Computer ein.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4043,35 +4043,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: O trem parte às oito horas.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Der Zug fährt um acht Uhr los."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ele volta amanhã.",
+          "enunciado": "Traduza: Ela veste sua jaqueta.",
           "respostas_possiveis": [
-            "Er kommt morgen zurück."
+            "Sie zieht ihre Jacke an."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie zieht ihre Jacke an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Eu assisto à televisão à noite.",
+          "enunciado": "Traduza: Nós trazemos nossos amigos.",
           "respostas_possiveis": [
-            "Ich sehe abends fern."
+            "Wir bringen unsere Freunde mit."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir bringen unsere Freunde mit.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Abra a janela!",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Mach das Fenster auf!"
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Mach das Fenster auf!”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4084,35 +4084,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Nós fazemos baldeação em Berlim.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Wir steigen in Berlin um."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir steigen in Berlin um.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Nós fazemos compras hoje.",
+          "enunciado": "Traduza: Ele lê o texto em voz alta.",
           "respostas_possiveis": [
-            "Wir kaufen heute ein."
+            "Er liest den Text vor."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er liest den Text vor.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Nós buscamos a criança.",
+          "enunciado": "Traduza: Ela vem junto.",
           "respostas_possiveis": [
-            "Wir holen das Kind ab."
+            "Sie kommt mit."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie kommt mit.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu cuido das crianças.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich passe auf die Kinder auf."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich passe auf die Kinder auf.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4125,35 +4125,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu anoto o endereço.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich schreibe die Adresse auf."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schreibe die Adresse auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: Ele telefona para a mãe.",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Er ruft seine Mutter an."
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: O trem parte às oito horas.",
           "respostas_possiveis": [
             "Der Zug fährt um acht Uhr los."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ela veste sua jaqueta.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Sie zieht ihre Jacke an."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie zieht ihre Jacke an.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4166,35 +4166,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ele desce do ônibus.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Er steigt aus dem Bus aus."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er steigt aus dem Bus aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
           "enunciado": "Traduza: Ela convida os amigos.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Sie lädt ihre Freunde ein."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie lädt ihre Freunde ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: Nós fazemos baldeação em Berlim.",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Wir steigen in Berlin um."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir steigen in Berlin um.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Ele lê o texto em voz alta.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Er liest den Text vor."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er liest den Text vor.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4211,31 +4211,31 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Er macht die Tür zu."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ele volta amanhã.",
+          "enunciado": "Traduza: A criança adormece rapidamente.",
           "respostas_possiveis": [
-            "Er kommt morgen zurück."
+            "Das Kind schläft schnell ein."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Kind schläft schnell ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Eu assisto à televisão à noite.",
+          "enunciado": "Traduza: Eu anoto o endereço.",
           "respostas_possiveis": [
-            "Ich sehe abends fern."
+            "Ich schreibe die Adresse auf."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schreibe die Adresse auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Ele telefona para a mãe.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Er ruft seine Mutter an."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4248,35 +4248,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Escute-me, por favor.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Hör mir bitte zu."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Hör mir bitte zu.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Nós fazemos compras hoje.",
+          "enunciado": "Traduza: A festa acontece amanhã.",
           "respostas_possiveis": [
-            "Wir kaufen heute ein."
+            "Das Fest findet morgen statt."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Fest findet morgen statt.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Nós buscamos a criança.",
+          "enunciado": "Traduza: Ele desce do ônibus.",
           "respostas_possiveis": [
-            "Wir holen das Kind ab."
+            "Er steigt aus dem Bus aus."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er steigt aus dem Bus aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Ela convida os amigos.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Sie lädt ihre Freunde ein."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie lädt ihre Freunde ein.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4289,35 +4289,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu devolvo o livro.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich gebe das Buch zurück."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich gebe das Buch zurück.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: O filme começa às oito horas.",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Der Film fängt um acht Uhr an."
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Film fängt um acht Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: Ele fecha a porta.",
           "respostas_possiveis": [
-            "Der Zug fährt um acht Uhr los."
+            "Er macht die Tür zu."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: A criança adormece rapidamente.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Das Kind schläft schnell ein."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Kind schläft schnell ein.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4330,35 +4330,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ela apaga a luz.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Sie macht das Licht aus."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie macht das Licht aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ela convida os amigos.",
+          "enunciado": "Traduza: Eu assisto à televisão à noite.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Ich sehe abends fern."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: Escute-me, por favor.",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Hör mir bitte zu."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Hör mir bitte zu.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: A festa acontece amanhã.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Das Fest findet morgen statt."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Fest findet morgen statt.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4371,11 +4371,11 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Nós fazemos compras hoje.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Wir kaufen heute ein."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
@@ -4383,23 +4383,23 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Er kommt morgen zurück."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Eu assisto à televisão à noite.",
+          "enunciado": "Traduza: Eu devolvo o livro.",
           "respostas_possiveis": [
-            "Ich sehe abends fern."
+            "Ich gebe das Buch zurück."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich gebe das Buch zurück.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: O filme começa às oito horas.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Der Film fängt um acht Uhr an."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Film fängt um acht Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4416,31 +4416,31 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Ich wache früh auf."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich wache früh auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Nós fazemos compras hoje.",
+          "enunciado": "Traduza: Eu arrumo meu quarto.",
           "respostas_possiveis": [
-            "Wir kaufen heute ein."
+            "Ich räume mein Zimmer auf."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich räume mein Zimmer auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Nós buscamos a criança.",
+          "enunciado": "Traduza: Ela apaga a luz.",
           "respostas_possiveis": [
-            "Wir holen das Kind ab."
+            "Sie macht das Licht aus."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie macht das Licht aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu assisto à televisão à noite.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich sehe abends fern."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4453,35 +4453,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: A aula começa às nove horas.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Der Unterricht fängt um neun Uhr an."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Unterricht fängt um neun Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: As crianças acordam cedo.",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Die Kinder wachen früh auf."
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Kinder wachen früh auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: Nós fazemos compras hoje.",
           "respostas_possiveis": [
-            "Der Zug fährt um acht Uhr los."
+            "Wir kaufen heute ein."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ele volta amanhã.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Er kommt morgen zurück."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4494,35 +4494,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: A cor parece bonita.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Die Farbe sieht schön aus."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Farbe sieht schön aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ela convida os amigos.",
+          "enunciado": "Traduza: Eu me levanto às seis horas.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Ich stehe um sechs Uhr auf."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: Eu acordo cedo.",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Ich wache früh auf."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich wache früh auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Eu arrumo meu quarto.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Ich räume mein Zimmer auf."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich räume mein Zimmer auf.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4535,35 +4535,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Eu ligo o computador.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Ich schalte den Computer ein."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schalte den Computer ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ele volta amanhã.",
+          "enunciado": "Traduza: Nós buscamos a criança.",
           "respostas_possiveis": [
-            "Er kommt morgen zurück."
+            "Wir holen das Kind ab."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Eu assisto à televisão à noite.",
+          "enunciado": "Traduza: A aula começa às nove horas.",
           "respostas_possiveis": [
-            "Ich sehe abends fern."
+            "Der Unterricht fängt um neun Uhr an."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Unterricht fängt um neun Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: As crianças acordam cedo.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Die Kinder wachen früh auf."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Kinder wachen früh auf.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4576,27 +4576,27 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Abra a janela!",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Mach das Fenster auf!"
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Mach das Fenster auf!”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Nós fazemos compras hoje.",
+          "enunciado": "Traduza: Ele vai embora agora.",
           "respostas_possiveis": [
-            "Wir kaufen heute ein."
+            "Er geht jetzt weg."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er geht jetzt weg.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Nós buscamos a criança.",
+          "enunciado": "Traduza: A cor parece bonita.",
           "respostas_possiveis": [
-            "Wir holen das Kind ab."
+            "Die Farbe sieht schön aus."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Farbe sieht schön aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
@@ -4604,7 +4604,7 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Ich stehe um sechs Uhr auf."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4617,35 +4617,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu cuido das crianças.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich passe auf die Kinder auf."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich passe auf die Kinder auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: Ela participa do curso.",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Sie nimmt am Kurs teil."
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie nimmt am Kurs teil.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: Eu ligo o computador.",
           "respostas_possiveis": [
-            "Der Zug fährt um acht Uhr los."
+            "Ich schalte den Computer ein."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schalte den Computer ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Nós buscamos a criança.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Wir holen das Kind ab."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4658,35 +4658,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ela veste sua jaqueta.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Sie zieht ihre Jacke an."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie zieht ihre Jacke an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ela convida os amigos.",
+          "enunciado": "Traduza: Nós trazemos nossos amigos.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Wir bringen unsere Freunde mit."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir bringen unsere Freunde mit.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: Abra a janela!",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Mach das Fenster auf!"
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Mach das Fenster auf!”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Ele vai embora agora.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Er geht jetzt weg."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er geht jetzt weg.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4699,35 +4699,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Ele lê o texto em voz alta.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Er liest den Text vor."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er liest den Text vor.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ele volta amanhã.",
+          "enunciado": "Traduza: Ela vem junto.",
           "respostas_possiveis": [
-            "Er kommt morgen zurück."
+            "Sie kommt mit."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie kommt mit.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Eu assisto à televisão à noite.",
+          "enunciado": "Traduza: Eu cuido das crianças.",
           "respostas_possiveis": [
-            "Ich sehe abends fern."
+            "Ich passe auf die Kinder auf."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich passe auf die Kinder auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Ela participa do curso.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Sie nimmt am Kurs teil."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie nimmt am Kurs teil.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4740,35 +4740,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Ele telefona para a mãe.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Er ruft seine Mutter an."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Nós fazemos compras hoje.",
+          "enunciado": "Traduza: O trem parte às oito horas.",
           "respostas_possiveis": [
-            "Wir kaufen heute ein."
+            "Der Zug fährt um acht Uhr los."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Nós buscamos a criança.",
+          "enunciado": "Traduza: Ela veste sua jaqueta.",
           "respostas_possiveis": [
-            "Wir holen das Kind ab."
+            "Sie zieht ihre Jacke an."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie zieht ihre Jacke an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Nós trazemos nossos amigos.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Wir bringen unsere Freunde mit."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir bringen unsere Freunde mit.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4781,27 +4781,27 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Ela convida os amigos.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Sie lädt ihre Freunde ein."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie lädt ihre Freunde ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: Nós fazemos baldeação em Berlim.",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Wir steigen in Berlin um."
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir steigen in Berlin um.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: Ele lê o texto em voz alta.",
           "respostas_possiveis": [
-            "Der Zug fährt um acht Uhr los."
+            "Er liest den Text vor."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er liest den Text vor.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
@@ -4809,7 +4809,7 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Sie kommt mit."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie kommt mit.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4822,19 +4822,19 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: A criança adormece rapidamente.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Das Kind schläft schnell ein."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Kind schläft schnell ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ela convida os amigos.",
+          "enunciado": "Traduza: Eu anoto o endereço.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Ich schreibe die Adresse auf."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schreibe die Adresse auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
@@ -4842,15 +4842,15 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Er ruft seine Mutter an."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: O trem parte às oito horas.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Der Zug fährt um acht Uhr los."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4863,35 +4863,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: A festa acontece amanhã.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Das Fest findet morgen statt."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Fest findet morgen statt.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ele volta amanhã.",
+          "enunciado": "Traduza: Ele desce do ônibus.",
           "respostas_possiveis": [
-            "Er kommt morgen zurück."
+            "Er steigt aus dem Bus aus."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er steigt aus dem Bus aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Eu assisto à televisão à noite.",
+          "enunciado": "Traduza: Ela convida os amigos.",
           "respostas_possiveis": [
-            "Ich sehe abends fern."
+            "Sie lädt ihre Freunde ein."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie lädt ihre Freunde ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Nós fazemos baldeação em Berlim.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Wir steigen in Berlin um."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir steigen in Berlin um.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4904,35 +4904,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: O filme começa às oito horas.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Der Film fängt um acht Uhr an."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Film fängt um acht Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Nós fazemos compras hoje.",
+          "enunciado": "Traduza: Ele fecha a porta.",
           "respostas_possiveis": [
-            "Wir kaufen heute ein."
+            "Er macht die Tür zu."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Nós buscamos a criança.",
+          "enunciado": "Traduza: A criança adormece rapidamente.",
           "respostas_possiveis": [
-            "Wir holen das Kind ab."
+            "Das Kind schläft schnell ein."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Kind schläft schnell ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu anoto o endereço.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich schreibe die Adresse auf."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schreibe die Adresse auf.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4945,35 +4945,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu assisto à televisão à noite.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich sehe abends fern."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: Escute-me, por favor.",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Hör mir bitte zu."
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Hör mir bitte zu.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: A festa acontece amanhã.",
           "respostas_possiveis": [
-            "Der Zug fährt um acht Uhr los."
+            "Das Fest findet morgen statt."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Fest findet morgen statt.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ele desce do ônibus.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Er steigt aus dem Bus aus."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er steigt aus dem Bus aus.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -4986,27 +4986,27 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ele volta amanhã.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Er kommt morgen zurück."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ela convida os amigos.",
+          "enunciado": "Traduza: Eu devolvo o livro.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Ich gebe das Buch zurück."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich gebe das Buch zurück.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: O filme começa às oito horas.",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Der Film fängt um acht Uhr an."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Film fängt um acht Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
@@ -5014,7 +5014,7 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Er macht die Tür zu."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5027,19 +5027,19 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Eu arrumo meu quarto.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Ich räume mein Zimmer auf."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich räume mein Zimmer auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ele volta amanhã.",
+          "enunciado": "Traduza: Ela apaga a luz.",
           "respostas_possiveis": [
-            "Er kommt morgen zurück."
+            "Sie macht das Licht aus."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie macht das Licht aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
@@ -5047,15 +5047,15 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Ich sehe abends fern."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Escute-me, por favor.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Hör mir bitte zu."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Hör mir bitte zu.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5068,11 +5068,11 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: As crianças acordam cedo.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Die Kinder wachen früh auf."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Kinder wachen früh auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
@@ -5080,23 +5080,23 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Wir kaufen heute ein."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Nós buscamos a criança.",
+          "enunciado": "Traduza: Ele volta amanhã.",
           "respostas_possiveis": [
-            "Wir holen das Kind ab."
+            "Er kommt morgen zurück."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu devolvo o livro.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich gebe das Buch zurück."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich gebe das Buch zurück.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5113,31 +5113,31 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Ich stehe um sechs Uhr auf."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: Eu acordo cedo.",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Ich wache früh auf."
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich wache früh auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: Eu arrumo meu quarto.",
           "respostas_possiveis": [
-            "Der Zug fährt um acht Uhr los."
+            "Ich räume mein Zimmer auf."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich räume mein Zimmer auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ela apaga a luz.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Sie macht das Licht aus."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie macht das Licht aus.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5150,35 +5150,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Nós buscamos a criança.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Wir holen das Kind ab."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ela convida os amigos.",
+          "enunciado": "Traduza: A aula começa às nove horas.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Der Unterricht fängt um neun Uhr an."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Unterricht fängt um neun Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: As crianças acordam cedo.",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Die Kinder wachen früh auf."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Kinder wachen früh auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Nós fazemos compras hoje.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Wir kaufen heute ein."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5191,27 +5191,27 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Ele vai embora agora.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Er geht jetzt weg."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er geht jetzt weg.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ele volta amanhã.",
+          "enunciado": "Traduza: A cor parece bonita.",
           "respostas_possiveis": [
-            "Er kommt morgen zurück."
+            "Die Farbe sieht schön aus."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Farbe sieht schön aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Eu assisto à televisão à noite.",
+          "enunciado": "Traduza: Eu me levanto às seis horas.",
           "respostas_possiveis": [
-            "Ich sehe abends fern."
+            "Ich stehe um sechs Uhr auf."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
@@ -5219,7 +5219,7 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Ich wache früh auf."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich wache früh auf.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5232,19 +5232,19 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Ela participa do curso.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Sie nimmt am Kurs teil."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie nimmt am Kurs teil.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Nós fazemos compras hoje.",
+          "enunciado": "Traduza: Eu ligo o computador.",
           "respostas_possiveis": [
-            "Wir kaufen heute ein."
+            "Ich schalte den Computer ein."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schalte den Computer ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
@@ -5252,15 +5252,15 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Wir holen das Kind ab."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: A aula começa às nove horas.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Der Unterricht fängt um neun Uhr an."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Unterricht fängt um neun Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5273,35 +5273,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Nós trazemos nossos amigos.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Wir bringen unsere Freunde mit."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir bringen unsere Freunde mit.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: Abra a janela!",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Mach das Fenster auf!"
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Mach das Fenster auf!”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: Ele vai embora agora.",
           "respostas_possiveis": [
-            "Der Zug fährt um acht Uhr los."
+            "Er geht jetzt weg."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er geht jetzt weg.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: A cor parece bonita.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Die Farbe sieht schön aus."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Farbe sieht schön aus.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5318,31 +5318,31 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Sie kommt mit."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie kommt mit.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ela convida os amigos.",
+          "enunciado": "Traduza: Eu cuido das crianças.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Ich passe auf die Kinder auf."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich passe auf die Kinder auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: Ela participa do curso.",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Sie nimmt am Kurs teil."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie nimmt am Kurs teil.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Eu ligo o computador.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Ich schalte den Computer ein."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schalte den Computer ein.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5355,35 +5355,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: O trem parte às oito horas.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Der Zug fährt um acht Uhr los."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ele volta amanhã.",
+          "enunciado": "Traduza: Ela veste sua jaqueta.",
           "respostas_possiveis": [
-            "Er kommt morgen zurück."
+            "Sie zieht ihre Jacke an."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie zieht ihre Jacke an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Eu assisto à televisão à noite.",
+          "enunciado": "Traduza: Nós trazemos nossos amigos.",
           "respostas_possiveis": [
-            "Ich sehe abends fern."
+            "Wir bringen unsere Freunde mit."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir bringen unsere Freunde mit.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Abra a janela!",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Mach das Fenster auf!"
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Mach das Fenster auf!”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5396,35 +5396,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Nós fazemos baldeação em Berlim.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Wir steigen in Berlin um."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir steigen in Berlin um.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Nós fazemos compras hoje.",
+          "enunciado": "Traduza: Ele lê o texto em voz alta.",
           "respostas_possiveis": [
-            "Wir kaufen heute ein."
+            "Er liest den Text vor."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er liest den Text vor.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Nós buscamos a criança.",
+          "enunciado": "Traduza: Ela vem junto.",
           "respostas_possiveis": [
-            "Wir holen das Kind ab."
+            "Sie kommt mit."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie kommt mit.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu cuido das crianças.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich passe auf die Kinder auf."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich passe auf die Kinder auf.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5437,35 +5437,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu anoto o endereço.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich schreibe die Adresse auf."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schreibe die Adresse auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: Ele telefona para a mãe.",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Er ruft seine Mutter an."
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: O trem parte às oito horas.",
           "respostas_possiveis": [
             "Der Zug fährt um acht Uhr los."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ela veste sua jaqueta.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Sie zieht ihre Jacke an."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie zieht ihre Jacke an.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5478,35 +5478,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ele desce do ônibus.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Er steigt aus dem Bus aus."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er steigt aus dem Bus aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
           "enunciado": "Traduza: Ela convida os amigos.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Sie lädt ihre Freunde ein."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie lädt ihre Freunde ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: Nós fazemos baldeação em Berlim.",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Wir steigen in Berlin um."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir steigen in Berlin um.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Ele lê o texto em voz alta.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Er liest den Text vor."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er liest den Text vor.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5523,31 +5523,31 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Er macht die Tür zu."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ele volta amanhã.",
+          "enunciado": "Traduza: A criança adormece rapidamente.",
           "respostas_possiveis": [
-            "Er kommt morgen zurück."
+            "Das Kind schläft schnell ein."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Kind schläft schnell ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Eu assisto à televisão à noite.",
+          "enunciado": "Traduza: Eu anoto o endereço.",
           "respostas_possiveis": [
-            "Ich sehe abends fern."
+            "Ich schreibe die Adresse auf."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich schreibe die Adresse auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Ele telefona para a mãe.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Er ruft seine Mutter an."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5560,35 +5560,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: Escute-me, por favor.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Hör mir bitte zu."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Hör mir bitte zu.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Nós fazemos compras hoje.",
+          "enunciado": "Traduza: A festa acontece amanhã.",
           "respostas_possiveis": [
-            "Wir kaufen heute ein."
+            "Das Fest findet morgen statt."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Fest findet morgen statt.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Nós buscamos a criança.",
+          "enunciado": "Traduza: Ele desce do ônibus.",
           "respostas_possiveis": [
-            "Wir holen das Kind ab."
+            "Er steigt aus dem Bus aus."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er steigt aus dem Bus aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Ela convida os amigos.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Sie lädt ihre Freunde ein."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie lädt ihre Freunde ein.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5601,35 +5601,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu devolvo o livro.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich gebe das Buch zurück."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich gebe das Buch zurück.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: O filme começa às oito horas.",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Der Film fängt um acht Uhr an."
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Film fängt um acht Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: Ele fecha a porta.",
           "respostas_possiveis": [
-            "Der Zug fährt um acht Uhr los."
+            "Er macht die Tür zu."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: A criança adormece rapidamente.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Das Kind schläft schnell ein."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Kind schläft schnell ein.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5642,35 +5642,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ela apaga a luz.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Sie macht das Licht aus."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie macht das Licht aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ela convida os amigos.",
+          "enunciado": "Traduza: Eu assisto à televisão à noite.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Ich sehe abends fern."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: Escute-me, por favor.",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Hör mir bitte zu."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Hör mir bitte zu.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: A festa acontece amanhã.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Das Fest findet morgen statt."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Das Fest findet morgen statt.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5683,11 +5683,11 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Nós fazemos compras hoje.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Wir kaufen heute ein."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
@@ -5695,23 +5695,23 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Er kommt morgen zurück."
           ],
-          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Eu assisto à televisão à noite.",
+          "enunciado": "Traduza: Eu devolvo o livro.",
           "respostas_possiveis": [
-            "Ich sehe abends fern."
+            "Ich gebe das Buch zurück."
           ],
-          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich gebe das Buch zurück.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu acordo cedo.",
+          "enunciado": "Traduza: O filme começa às oito horas.",
           "respostas_possiveis": [
-            "Ich wache früh auf."
+            "Der Film fängt um acht Uhr an."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Film fängt um acht Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5728,31 +5728,31 @@ window.EXERCICIOS_MODAIS = [
           "respostas_possiveis": [
             "Ich wache früh auf."
           ],
-          "justificativa": "A tradução é “Ich wache früh auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich wache früh auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Nós fazemos compras hoje.",
+          "enunciado": "Traduza: Eu arrumo meu quarto.",
           "respostas_possiveis": [
-            "Wir kaufen heute ein."
+            "Ich räume mein Zimmer auf."
           ],
-          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich räume mein Zimmer auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Nós buscamos a criança.",
+          "enunciado": "Traduza: Ela apaga a luz.",
           "respostas_possiveis": [
-            "Wir holen das Kind ab."
+            "Sie macht das Licht aus."
           ],
-          "justificativa": "A tradução é “Wir holen das Kind ab.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Sie macht das Licht aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: Eu assisto à televisão à noite.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Ich sehe abends fern."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich sehe abends fern.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5765,35 +5765,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Eu me levanto às seis horas.",
+          "enunciado": "Traduza: A aula começa às nove horas.",
           "respostas_possiveis": [
-            "Ich stehe um sechs Uhr auf."
+            "Der Unterricht fängt um neun Uhr an."
           ],
-          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Der Unterricht fängt um neun Uhr an.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Eu abro a janela.",
+          "enunciado": "Traduza: As crianças acordam cedo.",
           "respostas_possiveis": [
-            "Ich mache das Fenster auf."
+            "Die Kinder wachen früh auf."
           ],
-          "justificativa": "A tradução é “Ich mache das Fenster auf.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Kinder wachen früh auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: O trem parte às oito.",
+          "enunciado": "Traduza: Nós fazemos compras hoje.",
           "respostas_possiveis": [
-            "Der Zug fährt um acht Uhr los."
+            "Wir kaufen heute ein."
           ],
-          "justificativa": "A tradução é “Der Zug fährt um acht Uhr los.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Wir kaufen heute ein.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: Ele volta amanhã.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Er kommt morgen zurück."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Er kommt morgen zurück.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."
@@ -5806,35 +5806,35 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: Ela vem junto.",
+          "enunciado": "Traduza: A cor parece bonita.",
           "respostas_possiveis": [
-            "Sie kommt mit."
+            "Die Farbe sieht schön aus."
           ],
-          "justificativa": "A tradução é “Sie kommt mit.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Die Farbe sieht schön aus.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: Ela convida os amigos.",
+          "enunciado": "Traduza: Eu me levanto às seis horas.",
           "respostas_possiveis": [
-            "Sie lädt die Freunde ein."
+            "Ich stehe um sechs Uhr auf."
           ],
-          "justificativa": "A tradução é “Sie lädt die Freunde ein.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich stehe um sechs Uhr auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: Ele telefona para a mãe.",
+          "enunciado": "Traduza: Eu acordo cedo.",
           "respostas_possiveis": [
-            "Er ruft seine Mutter an."
+            "Ich wache früh auf."
           ],
-          "justificativa": "A tradução é “Er ruft seine Mutter an.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich wache früh auf.”. Observe como o prefixo separável se posiciona na oração."
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: Ele fecha a porta.",
+          "enunciado": "Traduza: Eu arrumo meu quarto.",
           "respostas_possiveis": [
-            "Er macht die Tür zu."
+            "Ich räume mein Zimmer auf."
           ],
-          "justificativa": "A tradução é “Er macht die Tür zu.”. Observe a posição do prefixo separável."
+          "justificativa": "A tradução é “Ich räume mein Zimmer auf.”. Observe como o prefixo separável se posiciona na oração."
         }
       ],
       "justificativa": "Na oração principal, separe o prefixo; com modal ou subordinada, mantenha o verbo unido."

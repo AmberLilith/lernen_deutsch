@@ -341,7 +341,7 @@ function adicionarItensProgressivamente(container, itens, criarItem){
    botaoMais.textContent = "Mais";
    botaoMais.setAttribute("aria-label", "Exibir mais itens");
    botaoMais.addEventListener("click", adicionarProximoLote);
-   container.parentElement.appendChild(botaoMais);
+   container.appendChild(botaoMais);
  }
 }
 

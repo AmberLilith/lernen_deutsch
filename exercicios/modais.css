@@ -31,6 +31,8 @@
 .modal-exercise-feedback.is-wrong { color:var(--modais-red); }
 .modal-attempt-hint { margin:4px 0 10px; color:var(--muted); font-size:.88rem; }
 .modal-reveal-button { margin-top:5px; }
+/* O estilo dos botões não pode sobrescrever o atributo hidden. */
+.modal-reveal-button[hidden] { display:none !important; }
 .modal-answer { margin-top:10px; padding:12px; border-radius:9px; background:var(--gold-soft); border:1px solid var(--line); }
 .modal-answer[hidden] { display:none; }
 .matching-layout { display:grid; grid-template-columns:1fr 1fr; gap:18px; }

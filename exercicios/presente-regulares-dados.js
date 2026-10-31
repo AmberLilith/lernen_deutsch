@@ -3801,7 +3801,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er lernt\" (verbo: lernen)",
+          "enunciado": "Traduza para o alemão: ele aprende (verbo: lernen)",
           "respostas_possiveis": [
             "er lernt"
           ],
@@ -3809,7 +3809,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir machen\" (verbo: machen)",
+          "enunciado": "Traduza para o alemão: nós fazemos (verbo: machen)",
           "respostas_possiveis": [
             "wir machen"
           ],
@@ -3817,7 +3817,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr spielt\" (verbo: spielen)",
+          "enunciado": "Traduza para o alemão: vocês jogam (verbo: spielen)",
           "respostas_possiveis": [
             "ihr spielt"
           ],
@@ -3825,7 +3825,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie wohnen\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: eles/elas moram (verbo: wohnen)",
           "respostas_possiveis": [
             "sie wohnen"
           ],
@@ -3842,7 +3842,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir kochen\" (verbo: kochen)",
+          "enunciado": "Traduza para o alemão: nós cozinhamos (verbo: kochen)",
           "respostas_possiveis": [
             "wir kochen"
           ],
@@ -3850,7 +3850,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr reist\" (verbo: reisen)",
+          "enunciado": "Traduza para o alemão: vocês viajam (verbo: reisen)",
           "respostas_possiveis": [
             "ihr reist"
           ],
@@ -3858,7 +3858,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie tanzen\" (verbo: tanzen)",
+          "enunciado": "Traduza para o alemão: eles/elas dançam (verbo: tanzen)",
           "respostas_possiveis": [
             "sie tanzen"
           ],
@@ -3866,7 +3866,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich arbeite\" (verbo: arbeiten)",
+          "enunciado": "Traduza para o alemão: eu trabalho (verbo: arbeiten)",
           "respostas_possiveis": [
             "ich arbeite"
           ],
@@ -3883,7 +3883,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr zeichnet\" (verbo: zeichnen)",
+          "enunciado": "Traduza para o alemão: vocês desenham (verbo: zeichnen)",
           "respostas_possiveis": [
             "ihr zeichnet"
           ],
@@ -3891,7 +3891,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie öffnen\" (verbo: öffnen)",
+          "enunciado": "Traduza para o alemão: eles/elas abrem (verbo: öffnen)",
           "respostas_possiveis": [
             "sie öffnen"
           ],
@@ -3899,7 +3899,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich studiere\" (verbo: studieren)",
+          "enunciado": "Traduza para o alemão: eu estudo (verbo: studieren)",
           "respostas_possiveis": [
             "ich studiere"
           ],
@@ -3907,7 +3907,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du telefonierst\" (verbo: telefonieren)",
+          "enunciado": "Traduza para o alemão: você telefona (verbo: telefonieren)",
           "respostas_possiveis": [
             "du telefonierst"
           ],
@@ -3924,7 +3924,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie machen\" (verbo: machen)",
+          "enunciado": "Traduza para o alemão: eles/elas fazem (verbo: machen)",
           "respostas_possiveis": [
             "sie machen"
           ],
@@ -3932,7 +3932,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich spiele\" (verbo: spielen)",
+          "enunciado": "Traduza para o alemão: eu jogo (verbo: spielen)",
           "respostas_possiveis": [
             "ich spiele"
           ],
@@ -3940,7 +3940,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du wohnst\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: você mora (verbo: wohnen)",
           "respostas_possiveis": [
             "du wohnst"
           ],
@@ -3948,7 +3948,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er kauft\" (verbo: kaufen)",
+          "enunciado": "Traduza para o alemão: ele compra (verbo: kaufen)",
           "respostas_possiveis": [
             "er kauft"
           ],
@@ -3965,7 +3965,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich reise\" (verbo: reisen)",
+          "enunciado": "Traduza para o alemão: eu viajo (verbo: reisen)",
           "respostas_possiveis": [
             "ich reise"
           ],
@@ -3973,7 +3973,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du tanzt\" (verbo: tanzen)",
+          "enunciado": "Traduza para o alemão: você dança (verbo: tanzen)",
           "respostas_possiveis": [
             "du tanzt"
           ],
@@ -3981,7 +3981,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er arbeitet\" (verbo: arbeiten)",
+          "enunciado": "Traduza para o alemão: ele trabalha (verbo: arbeiten)",
           "respostas_possiveis": [
             "er arbeitet"
           ],
@@ -3989,7 +3989,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir warten\" (verbo: warten)",
+          "enunciado": "Traduza para o alemão: nós esperamos (verbo: warten)",
           "respostas_possiveis": [
             "wir warten"
           ],
@@ -4006,7 +4006,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du öffnest\" (verbo: öffnen)",
+          "enunciado": "Traduza para o alemão: você abre (verbo: öffnen)",
           "respostas_possiveis": [
             "du öffnest"
           ],
@@ -4014,7 +4014,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er studiert\" (verbo: studieren)",
+          "enunciado": "Traduza para o alemão: ele estuda (verbo: studieren)",
           "respostas_possiveis": [
             "er studiert"
           ],
@@ -4022,7 +4022,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir telefonieren\" (verbo: telefonieren)",
+          "enunciado": "Traduza para o alemão: nós telefonamos (verbo: telefonieren)",
           "respostas_possiveis": [
             "wir telefonieren"
           ],
@@ -4030,7 +4030,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr besucht\" (verbo: besuchen)",
+          "enunciado": "Traduza para o alemão: vocês visitam (verbo: besuchen)",
           "respostas_possiveis": [
             "ihr besucht"
           ],
@@ -4047,7 +4047,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er spielt\" (verbo: spielen)",
+          "enunciado": "Traduza para o alemão: ele joga (verbo: spielen)",
           "respostas_possiveis": [
             "er spielt"
           ],
@@ -4055,7 +4055,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir wohnen\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: nós moramos (verbo: wohnen)",
           "respostas_possiveis": [
             "wir wohnen"
           ],
@@ -4063,7 +4063,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr kauft\" (verbo: kaufen)",
+          "enunciado": "Traduza para o alemão: vocês compram (verbo: kaufen)",
           "respostas_possiveis": [
             "ihr kauft"
           ],
@@ -4071,7 +4071,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie fragen\" (verbo: fragen)",
+          "enunciado": "Traduza para o alemão: eles/elas perguntam (verbo: fragen)",
           "respostas_possiveis": [
             "sie fragen"
           ],
@@ -4088,7 +4088,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir tanzen\" (verbo: tanzen)",
+          "enunciado": "Traduza para o alemão: nós dançamos (verbo: tanzen)",
           "respostas_possiveis": [
             "wir tanzen"
           ],
@@ -4096,7 +4096,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr arbeitet\" (verbo: arbeiten)",
+          "enunciado": "Traduza para o alemão: vocês trabalham (verbo: arbeiten)",
           "respostas_possiveis": [
             "ihr arbeitet"
           ],
@@ -4104,7 +4104,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie warten\" (verbo: warten)",
+          "enunciado": "Traduza para o alemão: eles/elas esperam (verbo: warten)",
           "respostas_possiveis": [
             "sie warten"
           ],
@@ -4112,7 +4112,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich rede\" (verbo: reden)",
+          "enunciado": "Traduza para o alemão: eu converso (verbo: reden)",
           "respostas_possiveis": [
             "ich rede"
           ],
@@ -4129,7 +4129,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr studiert\" (verbo: studieren)",
+          "enunciado": "Traduza para o alemão: vocês estudam (verbo: studieren)",
           "respostas_possiveis": [
             "ihr studiert"
           ],
@@ -4137,7 +4137,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie telefonieren\" (verbo: telefonieren)",
+          "enunciado": "Traduza para o alemão: eles/elas telefonam (verbo: telefonieren)",
           "respostas_possiveis": [
             "sie telefonieren"
           ],
@@ -4145,7 +4145,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich besuche\" (verbo: besuchen)",
+          "enunciado": "Traduza para o alemão: eu visito (verbo: besuchen)",
           "respostas_possiveis": [
             "ich besuche"
           ],
@@ -4153,7 +4153,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du verkaufst\" (verbo: verkaufen)",
+          "enunciado": "Traduza para o alemão: você vende (verbo: verkaufen)",
           "respostas_possiveis": [
             "du verkaufst"
           ],
@@ -4170,7 +4170,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie wohnen\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: eles/elas moram (verbo: wohnen)",
           "respostas_possiveis": [
             "sie wohnen"
           ],
@@ -4178,7 +4178,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich kaufe\" (verbo: kaufen)",
+          "enunciado": "Traduza para o alemão: eu compro (verbo: kaufen)",
           "respostas_possiveis": [
             "ich kaufe"
           ],
@@ -4186,7 +4186,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du fragst\" (verbo: fragen)",
+          "enunciado": "Traduza para o alemão: você pergunta (verbo: fragen)",
           "respostas_possiveis": [
             "du fragst"
           ],
@@ -4194,7 +4194,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er sagt\" (verbo: sagen)",
+          "enunciado": "Traduza para o alemão: ele diz (verbo: sagen)",
           "respostas_possiveis": [
             "er sagt"
           ],
@@ -4211,7 +4211,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich arbeite\" (verbo: arbeiten)",
+          "enunciado": "Traduza para o alemão: eu trabalho (verbo: arbeiten)",
           "respostas_possiveis": [
             "ich arbeite"
           ],
@@ -4219,7 +4219,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du wartest\" (verbo: warten)",
+          "enunciado": "Traduza para o alemão: você espera (verbo: warten)",
           "respostas_possiveis": [
             "du wartest"
           ],
@@ -4227,7 +4227,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er redet\" (verbo: reden)",
+          "enunciado": "Traduza para o alemão: ele conversa (verbo: reden)",
           "respostas_possiveis": [
             "er redet"
           ],
@@ -4235,7 +4235,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir atmen\" (verbo: atmen)",
+          "enunciado": "Traduza para o alemão: nós respiramos (verbo: atmen)",
           "respostas_possiveis": [
             "wir atmen"
           ],
@@ -4252,7 +4252,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du telefonierst\" (verbo: telefonieren)",
+          "enunciado": "Traduza para o alemão: você telefona (verbo: telefonieren)",
           "respostas_possiveis": [
             "du telefonierst"
           ],
@@ -4260,7 +4260,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er besucht\" (verbo: besuchen)",
+          "enunciado": "Traduza para o alemão: ele visita (verbo: besuchen)",
           "respostas_possiveis": [
             "er besucht"
           ],
@@ -4268,7 +4268,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir verkaufen\" (verbo: verkaufen)",
+          "enunciado": "Traduza para o alemão: nós vendemos (verbo: verkaufen)",
           "respostas_possiveis": [
             "wir verkaufen"
           ],
@@ -4276,7 +4276,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr lernt\" (verbo: lernen)",
+          "enunciado": "Traduza para o alemão: vocês aprendem (verbo: lernen)",
           "respostas_possiveis": [
             "ihr lernt"
           ],
@@ -4293,7 +4293,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er kauft\" (verbo: kaufen)",
+          "enunciado": "Traduza para o alemão: ele compra (verbo: kaufen)",
           "respostas_possiveis": [
             "er kauft"
           ],
@@ -4301,7 +4301,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir fragen\" (verbo: fragen)",
+          "enunciado": "Traduza para o alemão: nós perguntamos (verbo: fragen)",
           "respostas_possiveis": [
             "wir fragen"
           ],
@@ -4309,7 +4309,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr sagt\" (verbo: sagen)",
+          "enunciado": "Traduza para o alemão: vocês dizem (verbo: sagen)",
           "respostas_possiveis": [
             "ihr sagt"
           ],
@@ -4317,7 +4317,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie kochen\" (verbo: kochen)",
+          "enunciado": "Traduza para o alemão: eles/elas cozinham (verbo: kochen)",
           "respostas_possiveis": [
             "sie kochen"
           ],
@@ -4334,7 +4334,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir warten\" (verbo: warten)",
+          "enunciado": "Traduza para o alemão: nós esperamos (verbo: warten)",
           "respostas_possiveis": [
             "wir warten"
           ],
@@ -4342,7 +4342,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr redet\" (verbo: reden)",
+          "enunciado": "Traduza para o alemão: vocês conversam (verbo: reden)",
           "respostas_possiveis": [
             "ihr redet"
           ],
@@ -4350,7 +4350,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie atmen\" (verbo: atmen)",
+          "enunciado": "Traduza para o alemão: eles/elas respiram (verbo: atmen)",
           "respostas_possiveis": [
             "sie atmen"
           ],
@@ -4358,7 +4358,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich zeichne\" (verbo: zeichnen)",
+          "enunciado": "Traduza para o alemão: eu desenho (verbo: zeichnen)",
           "respostas_possiveis": [
             "ich zeichne"
           ],
@@ -4375,7 +4375,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr besucht\" (verbo: besuchen)",
+          "enunciado": "Traduza para o alemão: vocês visitam (verbo: besuchen)",
           "respostas_possiveis": [
             "ihr besucht"
           ],
@@ -4383,7 +4383,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie verkaufen\" (verbo: verkaufen)",
+          "enunciado": "Traduza para o alemão: eles/elas vendem (verbo: verkaufen)",
           "respostas_possiveis": [
             "sie verkaufen"
           ],
@@ -4391,7 +4391,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich lerne\" (verbo: lernen)",
+          "enunciado": "Traduza para o alemão: eu aprendo (verbo: lernen)",
           "respostas_possiveis": [
             "ich lerne"
           ],
@@ -4399,7 +4399,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du machst\" (verbo: machen)",
+          "enunciado": "Traduza para o alemão: você faz (verbo: machen)",
           "respostas_possiveis": [
             "du machst"
           ],
@@ -4416,7 +4416,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie fragen\" (verbo: fragen)",
+          "enunciado": "Traduza para o alemão: eles/elas perguntam (verbo: fragen)",
           "respostas_possiveis": [
             "sie fragen"
           ],
@@ -4424,7 +4424,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich sage\" (verbo: sagen)",
+          "enunciado": "Traduza para o alemão: eu digo (verbo: sagen)",
           "respostas_possiveis": [
             "ich sage"
           ],
@@ -4432,7 +4432,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du kochst\" (verbo: kochen)",
+          "enunciado": "Traduza para o alemão: você cozinha (verbo: kochen)",
           "respostas_possiveis": [
             "du kochst"
           ],
@@ -4440,7 +4440,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er reist\" (verbo: reisen)",
+          "enunciado": "Traduza para o alemão: ele viaja (verbo: reisen)",
           "respostas_possiveis": [
             "er reist"
           ],
@@ -4457,7 +4457,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich rede\" (verbo: reden)",
+          "enunciado": "Traduza para o alemão: eu converso (verbo: reden)",
           "respostas_possiveis": [
             "ich rede"
           ],
@@ -4465,7 +4465,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du atmest\" (verbo: atmen)",
+          "enunciado": "Traduza para o alemão: você respira (verbo: atmen)",
           "respostas_possiveis": [
             "du atmest"
           ],
@@ -4473,7 +4473,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er zeichnet\" (verbo: zeichnen)",
+          "enunciado": "Traduza para o alemão: ele desenha (verbo: zeichnen)",
           "respostas_possiveis": [
             "er zeichnet"
           ],
@@ -4481,7 +4481,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir öffnen\" (verbo: öffnen)",
+          "enunciado": "Traduza para o alemão: nós abrimos (verbo: öffnen)",
           "respostas_possiveis": [
             "wir öffnen"
           ],
@@ -4498,7 +4498,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du verkaufst\" (verbo: verkaufen)",
+          "enunciado": "Traduza para o alemão: você vende (verbo: verkaufen)",
           "respostas_possiveis": [
             "du verkaufst"
           ],
@@ -4506,7 +4506,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er lernt\" (verbo: lernen)",
+          "enunciado": "Traduza para o alemão: ele aprende (verbo: lernen)",
           "respostas_possiveis": [
             "er lernt"
           ],
@@ -4514,7 +4514,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir machen\" (verbo: machen)",
+          "enunciado": "Traduza para o alemão: nós fazemos (verbo: machen)",
           "respostas_possiveis": [
             "wir machen"
           ],
@@ -4522,7 +4522,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr spielt\" (verbo: spielen)",
+          "enunciado": "Traduza para o alemão: vocês jogam (verbo: spielen)",
           "respostas_possiveis": [
             "ihr spielt"
           ],
@@ -4539,7 +4539,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er sagt\" (verbo: sagen)",
+          "enunciado": "Traduza para o alemão: ele diz (verbo: sagen)",
           "respostas_possiveis": [
             "er sagt"
           ],
@@ -4547,7 +4547,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir kochen\" (verbo: kochen)",
+          "enunciado": "Traduza para o alemão: nós cozinhamos (verbo: kochen)",
           "respostas_possiveis": [
             "wir kochen"
           ],
@@ -4555,7 +4555,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr reist\" (verbo: reisen)",
+          "enunciado": "Traduza para o alemão: vocês viajam (verbo: reisen)",
           "respostas_possiveis": [
             "ihr reist"
           ],
@@ -4563,7 +4563,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie tanzen\" (verbo: tanzen)",
+          "enunciado": "Traduza para o alemão: eles/elas dançam (verbo: tanzen)",
           "respostas_possiveis": [
             "sie tanzen"
           ],
@@ -4580,7 +4580,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir atmen\" (verbo: atmen)",
+          "enunciado": "Traduza para o alemão: nós respiramos (verbo: atmen)",
           "respostas_possiveis": [
             "wir atmen"
           ],
@@ -4588,7 +4588,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr zeichnet\" (verbo: zeichnen)",
+          "enunciado": "Traduza para o alemão: vocês desenham (verbo: zeichnen)",
           "respostas_possiveis": [
             "ihr zeichnet"
           ],
@@ -4596,7 +4596,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie öffnen\" (verbo: öffnen)",
+          "enunciado": "Traduza para o alemão: eles/elas abrem (verbo: öffnen)",
           "respostas_possiveis": [
             "sie öffnen"
           ],
@@ -4604,7 +4604,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich studiere\" (verbo: studieren)",
+          "enunciado": "Traduza para o alemão: eu estudo (verbo: studieren)",
           "respostas_possiveis": [
             "ich studiere"
           ],
@@ -4621,7 +4621,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr lernt\" (verbo: lernen)",
+          "enunciado": "Traduza para o alemão: vocês aprendem (verbo: lernen)",
           "respostas_possiveis": [
             "ihr lernt"
           ],
@@ -4629,7 +4629,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie machen\" (verbo: machen)",
+          "enunciado": "Traduza para o alemão: eles/elas fazem (verbo: machen)",
           "respostas_possiveis": [
             "sie machen"
           ],
@@ -4637,7 +4637,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich spiele\" (verbo: spielen)",
+          "enunciado": "Traduza para o alemão: eu jogo (verbo: spielen)",
           "respostas_possiveis": [
             "ich spiele"
           ],
@@ -4645,7 +4645,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du wohnst\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: você mora (verbo: wohnen)",
           "respostas_possiveis": [
             "du wohnst"
           ],
@@ -4662,7 +4662,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie kochen\" (verbo: kochen)",
+          "enunciado": "Traduza para o alemão: eles/elas cozinham (verbo: kochen)",
           "respostas_possiveis": [
             "sie kochen"
           ],
@@ -4670,7 +4670,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich reise\" (verbo: reisen)",
+          "enunciado": "Traduza para o alemão: eu viajo (verbo: reisen)",
           "respostas_possiveis": [
             "ich reise"
           ],
@@ -4678,7 +4678,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du tanzt\" (verbo: tanzen)",
+          "enunciado": "Traduza para o alemão: você dança (verbo: tanzen)",
           "respostas_possiveis": [
             "du tanzt"
           ],
@@ -4686,7 +4686,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er arbeitet\" (verbo: arbeiten)",
+          "enunciado": "Traduza para o alemão: ele trabalha (verbo: arbeiten)",
           "respostas_possiveis": [
             "er arbeitet"
           ],
@@ -4703,7 +4703,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich zeichne\" (verbo: zeichnen)",
+          "enunciado": "Traduza para o alemão: eu desenho (verbo: zeichnen)",
           "respostas_possiveis": [
             "ich zeichne"
           ],
@@ -4711,7 +4711,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du öffnest\" (verbo: öffnen)",
+          "enunciado": "Traduza para o alemão: você abre (verbo: öffnen)",
           "respostas_possiveis": [
             "du öffnest"
           ],
@@ -4719,7 +4719,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er studiert\" (verbo: studieren)",
+          "enunciado": "Traduza para o alemão: ele estuda (verbo: studieren)",
           "respostas_possiveis": [
             "er studiert"
           ],
@@ -4727,7 +4727,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir telefonieren\" (verbo: telefonieren)",
+          "enunciado": "Traduza para o alemão: nós telefonamos (verbo: telefonieren)",
           "respostas_possiveis": [
             "wir telefonieren"
           ],
@@ -4744,7 +4744,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du machst\" (verbo: machen)",
+          "enunciado": "Traduza para o alemão: você faz (verbo: machen)",
           "respostas_possiveis": [
             "du machst"
           ],
@@ -4752,7 +4752,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er spielt\" (verbo: spielen)",
+          "enunciado": "Traduza para o alemão: ele joga (verbo: spielen)",
           "respostas_possiveis": [
             "er spielt"
           ],
@@ -4760,7 +4760,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir wohnen\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: nós moramos (verbo: wohnen)",
           "respostas_possiveis": [
             "wir wohnen"
           ],
@@ -4768,7 +4768,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr kauft\" (verbo: kaufen)",
+          "enunciado": "Traduza para o alemão: vocês compram (verbo: kaufen)",
           "respostas_possiveis": [
             "ihr kauft"
           ],
@@ -4785,7 +4785,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er reist\" (verbo: reisen)",
+          "enunciado": "Traduza para o alemão: ele viaja (verbo: reisen)",
           "respostas_possiveis": [
             "er reist"
           ],
@@ -4793,7 +4793,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir tanzen\" (verbo: tanzen)",
+          "enunciado": "Traduza para o alemão: nós dançamos (verbo: tanzen)",
           "respostas_possiveis": [
             "wir tanzen"
           ],
@@ -4801,7 +4801,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr arbeitet\" (verbo: arbeiten)",
+          "enunciado": "Traduza para o alemão: vocês trabalham (verbo: arbeiten)",
           "respostas_possiveis": [
             "ihr arbeitet"
           ],
@@ -4809,7 +4809,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie warten\" (verbo: warten)",
+          "enunciado": "Traduza para o alemão: eles/elas esperam (verbo: warten)",
           "respostas_possiveis": [
             "sie warten"
           ],
@@ -4826,7 +4826,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir öffnen\" (verbo: öffnen)",
+          "enunciado": "Traduza para o alemão: nós abrimos (verbo: öffnen)",
           "respostas_possiveis": [
             "wir öffnen"
           ],
@@ -4834,7 +4834,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr studiert\" (verbo: studieren)",
+          "enunciado": "Traduza para o alemão: vocês estudam (verbo: studieren)",
           "respostas_possiveis": [
             "ihr studiert"
           ],
@@ -4842,7 +4842,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie telefonieren\" (verbo: telefonieren)",
+          "enunciado": "Traduza para o alemão: eles/elas telefonam (verbo: telefonieren)",
           "respostas_possiveis": [
             "sie telefonieren"
           ],
@@ -4850,7 +4850,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich besuche\" (verbo: besuchen)",
+          "enunciado": "Traduza para o alemão: eu visito (verbo: besuchen)",
           "respostas_possiveis": [
             "ich besuche"
           ],
@@ -4867,7 +4867,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr spielt\" (verbo: spielen)",
+          "enunciado": "Traduza para o alemão: vocês jogam (verbo: spielen)",
           "respostas_possiveis": [
             "ihr spielt"
           ],
@@ -4875,7 +4875,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie wohnen\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: eles/elas moram (verbo: wohnen)",
           "respostas_possiveis": [
             "sie wohnen"
           ],
@@ -4883,7 +4883,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich kaufe\" (verbo: kaufen)",
+          "enunciado": "Traduza para o alemão: eu compro (verbo: kaufen)",
           "respostas_possiveis": [
             "ich kaufe"
           ],
@@ -4891,7 +4891,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du fragst\" (verbo: fragen)",
+          "enunciado": "Traduza para o alemão: você pergunta (verbo: fragen)",
           "respostas_possiveis": [
             "du fragst"
           ],
@@ -4908,7 +4908,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie tanzen\" (verbo: tanzen)",
+          "enunciado": "Traduza para o alemão: eles/elas dançam (verbo: tanzen)",
           "respostas_possiveis": [
             "sie tanzen"
           ],
@@ -4916,7 +4916,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich arbeite\" (verbo: arbeiten)",
+          "enunciado": "Traduza para o alemão: eu trabalho (verbo: arbeiten)",
           "respostas_possiveis": [
             "ich arbeite"
           ],
@@ -4924,7 +4924,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du wartest\" (verbo: warten)",
+          "enunciado": "Traduza para o alemão: você espera (verbo: warten)",
           "respostas_possiveis": [
             "du wartest"
           ],
@@ -4932,7 +4932,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er redet\" (verbo: reden)",
+          "enunciado": "Traduza para o alemão: ele conversa (verbo: reden)",
           "respostas_possiveis": [
             "er redet"
           ],
@@ -4949,7 +4949,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich studiere\" (verbo: studieren)",
+          "enunciado": "Traduza para o alemão: eu estudo (verbo: studieren)",
           "respostas_possiveis": [
             "ich studiere"
           ],
@@ -4957,7 +4957,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du telefonierst\" (verbo: telefonieren)",
+          "enunciado": "Traduza para o alemão: você telefona (verbo: telefonieren)",
           "respostas_possiveis": [
             "du telefonierst"
           ],
@@ -4965,7 +4965,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er besucht\" (verbo: besuchen)",
+          "enunciado": "Traduza para o alemão: ele visita (verbo: besuchen)",
           "respostas_possiveis": [
             "er besucht"
           ],
@@ -4973,7 +4973,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir verkaufen\" (verbo: verkaufen)",
+          "enunciado": "Traduza para o alemão: nós vendemos (verbo: verkaufen)",
           "respostas_possiveis": [
             "wir verkaufen"
           ],
@@ -4990,7 +4990,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du wohnst\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: você mora (verbo: wohnen)",
           "respostas_possiveis": [
             "du wohnst"
           ],
@@ -4998,7 +4998,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er kauft\" (verbo: kaufen)",
+          "enunciado": "Traduza para o alemão: ele compra (verbo: kaufen)",
           "respostas_possiveis": [
             "er kauft"
           ],
@@ -5006,7 +5006,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir fragen\" (verbo: fragen)",
+          "enunciado": "Traduza para o alemão: nós perguntamos (verbo: fragen)",
           "respostas_possiveis": [
             "wir fragen"
           ],
@@ -5014,7 +5014,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr sagt\" (verbo: sagen)",
+          "enunciado": "Traduza para o alemão: vocês dizem (verbo: sagen)",
           "respostas_possiveis": [
             "ihr sagt"
           ],
@@ -5031,7 +5031,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er arbeitet\" (verbo: arbeiten)",
+          "enunciado": "Traduza para o alemão: ele trabalha (verbo: arbeiten)",
           "respostas_possiveis": [
             "er arbeitet"
           ],
@@ -5039,7 +5039,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir warten\" (verbo: warten)",
+          "enunciado": "Traduza para o alemão: nós esperamos (verbo: warten)",
           "respostas_possiveis": [
             "wir warten"
           ],
@@ -5047,7 +5047,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr redet\" (verbo: reden)",
+          "enunciado": "Traduza para o alemão: vocês conversam (verbo: reden)",
           "respostas_possiveis": [
             "ihr redet"
           ],
@@ -5055,7 +5055,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie atmen\" (verbo: atmen)",
+          "enunciado": "Traduza para o alemão: eles/elas respiram (verbo: atmen)",
           "respostas_possiveis": [
             "sie atmen"
           ],
@@ -5072,7 +5072,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir telefonieren\" (verbo: telefonieren)",
+          "enunciado": "Traduza para o alemão: nós telefonamos (verbo: telefonieren)",
           "respostas_possiveis": [
             "wir telefonieren"
           ],
@@ -5080,7 +5080,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr besucht\" (verbo: besuchen)",
+          "enunciado": "Traduza para o alemão: vocês visitam (verbo: besuchen)",
           "respostas_possiveis": [
             "ihr besucht"
           ],
@@ -5088,7 +5088,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie verkaufen\" (verbo: verkaufen)",
+          "enunciado": "Traduza para o alemão: eles/elas vendem (verbo: verkaufen)",
           "respostas_possiveis": [
             "sie verkaufen"
           ],
@@ -5096,7 +5096,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich lerne\" (verbo: lernen)",
+          "enunciado": "Traduza para o alemão: eu aprendo (verbo: lernen)",
           "respostas_possiveis": [
             "ich lerne"
           ],
@@ -5113,7 +5113,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr kauft\" (verbo: kaufen)",
+          "enunciado": "Traduza para o alemão: vocês compram (verbo: kaufen)",
           "respostas_possiveis": [
             "ihr kauft"
           ],
@@ -5121,7 +5121,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie fragen\" (verbo: fragen)",
+          "enunciado": "Traduza para o alemão: eles/elas perguntam (verbo: fragen)",
           "respostas_possiveis": [
             "sie fragen"
           ],
@@ -5129,7 +5129,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich sage\" (verbo: sagen)",
+          "enunciado": "Traduza para o alemão: eu digo (verbo: sagen)",
           "respostas_possiveis": [
             "ich sage"
           ],
@@ -5137,7 +5137,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du kochst\" (verbo: kochen)",
+          "enunciado": "Traduza para o alemão: você cozinha (verbo: kochen)",
           "respostas_possiveis": [
             "du kochst"
           ],
@@ -5154,7 +5154,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie warten\" (verbo: warten)",
+          "enunciado": "Traduza para o alemão: eles/elas esperam (verbo: warten)",
           "respostas_possiveis": [
             "sie warten"
           ],
@@ -5162,7 +5162,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich rede\" (verbo: reden)",
+          "enunciado": "Traduza para o alemão: eu converso (verbo: reden)",
           "respostas_possiveis": [
             "ich rede"
           ],
@@ -5170,7 +5170,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du atmest\" (verbo: atmen)",
+          "enunciado": "Traduza para o alemão: você respira (verbo: atmen)",
           "respostas_possiveis": [
             "du atmest"
           ],
@@ -5178,7 +5178,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er zeichnet\" (verbo: zeichnen)",
+          "enunciado": "Traduza para o alemão: ele desenha (verbo: zeichnen)",
           "respostas_possiveis": [
             "er zeichnet"
           ],
@@ -5195,7 +5195,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich besuche\" (verbo: besuchen)",
+          "enunciado": "Traduza para o alemão: eu visito (verbo: besuchen)",
           "respostas_possiveis": [
             "ich besuche"
           ],
@@ -5203,7 +5203,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du verkaufst\" (verbo: verkaufen)",
+          "enunciado": "Traduza para o alemão: você vende (verbo: verkaufen)",
           "respostas_possiveis": [
             "du verkaufst"
           ],
@@ -5211,7 +5211,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er lernt\" (verbo: lernen)",
+          "enunciado": "Traduza para o alemão: ele aprende (verbo: lernen)",
           "respostas_possiveis": [
             "er lernt"
           ],
@@ -5219,7 +5219,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir machen\" (verbo: machen)",
+          "enunciado": "Traduza para o alemão: nós fazemos (verbo: machen)",
           "respostas_possiveis": [
             "wir machen"
           ],
@@ -5236,7 +5236,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du fragst\" (verbo: fragen)",
+          "enunciado": "Traduza para o alemão: você pergunta (verbo: fragen)",
           "respostas_possiveis": [
             "du fragst"
           ],
@@ -5244,7 +5244,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er sagt\" (verbo: sagen)",
+          "enunciado": "Traduza para o alemão: ele diz (verbo: sagen)",
           "respostas_possiveis": [
             "er sagt"
           ],
@@ -5252,7 +5252,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir kochen\" (verbo: kochen)",
+          "enunciado": "Traduza para o alemão: nós cozinhamos (verbo: kochen)",
           "respostas_possiveis": [
             "wir kochen"
           ],
@@ -5260,7 +5260,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr reist\" (verbo: reisen)",
+          "enunciado": "Traduza para o alemão: vocês viajam (verbo: reisen)",
           "respostas_possiveis": [
             "ihr reist"
           ],
@@ -5277,7 +5277,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er redet\" (verbo: reden)",
+          "enunciado": "Traduza para o alemão: ele conversa (verbo: reden)",
           "respostas_possiveis": [
             "er redet"
           ],
@@ -5285,7 +5285,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir atmen\" (verbo: atmen)",
+          "enunciado": "Traduza para o alemão: nós respiramos (verbo: atmen)",
           "respostas_possiveis": [
             "wir atmen"
           ],
@@ -5293,7 +5293,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr zeichnet\" (verbo: zeichnen)",
+          "enunciado": "Traduza para o alemão: vocês desenham (verbo: zeichnen)",
           "respostas_possiveis": [
             "ihr zeichnet"
           ],
@@ -5301,7 +5301,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie öffnen\" (verbo: öffnen)",
+          "enunciado": "Traduza para o alemão: eles/elas abrem (verbo: öffnen)",
           "respostas_possiveis": [
             "sie öffnen"
           ],
@@ -5318,7 +5318,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir verkaufen\" (verbo: verkaufen)",
+          "enunciado": "Traduza para o alemão: nós vendemos (verbo: verkaufen)",
           "respostas_possiveis": [
             "wir verkaufen"
           ],
@@ -5326,7 +5326,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr lernt\" (verbo: lernen)",
+          "enunciado": "Traduza para o alemão: vocês aprendem (verbo: lernen)",
           "respostas_possiveis": [
             "ihr lernt"
           ],
@@ -5334,7 +5334,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie machen\" (verbo: machen)",
+          "enunciado": "Traduza para o alemão: eles/elas fazem (verbo: machen)",
           "respostas_possiveis": [
             "sie machen"
           ],
@@ -5342,7 +5342,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich spiele\" (verbo: spielen)",
+          "enunciado": "Traduza para o alemão: eu jogo (verbo: spielen)",
           "respostas_possiveis": [
             "ich spiele"
           ],
@@ -5359,7 +5359,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr sagt\" (verbo: sagen)",
+          "enunciado": "Traduza para o alemão: vocês dizem (verbo: sagen)",
           "respostas_possiveis": [
             "ihr sagt"
           ],
@@ -5367,7 +5367,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie kochen\" (verbo: kochen)",
+          "enunciado": "Traduza para o alemão: eles/elas cozinham (verbo: kochen)",
           "respostas_possiveis": [
             "sie kochen"
           ],
@@ -5375,7 +5375,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich reise\" (verbo: reisen)",
+          "enunciado": "Traduza para o alemão: eu viajo (verbo: reisen)",
           "respostas_possiveis": [
             "ich reise"
           ],
@@ -5383,7 +5383,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du tanzt\" (verbo: tanzen)",
+          "enunciado": "Traduza para o alemão: você dança (verbo: tanzen)",
           "respostas_possiveis": [
             "du tanzt"
           ],
@@ -5400,7 +5400,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie atmen\" (verbo: atmen)",
+          "enunciado": "Traduza para o alemão: eles/elas respiram (verbo: atmen)",
           "respostas_possiveis": [
             "sie atmen"
           ],
@@ -5408,7 +5408,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich zeichne\" (verbo: zeichnen)",
+          "enunciado": "Traduza para o alemão: eu desenho (verbo: zeichnen)",
           "respostas_possiveis": [
             "ich zeichne"
           ],
@@ -5416,7 +5416,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du öffnest\" (verbo: öffnen)",
+          "enunciado": "Traduza para o alemão: você abre (verbo: öffnen)",
           "respostas_possiveis": [
             "du öffnest"
           ],
@@ -5424,7 +5424,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er studiert\" (verbo: studieren)",
+          "enunciado": "Traduza para o alemão: ele estuda (verbo: studieren)",
           "respostas_possiveis": [
             "er studiert"
           ],
@@ -5441,7 +5441,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich lerne\" (verbo: lernen)",
+          "enunciado": "Traduza para o alemão: eu aprendo (verbo: lernen)",
           "respostas_possiveis": [
             "ich lerne"
           ],
@@ -5449,7 +5449,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du machst\" (verbo: machen)",
+          "enunciado": "Traduza para o alemão: você faz (verbo: machen)",
           "respostas_possiveis": [
             "du machst"
           ],
@@ -5457,7 +5457,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er spielt\" (verbo: spielen)",
+          "enunciado": "Traduza para o alemão: ele joga (verbo: spielen)",
           "respostas_possiveis": [
             "er spielt"
           ],
@@ -5465,7 +5465,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir wohnen\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: nós moramos (verbo: wohnen)",
           "respostas_possiveis": [
             "wir wohnen"
           ],
@@ -5482,7 +5482,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du kochst\" (verbo: kochen)",
+          "enunciado": "Traduza para o alemão: você cozinha (verbo: kochen)",
           "respostas_possiveis": [
             "du kochst"
           ],
@@ -5490,7 +5490,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er reist\" (verbo: reisen)",
+          "enunciado": "Traduza para o alemão: ele viaja (verbo: reisen)",
           "respostas_possiveis": [
             "er reist"
           ],
@@ -5498,7 +5498,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir tanzen\" (verbo: tanzen)",
+          "enunciado": "Traduza para o alemão: nós dançamos (verbo: tanzen)",
           "respostas_possiveis": [
             "wir tanzen"
           ],
@@ -5506,7 +5506,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr arbeitet\" (verbo: arbeiten)",
+          "enunciado": "Traduza para o alemão: vocês trabalham (verbo: arbeiten)",
           "respostas_possiveis": [
             "ihr arbeitet"
           ],
@@ -5523,7 +5523,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er zeichnet\" (verbo: zeichnen)",
+          "enunciado": "Traduza para o alemão: ele desenha (verbo: zeichnen)",
           "respostas_possiveis": [
             "er zeichnet"
           ],
@@ -5531,7 +5531,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir öffnen\" (verbo: öffnen)",
+          "enunciado": "Traduza para o alemão: nós abrimos (verbo: öffnen)",
           "respostas_possiveis": [
             "wir öffnen"
           ],
@@ -5539,7 +5539,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr studiert\" (verbo: studieren)",
+          "enunciado": "Traduza para o alemão: vocês estudam (verbo: studieren)",
           "respostas_possiveis": [
             "ihr studiert"
           ],
@@ -5547,7 +5547,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie telefonieren\" (verbo: telefonieren)",
+          "enunciado": "Traduza para o alemão: eles/elas telefonam (verbo: telefonieren)",
           "respostas_possiveis": [
             "sie telefonieren"
           ],
@@ -5564,7 +5564,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir machen\" (verbo: machen)",
+          "enunciado": "Traduza para o alemão: nós fazemos (verbo: machen)",
           "respostas_possiveis": [
             "wir machen"
           ],
@@ -5572,7 +5572,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr spielt\" (verbo: spielen)",
+          "enunciado": "Traduza para o alemão: vocês jogam (verbo: spielen)",
           "respostas_possiveis": [
             "ihr spielt"
           ],
@@ -5580,7 +5580,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie wohnen\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: eles/elas moram (verbo: wohnen)",
           "respostas_possiveis": [
             "sie wohnen"
           ],
@@ -5588,7 +5588,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich kaufe\" (verbo: kaufen)",
+          "enunciado": "Traduza para o alemão: eu compro (verbo: kaufen)",
           "respostas_possiveis": [
             "ich kaufe"
           ],
@@ -5605,7 +5605,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ihr reist\" (verbo: reisen)",
+          "enunciado": "Traduza para o alemão: vocês viajam (verbo: reisen)",
           "respostas_possiveis": [
             "ihr reist"
           ],
@@ -5613,7 +5613,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"sie tanzen\" (verbo: tanzen)",
+          "enunciado": "Traduza para o alemão: eles/elas dançam (verbo: tanzen)",
           "respostas_possiveis": [
             "sie tanzen"
           ],
@@ -5621,7 +5621,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ich arbeite\" (verbo: arbeiten)",
+          "enunciado": "Traduza para o alemão: eu trabalho (verbo: arbeiten)",
           "respostas_possiveis": [
             "ich arbeite"
           ],
@@ -5629,7 +5629,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"du wartest\" (verbo: warten)",
+          "enunciado": "Traduza para o alemão: você espera (verbo: warten)",
           "respostas_possiveis": [
             "du wartest"
           ],
@@ -5646,7 +5646,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"sie öffnen\" (verbo: öffnen)",
+          "enunciado": "Traduza para o alemão: eles/elas abrem (verbo: öffnen)",
           "respostas_possiveis": [
             "sie öffnen"
           ],
@@ -5654,7 +5654,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ich studiere\" (verbo: studieren)",
+          "enunciado": "Traduza para o alemão: eu estudo (verbo: studieren)",
           "respostas_possiveis": [
             "ich studiere"
           ],
@@ -5662,7 +5662,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"du telefonierst\" (verbo: telefonieren)",
+          "enunciado": "Traduza para o alemão: você telefona (verbo: telefonieren)",
           "respostas_possiveis": [
             "du telefonierst"
           ],
@@ -5670,7 +5670,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"er besucht\" (verbo: besuchen)",
+          "enunciado": "Traduza para o alemão: ele visita (verbo: besuchen)",
           "respostas_possiveis": [
             "er besucht"
           ],
@@ -5687,7 +5687,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"ich spiele\" (verbo: spielen)",
+          "enunciado": "Traduza para o alemão: eu jogo (verbo: spielen)",
           "respostas_possiveis": [
             "ich spiele"
           ],
@@ -5695,7 +5695,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"du wohnst\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: você mora (verbo: wohnen)",
           "respostas_possiveis": [
             "du wohnst"
           ],
@@ -5703,7 +5703,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"er kauft\" (verbo: kaufen)",
+          "enunciado": "Traduza para o alemão: ele compra (verbo: kaufen)",
           "respostas_possiveis": [
             "er kauft"
           ],
@@ -5711,7 +5711,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"wir fragen\" (verbo: fragen)",
+          "enunciado": "Traduza para o alemão: nós perguntamos (verbo: fragen)",
           "respostas_possiveis": [
             "wir fragen"
           ],
@@ -5728,7 +5728,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"du tanzt\" (verbo: tanzen)",
+          "enunciado": "Traduza para o alemão: você dança (verbo: tanzen)",
           "respostas_possiveis": [
             "du tanzt"
           ],
@@ -5736,7 +5736,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"er arbeitet\" (verbo: arbeiten)",
+          "enunciado": "Traduza para o alemão: ele trabalha (verbo: arbeiten)",
           "respostas_possiveis": [
             "er arbeitet"
           ],
@@ -5744,7 +5744,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"wir warten\" (verbo: warten)",
+          "enunciado": "Traduza para o alemão: nós esperamos (verbo: warten)",
           "respostas_possiveis": [
             "wir warten"
           ],
@@ -5752,7 +5752,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ihr redet\" (verbo: reden)",
+          "enunciado": "Traduza para o alemão: vocês conversam (verbo: reden)",
           "respostas_possiveis": [
             "ihr redet"
           ],
@@ -5769,7 +5769,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"er studiert\" (verbo: studieren)",
+          "enunciado": "Traduza para o alemão: ele estuda (verbo: studieren)",
           "respostas_possiveis": [
             "er studiert"
           ],
@@ -5777,7 +5777,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"wir telefonieren\" (verbo: telefonieren)",
+          "enunciado": "Traduza para o alemão: nós telefonamos (verbo: telefonieren)",
           "respostas_possiveis": [
             "wir telefonieren"
           ],
@@ -5785,7 +5785,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"ihr besucht\" (verbo: besuchen)",
+          "enunciado": "Traduza para o alemão: vocês visitam (verbo: besuchen)",
           "respostas_possiveis": [
             "ihr besucht"
           ],
@@ -5793,7 +5793,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"sie verkaufen\" (verbo: verkaufen)",
+          "enunciado": "Traduza para o alemão: eles/elas vendem (verbo: verkaufen)",
           "respostas_possiveis": [
             "sie verkaufen"
           ],
@@ -5810,7 +5810,7 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Traduza: \"wir wohnen\" (verbo: wohnen)",
+          "enunciado": "Traduza para o alemão: nós moramos (verbo: wohnen)",
           "respostas_possiveis": [
             "wir wohnen"
           ],
@@ -5818,7 +5818,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Traduza: \"ihr kauft\" (verbo: kaufen)",
+          "enunciado": "Traduza para o alemão: vocês compram (verbo: kaufen)",
           "respostas_possiveis": [
             "ihr kauft"
           ],
@@ -5826,7 +5826,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Traduza: \"sie fragen\" (verbo: fragen)",
+          "enunciado": "Traduza para o alemão: eles/elas perguntam (verbo: fragen)",
           "respostas_possiveis": [
             "sie fragen"
           ],
@@ -5834,7 +5834,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Traduza: \"ich sage\" (verbo: sagen)",
+          "enunciado": "Traduza para o alemão: eu digo (verbo: sagen)",
           "respostas_possiveis": [
             "ich sage"
           ],

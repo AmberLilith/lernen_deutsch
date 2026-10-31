@@ -841,18 +841,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex053": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -860,18 +860,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex054": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -917,18 +917,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex057": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -936,18 +936,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex058": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -993,18 +993,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex061": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1012,18 +1012,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex062": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1069,18 +1069,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex065": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1088,18 +1088,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex066": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1145,18 +1145,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex069": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1164,18 +1164,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex070": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1221,18 +1221,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex073": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1240,18 +1240,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex074": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1297,18 +1297,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex077": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1316,18 +1316,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex078": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1373,18 +1373,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex081": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1392,18 +1392,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex082": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1449,18 +1449,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex085": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1468,18 +1468,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex086": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1525,18 +1525,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex089": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1544,18 +1544,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex090": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1601,18 +1601,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex093": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1620,18 +1620,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex094": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1677,18 +1677,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex097": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao auxiliar do Perfekt.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
+        "zugemacht",
+        "eingeladen",
+        "losgefahren",
+        "aufgestanden"
+      ],
+      "respostas": [
         "zumachen",
         "einladen",
         "losfahren",
         "aufstehen"
-      ],
-      "respostas": [
-        "haben",
-        "haben",
-        "sein",
-        "sein"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }
@@ -1696,18 +1696,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex098": {
       "tipo": "relacionar",
-      "enunciado": "Relacione cada item ao prefixo separável.",
+      "enunciado": "Relacione cada significado ao infinitivo correspondente.",
       "alternativas": [
+        "acordar",
+        "voltar",
+        "telefonar",
+        "vir junto"
+      ],
+      "respostas": [
         "aufwachen",
         "zurückkommen",
         "anrufen",
         "mitkommen"
-      ],
-      "respostas": [
-        "auf",
-        "zurück",
-        "an",
-        "mit"
       ],
       "justificativa": "O prefixo separável permanece junto no infinitivo; no Partizip II, ge- normalmente aparece entre o prefixo e a raiz."
     }

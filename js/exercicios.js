@@ -2,15 +2,15 @@ export const exercicios = [
   {
     tema: "Substantivos",
     itens: [
-      { arquivo: "generos.html", titulo: "Gênero dos substantivos", detalhe: "Prática de fundamentos" }
+      { arquivo: "generos.html", titulo: "Gênero dos substantivos", detalhe: "220 exercícios" }
     ]
   },
   {
     tema: "Artigos e casos",
     itens: [
       { arquivo: "artigos-definidos.html", titulo: "Artigos definidos", detalhe: "16 itens" },
-      { arquivo: "artigos-indefinidos.html", titulo: "Artigos indefinidos", detalhe: "16 itens" },
-      { arquivo: "casos.html", titulo: "Os quatro casos", detalhe: "Prática de casos" },
+      { arquivo: "artigos-indefinidos.html", titulo: "Artigos indefinidos", detalhe: "228 exercícios" },
+      { arquivo: "casos.html", titulo: "Os quatro casos", detalhe: "228 exercícios" },
       { arquivo: "dativ.html", titulo: "Dativ", detalhe: "Prática de Dativ" },
       { arquivo: "ndeklination.html", titulo: "n-Deklination", detalhe: "Prática de n-Deklination" },
       { arquivo: "negacao.html", titulo: "Negação: nicht e kein", detalhe: "Prática de negação" },

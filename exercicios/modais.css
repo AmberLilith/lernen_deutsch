@@ -72,3 +72,8 @@
 
 .modal-rationale{margin:8px 0 12px;padding:10px 12px;border-left:3px solid var(--modais-green);background:var(--modais-green-bg);color:var(--ink);border-radius:6px;font-size:.94rem;line-height:1.5}
 .modal-rationale:empty,[hidden].modal-rationale{display:none!important}
+
+.matching-reset { margin:0 0 12px; }
+.match-source:disabled,.match-target:disabled { opacity:.72; cursor:not-allowed; }
+.match-source.is-used { border-color:var(--modais-green); background:var(--modais-green-bg); color:var(--modais-green); opacity:1; }
+.match-target.is-filled { border-color:var(--modais-green); background:var(--modais-green-bg); }

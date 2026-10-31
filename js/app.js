@@ -360,7 +360,7 @@ function renderConteudos(conteudos){
  });
 
  container.replaceChildren();
- categorias.forEach(grupo => {
+ adicionarItensProgressivamente(container, categorias, grupo => {
    const details = document.createElement("details");
    details.className = "content-group";
    const summary = document.createElement("summary");
@@ -368,7 +368,7 @@ function renderConteudos(conteudos){
    const grid = document.createElement("div");
    grid.className = "grid";
 
-   adicionarItensProgressivamente(grid, grupo.paginas, pagina => {
+   grupo.paginas.forEach(pagina => {
      const link = document.createElement("a");
      link.className = "card";
      link.href = "paginas/" + pagina.arquivo;
@@ -380,11 +380,11 @@ function renderConteudos(conteudos){
      const descricao = document.createElement("p");
      descricao.textContent = pagina.descricao;
      link.append(tag, titulo, descricao);
-     return link;
+     grid.appendChild(link);
    });
 
    details.append(summary, grid);
-   container.appendChild(details);
+   return details;
  });
 }
 
@@ -433,7 +433,7 @@ async function renderExercicios(grupos){
  })));
 
  container.replaceChildren();
- gruposRenderizados.forEach(grupo => {
+ adicionarItensProgressivamente(container, gruposRenderizados, grupo => {
    const details = document.createElement("details");
    details.className = "exercise-group";
    const summary = document.createElement("summary");
@@ -441,7 +441,7 @@ async function renderExercicios(grupos){
    const lista = document.createElement("div");
    lista.className = "exercise-list";
 
-   adicionarItensProgressivamente(lista, grupo.itens, item => {
+   grupo.itens.forEach(item => {
      const link = document.createElement("a");
      link.className = "exercise-link";
      link.href = "exercicios/" + item.arquivo;
@@ -455,11 +455,11 @@ async function renderExercicios(grupos){
      seta.className = "arrow";
      seta.textContent = "→";
      link.append(texto, seta);
-     return link;
+     lista.appendChild(link);
    });
 
    details.append(summary, lista);
-   container.appendChild(details);
+   return details;
  });
 }
 

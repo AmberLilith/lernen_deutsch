@@ -69,3 +69,6 @@
 .modal-subexercise input{width:100%;max-width:620px}
 .modal-subexercise .modal-answer[hidden],.modal-subexercise .modal-attempt-hint[hidden]{display:none}
 .modal-subexercise .modal-exercise-feedback{min-height:1.3em}
+
+.modal-rationale{margin:8px 0 12px;padding:10px 12px;border-left:3px solid var(--modais-green);background:var(--modais-green-bg);color:var(--ink);border-radius:6px;font-size:.94rem;line-height:1.5}
+.modal-rationale:empty,[hidden].modal-rationale{display:none!important}

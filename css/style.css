@@ -528,6 +528,7 @@ tr:last-child td { border-bottom: 0 }
   grid-column: 1 / -1;
   justify-self: center;
   display: block;
+  width: fit-content;
   margin: 12px auto 16px;
   padding: 8px 22px;
   border: 1px solid var(--line);

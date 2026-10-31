@@ -2579,7 +2579,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "A",
           "enunciado": "..., weil er heute ___. (fernsehen)",
           "respostas_possiveis": [
-            "siehtfern"
+            "fernsieht"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2587,7 +2587,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "B",
           "enunciado": "..., weil wir heute ___. (abholen)",
           "respostas_possiveis": [
-            "holenab"
+            "abholen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2595,7 +2595,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "C",
           "enunciado": "..., weil ihr heute ___. (losfahren)",
           "respostas_possiveis": [
-            "fahrtlos"
+            "losfahrt"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2603,7 +2603,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "D",
           "enunciado": "..., weil sie heute ___. (anrufen)",
           "respostas_possiveis": [
-            "rufenan"
+            "anrufen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         }
@@ -2620,7 +2620,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "A",
           "enunciado": "..., weil wir heute ___. (zumachen)",
           "respostas_possiveis": [
-            "machenzu"
+            "zumachen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2628,7 +2628,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "B",
           "enunciado": "..., weil ihr heute ___. (aufwachen)",
           "respostas_possiveis": [
-            "wachtauf"
+            "aufwacht"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2636,7 +2636,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "C",
           "enunciado": "..., weil sie heute ___. (aufstehen)",
           "respostas_possiveis": [
-            "stehenauf"
+            "aufstehen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2644,7 +2644,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "D",
           "enunciado": "..., weil ich heute ___. (mitkommen)",
           "respostas_possiveis": [
-            "kommemit"
+            "mitkomme"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         }
@@ -2661,7 +2661,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "A",
           "enunciado": "..., weil ihr heute ___. (einladen)",
           "respostas_possiveis": [
-            "ladetein"
+            "einladet"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2669,7 +2669,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "B",
           "enunciado": "..., weil sie heute ___. (zurückkommen)",
           "respostas_possiveis": [
-            "kommenzurück"
+            "zurückkommen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2677,7 +2677,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "C",
           "enunciado": "..., weil ich heute ___. (einkaufen)",
           "respostas_possiveis": [
-            "kaufeein"
+            "einkaufe"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2685,7 +2685,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "D",
           "enunciado": "..., weil du heute ___. (aufmachen)",
           "respostas_possiveis": [
-            "machstauf"
+            "aufmachst"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         }
@@ -2702,7 +2702,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "A",
           "enunciado": "..., weil sie heute ___. (losfahren)",
           "respostas_possiveis": [
-            "fahrenlos"
+            "losfahren"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2710,7 +2710,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "B",
           "enunciado": "..., weil ich heute ___. (anrufen)",
           "respostas_possiveis": [
-            "rufean"
+            "anrufe"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2718,7 +2718,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "C",
           "enunciado": "..., weil du heute ___. (fernsehen)",
           "respostas_possiveis": [
-            "siehstfern"
+            "fernsiehst"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2726,7 +2726,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "D",
           "enunciado": "..., weil er heute ___. (abholen)",
           "respostas_possiveis": [
-            "holtab"
+            "abholt"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         }
@@ -2743,7 +2743,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "A",
           "enunciado": "..., weil ich heute ___. (aufstehen)",
           "respostas_possiveis": [
-            "steheauf"
+            "aufstehe"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2751,7 +2751,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "B",
           "enunciado": "..., weil du heute ___. (mitkommen)",
           "respostas_possiveis": [
-            "kommstmit"
+            "mitkommst"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2759,7 +2759,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "C",
           "enunciado": "..., weil er heute ___. (zumachen)",
           "respostas_possiveis": [
-            "machtzu"
+            "zumacht"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2767,7 +2767,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "D",
           "enunciado": "..., weil wir heute ___. (aufwachen)",
           "respostas_possiveis": [
-            "wachenauf"
+            "aufwachen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         }
@@ -2784,7 +2784,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "A",
           "enunciado": "..., weil du heute ___. (einkaufen)",
           "respostas_possiveis": [
-            "kaufstein"
+            "einkaufst"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2792,7 +2792,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "B",
           "enunciado": "..., weil er heute ___. (aufmachen)",
           "respostas_possiveis": [
-            "machtauf"
+            "aufmacht"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2800,7 +2800,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "C",
           "enunciado": "..., weil wir heute ___. (einladen)",
           "respostas_possiveis": [
-            "ladenein"
+            "einladen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2808,7 +2808,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "D",
           "enunciado": "..., weil ihr heute ___. (zurückkommen)",
           "respostas_possiveis": [
-            "kommtzurück"
+            "zurückkommt"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         }
@@ -2825,7 +2825,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "A",
           "enunciado": "..., weil er heute ___. (fernsehen)",
           "respostas_possiveis": [
-            "siehtfern"
+            "fernsieht"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2833,7 +2833,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "B",
           "enunciado": "..., weil wir heute ___. (abholen)",
           "respostas_possiveis": [
-            "holenab"
+            "abholen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2841,7 +2841,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "C",
           "enunciado": "..., weil ihr heute ___. (losfahren)",
           "respostas_possiveis": [
-            "fahrtlos"
+            "losfahrt"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2849,7 +2849,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "D",
           "enunciado": "..., weil sie heute ___. (anrufen)",
           "respostas_possiveis": [
-            "rufenan"
+            "anrufen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         }
@@ -2866,7 +2866,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "A",
           "enunciado": "..., weil wir heute ___. (zumachen)",
           "respostas_possiveis": [
-            "machenzu"
+            "zumachen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2874,7 +2874,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "B",
           "enunciado": "..., weil ihr heute ___. (aufwachen)",
           "respostas_possiveis": [
-            "wachtauf"
+            "aufwacht"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2882,7 +2882,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "C",
           "enunciado": "..., weil sie heute ___. (aufstehen)",
           "respostas_possiveis": [
-            "stehenauf"
+            "aufstehen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2890,7 +2890,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "D",
           "enunciado": "..., weil ich heute ___. (mitkommen)",
           "respostas_possiveis": [
-            "kommemit"
+            "mitkomme"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         }
@@ -2907,7 +2907,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "A",
           "enunciado": "..., weil ihr heute ___. (einladen)",
           "respostas_possiveis": [
-            "ladetein"
+            "einladet"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2915,7 +2915,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "B",
           "enunciado": "..., weil sie heute ___. (zurückkommen)",
           "respostas_possiveis": [
-            "kommenzurück"
+            "zurückkommen"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2923,7 +2923,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "C",
           "enunciado": "..., weil ich heute ___. (einkaufen)",
           "respostas_possiveis": [
-            "kaufeein"
+            "einkaufe"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2931,7 +2931,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "D",
           "enunciado": "..., weil du heute ___. (aufmachen)",
           "respostas_possiveis": [
-            "machstauf"
+            "aufmachst"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         }
@@ -2948,7 +2948,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "A",
           "enunciado": "..., weil sie heute ___. (losfahren)",
           "respostas_possiveis": [
-            "fahrenlos"
+            "losfahren"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2956,7 +2956,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "B",
           "enunciado": "..., weil ich heute ___. (anrufen)",
           "respostas_possiveis": [
-            "rufean"
+            "anrufe"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2964,7 +2964,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "C",
           "enunciado": "..., weil du heute ___. (fernsehen)",
           "respostas_possiveis": [
-            "siehstfern"
+            "fernsiehst"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         },
@@ -2972,7 +2972,7 @@ window.EXERCICIOS_MODAIS = [
           "letra": "D",
           "enunciado": "..., weil er heute ___. (abholen)",
           "respostas_possiveis": [
-            "holtab"
+            "abholt"
           ],
           "justificativa": "Na subordinada, o verbo fica unido e conjugado no final."
         }

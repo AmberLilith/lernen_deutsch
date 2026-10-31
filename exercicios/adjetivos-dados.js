@@ -371,7 +371,7 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex024": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete (artigo indefinido, Genitiv, neutro): eines ___ Freund (gut)",
+      "enunciado": "Complete (artigo indefinido, Genitiv, neutro): eines ___ Freundes (gut)",
       "alternativas": [
         "guten",
         "gute",
@@ -435,7 +435,7 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex028": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Complete (artigo indefinido, Genitiv, masculino): eines ___ Brot (frisch)",
+      "enunciado": "Complete (artigo indefinido, Genitiv, masculino): eines ___ Brotes (frisch)",
       "alternativas": [
         "frischen",
         "frische",
@@ -1806,7 +1806,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Complete (Genitiv, neutro, sem artigo): ___ Brot (frisch)",
+          "enunciado": "Complete (Genitiv, neutro, sem artigo): ___ Brotes (frisch)",
           "respostas_possiveis": [
             "frischen"
           ],
@@ -1970,7 +1970,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Complete (Genitiv, neutro, artigo definido): des ___ Kuchen (lecker)",
+          "enunciado": "Complete (Genitiv, neutro, artigo definido): des ___ Kuchens (lecker)",
           "respostas_possiveis": [
             "leckeren"
           ],
@@ -2052,7 +2052,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Complete (Genitiv, masculino, sem artigo): ___ Lehrer (jung)",
+          "enunciado": "Complete (Genitiv, masculino, sem artigo): ___ Lehrers (jung)",
           "respostas_possiveis": [
             "jungen"
           ],
@@ -2216,7 +2216,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Complete (Genitiv, masculino, artigo definido): des ___ Koffer (schwer)",
+          "enunciado": "Complete (Genitiv, masculino, artigo definido): des ___ Koffers (schwer)",
           "respostas_possiveis": [
             "schweren"
           ],
@@ -2298,7 +2298,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Complete (Genitiv, neutro, sem artigo): ___ Freund (gut)",
+          "enunciado": "Complete (Genitiv, neutro, sem artigo): ___ Freundes (gut)",
           "respostas_possiveis": [
             "guten"
           ],
@@ -2790,7 +2790,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Complete (Genitiv, neutro, sem artigo): ___ Kuchen (lecker)",
+          "enunciado": "Complete (Genitiv, neutro, sem artigo): ___ Kuchens (lecker)",
           "respostas_possiveis": [
             "leckeren"
           ],
@@ -3036,7 +3036,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Complete (Genitiv, masculino, sem artigo): ___ Koffer (schwer)",
+          "enunciado": "Complete (Genitiv, masculino, sem artigo): ___ Koffers (schwer)",
           "respostas_possiveis": [
             "schweren"
           ],
@@ -3200,7 +3200,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Complete (Genitiv, masculino, artigo definido): des ___ Mantel (teuer)",
+          "enunciado": "Complete (Genitiv, masculino, artigo definido): des ___ Mantels (teuer)",
           "respostas_possiveis": [
             "teuren"
           ],
@@ -3446,7 +3446,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Complete (Genitiv, neutro, artigo definido): des ___ Brot (frisch)",
+          "enunciado": "Complete (Genitiv, neutro, artigo definido): des ___ Brotes (frisch)",
           "respostas_possiveis": [
             "frischen"
           ],
@@ -3692,7 +3692,7 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Complete (Genitiv, masculino, artigo definido): des ___ Lehrer (jung)",
+          "enunciado": "Complete (Genitiv, masculino, artigo definido): des ___ Lehrers (jung)",
           "respostas_possiveis": [
             "jungen"
           ],

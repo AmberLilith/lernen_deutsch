@@ -316,6 +316,35 @@ function clearExercise(){
  const bar=document.querySelector(".progress span"); if(bar) bar.style.width="0";
 }
 
+function adicionarItensProgressivamente(container, itens, criarItem){
+ const LIMITE_INICIAL = 4;
+ const INCREMENTO = 10;
+ let exibidos = 0;
+ let botaoMais = null;
+
+ function adicionarProximoLote(){
+   const limite = Math.min(exibidos + (exibidos === 0 ? LIMITE_INICIAL : INCREMENTO), itens.length);
+   for(; exibidos < limite; exibidos++){
+     container.appendChild(criarItem(itens[exibidos]));
+   }
+   if(exibidos >= itens.length && botaoMais){
+     botaoMais.remove();
+     botaoMais = null;
+   }
+ }
+
+ adicionarProximoLote();
+ if(itens.length > LIMITE_INICIAL){
+   botaoMais = document.createElement("button");
+   botaoMais.type = "button";
+   botaoMais.className = "load-more";
+   botaoMais.textContent = "Mais";
+   botaoMais.setAttribute("aria-label", "Exibir mais itens");
+   botaoMais.addEventListener("click", adicionarProximoLote);
+   container.parentElement.appendChild(botaoMais);
+ }
+}
+
 function renderConteudos(conteudos){
  const container = document.querySelector("#conteudos-dinamicos");
  if(!container) return;
@@ -330,20 +359,33 @@ function renderConteudos(conteudos){
    grupo.paginas.push(pagina);
  });
 
- container.innerHTML = categorias.map(grupo => `
-   <details class="content-group">
-     <summary>${grupo.nome}</summary>
-     <div class="grid">
-       ${grupo.paginas.map(pagina => `
-         <a class="card" href="paginas/${pagina.arquivo}">
-           <span class="tag">${pagina.tag}</span>
-           <h3>${pagina.titulo}</h3>
-           <p>${pagina.descricao}</p>
-         </a>
-       `).join("")}
-     </div>
-   </details>
- `).join("");
+ container.replaceChildren();
+ categorias.forEach(grupo => {
+   const details = document.createElement("details");
+   details.className = "content-group";
+   const summary = document.createElement("summary");
+   summary.textContent = grupo.nome;
+   const grid = document.createElement("div");
+   grid.className = "grid";
+
+   adicionarItensProgressivamente(grid, grupo.paginas, pagina => {
+     const link = document.createElement("a");
+     link.className = "card";
+     link.href = "paginas/" + pagina.arquivo;
+     const tag = document.createElement("span");
+     tag.className = "tag";
+     tag.textContent = pagina.tag;
+     const titulo = document.createElement("h3");
+     titulo.textContent = pagina.titulo;
+     const descricao = document.createElement("p");
+     descricao.textContent = pagina.descricao;
+     link.append(tag, titulo, descricao);
+     return link;
+   });
+
+   details.append(summary, grid);
+   container.appendChild(details);
+ });
 }
 
 function renderLessonNav(conteudos){
@@ -390,19 +432,35 @@ async function renderExercicios(grupos){
    })))
  })));
 
- container.innerHTML = gruposRenderizados.map(grupo => `
-   <details class="exercise-group">
-     <summary>${grupo.tema}</summary>
-     <div class="exercise-list">
-       ${grupo.itens.map(item => `
-         <a class="exercise-link" href="exercicios/${item.arquivo}">
-           <span>${item.titulo} · <span class="note">${item.detalhe}</span></span>
-           <span class="arrow">→</span>
-         </a>
-       `).join("")}
-     </div>
-   </details>
- `).join("");
+ container.replaceChildren();
+ gruposRenderizados.forEach(grupo => {
+   const details = document.createElement("details");
+   details.className = "exercise-group";
+   const summary = document.createElement("summary");
+   summary.textContent = grupo.tema;
+   const lista = document.createElement("div");
+   lista.className = "exercise-list";
+
+   adicionarItensProgressivamente(lista, grupo.itens, item => {
+     const link = document.createElement("a");
+     link.className = "exercise-link";
+     link.href = "exercicios/" + item.arquivo;
+     const texto = document.createElement("span");
+     texto.append(document.createTextNode(item.titulo + " · "));
+     const detalhe = document.createElement("span");
+     detalhe.className = "note";
+     detalhe.textContent = item.detalhe;
+     texto.appendChild(detalhe);
+     const seta = document.createElement("span");
+     seta.className = "arrow";
+     seta.textContent = "→";
+     link.append(texto, seta);
+     return link;
+   });
+
+   details.append(summary, lista);
+   container.appendChild(details);
+ });
 }
 
 async function inicializar(conteudos, exercicios){

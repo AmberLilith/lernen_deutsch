@@ -787,17 +787,17 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex050": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual é o Partizip II de schwimmen?",
+      "enunciado": "Qual é o Partizip II de wachsen?",
       "alternativas": [
-        "geschwommen",
-        "geschwimment",
-        "geschwimmenen",
-        "schwimmen"
+        "gewachsen",
+        "gewachsent",
+        "gewachsenen",
+        "wachsen"
       ],
       "respostas_possiveis": [
-        "geschwommen"
+        "gewachsen"
       ],
-      "justificativa": "O Partizip II de schwimmen é geschwommen."
+      "justificativa": "O Partizip II de wachsen é gewachsen."
     }
   },
   {
@@ -938,13 +938,13 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "geschwommen",
+        "gewachsen",
         "gespielt",
         "gearbeitet",
         "gereist"
       ],
       "respostas": [
-        "schwimmen",
+        "wachsen",
         "spielen",
         "arbeiten",
         "reisen"
@@ -1188,13 +1188,13 @@ window.EXERCICIOS_MODAIS = [
         "schließen",
         "kennen",
         "werden",
-        "schwimmen"
+        "wachsen"
       ],
       "respostas": [
         "fechar",
         "conhecer",
         "tornar-se",
-        "nadar"
+        "crescer"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
     }
@@ -1338,13 +1338,13 @@ window.EXERCICIOS_MODAIS = [
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
         "geworden",
-        "geschwommen",
+        "gewachsen",
         "gespielt",
         "gearbeitet"
       ],
       "respostas": [
         "werden",
-        "schwimmen",
+        "wachsen",
         "spielen",
         "arbeiten"
       ],
@@ -1738,13 +1738,13 @@ window.EXERCICIOS_MODAIS = [
       "alternativas": [
         "gekannt",
         "geworden",
-        "geschwommen",
+        "gewachsen",
         "gespielt"
       ],
       "respostas": [
         "kennen",
         "werden",
-        "schwimmen",
+        "wachsen",
         "spielen"
       ],
       "justificativa": "Aprenda o Partizip II e o auxiliar junto com o infinitivo. Muitos verbos de movimento ou mudança de estado usam sein; muitos outros usam haben."
@@ -2306,11 +2306,11 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "C",
-          "enunciado": "Escolha o auxiliar: Ich ___ geschwommen. (schwimmen)",
+          "enunciado": "Escolha o auxiliar: Ich ___ gewachsen. (wachsen)",
           "respostas_possiveis": [
             "sein"
           ],
-          "justificativa": "O auxiliar de schwimmen é sein."
+          "justificativa": "O auxiliar de wachsen é sein."
         },
         {
           "letra": "D",
@@ -2929,11 +2929,11 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "D",
-          "enunciado": "Complete o Partizip II: Ich habe/bin ___ . (schwimmen)",
+          "enunciado": "Complete o Partizip II: Ich habe/bin ___ . (wachsen)",
           "respostas_possiveis": [
-            "geschwommen"
+            "gewachsen"
           ],
-          "justificativa": "O Partizip II de schwimmen é geschwommen."
+          "justificativa": "O Partizip II de wachsen é gewachsen."
         }
       ],
       "justificativa": "O Perfekt é formado por haben/sein conjugado e Partizip II no final."
@@ -3110,11 +3110,11 @@ window.EXERCICIOS_MODAIS = [
       "itens": [
         {
           "letra": "A",
-          "enunciado": "Escolha o auxiliar: Ich ___ geschwommen. (schwimmen)",
+          "enunciado": "Escolha o auxiliar: Ich ___ gewachsen. (wachsen)",
           "respostas_possiveis": [
             "sein"
           ],
-          "justificativa": "O auxiliar de schwimmen é sein."
+          "justificativa": "O auxiliar de wachsen é sein."
         },
         {
           "letra": "B",
@@ -3733,11 +3733,11 @@ window.EXERCICIOS_MODAIS = [
         },
         {
           "letra": "B",
-          "enunciado": "Complete o Partizip II: Ich habe/bin ___ . (schwimmen)",
+          "enunciado": "Complete o Partizip II: Ich habe/bin ___ . (wachsen)",
           "respostas_possiveis": [
-            "geschwommen"
+            "gewachsen"
           ],
-          "justificativa": "O Partizip II de schwimmen é geschwommen."
+          "justificativa": "O Partizip II de wachsen é gewachsen."
         },
         {
           "letra": "C",

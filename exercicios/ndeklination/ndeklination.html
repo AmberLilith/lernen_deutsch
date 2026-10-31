@@ -1,15 +1,38 @@
-<!doctype html><html lang="pt-BR"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>n-Deklination · Alemão</title><link rel="stylesheet" href="../../css/style.css">
-</head><body>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>n-Deklination · Alemão</title>
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../compartilhado/modais.css">
+</head>
+<body>
 <header class="site-header"><nav class="nav">
 <a class="brand" href="../../index.html">Alemão <small>estudos</small></a>
 <div class="nav-links"><a href="../../index.html#conteudos">Conteúdos</a><a href="../../index.html#exercicios">Exercícios</a></div>
 </nav></header>
-<main class="container"><div class="breadcrumb"><a href="../../index.html">Início</a> / Exercícios</div>
-<div class="hero"><div class="eyebrow">Exercício</div><h1>n-Deklination</h1><p class="lead">Responda sem consultar o gabarito. A correção aparece somente depois de clicar em Corrigir.</p></div>
-<div class="panel"><div class="progress"><span></span></div><div class="question" data-answer="-n ou -en|-n/-en|n ou en"><div class="prompt">1. Fora do Nominativ singular, muitos substantivos da n-Deklination recebem: ___</div><input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta..."><div class="feedback"></div></div><div class="question" data-answer="masculino"><div class="prompt">2. A n-Deklination é típica de qual gênero?</div><input class="answer-input" type="text" autocomplete="off" placeholder="Escreva sua resposta..."><div class="feedback"></div></div>
-<div class="controls"><button class="primary" onclick="checkExercise()">Corrigir</button><button class="secondary" onclick="clearExercise()">Limpar</button></div>
-<div class="score"></div></div></main>
+<main class="container modais-page">
+<div class="breadcrumb"><a href="../../index.html">Início</a> / Exercícios / n-Deklination</div>
+<section class="hero"><div class="eyebrow">Prática · n-Deklination</div><h1>n-Deklination</h1><p class="lead">Pratique os substantivos masculinos da n-Deklination nos casos nominativo, acusativo, dativo e genitivo.</p></section>
+<section class="modais-instructions panel"><h2>Como funciona</h2><ul>
+<li>As questões e alternativas são embaralhadas ao carregar a página.</li>
+<li>Clique em <b>Corrigir</b> para verificar as respostas da página atual.</li>
+<li>Você pode tentar novamente. Após três erros, o gabarito fica disponível.</li>
+<li>As justificativas aparecem quando a resposta estiver correta ou quando o gabarito for exibido.</li>
+</ul></section>
+<div id="paginacao-topo" class="modais-pagination" aria-label="Paginação superior"></div>
+<div id="resumo-pagina" class="modais-page-summary" aria-live="polite"></div>
+<section id="lista-exercicios" class="modais-exercise-list" aria-label="Lista de exercícios"></section>
+<div id="paginacao-base" class="modais-pagination" aria-label="Paginação inferior"></div>
+<p id="status-geral" class="modais-global-status" aria-live="polite"></p>
+</main>
+<div class="modais-fixed-actions" role="region" aria-label="Ações dos exercícios">
+<button id="btn-corrigir" class="primary" type="button">Corrigir</button>
+<button id="btn-limpar" class="secondary" type="button">Limpar</button>
+</div>
 <footer class="site-footer"><div class="footer-inner"><span>Material de estudo pessoal</span><a href="../../index.html">← Início</a></div></footer>
-<script src="../../js/app.js"></script></body></html>
+<script src="../../js/app.js"></script>
+<script src="ndeklination-dados.js"></script>
+<script src="../compartilhado/modais.js"></script>
+</body></html>

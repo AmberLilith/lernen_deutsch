@@ -39,7 +39,7 @@ export const exercicios = [
   {
     tema: "Preposições",
     itens: [
-      { arquivo: "preposicoes.html", titulo: "Preposições", detalhe: "", contagemDinamica: true },
+      { arquivo: "preposicoes.html", titulo: "Preposições", detalhe: "200 exercícios" },
       { arquivo: "sich-freuen-auf-ueber.html", titulo: "sich freuen auf × über", detalhe: "10 itens", contagemDinamica: true },
       { arquivo: "wechsel.html", titulo: "Wechselpräpositionen", detalhe: "", contagemDinamica: true }
     ]
@@ -48,7 +48,7 @@ export const exercicios = [
     tema: "Estrutura das frases",
     itens: [
       { arquivo: "ordem-frase.html", titulo: "Ordem das palavras", detalhe: "Prática de estrutura" },
-      { arquivo: "subordinadas.html", titulo: "Orações subordinadas", detalhe: "Prática de subordinadas" }
+      { arquivo: "subordinadas.html", titulo: "Orações subordinadas", detalhe: "200 exercícios" }
     ]
   },
   {

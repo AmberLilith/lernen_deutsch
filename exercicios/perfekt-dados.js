@@ -841,12 +841,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex053": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "essen",
-        "lesen",
-        "nehmen",
-        "schlafen"
+        null,
+        "gelesen",
+        null,
+        "geschlafen"
       ],
       "respostas": [
         "comer",
@@ -898,12 +898,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex056": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "bezahlen",
-        "telefonieren",
-        "bringen",
-        "sitzen"
+        "bezahlt",
+        null,
+        "gebracht",
+        null
       ],
       "respostas": [
         "pagar",
@@ -955,12 +955,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex059": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "wohnen",
-        "gehen",
-        "bleiben",
-        "trinken"
+        null,
+        "gegangen",
+        null,
+        "getrunken"
       ],
       "respostas": [
         "morar",
@@ -1012,12 +1012,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex062": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "anrufen",
-        "treffen",
-        "verstehen",
-        "erzählen"
+        "angerufen",
+        null,
+        "verstanden",
+        null
       ],
       "respostas": [
         "telefonar",
@@ -1069,12 +1069,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex065": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "fliegen",
-        "machen",
-        "fragen",
-        "kochen"
+        null,
+        "gemacht",
+        null,
+        "gekocht"
       ],
       "respostas": [
         "voar",
@@ -1126,12 +1126,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex068": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "sprechen",
-        "finden",
-        "ankommen",
-        "einkaufen"
+        "gesprochen",
+        null,
+        "angekommen",
+        null
       ],
       "respostas": [
         "falar",
@@ -1183,12 +1183,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex071": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "schließen",
-        "kennen",
-        "werden",
-        "schwimmen"
+        null,
+        "gekannt",
+        null,
+        "geschwommen"
       ],
       "respostas": [
         "fechar",
@@ -1240,12 +1240,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex074": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "fahren",
-        "essen",
-        "lesen",
-        "nehmen"
+        "gefahren",
+        null,
+        "gelesen",
+        null
       ],
       "respostas": [
         "ir de veículo",
@@ -1297,12 +1297,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex077": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "beginnen",
-        "bezahlen",
-        "telefonieren",
-        "bringen"
+        null,
+        "bezahlt",
+        null,
+        "gebracht"
       ],
       "respostas": [
         "começar",
@@ -1354,12 +1354,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex080": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "kaufen",
-        "wohnen",
-        "gehen",
-        "bleiben"
+        "gekauft",
+        null,
+        "gegangen",
+        null
       ],
       "respostas": [
         "comprar",
@@ -1411,12 +1411,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex083": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "laufen",
-        "anrufen",
-        "treffen",
-        "verstehen"
+        null,
+        "angerufen",
+        null,
+        "verstanden"
       ],
       "respostas": [
         "correr",
@@ -1468,12 +1468,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex086": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "stehen",
-        "fliegen",
-        "machen",
-        "fragen"
+        "gestanden",
+        null,
+        "gemacht",
+        null
       ],
       "respostas": [
         "estar em pé",
@@ -1525,12 +1525,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex089": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "sehen",
-        "sprechen",
-        "finden",
-        "ankommen"
+        null,
+        "gesprochen",
+        null,
+        "angekommen"
       ],
       "respostas": [
         "ver",
@@ -1582,12 +1582,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex092": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "studieren",
-        "schließen",
-        "kennen",
-        "werden"
+        "studiert",
+        null,
+        "gekannt",
+        null
       ],
       "respostas": [
         "estudar",
@@ -1639,12 +1639,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex095": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "reisen",
-        "fahren",
-        "essen",
-        "lesen"
+        null,
+        "gefahren",
+        null,
+        "gelesen"
       ],
       "respostas": [
         "viajar",
@@ -1696,12 +1696,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex098": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o infinitivo ao significado.",
+      "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "helfen",
-        "beginnen",
-        "bezahlen",
-        "telefonieren"
+        "geholfen",
+        null,
+        "bezahlt",
+        null
       ],
       "respostas": [
         "ajudar",

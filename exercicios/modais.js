@@ -96,7 +96,7 @@ function corrigirPagina(){
 }
 function renderizarPagina(){
  container.replaceChildren();const inicio=paginaAtual*PAGE_SIZE;ordem.slice(inicio,inicio+PAGE_SIZE).forEach((ex,i)=>container.append(criarCartao(ex,inicio+i+1)));
- criarPaginacao(topo);criarPaginacao(base);resumo.textContent="São 100 exercícios principais. Nos exercícios agrupados, cada item de A a J tem tentativas e gabarito independentes.";statusGeral.textContent="";
+ criarPaginacao(topo);criarPaginacao(base);resumo.textContent="São "+ordem.length+" exercícios principais. Nos exercícios agrupados, cada item de A a J tem tentativas e gabarito independentes.";statusGeral.textContent="";
 }
 function criarPaginacao(destino){destino.replaceChildren();const total=Math.ceil(ordem.length/PAGE_SIZE),ini=paginaAtual*PAGE_SIZE+1,fim=Math.min((paginaAtual+1)*PAGE_SIZE,ordem.length);const prev=el("button","secondary","← Anterior");prev.type="button";prev.disabled=paginaAtual===0;prev.addEventListener("click",()=>mudarPagina(paginaAtual-1));const label=el("span","modais-page-indicator","Página "+(paginaAtual+1)+" de "+total+" · Exercícios "+ini+"–"+fim+" de "+ordem.length);const next=el("button","secondary","Próxima →");next.type="button";next.disabled=paginaAtual>=total-1;next.addEventListener("click",()=>mudarPagina(paginaAtual+1));destino.append(prev,label,next);}
 function mudarPagina(n){const total=Math.ceil(ordem.length/PAGE_SIZE);if(n<0||n>=total)return;paginaAtual=n;renderizarPagina();document.querySelector(".hero")?.scrollIntoView({behavior:"smooth",block:"start"});}

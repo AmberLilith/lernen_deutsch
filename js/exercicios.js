@@ -14,14 +14,14 @@ export const exercicios = [
       { arquivo: "dativ.html", titulo: "Dativ", detalhe: "Prática de Dativ" },
       { arquivo: "ndeklination.html", titulo: "n-Deklination", detalhe: "Prática de n-Deklination" },
       { arquivo: "negacao.html", titulo: "Negação: nicht e kein", detalhe: "Prática de negação" },
-      { arquivo: "pronomes-pessoais.html", titulo: "Pronomes pessoais", detalhe: ""200 exercícios"" }
+      { arquivo: "pronomes-pessoais.html", titulo: "Pronomes pessoais", detalhe: "200 exercícios" }
     ]
   },
   {
     tema: "Verbos",
     itens: [
-      { arquivo: "presente-regulares.html", titulo: "Presente regular", detalhe: ""200 exercícios"" },
-      { arquivo: "presente-irregulares.html", titulo: "Presente irregular", detalhe: ""200 exercícios"" },
+      { arquivo: "presente-regulares.html", titulo: "Presente regular", detalhe: "200 exercícios" },
+      { arquivo: "presente-irregulares.html", titulo: "Presente irregular", detalhe: "200 exercícios" },
       { arquivo: "modais.html", titulo: "Verbos modais", detalhe: "Prática de verbos modais" },
       { arquivo: "separaveis.html", titulo: "Verbos separáveis", detalhe: "Prática de verbos separáveis" },
       { arquivo: "perfekt.html", titulo: "Perfekt", detalhe: "5 itens" },

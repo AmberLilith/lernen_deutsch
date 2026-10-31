@@ -803,18 +803,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex051": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro",
-        "Nominativ · plural"
+        "der alte Mann",
+        "einen teuren Mantel",
+        "gute Freunde",
+        "gute Bücher"
       ],
       "respostas": [
-        "-e",
-        "-e",
-        "-e",
-        "-en"
+        "o homem velho",
+        "um casaco caro no Akkusativ",
+        "bons amigos no Akkusativ sem artigo",
+        "bons livros sem artigo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -822,16 +822,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex052": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro"
+        "das frische Brot",
+        "frisches Brot",
+        "der alten Männer",
+        "eine lange Straße"
       ],
       "respostas": [
-        "-er",
-        "-e",
-        "-es"
+        "o pão fresco",
+        "pão fresco sem artigo",
+        "dos homens velhos",
+        "uma rua longa"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -839,18 +841,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex053": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro",
-        "Nominativ · plural"
+        "in einem neuen Haus",
+        "einem alten Mann",
+        "bequeme Schuhe",
+        "die schöne Frau"
       ],
       "respostas": [
-        "-er",
-        "-e",
-        "-es",
-        "-e"
+        "em uma casa nova",
+        "a/para um homem velho no Dativ",
+        "sapatos confortáveis",
+        "a mulher bonita"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -858,18 +860,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex054": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro",
-        "Akkusativ · plural"
+        "interessanter Bücher",
+        "der leckere Kuchen",
+        "hohe Berge",
+        "ein interessantes Buch"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-e",
-        "-en"
+        "de livros interessantes",
+        "o bolo gostoso",
+        "montanhas altas sem artigo",
+        "um livro interessante"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -877,16 +879,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex055": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro"
+        "mit guten Büchern",
+        "hoher Turm",
+        "die warme Suppe",
+        "kaltes Wasser"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-es"
+        "com bons livros",
+        "torre alta sem artigo",
+        "a sopa quente",
+        "água fria sem artigo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -894,18 +898,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex056": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro",
-        "Akkusativ · plural"
+        "eine warme Suppe",
+        "ein guter Freund",
+        "mit guten Freunden",
+        "einer schönen Frau"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-es",
-        "-e"
+        "uma sopa quente",
+        "um bom amigo",
+        "com bons amigos",
+        "de/para uma mulher bonita no Dativ"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -913,18 +917,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex057": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro",
-        "Dativ · plural"
+        "das kleine Kind",
+        "mit der schönen Frau",
+        "mit warmer Milch",
+        "eine wichtige Frage"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en",
-        "-en"
+        "a criança pequena",
+        "com a mulher bonita",
+        "com leite quente",
+        "uma pergunta importante"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -932,16 +936,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex058": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro"
+        "einen teuren Mantel",
+        "gute Freunde",
+        "gute Bücher",
+        "ein kleines Kind"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en"
+        "um casaco caro no Akkusativ",
+        "bons amigos no Akkusativ sem artigo",
+        "bons livros sem artigo",
+        "uma criança pequena"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -949,18 +955,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex059": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro",
-        "Dativ · plural"
+        "frisches Brot",
+        "der alten Männer",
+        "eine lange Straße",
+        "ein neues Auto"
       ],
       "respostas": [
-        "-em",
-        "-er",
-        "-em",
-        "-en"
+        "pão fresco sem artigo",
+        "dos homens velhos",
+        "uma rua longa",
+        "um carro novo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -968,18 +974,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex060": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro",
-        "Genitiv · plural"
+        "einem alten Mann",
+        "bequeme Schuhe",
+        "die schöne Frau",
+        "mit dem alten Mann"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en",
-        "-en"
+        "a/para um homem velho no Dativ",
+        "sapatos confortáveis",
+        "a mulher bonita",
+        "com o homem velho"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -987,16 +993,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex061": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro"
+        "der leckere Kuchen",
+        "hohe Berge",
+        "ein interessantes Buch",
+        "glückliche Kinder"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en"
+        "o bolo gostoso",
+        "montanhas altas sem artigo",
+        "um livro interessante",
+        "crianças felizes sem artigo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1004,18 +1012,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex062": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro",
-        "Genitiv · plural"
+        "hoher Turm",
+        "die warme Suppe",
+        "kaltes Wasser",
+        "einem neuen Auto"
       ],
       "respostas": [
-        "-en",
-        "-er",
-        "-en",
-        "-er"
+        "torre alta sem artigo",
+        "a sopa quente",
+        "água fria sem artigo",
+        "a/para um carro novo no Dativ"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1023,18 +1031,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex063": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro",
-        "Nominativ · plural"
+        "ein guter Freund",
+        "mit guten Freunden",
+        "einer schönen Frau",
+        "ein schwerer Koffer"
       ],
       "respostas": [
-        "-e",
-        "-e",
-        "-e",
-        "-en"
+        "um bom amigo",
+        "com bons amigos",
+        "de/para uma mulher bonita no Dativ",
+        "uma mala pesada"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1042,16 +1050,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex064": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro"
+        "mit der schönen Frau",
+        "mit warmer Milch",
+        "eine wichtige Frage",
+        "hohes Gebäude"
       ],
       "respostas": [
-        "-er",
-        "-e",
-        "-es"
+        "com a mulher bonita",
+        "com leite quente",
+        "uma pergunta importante",
+        "edifício alto sem artigo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1059,18 +1069,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex065": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro",
-        "Nominativ · plural"
+        "gute Freunde",
+        "gute Bücher",
+        "ein kleines Kind",
+        "den jungen Lehrer"
       ],
       "respostas": [
-        "-er",
-        "-e",
-        "-es",
-        "-e"
+        "bons amigos no Akkusativ sem artigo",
+        "bons livros sem artigo",
+        "uma criança pequena",
+        "o professor jovem no Akkusativ"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1078,18 +1088,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex066": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro",
-        "Akkusativ · plural"
+        "der alten Männer",
+        "eine lange Straße",
+        "ein neues Auto",
+        "mit dem kleinen Kind"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-e",
-        "-en"
+        "dos homens velhos",
+        "uma rua longa",
+        "um carro novo",
+        "com a criança pequena"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1097,16 +1107,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex067": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro"
+        "bequeme Schuhe",
+        "die schöne Frau",
+        "mit dem alten Mann",
+        "mit kaltem Wasser"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-es"
+        "sapatos confortáveis",
+        "a mulher bonita",
+        "com o homem velho",
+        "com água fria"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1114,18 +1126,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex068": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro",
-        "Akkusativ · plural"
+        "hohe Berge",
+        "ein interessantes Buch",
+        "glückliche Kinder",
+        "eines neuen Autos"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-es",
-        "-e"
+        "montanhas altas sem artigo",
+        "um livro interessante",
+        "crianças felizes sem artigo",
+        "de um carro novo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1133,18 +1145,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex069": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro",
-        "Dativ · plural"
+        "die warme Suppe",
+        "kaltes Wasser",
+        "einem neuen Auto",
+        "das saubere Zimmer"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en",
-        "-en"
+        "a sopa quente",
+        "água fria sem artigo",
+        "a/para um carro novo no Dativ",
+        "o quarto limpo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1152,16 +1164,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex070": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro"
+        "mit guten Freunden",
+        "einer schönen Frau",
+        "ein schwerer Koffer",
+        "der alte Mann"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en"
+        "com bons amigos",
+        "de/para uma mulher bonita no Dativ",
+        "uma mala pesada",
+        "o homem velho"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1169,18 +1183,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex071": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro",
-        "Dativ · plural"
+        "mit warmer Milch",
+        "eine wichtige Frage",
+        "hohes Gebäude",
+        "das frische Brot"
       ],
       "respostas": [
-        "-em",
-        "-er",
-        "-em",
-        "-en"
+        "com leite quente",
+        "uma pergunta importante",
+        "edifício alto sem artigo",
+        "o pão fresco"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1188,18 +1202,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex072": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro",
-        "Genitiv · plural"
+        "gute Bücher",
+        "ein kleines Kind",
+        "den jungen Lehrer",
+        "in einem neuen Haus"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en",
-        "-en"
+        "bons livros sem artigo",
+        "uma criança pequena",
+        "o professor jovem no Akkusativ",
+        "em uma casa nova"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1207,16 +1221,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex073": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro"
+        "eine lange Straße",
+        "ein neues Auto",
+        "mit dem kleinen Kind",
+        "interessanter Bücher"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en"
+        "uma rua longa",
+        "um carro novo",
+        "com a criança pequena",
+        "de livros interessantes"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1224,18 +1240,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex074": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro",
-        "Genitiv · plural"
+        "die schöne Frau",
+        "mit dem alten Mann",
+        "mit kaltem Wasser",
+        "mit guten Büchern"
       ],
       "respostas": [
-        "-en",
-        "-er",
-        "-en",
-        "-er"
+        "a mulher bonita",
+        "com o homem velho",
+        "com água fria",
+        "com bons livros"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1243,18 +1259,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex075": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro",
-        "Nominativ · plural"
+        "ein interessantes Buch",
+        "glückliche Kinder",
+        "eines neuen Autos",
+        "eine warme Suppe"
       ],
       "respostas": [
-        "-e",
-        "-e",
-        "-e",
-        "-en"
+        "um livro interessante",
+        "crianças felizes sem artigo",
+        "de um carro novo",
+        "uma sopa quente"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1262,16 +1278,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex076": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro"
+        "kaltes Wasser",
+        "einem neuen Auto",
+        "das saubere Zimmer",
+        "das kleine Kind"
       ],
       "respostas": [
-        "-er",
-        "-e",
-        "-es"
+        "água fria sem artigo",
+        "a/para um carro novo no Dativ",
+        "o quarto limpo",
+        "a criança pequena"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1279,18 +1297,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex077": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro",
-        "Nominativ · plural"
+        "einer schönen Frau",
+        "ein schwerer Koffer",
+        "der alte Mann",
+        "einen teuren Mantel"
       ],
       "respostas": [
-        "-er",
-        "-e",
-        "-es",
-        "-e"
+        "de/para uma mulher bonita no Dativ",
+        "uma mala pesada",
+        "o homem velho",
+        "um casaco caro no Akkusativ"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1298,18 +1316,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex078": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro",
-        "Akkusativ · plural"
+        "eine wichtige Frage",
+        "hohes Gebäude",
+        "das frische Brot",
+        "frisches Brot"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-e",
-        "-en"
+        "uma pergunta importante",
+        "edifício alto sem artigo",
+        "o pão fresco",
+        "pão fresco sem artigo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1317,16 +1335,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex079": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro"
+        "ein kleines Kind",
+        "den jungen Lehrer",
+        "in einem neuen Haus",
+        "einem alten Mann"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-es"
+        "uma criança pequena",
+        "o professor jovem no Akkusativ",
+        "em uma casa nova",
+        "a/para um homem velho no Dativ"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1334,18 +1354,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex080": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro",
-        "Akkusativ · plural"
+        "ein neues Auto",
+        "mit dem kleinen Kind",
+        "interessanter Bücher",
+        "der leckere Kuchen"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-es",
-        "-e"
+        "um carro novo",
+        "com a criança pequena",
+        "de livros interessantes",
+        "o bolo gostoso"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1353,18 +1373,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex081": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro",
-        "Dativ · plural"
+        "mit dem alten Mann",
+        "mit kaltem Wasser",
+        "mit guten Büchern",
+        "hoher Turm"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en",
-        "-en"
+        "com o homem velho",
+        "com água fria",
+        "com bons livros",
+        "torre alta sem artigo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1372,16 +1392,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex082": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro"
+        "glückliche Kinder",
+        "eines neuen Autos",
+        "eine warme Suppe",
+        "ein guter Freund"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en"
+        "crianças felizes sem artigo",
+        "de um carro novo",
+        "uma sopa quente",
+        "um bom amigo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1389,18 +1411,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex083": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro",
-        "Dativ · plural"
+        "einem neuen Auto",
+        "das saubere Zimmer",
+        "das kleine Kind",
+        "mit der schönen Frau"
       ],
       "respostas": [
-        "-em",
-        "-er",
-        "-em",
-        "-en"
+        "a/para um carro novo no Dativ",
+        "o quarto limpo",
+        "a criança pequena",
+        "com a mulher bonita"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1408,18 +1430,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex084": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro",
-        "Genitiv · plural"
+        "ein schwerer Koffer",
+        "der alte Mann",
+        "einen teuren Mantel",
+        "gute Freunde"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en",
-        "-en"
+        "uma mala pesada",
+        "o homem velho",
+        "um casaco caro no Akkusativ",
+        "bons amigos no Akkusativ sem artigo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1427,16 +1449,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex085": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro"
+        "hohes Gebäude",
+        "das frische Brot",
+        "frisches Brot",
+        "der alten Männer"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en"
+        "edifício alto sem artigo",
+        "o pão fresco",
+        "pão fresco sem artigo",
+        "dos homens velhos"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1444,18 +1468,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex086": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro",
-        "Genitiv · plural"
+        "den jungen Lehrer",
+        "in einem neuen Haus",
+        "einem alten Mann",
+        "bequeme Schuhe"
       ],
       "respostas": [
-        "-en",
-        "-er",
-        "-en",
-        "-er"
+        "o professor jovem no Akkusativ",
+        "em uma casa nova",
+        "a/para um homem velho no Dativ",
+        "sapatos confortáveis"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1463,18 +1487,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex087": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro",
-        "Nominativ · plural"
+        "mit dem kleinen Kind",
+        "interessanter Bücher",
+        "der leckere Kuchen",
+        "hohe Berge"
       ],
       "respostas": [
-        "-e",
-        "-e",
-        "-e",
-        "-en"
+        "com a criança pequena",
+        "de livros interessantes",
+        "o bolo gostoso",
+        "montanhas altas sem artigo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1482,16 +1506,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex088": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro"
+        "mit kaltem Wasser",
+        "mit guten Büchern",
+        "hoher Turm",
+        "die warme Suppe"
       ],
       "respostas": [
-        "-er",
-        "-e",
-        "-es"
+        "com água fria",
+        "com bons livros",
+        "torre alta sem artigo",
+        "a sopa quente"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1499,18 +1525,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex089": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro",
-        "Nominativ · plural"
+        "eines neuen Autos",
+        "eine warme Suppe",
+        "ein guter Freund",
+        "mit guten Freunden"
       ],
       "respostas": [
-        "-er",
-        "-e",
-        "-es",
-        "-e"
+        "de um carro novo",
+        "uma sopa quente",
+        "um bom amigo",
+        "com bons amigos"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1518,18 +1544,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex090": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro",
-        "Akkusativ · plural"
+        "das saubere Zimmer",
+        "das kleine Kind",
+        "mit der schönen Frau",
+        "mit warmer Milch"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-e",
-        "-en"
+        "o quarto limpo",
+        "a criança pequena",
+        "com a mulher bonita",
+        "com leite quente"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1537,16 +1563,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex091": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro"
+        "der alte Mann",
+        "einen teuren Mantel",
+        "gute Freunde",
+        "gute Bücher"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-es"
+        "o homem velho",
+        "um casaco caro no Akkusativ",
+        "bons amigos no Akkusativ sem artigo",
+        "bons livros sem artigo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1554,18 +1582,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex092": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Akkusativ · masculino",
-        "Akkusativ · feminino",
-        "Akkusativ · neutro",
-        "Akkusativ · plural"
+        "das frische Brot",
+        "frisches Brot",
+        "der alten Männer",
+        "eine lange Straße"
       ],
       "respostas": [
-        "-en",
-        "-e",
-        "-es",
-        "-e"
+        "o pão fresco",
+        "pão fresco sem artigo",
+        "dos homens velhos",
+        "uma rua longa"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1573,18 +1601,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex093": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro",
-        "Dativ · plural"
+        "in einem neuen Haus",
+        "einem alten Mann",
+        "bequeme Schuhe",
+        "die schöne Frau"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en",
-        "-en"
+        "em uma casa nova",
+        "a/para um homem velho no Dativ",
+        "sapatos confortáveis",
+        "a mulher bonita"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1592,16 +1620,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex094": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro"
+        "interessanter Bücher",
+        "der leckere Kuchen",
+        "hohe Berge",
+        "ein interessantes Buch"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en"
+        "de livros interessantes",
+        "o bolo gostoso",
+        "montanhas altas sem artigo",
+        "um livro interessante"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1609,18 +1639,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex095": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Dativ · masculino",
-        "Dativ · feminino",
-        "Dativ · neutro",
-        "Dativ · plural"
+        "mit guten Büchern",
+        "hoher Turm",
+        "die warme Suppe",
+        "kaltes Wasser"
       ],
       "respostas": [
-        "-em",
-        "-er",
-        "-em",
-        "-en"
+        "com bons livros",
+        "torre alta sem artigo",
+        "a sopa quente",
+        "água fria sem artigo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1628,18 +1658,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex096": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro",
-        "Genitiv · plural"
+        "eine warme Suppe",
+        "ein guter Freund",
+        "mit guten Freunden",
+        "einer schönen Frau"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en",
-        "-en"
+        "uma sopa quente",
+        "um bom amigo",
+        "com bons amigos",
+        "de/para uma mulher bonita no Dativ"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1647,16 +1677,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex097": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro"
+        "das kleine Kind",
+        "mit der schönen Frau",
+        "mit warmer Milch",
+        "eine wichtige Frage"
       ],
       "respostas": [
-        "-en",
-        "-en",
-        "-en"
+        "a criança pequena",
+        "com a mulher bonita",
+        "com leite quente",
+        "uma pergunta importante"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1664,18 +1696,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex098": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (sem artigo).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Genitiv · masculino",
-        "Genitiv · feminino",
-        "Genitiv · neutro",
-        "Genitiv · plural"
+        "einen teuren Mantel",
+        "gute Freunde",
+        "gute Bücher",
+        "ein kleines Kind"
       ],
       "respostas": [
-        "-en",
-        "-er",
-        "-en",
-        "-er"
+        "um casaco caro no Akkusativ",
+        "bons amigos no Akkusativ sem artigo",
+        "bons livros sem artigo",
+        "uma criança pequena"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1683,18 +1715,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex099": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo definido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro",
-        "Nominativ · plural"
+        "frisches Brot",
+        "der alten Männer",
+        "eine lange Straße",
+        "ein neues Auto"
       ],
       "respostas": [
-        "-e",
-        "-e",
-        "-e",
-        "-en"
+        "pão fresco sem artigo",
+        "dos homens velhos",
+        "uma rua longa",
+        "um carro novo"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }
@@ -1702,16 +1734,18 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex100": {
       "tipo": "relacionar",
-      "enunciado": "Relacione o contexto à terminação do adjetivo (artigo indefinido).",
+      "enunciado": "Relacione cada expressão em alemão ao seu significado em português.",
       "alternativas": [
-        "Nominativ · masculino",
-        "Nominativ · feminino",
-        "Nominativ · neutro"
+        "einem alten Mann",
+        "bequeme Schuhe",
+        "die schöne Frau",
+        "mit dem alten Mann"
       ],
       "respostas": [
-        "-er",
-        "-e",
-        "-es"
+        "a/para um homem velho no Dativ",
+        "sapatos confortáveis",
+        "a mulher bonita",
+        "com o homem velho"
       ],
       "justificativa": "A terminação depende do caso, do gênero/número e da informação que o artigo já apresenta."
     }

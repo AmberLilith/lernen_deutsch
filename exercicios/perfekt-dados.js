@@ -843,10 +843,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        null,
-        "gelesen",
-        null,
-        "geschlafen"
+        "comer",
+        "ler",
+        "pegar",
+        "dormir"
       ],
       "respostas": [
         "comer",
@@ -900,10 +900,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "bezahlt",
-        null,
-        "gebracht",
-        null
+        "pagar",
+        "telefonar",
+        "trazer",
+        "estar sentado"
       ],
       "respostas": [
         "pagar",
@@ -957,10 +957,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        null,
-        "gegangen",
-        null,
-        "getrunken"
+        "morar",
+        "ir",
+        "permanecer",
+        "beber"
       ],
       "respostas": [
         "morar",
@@ -1014,10 +1014,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "angerufen",
-        null,
-        "verstanden",
-        null
+        "telefonar",
+        "encontrar-se",
+        "entender",
+        "contar"
       ],
       "respostas": [
         "telefonar",
@@ -1071,10 +1071,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        null,
-        "gemacht",
-        null,
-        "gekocht"
+        "voar",
+        "fazer",
+        "perguntar",
+        "cozinhar"
       ],
       "respostas": [
         "voar",
@@ -1128,10 +1128,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "gesprochen",
-        null,
-        "angekommen",
-        null
+        "falar",
+        "encontrar",
+        "chegar",
+        "fazer compras"
       ],
       "respostas": [
         "falar",
@@ -1185,10 +1185,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        null,
-        "gekannt",
-        null,
-        "geschwommen"
+        "fechar",
+        "conhecer",
+        "tornar-se",
+        "nadar"
       ],
       "respostas": [
         "fechar",
@@ -1242,10 +1242,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "gefahren",
-        null,
-        "gelesen",
-        null
+        "ir de veículo",
+        "comer",
+        "ler",
+        "pegar"
       ],
       "respostas": [
         "ir de veículo",
@@ -1299,10 +1299,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        null,
-        "bezahlt",
-        null,
-        "gebracht"
+        "começar",
+        "pagar",
+        "telefonar",
+        "trazer"
       ],
       "respostas": [
         "começar",
@@ -1356,10 +1356,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "gekauft",
-        null,
-        "gegangen",
-        null
+        "comprar",
+        "morar",
+        "ir",
+        "permanecer"
       ],
       "respostas": [
         "comprar",
@@ -1413,10 +1413,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        null,
-        "angerufen",
-        null,
-        "verstanden"
+        "correr",
+        "telefonar",
+        "encontrar-se",
+        "entender"
       ],
       "respostas": [
         "correr",
@@ -1470,10 +1470,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "gestanden",
-        null,
-        "gemacht",
-        null
+        "estar em pé",
+        "voar",
+        "fazer",
+        "perguntar"
       ],
       "respostas": [
         "estar em pé",
@@ -1527,10 +1527,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        null,
-        "gesprochen",
-        null,
-        "angekommen"
+        "ver",
+        "falar",
+        "encontrar",
+        "chegar"
       ],
       "respostas": [
         "ver",
@@ -1584,10 +1584,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "studiert",
-        null,
-        "gekannt",
-        null
+        "estudar",
+        "fechar",
+        "conhecer",
+        "tornar-se"
       ],
       "respostas": [
         "estudar",
@@ -1641,10 +1641,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        null,
-        "gefahren",
-        null,
-        "gelesen"
+        "viajar",
+        "ir de veículo",
+        "comer",
+        "ler"
       ],
       "respostas": [
         "viajar",
@@ -1698,10 +1698,10 @@ window.EXERCICIOS_MODAIS = [
       "tipo": "relacionar",
       "enunciado": "Relacione cada Partizip II ao infinitivo correspondente.",
       "alternativas": [
-        "geholfen",
-        null,
-        "bezahlt",
-        null
+        "ajudar",
+        "começar",
+        "pagar",
+        "telefonar"
       ],
       "respostas": [
         "ajudar",

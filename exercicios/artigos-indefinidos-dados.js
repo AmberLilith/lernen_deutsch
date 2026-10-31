@@ -1,14 +1,14 @@
-/* Exercícios de Artigos indefinidos. 228 exercícios principais. */
+/* Exercícios de artigos indefinidos. 228 exercícios principais. */
 window.EXERCICIOS_MODAIS = [
   {
     "ex001": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Mann\" no Nominativ masculino?",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -18,11 +18,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex002": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Frau\" no Nominativ feminino?",
       "alternativas": [
         "eine",
+        "einen",
         "einer",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -33,12 +33,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex003": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Kind\" no Nominativ neutro?",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -48,12 +48,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex004": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Bücher\" no Nominativ plural?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -63,11 +63,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex005": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Mann\" no Akkusativ masculino?",
       "alternativas": [
         "einen",
+        "eines",
         "ein",
-        "eine",
         "einem"
       ],
       "respostas_possiveis": [
@@ -78,12 +78,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex006": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Frau\" no Akkusativ feminino?",
       "alternativas": [
         "eine",
-        "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eine"
@@ -93,12 +93,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex007": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Kind\" no Akkusativ neutro?",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -108,11 +108,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex008": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Bücher\" no Akkusativ plural?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -123,12 +123,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex009": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Mann\" no Dativ masculino?",
       "alternativas": [
         "einem",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einem"
@@ -138,12 +138,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex010": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Frau\" no Dativ feminino?",
       "alternativas": [
         "einer",
         "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine"
       ],
       "respostas_possiveis": [
         "einer"
@@ -153,11 +153,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex011": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Kind\" no Dativ neutro?",
       "alternativas": [
         "einem",
+        "eines",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -168,12 +168,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex012": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Bücher\" no Dativ plural?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -183,12 +183,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex013": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Mann\" no Genitiv masculino?",
       "alternativas": [
         "eines",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eines"
@@ -198,11 +198,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex014": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Frau\" no Genitiv feminino?",
       "alternativas": [
         "einer",
+        "eine",
         "einem",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -213,12 +213,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex015": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Kind\" no Genitiv neutro?",
       "alternativas": [
         "eines",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer",
+        "ein"
       ],
       "respostas_possiveis": [
         "eines"
@@ -228,12 +228,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex016": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Bücher\" no Genitiv plural?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -243,11 +243,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex017": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "Escolha a forma correta para \"Vater\": caso Nominativ, gênero masculino.",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -258,12 +258,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex018": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "Escolha a forma correta para \"Mutter\": caso Nominativ, gênero feminino.",
       "alternativas": [
         "eine",
-        "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eine"
@@ -273,12 +273,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex019": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "Escolha a forma correta para \"Mädchen\": caso Nominativ, gênero neutro.",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -288,11 +288,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex020": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "Escolha a forma correta para \"Kinder\": caso Nominativ, gênero plural.",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -303,12 +303,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex021": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "Escolha a forma correta para \"Vater\": caso Akkusativ, gênero masculino.",
       "alternativas": [
         "einen",
-        "ein",
-        "eine",
-        "einem"
+        "einem",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einen"
@@ -318,12 +318,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex022": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "Escolha a forma correta para \"Mutter\": caso Akkusativ, gênero feminino.",
       "alternativas": [
         "eine",
         "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen"
       ],
       "respostas_possiveis": [
         "eine"
@@ -333,11 +333,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex023": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "Escolha a forma correta para \"Mädchen\": caso Akkusativ, gênero neutro.",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -348,12 +348,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex024": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "Escolha a forma correta para \"Kinder\": caso Akkusativ, gênero plural.",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -363,12 +363,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex025": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "Escolha a forma correta para \"Vater\": caso Dativ, gênero masculino.",
       "alternativas": [
         "einem",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines"
       ],
       "respostas_possiveis": [
         "einem"
@@ -378,11 +378,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex026": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "Escolha a forma correta para \"Mutter\": caso Dativ, gênero feminino.",
       "alternativas": [
         "einer",
+        "eine",
         "einem",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -393,12 +393,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex027": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "Escolha a forma correta para \"Mädchen\": caso Dativ, gênero neutro.",
       "alternativas": [
         "einem",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einem"
@@ -408,12 +408,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex028": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "Escolha a forma correta para \"Kinder\": caso Dativ, gênero plural.",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -423,11 +423,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex029": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "Escolha a forma correta para \"Vater\": caso Genitiv, gênero masculino.",
       "alternativas": [
         "eines",
+        "einer",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -438,12 +438,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex030": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "Escolha a forma correta para \"Mutter\": caso Genitiv, gênero feminino.",
       "alternativas": [
         "einer",
-        "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "einer"
@@ -453,12 +453,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex031": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "Escolha a forma correta para \"Mädchen\": caso Genitiv, gênero neutro.",
       "alternativas": [
         "eines",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eines"
@@ -468,11 +468,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex032": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "Escolha a forma correta para \"Kinder\": caso Genitiv, gênero plural.",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -483,12 +483,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex033": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo masculino como \"Lehrer\"?",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -498,12 +498,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex034": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo feminino como \"Lehrerin\"?",
       "alternativas": [
         "eine",
         "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen"
       ],
       "respostas_possiveis": [
         "eine"
@@ -513,11 +513,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex035": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo neutro como \"Buch\"?",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -528,12 +528,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex036": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo plural como \"Äpfel\"?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -543,12 +543,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex037": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo masculino como \"Lehrer\"?",
       "alternativas": [
         "einen",
         "ein",
-        "eine",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "einen"
@@ -558,11 +558,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex038": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo feminino como \"Lehrerin\"?",
       "alternativas": [
         "eine",
+        "einen",
         "einer",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -573,12 +573,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex039": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo neutro como \"Buch\"?",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -588,12 +588,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex040": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo plural como \"Äpfel\"?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -603,11 +603,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex041": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo masculino como \"Lehrer\"?",
       "alternativas": [
         "einem",
+        "eines",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -618,12 +618,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex042": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo feminino como \"Lehrerin\"?",
       "alternativas": [
         "einer",
-        "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "einer"
@@ -633,12 +633,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex043": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo neutro como \"Buch\"?",
       "alternativas": [
         "einem",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines"
       ],
       "respostas_possiveis": [
         "einem"
@@ -648,11 +648,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex044": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo plural como \"Äpfel\"?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -663,12 +663,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex045": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo masculino como \"Lehrer\"?",
       "alternativas": [
         "eines",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer",
+        "ein"
       ],
       "respostas_possiveis": [
         "eines"
@@ -678,12 +678,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex046": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo feminino como \"Lehrerin\"?",
       "alternativas": [
         "einer",
         "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine"
       ],
       "respostas_possiveis": [
         "einer"
@@ -693,11 +693,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex047": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo neutro como \"Buch\"?",
       "alternativas": [
         "eines",
+        "einer",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -708,12 +708,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex048": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo plural como \"Äpfel\"?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -723,12 +723,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex049": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · masculino · \"Hund\". Qual é a forma do artigo?",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -738,11 +738,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex050": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · feminino · \"Katze\". Qual é a forma do artigo?",
       "alternativas": [
         "eine",
+        "einen",
         "einer",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -753,12 +753,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex051": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · neutro · \"Haus\". Qual é a forma do artigo?",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -768,12 +768,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex052": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · plural · \"Freunde\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -783,11 +783,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex053": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · masculino · \"Hund\". Qual é a forma do artigo?",
       "alternativas": [
         "einen",
+        "eines",
         "ein",
-        "eine",
         "einem"
       ],
       "respostas_possiveis": [
@@ -798,12 +798,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex054": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · feminino · \"Katze\". Qual é a forma do artigo?",
       "alternativas": [
         "eine",
-        "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eine"
@@ -813,12 +813,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex055": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · neutro · \"Haus\". Qual é a forma do artigo?",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -828,11 +828,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex056": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · plural · \"Freunde\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -843,12 +843,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex057": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · masculino · \"Hund\". Qual é a forma do artigo?",
       "alternativas": [
         "einem",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einem"
@@ -858,12 +858,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex058": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · feminino · \"Katze\". Qual é a forma do artigo?",
       "alternativas": [
         "einer",
         "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine"
       ],
       "respostas_possiveis": [
         "einer"
@@ -873,11 +873,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex059": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · neutro · \"Haus\". Qual é a forma do artigo?",
       "alternativas": [
         "einem",
+        "eines",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -888,12 +888,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex060": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · plural · \"Freunde\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -903,12 +903,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex061": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · masculino · \"Hund\". Qual é a forma do artigo?",
       "alternativas": [
         "eines",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eines"
@@ -918,11 +918,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex062": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · feminino · \"Katze\". Qual é a forma do artigo?",
       "alternativas": [
         "einer",
+        "eine",
         "einem",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -933,12 +933,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex063": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · neutro · \"Haus\". Qual é a forma do artigo?",
       "alternativas": [
         "eines",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer",
+        "ein"
       ],
       "respostas_possiveis": [
         "eines"
@@ -948,12 +948,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex064": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · plural · \"Freunde\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -963,11 +963,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex065": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Apfel\" no Nominativ masculino?",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -978,12 +978,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex066": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Blume\" no Nominativ feminino?",
       "alternativas": [
         "eine",
-        "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eine"
@@ -993,12 +993,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex067": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Auto\" no Nominativ neutro?",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -1008,11 +1008,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex068": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Häuser\" no Nominativ plural?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -1023,12 +1023,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex069": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Apfel\" no Akkusativ masculino?",
       "alternativas": [
         "einen",
-        "ein",
-        "eine",
-        "einem"
+        "einem",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einen"
@@ -1038,12 +1038,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex070": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Blume\" no Akkusativ feminino?",
       "alternativas": [
         "eine",
         "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen"
       ],
       "respostas_possiveis": [
         "eine"
@@ -1053,11 +1053,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex071": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Auto\" no Akkusativ neutro?",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -1068,12 +1068,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex072": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Häuser\" no Akkusativ plural?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -1083,12 +1083,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex073": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Apfel\" no Dativ masculino?",
       "alternativas": [
         "einem",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines"
       ],
       "respostas_possiveis": [
         "einem"
@@ -1098,11 +1098,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex074": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Blume\" no Dativ feminino?",
       "alternativas": [
         "einer",
+        "eine",
         "einem",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -1113,12 +1113,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex075": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Auto\" no Dativ neutro?",
       "alternativas": [
         "einem",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einem"
@@ -1128,12 +1128,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex076": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Häuser\" no Dativ plural?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -1143,11 +1143,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex077": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Apfel\" no Genitiv masculino?",
       "alternativas": [
         "eines",
+        "einer",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -1158,12 +1158,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex078": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Blume\" no Genitiv feminino?",
       "alternativas": [
         "einer",
-        "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "einer"
@@ -1173,12 +1173,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex079": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Auto\" no Genitiv neutro?",
       "alternativas": [
         "eines",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eines"
@@ -1188,11 +1188,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex080": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Häuser\" no Genitiv plural?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -1203,12 +1203,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex081": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "Escolha a forma correta para \"Tisch\": caso Nominativ, gênero masculino.",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -1218,12 +1218,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex082": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "Escolha a forma correta para \"Lampe\": caso Nominativ, gênero feminino.",
       "alternativas": [
         "eine",
         "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen"
       ],
       "respostas_possiveis": [
         "eine"
@@ -1233,11 +1233,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex083": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "Escolha a forma correta para \"Fenster\": caso Nominativ, gênero neutro.",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -1248,12 +1248,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex084": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "Escolha a forma correta para \"Autos\": caso Nominativ, gênero plural.",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -1263,12 +1263,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex085": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "Escolha a forma correta para \"Tisch\": caso Akkusativ, gênero masculino.",
       "alternativas": [
         "einen",
         "ein",
-        "eine",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "einen"
@@ -1278,11 +1278,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex086": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "Escolha a forma correta para \"Lampe\": caso Akkusativ, gênero feminino.",
       "alternativas": [
         "eine",
+        "einen",
         "einer",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -1293,12 +1293,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex087": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "Escolha a forma correta para \"Fenster\": caso Akkusativ, gênero neutro.",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -1308,12 +1308,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex088": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "Escolha a forma correta para \"Autos\": caso Akkusativ, gênero plural.",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -1323,11 +1323,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex089": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "Escolha a forma correta para \"Tisch\": caso Dativ, gênero masculino.",
       "alternativas": [
         "einem",
+        "eines",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -1338,12 +1338,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex090": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "Escolha a forma correta para \"Lampe\": caso Dativ, gênero feminino.",
       "alternativas": [
         "einer",
-        "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "einer"
@@ -1353,12 +1353,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex091": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "Escolha a forma correta para \"Fenster\": caso Dativ, gênero neutro.",
       "alternativas": [
         "einem",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines"
       ],
       "respostas_possiveis": [
         "einem"
@@ -1368,11 +1368,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex092": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "Escolha a forma correta para \"Autos\": caso Dativ, gênero plural.",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -1383,12 +1383,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex093": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "Escolha a forma correta para \"Tisch\": caso Genitiv, gênero masculino.",
       "alternativas": [
         "eines",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer",
+        "ein"
       ],
       "respostas_possiveis": [
         "eines"
@@ -1398,12 +1398,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex094": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "Escolha a forma correta para \"Lampe\": caso Genitiv, gênero feminino.",
       "alternativas": [
         "einer",
         "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine"
       ],
       "respostas_possiveis": [
         "einer"
@@ -1413,11 +1413,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex095": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "Escolha a forma correta para \"Fenster\": caso Genitiv, gênero neutro.",
       "alternativas": [
         "eines",
+        "einer",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -1428,12 +1428,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex096": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "Escolha a forma correta para \"Autos\": caso Genitiv, gênero plural.",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -1443,12 +1443,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex097": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo masculino como \"Bruder\"?",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -1458,11 +1458,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex098": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo feminino como \"Schwester\"?",
       "alternativas": [
         "eine",
+        "einen",
         "einer",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -1473,12 +1473,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex099": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo neutro como \"Zimmer\"?",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -1488,12 +1488,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex100": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo plural como \"Fenster\"?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -1503,11 +1503,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex101": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo masculino como \"Bruder\"?",
       "alternativas": [
         "einen",
+        "eines",
         "ein",
-        "eine",
         "einem"
       ],
       "respostas_possiveis": [
@@ -1518,12 +1518,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex102": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo feminino como \"Schwester\"?",
       "alternativas": [
         "eine",
-        "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eine"
@@ -1533,12 +1533,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex103": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo neutro como \"Zimmer\"?",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -1548,11 +1548,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex104": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo plural como \"Fenster\"?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -1563,12 +1563,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex105": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo masculino como \"Bruder\"?",
       "alternativas": [
         "einem",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einem"
@@ -1578,12 +1578,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex106": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo feminino como \"Schwester\"?",
       "alternativas": [
         "einer",
         "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine"
       ],
       "respostas_possiveis": [
         "einer"
@@ -1593,11 +1593,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex107": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo neutro como \"Zimmer\"?",
       "alternativas": [
         "einem",
+        "eines",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -1608,12 +1608,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex108": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo plural como \"Fenster\"?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -1623,12 +1623,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex109": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo masculino como \"Bruder\"?",
       "alternativas": [
         "eines",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eines"
@@ -1638,11 +1638,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex110": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo feminino como \"Schwester\"?",
       "alternativas": [
         "einer",
+        "eine",
         "einem",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -1653,12 +1653,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex111": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo neutro como \"Zimmer\"?",
       "alternativas": [
         "eines",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer",
+        "ein"
       ],
       "respostas_possiveis": [
         "eines"
@@ -1668,12 +1668,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex112": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo plural como \"Fenster\"?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -1683,11 +1683,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex113": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · masculino · \"Arzt\". Qual é a forma do artigo?",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -1698,12 +1698,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex114": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · feminino · \"Ärztin\". Qual é a forma do artigo?",
       "alternativas": [
         "eine",
-        "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eine"
@@ -1713,12 +1713,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex115": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · neutro · \"Brot\". Qual é a forma do artigo?",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -1728,11 +1728,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex116": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · plural · \"Blumen\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -1743,12 +1743,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex117": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · masculino · \"Arzt\". Qual é a forma do artigo?",
       "alternativas": [
         "einen",
-        "ein",
-        "eine",
-        "einem"
+        "einem",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einen"
@@ -1758,12 +1758,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex118": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · feminino · \"Ärztin\". Qual é a forma do artigo?",
       "alternativas": [
         "eine",
         "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen"
       ],
       "respostas_possiveis": [
         "eine"
@@ -1773,11 +1773,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex119": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · neutro · \"Brot\". Qual é a forma do artigo?",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -1788,12 +1788,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex120": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · plural · \"Blumen\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -1803,12 +1803,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex121": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · masculino · \"Arzt\". Qual é a forma do artigo?",
       "alternativas": [
         "einem",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines"
       ],
       "respostas_possiveis": [
         "einem"
@@ -1818,11 +1818,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex122": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · feminino · \"Ärztin\". Qual é a forma do artigo?",
       "alternativas": [
         "einer",
+        "eine",
         "einem",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -1833,12 +1833,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex123": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · neutro · \"Brot\". Qual é a forma do artigo?",
       "alternativas": [
         "einem",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einem"
@@ -1848,12 +1848,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex124": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · plural · \"Blumen\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -1863,11 +1863,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex125": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · masculino · \"Arzt\". Qual é a forma do artigo?",
       "alternativas": [
         "eines",
+        "einer",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -1878,12 +1878,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex126": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · feminino · \"Ärztin\". Qual é a forma do artigo?",
       "alternativas": [
         "einer",
-        "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "einer"
@@ -1893,12 +1893,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex127": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · neutro · \"Brot\". Qual é a forma do artigo?",
       "alternativas": [
         "eines",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eines"
@@ -1908,11 +1908,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex128": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · plural · \"Blumen\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -1923,12 +1923,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex129": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Student\" no Nominativ masculino?",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -1938,12 +1938,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex130": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Studentin\" no Nominativ feminino?",
       "alternativas": [
         "eine",
         "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen"
       ],
       "respostas_possiveis": [
         "eine"
@@ -1953,11 +1953,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex131": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Wasser\" no Nominativ neutro?",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -1968,12 +1968,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex132": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Lehrer\" no Nominativ plural?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -1983,12 +1983,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex133": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Student\" no Akkusativ masculino?",
       "alternativas": [
         "einen",
         "ein",
-        "eine",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "einen"
@@ -1998,11 +1998,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex134": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Studentin\" no Akkusativ feminino?",
       "alternativas": [
         "eine",
+        "einen",
         "einer",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -2013,12 +2013,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex135": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Wasser\" no Akkusativ neutro?",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -2028,12 +2028,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex136": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Lehrer\" no Akkusativ plural?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -2043,11 +2043,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex137": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Student\" no Dativ masculino?",
       "alternativas": [
         "einem",
+        "eines",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -2058,12 +2058,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex138": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Studentin\" no Dativ feminino?",
       "alternativas": [
         "einer",
-        "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "einer"
@@ -2073,12 +2073,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex139": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Wasser\" no Dativ neutro?",
       "alternativas": [
         "einem",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines"
       ],
       "respostas_possiveis": [
         "einem"
@@ -2088,11 +2088,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex140": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Lehrer\" no Dativ plural?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -2103,12 +2103,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex141": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Student\" no Genitiv masculino?",
       "alternativas": [
         "eines",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer",
+        "ein"
       ],
       "respostas_possiveis": [
         "eines"
@@ -2118,12 +2118,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex142": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Studentin\" no Genitiv feminino?",
       "alternativas": [
         "einer",
         "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine"
       ],
       "respostas_possiveis": [
         "einer"
@@ -2133,11 +2133,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex143": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Wasser\" no Genitiv neutro?",
       "alternativas": [
         "eines",
+        "einer",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -2148,12 +2148,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex144": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Lehrer\" no Genitiv plural?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -2163,12 +2163,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex145": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "Escolha a forma correta para \"Freund\": caso Nominativ, gênero masculino.",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -2178,11 +2178,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex146": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "Escolha a forma correta para \"Freundin\": caso Nominativ, gênero feminino.",
       "alternativas": [
         "eine",
+        "einen",
         "einer",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -2193,12 +2193,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex147": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "Escolha a forma correta para \"Bild\": caso Nominativ, gênero neutro.",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -2208,12 +2208,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex148": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "Escolha a forma correta para \"Frauen\": caso Nominativ, gênero plural.",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -2223,11 +2223,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex149": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "Escolha a forma correta para \"Freund\": caso Akkusativ, gênero masculino.",
       "alternativas": [
         "einen",
+        "eines",
         "ein",
-        "eine",
         "einem"
       ],
       "respostas_possiveis": [
@@ -2238,12 +2238,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex150": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "Escolha a forma correta para \"Freundin\": caso Akkusativ, gênero feminino.",
       "alternativas": [
         "eine",
-        "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eine"
@@ -2253,12 +2253,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex151": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "Escolha a forma correta para \"Bild\": caso Akkusativ, gênero neutro.",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -2268,11 +2268,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex152": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "Escolha a forma correta para \"Frauen\": caso Akkusativ, gênero plural.",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -2283,12 +2283,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex153": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "Escolha a forma correta para \"Freund\": caso Dativ, gênero masculino.",
       "alternativas": [
         "einem",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einem"
@@ -2298,12 +2298,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex154": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "Escolha a forma correta para \"Freundin\": caso Dativ, gênero feminino.",
       "alternativas": [
         "einer",
         "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine"
       ],
       "respostas_possiveis": [
         "einer"
@@ -2313,11 +2313,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex155": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "Escolha a forma correta para \"Bild\": caso Dativ, gênero neutro.",
       "alternativas": [
         "einem",
+        "eines",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -2328,12 +2328,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex156": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "Escolha a forma correta para \"Frauen\": caso Dativ, gênero plural.",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -2343,12 +2343,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex157": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "Escolha a forma correta para \"Freund\": caso Genitiv, gênero masculino.",
       "alternativas": [
         "eines",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eines"
@@ -2358,11 +2358,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex158": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "Escolha a forma correta para \"Freundin\": caso Genitiv, gênero feminino.",
       "alternativas": [
         "einer",
+        "eine",
         "einem",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -2373,12 +2373,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex159": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "Escolha a forma correta para \"Bild\": caso Genitiv, gênero neutro.",
       "alternativas": [
         "eines",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer",
+        "ein"
       ],
       "respostas_possiveis": [
         "eines"
@@ -2388,12 +2388,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex160": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "Escolha a forma correta para \"Frauen\": caso Genitiv, gênero plural.",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -2403,11 +2403,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex161": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo masculino como \"Junge\"?",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -2418,12 +2418,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex162": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo feminino como \"Stadt\"?",
       "alternativas": [
         "eine",
-        "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eine"
@@ -2433,12 +2433,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex163": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo neutro como \"Problem\"?",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -2448,11 +2448,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex164": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "No Nominativ, qual artigo indefinido é usado com um substantivo plural como \"Hunde\"?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -2463,12 +2463,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex165": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo masculino como \"Junge\"?",
       "alternativas": [
         "einen",
-        "ein",
-        "eine",
-        "einem"
+        "einem",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einen"
@@ -2478,12 +2478,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex166": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo feminino como \"Stadt\"?",
       "alternativas": [
         "eine",
         "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen"
       ],
       "respostas_possiveis": [
         "eine"
@@ -2493,11 +2493,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex167": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo neutro como \"Problem\"?",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -2508,12 +2508,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex168": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "No Akkusativ, qual artigo indefinido é usado com um substantivo plural como \"Hunde\"?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -2523,12 +2523,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex169": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo masculino como \"Junge\"?",
       "alternativas": [
         "einem",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines"
       ],
       "respostas_possiveis": [
         "einem"
@@ -2538,11 +2538,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex170": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo feminino como \"Stadt\"?",
       "alternativas": [
         "einer",
+        "eine",
         "einem",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -2553,12 +2553,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex171": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo neutro como \"Problem\"?",
       "alternativas": [
         "einem",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einem"
@@ -2568,12 +2568,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex172": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "No Dativ, qual artigo indefinido é usado com um substantivo plural como \"Hunde\"?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -2583,11 +2583,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex173": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo masculino como \"Junge\"?",
       "alternativas": [
         "eines",
+        "einer",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -2598,12 +2598,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex174": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo feminino como \"Stadt\"?",
       "alternativas": [
         "einer",
-        "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "einer"
@@ -2613,12 +2613,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex175": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo neutro como \"Problem\"?",
       "alternativas": [
         "eines",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eines"
@@ -2628,11 +2628,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex176": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "No Genitiv, qual artigo indefinido é usado com um substantivo plural como \"Hunde\"?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -2643,12 +2643,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex177": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · masculino · \"König\". Qual é a forma do artigo?",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -2658,12 +2658,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex178": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · feminino · \"Zeitung\". Qual é a forma do artigo?",
       "alternativas": [
         "eine",
         "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen"
       ],
       "respostas_possiveis": [
         "eine"
@@ -2673,11 +2673,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex179": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · neutro · \"Fahrrad\". Qual é a forma do artigo?",
       "alternativas": [
         "ein",
+        "eines",
         "eine",
-        "einen",
         "einem"
       ],
       "respostas_possiveis": [
@@ -2688,12 +2688,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex180": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "Complete mentalmente a combinação: Nominativ · plural · \"Tische\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -2703,12 +2703,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex181": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · masculino · \"König\". Qual é a forma do artigo?",
       "alternativas": [
         "einen",
         "ein",
-        "eine",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "einen"
@@ -2718,11 +2718,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex182": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · feminino · \"Zeitung\". Qual é a forma do artigo?",
       "alternativas": [
         "eine",
+        "einen",
         "einer",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -2733,12 +2733,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex183": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · neutro · \"Fahrrad\". Qual é a forma do artigo?",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -2748,12 +2748,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex184": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "Complete mentalmente a combinação: Akkusativ · plural · \"Tische\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -2763,11 +2763,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex185": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · masculino · \"König\". Qual é a forma do artigo?",
       "alternativas": [
         "einem",
+        "eines",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -2778,12 +2778,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex186": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · feminino · \"Zeitung\". Qual é a forma do artigo?",
       "alternativas": [
         "einer",
-        "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "einer"
@@ -2793,12 +2793,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex187": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · neutro · \"Fahrrad\". Qual é a forma do artigo?",
       "alternativas": [
         "einem",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines"
       ],
       "respostas_possiveis": [
         "einem"
@@ -2808,11 +2808,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex188": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "Complete mentalmente a combinação: Dativ · plural · \"Tische\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -2823,12 +2823,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex189": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · masculino · \"König\". Qual é a forma do artigo?",
       "alternativas": [
         "eines",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer",
+        "ein"
       ],
       "respostas_possiveis": [
         "eines"
@@ -2838,12 +2838,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex190": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · feminino · \"Zeitung\". Qual é a forma do artigo?",
       "alternativas": [
         "einer",
         "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine"
       ],
       "respostas_possiveis": [
         "einer"
@@ -2853,11 +2853,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex191": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · neutro · \"Fahrrad\". Qual é a forma do artigo?",
       "alternativas": [
         "eines",
+        "einer",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -2868,12 +2868,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex192": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "Complete mentalmente a combinação: Genitiv · plural · \"Tische\". Qual é a forma do artigo?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -2883,12 +2883,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex193": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ masculino para \"Mann\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Nachbar\" no Nominativ masculino?",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -2898,11 +2898,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex194": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Tür\" no Nominativ feminino?",
       "alternativas": [
         "eine",
+        "einen",
         "einer",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -2913,12 +2913,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex195": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ neutro para \"Kind\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Kleid\" no Nominativ neutro?",
       "alternativas": [
         "ein",
-        "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "ein"
@@ -2928,12 +2928,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex196": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Nominativ plural para \"Bücher\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Städte\" no Nominativ plural?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -2943,11 +2943,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex197": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ masculino para \"Hund\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Nachbar\" no Akkusativ masculino?",
       "alternativas": [
         "einen",
+        "eines",
         "ein",
-        "eine",
         "einem"
       ],
       "respostas_possiveis": [
@@ -2958,12 +2958,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex198": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ feminino para \"Katze\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Tür\" no Akkusativ feminino?",
       "alternativas": [
         "eine",
-        "einer",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eine"
@@ -2973,12 +2973,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex199": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ neutro para \"Auto\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Kleid\" no Akkusativ neutro?",
       "alternativas": [
         "ein",
         "eine",
-        "einen",
-        "einem"
+        "einem",
+        "eines"
       ],
       "respostas_possiveis": [
         "ein"
@@ -2988,11 +2988,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex200": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Akkusativ plural para \"Äpfel\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Städte\" no Akkusativ plural?",
       "alternativas": [
         "sem artigo",
+        "eine",
         "einem",
-        "einer",
         "eines"
       ],
       "respostas_possiveis": [
@@ -3003,12 +3003,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex201": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ masculino para \"Lehrer\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Nachbar\" no Dativ masculino?",
       "alternativas": [
         "einem",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "eines",
+        "ein"
       ],
       "respostas_possiveis": [
         "einem"
@@ -3018,12 +3018,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex202": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Tür\" no Dativ feminino?",
       "alternativas": [
         "einer",
         "einem",
-        "eines",
-        "sem artigo"
+        "sem artigo",
+        "eine"
       ],
       "respostas_possiveis": [
         "einer"
@@ -3033,11 +3033,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex203": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ neutro para \"Kind\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Kleid\" no Dativ neutro?",
       "alternativas": [
         "einem",
+        "eines",
         "ein",
-        "eine",
         "einen"
       ],
       "respostas_possiveis": [
@@ -3048,12 +3048,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex204": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Dativ plural para \"Freunden\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Städte\" no Dativ plural?",
       "alternativas": [
         "sem artigo",
-        "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine",
+        "einem"
       ],
       "respostas_possiveis": [
         "sem artigo"
@@ -3063,12 +3063,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex205": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv masculino para \"Mannes\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Nachbar\" no Genitiv masculino?",
       "alternativas": [
         "eines",
         "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer"
       ],
       "respostas_possiveis": [
         "eines"
@@ -3078,11 +3078,11 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex206": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv feminino para \"Frau\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Tür\" no Genitiv feminino?",
       "alternativas": [
         "einer",
+        "eine",
         "einem",
-        "eines",
         "sem artigo"
       ],
       "respostas_possiveis": [
@@ -3093,12 +3093,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex207": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv neutro para \"Kindes\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Kleid\" no Genitiv neutro?",
       "alternativas": [
         "eines",
-        "ein",
-        "eine",
-        "einen"
+        "einen",
+        "einer",
+        "ein"
       ],
       "respostas_possiveis": [
         "eines"
@@ -3108,12 +3108,12 @@ window.EXERCICIOS_MODAIS = [
   {
     "ex208": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Qual forma do artigo indefinido corresponde ao Genitiv plural para \"Kinder\"?",
+      "enunciado": "Qual forma do artigo indefinido acompanha o substantivo \"Städte\" no Genitiv plural?",
       "alternativas": [
         "sem artigo",
         "einem",
-        "einer",
-        "eines"
+        "eines",
+        "eine"
       ],
       "respostas_possiveis": [
         "sem artigo"

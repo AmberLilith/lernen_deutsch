@@ -5,6 +5,7 @@ export const conteudos = [
   { arquivo: "casos.html", titulo: "Os quatro casos", descricao: "Nominativ, Akkusativ, Dativ e Genitiv", categoria: "Artigos e casos", tag: "Gramática" },
   { arquivo: "negacao.html", titulo: "Negação: nicht e kein", descricao: "quando usar nicht e quando usar kein", categoria: "Artigos e casos", tag: "Gramática" },
   { arquivo: "pronomes-pessoais.html", titulo: "Pronomes pessoais", descricao: "pronomes pessoais nos casos, posição na frase, es impessoal e Sie/sie", categoria: "Pronomes", tag: "Gramática" },
+  { arquivo: "pronomes-indefinidos.html", titulo: "Pronomes indefinidos", descricao: "jemand, niemand, man, etwas, nichts, jeder, alle e quantificadores", categoria: "Pronomes", tag: "Gramática" },
   { arquivo: "pronomes-possessivos.html", titulo: "Pronomes possessivos", descricao: "formas possessivas e declinação conforme gênero, número e caso", categoria: "Pronomes", tag: "Gramática" },
   { arquivo: "pronomes-demonstrativos.html", titulo: "Pronomes demonstrativos", descricao: "dieser, jener, derselbe, solcher e formas demonstrativas com der/die/das", categoria: "Pronomes", tag: "Gramática" },
   { arquivo: "dativ.html", titulo: "Dativ", descricao: "artigos, preposições e verbos relacionados ao Dativ", categoria: "Artigos e casos", tag: "Gramática" },

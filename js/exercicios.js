@@ -14,7 +14,8 @@ export const exercicios = [
       { arquivo: "dativ/dativ.html", titulo: "Dativ", detalhe: "Prática de Dativ" },
       { arquivo: "ndeklination/ndeklination.html", titulo: "n-Deklination", detalhe: "Prática de n-Deklination" },
       { arquivo: "negacao/negacao.html", titulo: "Negação: nicht e kein", detalhe: "Prática de negação" },
-      { arquivo: "pronomes-pessoais/pronomes-pessoais.html", titulo: "Pronomes pessoais", detalhe: "200 exercícios" }
+      { arquivo: "pronomes-pessoais/pronomes-pessoais.html", titulo: "Pronomes pessoais", detalhe: "200 exercícios" },
+      { arquivo: "pronomes_indefinidos/pronomes_indefinidos.html", titulo: "Pronomes indefinidos", detalhe: "30 exercícios" }
     ]
   },
   {

@@ -19,17 +19,16 @@ window.EXERCICIOS_MODAIS = [
   {
     "v2_002": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Como se diz “a fotografia” em alemão?",
+      "enunciado": "Qual é o artigo de \"Fotografie\" em die Fotografie?",
       "alternativas": [
-        "das Foto",
-        "das Objekt",
-        "die Kleidung",
-        "das Spielzeug"
+        "die",
+        "der",
+        "das"
       ],
       "respostas_possiveis": [
-        "das Foto"
+        "die"
       ],
-      "justificativa": "A tradução principal é das Foto; também se usa das Foto."
+      "justificativa": "Fotografie é feminino: die Fotografie. Foto é uma forma alternativa, mas é neutro: das Foto."
     }
   },
   {
@@ -50,17 +49,16 @@ window.EXERCICIOS_MODAIS = [
   {
     "v2_004": {
       "tipo": "multiplas_escolhas",
-      "enunciado": "Como se diz “o objeto” em alemão?",
+      "enunciado": "Qual é o artigo de \"Gegenstand\" em der Gegenstand?",
       "alternativas": [
-        "der Gegenstand",
-        "die Regel",
-        "der Platz",
-        "das Foto"
+        "der",
+        "die",
+        "das"
       ],
       "respostas_possiveis": [
-        "der Gegenstand"
+        "der"
       ],
-      "justificativa": "A tradução principal é der Gegenstand; também se usa der Gegenstand."
+      "justificativa": "Gegenstand é masculino: der Gegenstand. Objekt é uma alternativa de vocabulário e é neutro: das Objekt."
     }
   },
   {

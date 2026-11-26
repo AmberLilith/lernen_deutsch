@@ -644,7 +644,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_041": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Ich ___ dir mein Buch. (empresto)",
@@ -685,7 +685,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_042": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Ich ___ die Blumen. (rego)",
@@ -726,7 +726,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_043": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Die ___ steht im Garten. (escada)",
@@ -767,7 +767,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_044": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Mein ___ ist heute nicht im Büro. (chefe)",
@@ -808,7 +808,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_045": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "___ begann es zu regnen. (De repente)",
@@ -849,7 +849,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_046": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Der Stuhl steht ___ dem Fenster. (ao lado de)",
@@ -890,7 +890,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_047": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Meine Schwester ___ das Fahrrad. (conserta)",
@@ -931,7 +931,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_048": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Sie ___ sich für den roten Mantel. (decide)",
@@ -972,7 +972,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_049": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Eine ___ liegt auf dem Boden. (moeda)",
@@ -1013,7 +1013,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_050": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Das Fahrrad ist ___. (quebrado)",
@@ -1054,7 +1054,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_051": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Ich ___ dir mein Buch. (empresto)",
@@ -1095,7 +1095,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_052": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Ich ___ die Blumen. (rego)",
@@ -1136,7 +1136,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_053": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Die ___ steht im Garten. (escada)",
@@ -1177,7 +1177,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_054": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Mein ___ ist heute nicht im Büro. (chefe)",
@@ -1218,7 +1218,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_055": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "___ begann es zu regnen. (De repente)",
@@ -1259,7 +1259,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_056": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Der Stuhl steht ___ dem Fenster. (ao lado de)",
@@ -1300,7 +1300,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_057": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Meine Schwester ___ das Fahrrad. (conserta)",
@@ -1341,7 +1341,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_058": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Sie ___ sich für den roten Mantel. (decide)",
@@ -1382,7 +1382,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_059": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Eine ___ liegt auf dem Boden. (moeda)",
@@ -1423,7 +1423,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_060": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Das Fahrrad ist ___. (quebrado)",
@@ -1464,7 +1464,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_061": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Ich ___ dir mein Buch. (empresto)",
@@ -1505,7 +1505,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_062": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Ich ___ die Blumen. (rego)",
@@ -1546,7 +1546,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_063": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Die ___ steht im Garten. (escada)",
@@ -1587,7 +1587,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_064": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Mein ___ ist heute nicht im Büro. (chefe)",
@@ -1628,7 +1628,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_065": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "___ begann es zu regnen. (De repente)",
@@ -1669,7 +1669,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_066": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Der Stuhl steht ___ dem Fenster. (ao lado de)",
@@ -1710,7 +1710,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_067": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Meine Schwester ___ das Fahrrad. (conserta)",
@@ -1751,7 +1751,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_068": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Sie ___ sich für den roten Mantel. (decide)",
@@ -1792,7 +1792,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_069": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Eine ___ liegt auf dem Boden. (moeda)",
@@ -1833,7 +1833,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_070": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Das Fahrrad ist ___. (quebrado)",
@@ -1874,7 +1874,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_071": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Ich ___ dir mein Buch. (empresto)",
@@ -1915,7 +1915,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_072": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Ich ___ die Blumen. (rego)",
@@ -1956,7 +1956,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_073": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Die ___ steht im Garten. (escada)",
@@ -1997,7 +1997,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_074": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Mein ___ ist heute nicht im Büro. (chefe)",
@@ -2038,7 +2038,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_075": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "___ begann es zu regnen. (De repente)",
@@ -2079,7 +2079,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_076": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Der Stuhl steht ___ dem Fenster. (ao lado de)",
@@ -2120,7 +2120,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_077": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Meine Schwester ___ das Fahrrad. (conserta)",
@@ -2161,7 +2161,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_078": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Sie ___ sich für den roten Mantel. (decide)",
@@ -2202,7 +2202,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_079": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Eine ___ liegt auf dem Boden. (moeda)",
@@ -2243,7 +2243,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_080": {
       "tipo": "completar_com_palavra_correta",
       "enunciado": "Complete cada frase com a palavra ou forma correta.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Das Fahrrad ist ___. (quebrado)",
@@ -2284,7 +2284,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_081": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Eu empresto meu livro para você.",
@@ -2325,7 +2325,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_082": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Eu rego as plantas.",
@@ -2366,7 +2366,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_083": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A escada está ao lado da casa.",
@@ -2407,7 +2407,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_084": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Meu chefe está com pressa.",
@@ -2448,7 +2448,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_085": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A bicicleta está quebrada.",
@@ -2489,7 +2489,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_086": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Você ainda precisa devolver a chave.",
@@ -2530,7 +2530,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_087": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: O tempo virou durante a noite.",
@@ -2571,7 +2571,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_088": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A campainha está tocando.",
@@ -2612,7 +2612,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_089": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: O tempo mudou de repente.",
@@ -2653,7 +2653,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_090": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A farmácia fica em frente ao banco.",
@@ -2694,7 +2694,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_091": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Ainda estou curioso.",
@@ -2735,7 +2735,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_092": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A farmácia fica ao lado do banco.",
@@ -2776,7 +2776,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_093": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Ela rega as flores de manhã.",
@@ -2817,7 +2817,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_094": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Coloque a moeda na gaveta.",
@@ -2858,7 +2858,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_095": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Ele devolve o dinheiro amanhã.",
@@ -2899,7 +2899,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_096": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A gaveta está quebrada.",
@@ -2940,7 +2940,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_097": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: De repente, o telefone tocou.",
@@ -2981,7 +2981,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_098": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Coloque a escada ao lado da parede.",
@@ -3022,7 +3022,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_099": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: O chefe empresta uma escada para mim.",
@@ -3063,7 +3063,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_100": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Ela conserta a bicicleta.",
@@ -3104,7 +3104,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_101": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Nós precisamos decidir hoje.",
@@ -3145,7 +3145,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_102": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Encontrei uma moeda embaixo da mesa.",
@@ -3186,7 +3186,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_103": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A criança está curiosa sobre o presente.",
@@ -3227,7 +3227,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_104": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A moeda está na gaveta.",
@@ -3268,7 +3268,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_105": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Estou curioso sobre sua decisão.",
@@ -3309,7 +3309,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_106": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Eu empresto meu livro para você.",
@@ -3350,7 +3350,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_107": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Eu rego as plantas.",
@@ -3391,7 +3391,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_108": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A escada está ao lado da casa.",
@@ -3432,7 +3432,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_109": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Meu chefe está com pressa.",
@@ -3473,7 +3473,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_110": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A bicicleta está quebrada.",
@@ -3514,7 +3514,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_111": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Você ainda precisa devolver a chave.",
@@ -3555,7 +3555,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_112": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: O tempo virou durante a noite.",
@@ -3596,7 +3596,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_113": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A campainha está tocando.",
@@ -3637,7 +3637,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_114": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: O tempo mudou de repente.",
@@ -3678,7 +3678,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_115": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A farmácia fica em frente ao banco.",
@@ -3719,7 +3719,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_116": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Ainda estou curioso.",
@@ -3760,7 +3760,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_117": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: A farmácia fica ao lado do banco.",
@@ -3801,7 +3801,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_118": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Ela rega as flores de manhã.",
@@ -3842,7 +3842,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_119": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Coloque a moeda na gaveta.",
@@ -3883,7 +3883,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_120": {
       "tipo": "traducao",
       "enunciado": "Traduza as frases para o alemão.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "enunciado": "Traduza para o alemão: Ele devolve o dinheiro amanhã.",
@@ -4764,7 +4764,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_161": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Eu empresto a moeda para o chefe.",
@@ -4779,7 +4779,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_162": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A escada está ao lado da farmácia.",
@@ -4794,7 +4794,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_163": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "O telefone toca de repente.",
@@ -4809,7 +4809,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_164": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Eu coloco o livro na gaveta.",
@@ -4824,7 +4824,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_165": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A gaveta está quebrada.",
@@ -4839,7 +4839,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_166": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Nós estamos com pressa.",
@@ -4854,7 +4854,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_167": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Ela está curiosa sobre a moeda.",
@@ -4869,7 +4869,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_168": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "O chefe devolve a chave.",
@@ -4884,7 +4884,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_169": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Eu rego as plantas.",
@@ -4899,7 +4899,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_170": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "O tempo virou de repente.",
@@ -4914,7 +4914,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_171": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A moeda está embaixo da mesa.",
@@ -4929,7 +4929,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_172": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A farmácia fica em frente à escola.",
@@ -4944,7 +4944,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_173": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Você ainda precisa consertar a bicicleta.",
@@ -4959,7 +4959,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_174": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Nós precisamos decidir agora.",
@@ -4974,7 +4974,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_175": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "O chefe está curioso sobre o plano.",
@@ -4989,7 +4989,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_176": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A escada está em frente à casa.",
@@ -5004,7 +5004,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_177": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Coloque a moeda ao lado da chave.",
@@ -5019,7 +5019,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_178": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A campainha toca, e de repente o chefe aparece.",
@@ -5034,7 +5034,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_179": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A bicicleta ainda está quebrada.",
@@ -5049,7 +5049,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_180": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Eu devolvo o livro amanhã.",
@@ -5064,7 +5064,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_181": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Eu empresto a moeda para o chefe.",
@@ -5079,7 +5079,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_182": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A escada está ao lado da farmácia.",
@@ -5094,7 +5094,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_183": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "O telefone toca de repente.",
@@ -5109,7 +5109,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_184": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Eu coloco o livro na gaveta.",
@@ -5124,7 +5124,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_185": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A gaveta está quebrada.",
@@ -5139,7 +5139,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_186": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Nós estamos com pressa.",
@@ -5154,7 +5154,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_187": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Ela está curiosa sobre a moeda.",
@@ -5169,7 +5169,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_188": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "O chefe devolve a chave.",
@@ -5184,7 +5184,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_189": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Eu rego as plantas.",
@@ -5199,7 +5199,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_190": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "O tempo virou de repente.",
@@ -5214,7 +5214,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_191": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A moeda está embaixo da mesa.",
@@ -5229,7 +5229,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_192": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A farmácia fica em frente à escola.",
@@ -5244,7 +5244,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_193": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Você ainda precisa consertar a bicicleta.",
@@ -5259,7 +5259,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_194": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Nós precisamos decidir agora.",
@@ -5274,7 +5274,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_195": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "O chefe está curioso sobre o plano.",
@@ -5289,7 +5289,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_196": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A escada está em frente à casa.",
@@ -5304,7 +5304,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_197": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Coloque a moeda ao lado da chave.",
@@ -5319,7 +5319,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_198": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A campainha toca, e de repente o chefe aparece.",
@@ -5334,7 +5334,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_199": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "A bicicleta ainda está quebrada.",
@@ -5349,7 +5349,7 @@ window.EXERCICIOS_MODAIS = [
     "v3_200": {
       "tipo": "montar_frase",
       "enunciado": "Monte a frase em alemão usando todas as palavras disponíveis.",
-      "items": [
+      "itens": [
         {
           "letra": "A",
           "resposta_portugues": "Eu devolvo o livro amanhã.",
